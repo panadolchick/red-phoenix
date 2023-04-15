@@ -7,10 +7,7 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = SOV
-		victory_points = {
-			3757 2 
-		}
+		owner = UKR
 		victory_points = {
 			741 1 
 		}
@@ -19,7 +16,6 @@ state = {
 			infrastructure = 2
 			
 		}
-		add_core_of = SOV
 		add_core_of = UKR
 		add_core_of = MOL
 		1939.1.1 = {
@@ -30,7 +26,7 @@ state = {
 	}
 
 	provinces = {
-		741 754 3757 9576
+		741 754 9576
 	}
 
 	local_supplies = 6.0 

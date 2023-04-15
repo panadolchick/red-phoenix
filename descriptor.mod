@@ -12,5 +12,7 @@ tags={
 	"Military"
 }
 replace_path="common/national_focus"
+replace_path="common/decisions"
+replace_path="history/countries"
 name="Red Phoenix"
 supported_version="1.12.12"
