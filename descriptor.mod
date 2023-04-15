@@ -11,7 +11,10 @@ tags={
 	"Events"
 	"Military"
 }
+replace_path="common/characters"
 replace_path="common/national_focus"
+replace_path="common/countries"
+replace_path="common/country_tags"
 replace_path="common/decisions"
 replace_path="history/countries"
 name="Red Phoenix"

@@ -1,0 +1,15 @@
+characters={
+	TRN_igor_smirnov={
+		name=TRN_igor_smirnov
+		portraits={
+			civilian={
+				large=GFX_portrait_TRN_igor_smirnov
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="2025.1.1.1"
+			id=-1
+		}
+	}
+}
