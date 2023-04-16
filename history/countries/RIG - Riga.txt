@@ -92,10 +92,13 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 60
-	fascism = 30
+	democratic = 90
 	communism = 10
-	neutrality = 0
+	neutrality = 10
+}
+
+808 = {
+	set_compliance = 100
 }
 
 

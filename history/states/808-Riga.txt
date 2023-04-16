@@ -23,7 +23,6 @@ state={
 		}
 		add_core_of = LAT
 		add_claim_by = RIG
-		set_compliance = 100
 	}
 
 	provinces={

@@ -4,10 +4,9 @@ state={
 	manpower = 124200
 	
 	state_category = wasteland
-	impassable = yes
 
 	history={
-		owner = FRA
+		owner = MRT
 		add_core_of = MRT
 		buildings = {
 			infrastructure = 0
