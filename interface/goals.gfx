@@ -3792,10 +3792,9 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_focus_SWI_spirit_of_resistance"
 		texturefile = "gfx/interface/goals/focus_SWI_spirit_of_resistance.dds"
-        }
-        SpriteType = { 
+	}
+    SpriteType = { 
 		name = "GFX_Focus_Number_1"
 		texturefile = "gfx/interface/goals/Focus_Number_1.dds"
 	}
-
 }

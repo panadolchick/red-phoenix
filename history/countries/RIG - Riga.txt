@@ -92,12 +92,13 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 90
+	democratic = 85
 	communism = 10
-	neutrality = 10
+	neutrality = 5
 }
 
 808 = {
+	set_garrison_strength = 0.95
 	set_compliance = 100
 }
 

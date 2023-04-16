@@ -46,17 +46,6 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kim Il-sung"
-	desc = ""
-	picture = GFX_portrait_Kim_Il_sung
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
 	name = "Yi Un"
 	desc = ""
 	picture = GFX_portrait_Yi_Un

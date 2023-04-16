@@ -3,7 +3,7 @@ characters={
 		name=SOV_genadiy_yanaev
 		portraits={
 			civilian={
-				large=GFX_portrait_SOV_genadiy_yanaev
+				large = GFX_SOV_genadiy_yanaev
 			}
 		}
 		country_leader={
