@@ -1,0 +1,16 @@
+characters = {
+	BLR_shushkevich = {
+		name = BLR_shushkevich
+		portraits={
+			civilian={
+				large = "GFX_BLR_shushkevich"
+			}
+		}
+		country_leader={
+			ideology = despotism
+			traits = {
+				BLR_shushkevich_desc
+			}
+		}
+	}
+}

@@ -8,8 +8,9 @@ characters={
 		}
 		country_leader={
 			ideology=marxism
-			expire="2025.1.1.1"
-			id=-1
+			traits = {
+				SOV_genadiy_yanaev_desc
+			}
 		}
 	}
 }

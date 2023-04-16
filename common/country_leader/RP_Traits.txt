@@ -1,0 +1,17 @@
+leader_traits = {
+	BLR_shushkevich_desc = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	SOV_genadiy_yanaev_desc = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

@@ -4,3 +4,9 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SOV/SOV_genadiy_yanaev.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_BLR_shushkevich"
+		texturefile = "gfx/leaders/BLR/BLR_shushkevich.dds"
+	}
+}
