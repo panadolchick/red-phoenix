@@ -6,13 +6,13 @@ if = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "AFG_1936"
+	set_#oob = "AFG_1936"
 }
 if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
-	set_oob = "AFG_1936_nsb"
+	set_#oob = "AFG_1936_nsb"
 }
 
 set_technology = {
@@ -78,12 +78,12 @@ recruit_character = AFG_muhammed_nowroz
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "AFG_1939"
+	#oob = "AFG_1939"
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_oob = "AFG_1939_air_bba"
+			set_air_#oob = "AFG_1939_air_bba"
 		else = {
-			set_air_oob = "AFG_1939_air_legacy"
+			set_air_#oob = "AFG_1939_air_legacy"
 			set_technology = {
 				early_fighter = 1
 				CAS1 = 1

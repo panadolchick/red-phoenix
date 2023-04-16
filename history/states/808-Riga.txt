@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = LAT
+		owner = RIG
 		victory_points = {
 			9340 5 
 		}
@@ -22,11 +22,12 @@ state={
 
 		}
 		add_core_of = LAT
-
+		add_claim_by = RIG
+		set_compliance = 100
 	}
 
 	provinces={
-		9240 9340 10323 
+		9340 13268 13269 
 	}
 	manpower=420250
 	buildings_max_level_factor=1.000

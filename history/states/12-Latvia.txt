@@ -10,7 +10,7 @@ state={
 	state_category = rural
 	
 	history={
-		owner = LAT
+		owner = SOV
 		victory_points = {
 			10493 1 #Valmiera
 		}
@@ -20,10 +20,11 @@ state={
 			air_base = 3
 		}
 		add_core_of = LAT
+		add_claim_by = SOV
 	}
 
 	provinces={
-		3388 9317 9501 10493 11302
+		3388 9240 9317 9501 10323 10493 11302
 	}
 
 	local_supplies=0.0 

@@ -1,0 +1,15 @@
+characters={
+	RIG_UN_administration={
+		name=RIG_UN_administration
+		portraits={
+			civilian={
+				large=GFX_portrait_RIG_UN_administration
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="2025.1.1.1"
+			id=-1
+		}
+	}
+}

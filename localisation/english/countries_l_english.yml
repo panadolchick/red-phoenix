@@ -4142,4 +4142,8 @@
  TRN:0 "Transnistria"
  TRN_DEF:0 "Transnistrian Moldovan Republic"
  TRN_ADJ:0 "Transnistrian"
+ 
+ RIG:0 "Riga"
+ RIG_DEF:0 "Riga UN Restoration Area"
+ RIG_ADJ:0 "Rigian"
 

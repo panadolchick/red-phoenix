@@ -1,18 +1,18 @@
 ﻿capital = 41
 
-oob = "SPR_1936"
+#oob = "SPR_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "SPR_1936_naval_mtg"
+		set_naval_#oob = "SPR_1936_naval_mtg"
 	else = {
-		set_naval_oob = "SPR_1936_naval_legacy"
+		set_naval_#oob = "SPR_1936_naval_legacy"
 	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "SPR_1936_air_bba"
+		set_air_#oob = "SPR_1936_air_bba"
 	else = {
-		set_air_oob = "SPR_1936_air_legacy"
+		set_air_#oob = "SPR_1936_air_legacy"
 	}
 }
 
@@ -407,19 +407,19 @@ set_stability = 0.5
 		}
 	}
 	
-	oob = "SPA_1939"
+	#oob = "SPA_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "SPA_1939_naval_mtg"
+			set_naval_#oob = "SPA_1939_naval_mtg"
 		else = {
-			set_naval_oob = "SPA_1939_naval_legacy"
+			set_naval_#oob = "SPA_1939_naval_legacy"
 		}
 	}
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_oob = "SPA_1939_air_bba"
+			set_air_#oob = "SPA_1939_air_bba"
 		else = {
-			set_air_oob = "SPA_1939_air_legacy"
+			set_air_#oob = "SPA_1939_air_legacy"
 			set_technology = {
 				fighter1 = 1
 				CAS1 = 1
@@ -427,7 +427,7 @@ set_stability = 0.5
 			}
 		}
 	}
-	load_oob = "unlock_tanks"
+	load_#oob = "unlock_tanks"
 	
 	set_technology = {
 		interwar_artillery = 1

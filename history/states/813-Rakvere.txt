@@ -4,7 +4,7 @@ state={
 	name="STATE_813"
 
 	history={
-		owner = EST
+		owner = SOV
 		victory_points = {
 			4640 1 #Narva
 		}
@@ -15,12 +15,10 @@ state={
 			infrastructure = 3 #was: 5
 			4640 = {
 				naval_base = 1
-
 			}
-
 		}
 		add_core_of = EST
-
+		add_claim_by = SOV
 	}
 
 	provinces={

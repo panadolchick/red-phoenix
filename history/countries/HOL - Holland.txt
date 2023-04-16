@@ -1,16 +1,16 @@
 ﻿capital = 7
 
-oob = "HOL_1936"
+#oob = "HOL_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "HOL_1936_naval_mtg"
+		set_naval_#oob = "HOL_1936_naval_mtg"
 	else = {
-		set_naval_oob = "HOL_1936_naval_legacy"
+		set_naval_#oob = "HOL_1936_naval_legacy"
 	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "HOL_1936_air_bba"
+		set_air_#oob = "HOL_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
 			engines_1 = 1
@@ -20,7 +20,7 @@ if = {
 			early_bombs = 1
 		}
 	else = {
-		set_air_oob = "HOL_1936_air_legacy"
+		set_air_#oob = "HOL_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			early_bomber = 1
@@ -183,17 +183,17 @@ recruit_character = HOL_wilhelmina
 	complete_national_focus = HOL_antilles_defenses					
 	complete_national_focus = HOL_form_new_government	
 	
-	oob = "HOL_1939"
+	#oob = "HOL_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "HOL_1939_naval_mtg"
+			set_naval_#oob = "HOL_1939_naval_mtg"
 		else = {
-			set_naval_oob = "HOL_1939_naval_legacy"
+			set_naval_#oob = "HOL_1939_naval_legacy"
 		}
 	}
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_oob = "HOL_1939_air_bba"
+			set_air_#oob = "HOL_1939_air_bba"
 			set_technology = {
 				engines_2 = 1
 				basic_medium_airframe = 1
@@ -201,7 +201,7 @@ recruit_character = HOL_wilhelmina
 				aa_cannon_1 = 1
 			}
 		else = {
-			set_air_oob = "HOL_1939_air_legacy"
+			set_air_#oob = "HOL_1939_air_legacy"
 			set_technology = {
 				fighter1 = 1
 				tactical_bomber1 = 1

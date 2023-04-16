@@ -1,16 +1,16 @@
 ﻿capital = 278
 
-oob = "ARG_1936"
+#oob = "ARG_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "ARG_1936_naval_mtg"
+		set_naval_#oob = "ARG_1936_naval_mtg"
 	else = {
-		set_naval_oob = "ARG_1936_naval_legacy"
+		set_naval_#oob = "ARG_1936_naval_legacy"
 	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "ARG_1936_air_bba"
+		set_air_#oob = "ARG_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
 			aa_lmg = 1
@@ -18,7 +18,7 @@ if = {
 			early_bombs = 1
 		}
 	else = {
-		set_air_oob = "ARG_1936_air_legacy"
+		set_air_#oob = "ARG_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			CAS1 = 1
@@ -108,22 +108,22 @@ set_country_flag = monroe_doctrine
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "ARG_1939"
+	#oob = "ARG_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "ARG_1939_naval_mtg"
+			set_naval_#oob = "ARG_1939_naval_mtg"
 		else = {
-			set_naval_oob = "ARG_1939_naval_legacy"
+			set_naval_#oob = "ARG_1939_naval_legacy"
 		}
 	}
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_oob = "ARG_1939_air_bba"
+			set_air_#oob = "ARG_1939_air_bba"
 			set_technology = {
 				iw_medium_airframe = 1
 			}
 		else = {
-			set_air_oob = "ARG_1939_air_legacy"
+			set_air_#oob = "ARG_1939_air_legacy"
 			set_technology = {
 				early_bomber = 1
 				naval_bomber1 = 1
