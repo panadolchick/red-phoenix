@@ -72,10 +72,13 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 30
-	neutrality = 30
-	communism = 20
-	fascism = 20
+	democratic = 10
+	neutrality = 70
+	communism = 10
+	fascism = 10
 }
-
+set_politics = {
+	ruling_party = neutrality
+}
+recruit_character = DON_molodidov
 #TODO, James make Ivan Kononov country leader for the fascists
