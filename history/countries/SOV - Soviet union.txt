@@ -3,7 +3,7 @@
 #### NO STEP BACK
 ####
 
-recruit_character = SOV_pavel_rybalko
+recruit_character = SOV_genadiy_yanaev
 
 #Add synthetic refineries tech
 set_technology = {

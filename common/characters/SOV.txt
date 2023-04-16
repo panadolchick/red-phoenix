@@ -1,0 +1,15 @@
+characters={
+	SOV_genadiy_yanaev={
+		name=SOV_genadiy_yanaev
+		portraits={
+			civilian={
+				large=GFX_portrait_SOV_genadiy_yanaev
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="2025.1.1.1"
+			id=-1
+		}
+	}
+}

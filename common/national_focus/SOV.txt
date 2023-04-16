@@ -1,0 +1,25 @@
+focus_tree = {
+	id = SOV
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+         focus = { 
+        id = Focus_Number_1 
+        icon = GFX_Focus_Number_1
+        x = 8 #По горизонтали
+        y = 0 #По вертикали
+        cost = 10  
+        completrion_reward ={ 
+                             country_event = {
+                             id =
+				days = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}

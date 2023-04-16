@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SOV_genadiy_yanaev"
+		texturefile = "gfx/leaders/GEG/SOV_genadiy_yanaev.dds"
+	}
+}
