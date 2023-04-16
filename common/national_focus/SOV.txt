@@ -7,19 +7,239 @@ focus_tree = {
 			tag = SOV
 		}
 	}
-         focus = { 
-        id = Focus_Number_1 
-        icon = GFX_Focus_Number_1
-        x = 8 #По горизонтали
-        y = 0 #По вертикали
-        cost = 10  
-        completrion_reward ={ 
-                             country_event = {
-                             id =
-				days = 0
-			}
+
+	continuous_focus_position = {
+		x = 2
+		y = 6
+	}
+	initial_show_position = { focus = SOV_hold_the_30th_congress_of_the_CPSS_central_committee }
+
+    focus = {
+        id = SOV_hold_the_30th_congress_of_the_CPSS_central_committee 
+        icon = GFX_SOV_hold_the_30th_congress_of_the_CPSS_central_committee
+        x = 13
+        y = 0
+        cost = 1  
+		completion_reward = {
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
+	focus = {
+        id = SOV_situation_in_the_party
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_hold_the_30th_congress_of_the_CPSS_central_committee
+        x = -3
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_hold_the_30th_congress_of_the_CPSS_central_committee
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = SOV_yanayevs_position
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_situation_in_the_party
+        x = 0
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_situation_in_the_party
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = SOV_cancerous_tumor_of_the_state
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_yanayevs_position
+        x = 0
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_yanayevs_position
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = SOV_feel_the_pulse_of_the_economy
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_hold_the_30th_congress_of_the_CPSS_central_committee
+        x = -1
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_hold_the_30th_congress_of_the_CPSS_central_committee
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = SOV_situation_of_the_common_people
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_feel_the_pulse_of_the_economy
+        x = 0
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_feel_the_pulse_of_the_economy
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = SOV_upper_class_of_the_socialist_state
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_situation_of_the_common_people
+        x = 0
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_situation_of_the_common_people
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = SOV_situation_in_the_army
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_hold_the_30th_congress_of_the_CPSS_central_committee
+        x = 1
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_hold_the_30th_congress_of_the_CPSS_central_committee
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = SOV_relocation_of_missile_forces
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_situation_in_the_army
+        x = 0
+        y = 1
+        cost = 10
+
+		prerequisite = {
+			focus = SOV_situation_in_the_army
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = SOV_call_to_yazov
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_relocation_of_missile_forces
+        x = 0
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_relocation_of_missile_forces
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = SOV_our_foreign_policy_position
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_hold_the_30th_congress_of_the_CPSS_central_committee
+        x = 3
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_hold_the_30th_congress_of_the_CPSS_central_committee
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = SOV_policy_towards_the_usa
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_our_foreign_policy_position
+        x = 0
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_our_foreign_policy_position
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = SOV_and_china
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_policy_towards_the_usa
+        x = 0
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_policy_towards_the_usa
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

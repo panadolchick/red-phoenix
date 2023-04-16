@@ -3794,7 +3794,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_SWI_spirit_of_resistance.dds"
 	}
     SpriteType = { 
-		name = "GFX_Focus_Number_1"
-		texturefile = "gfx/interface/goals/Focus_Number_1.dds"
+		name = "GFX_SOV_hold_the_30th_congress_of_the_CPSS_central_committee"
+		texturefile = "gfx/interface/goals/SOV_hold_the_30th_congress_of_the_CPSS_central_committee.dds"
 	}
 }
