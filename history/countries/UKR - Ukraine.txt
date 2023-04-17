@@ -91,5 +91,5 @@ set_popularities = {
 set_politics = {
 	ruling_party = democratic
 }
-recruit_character = UKR_kravchuk
+recruit_character = UKR_leonid_kravchuk
 
