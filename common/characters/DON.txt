@@ -1,6 +1,6 @@
 characters = {
-	DON_molodidov = {
-		name = DON_molodidov
+	DON_petr_molodidov = {
+		name = DON_petr_molodidov
 		portraits={
 			civilian={
 				large = "GFX_DON_molodidov"
