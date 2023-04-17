@@ -162,6 +162,7 @@ set_popularities = {
 	neutrality = 1
 	communism = 2
 }
+recruit_character = ENG_john_meidjor
 
 ### Ship Variants ###
 

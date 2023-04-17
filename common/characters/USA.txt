@@ -1,0 +1,13 @@
+characters = {
+	USA_george_hw_bush = {
+		name = USA_george_hw_bush
+		portraits={
+			civilian={
+				large = "GFX_USA_george_hw_bush"
+			}
+		}
+		country_leader={
+			ideology = liberalism
+		}
+	}
+}

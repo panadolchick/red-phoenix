@@ -1,0 +1,13 @@
+characters = {
+	ENG_john_meidjor = {
+		name = ENG_john_meidjor
+		portraits={
+			civilian={
+				large = "GFX_ENG_john_meidjor"
+			}
+		}
+		country_leader={
+			ideology = liberalism
+		}
+	}
+}

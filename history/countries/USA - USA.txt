@@ -159,10 +159,11 @@ set_convoys = 500
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1932.11.8"
+	last_election = "1989.1.22"
 	election_frequency = 48
 	elections_allowed = yes
 }
+recruit_character = USA_george_hw_bush
 set_popularities = {
 	democratic = 99
 	communism = 1

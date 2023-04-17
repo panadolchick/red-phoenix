@@ -22,3 +22,29 @@ spriteTypes = {
 		texturefile = "gfx/leaders/UKR/UKR_kravchuk.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_USA_george_hw_bush"
+		texturefile = "gfx/leaders/USA/USA_george_hw_bush.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_FRA_fransua_mitteran"
+		texturefile = "gfx/leaders/FRA/FRA_fransua_mitteran.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_FRA_fransua_mitteran"
+		texturefile = "gfx/leaders/FRA/FRA_fransua_mitteran.dds"
+	}
+	
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ENG_john_meidjor"
+		texturefile = "gfx/leaders/ENG/ENG_john_meidjor.dds"
+	}
+	
+}

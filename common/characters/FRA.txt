@@ -1,0 +1,13 @@
+characters = {
+	FRA_fransua_mitteran = {
+		name = FRA_fransua_mitteran
+		portraits={
+			civilian={
+				large = "GFX_FRA_fransua_mitteran"
+			}
+		}
+		country_leader={
+			ideology = liberalism
+		}
+	}
+}
