@@ -1,6 +1,6 @@
 characters = {
-	BLR_shushkevich = {
-		name = BLR_shushkevich
+	BLR_stanislav_shushkevich = {
+		name = BLR_stanislav_shushkevich
 		portraits={
 			civilian={
 				large = "GFX_BLR_shushkevich"
