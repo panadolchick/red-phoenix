@@ -9,8 +9,12 @@
  RIG_UN_administration:0 "UN Administration"
  
  #BELARUS
- BLR_stanislav_shushkevich: "Stanislav Shushkevich" 
- BLR_stanislav_shushkevich_desc: "§gStanislav Shushkevich was known as the leader of the nationalists in the western part of Belarus who advocated independence of their territory and secession from the USSR. His determination and leadership qualities helped him to lead the movement for the independence of Belarus.¬He became famous after the incidents in 1991, when there was an uprising of nationalists in the Western part of Belarus, when the Soviet army was exhausted and could not begin the return of these territories. In this situation Shushkevich became not only the leader of the nationalist movement, but also organized the people's militia, which helped to ensure order in the liberated territories.¬Shushkevich was a fierce opponent of the Soviet Union, especially after Gorbachev signed and accepted the ultimatum from the GKChP, the country took a course to hard suppress the separatists and nationalists. He believed that the independence of Belarus should be immediate and unconditional, and would stop at nothing to achieve this goal.\nShushkevich was a man of action and an unyielding opponent of those who tried to stop the movement toward independence. His determination and ability to mobilize people allowed him to become one of the key figures in the struggle for independence of Belarus and lead it to victory.§!"
+  BLR_stanislav_shushkevich: "Stanislav Shushkevich" 
+  BLR_stanislav_shushkevich_desc: "§gStanislav Shushkevich was known as the leader of the nationalists in the western part of Belarus who advocated independence of their territory and secession from the USSR. His determination and leadership qualities helped him to lead the movement for the independence of Belarus.¬He became famous after the incidents in 1991, when there was an uprising of nationalists in the Western part of Belarus, when the Soviet army was exhausted and could not begin the return of these territories. In this situation Shushkevich became not only the leader of the nationalist movement, but also organized the people's militia, which helped to ensure order in the liberated territories.¬Shushkevich was a fierce opponent of the Soviet Union, especially after Gorbachev signed and accepted the ultimatum from the GKChP, the country took a course to hard suppress the separatists and nationalists. He believed that the independence of Belarus should be immediate and unconditional, and would stop at nothing to achieve this goal.\nShushkevich was a man of action and an unyielding opponent of those who tried to stop the movement toward independence. His determination and ability to mobilize people allowed him to become one of the key figures in the struggle for independence of Belarus and lead it to victory.§!"
  
- #DON
- DON_petr_molodidov: "Petr Molodidov"
+ #Don
+  DON_petr_molodidov: "Petr Molodidov"
+ #Ukraine
+  UKR_leonid_kravchuk: "Leonid Kravchuk"
+ 
+ 
