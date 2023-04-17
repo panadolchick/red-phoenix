@@ -1,0 +1,13 @@
+characters = {
+	UKR_kravchuk = {
+		name = UKR_kravchuk
+		portraits={
+			civilian={
+				large = "GFX_UKR_kravchuk"
+			}
+		}
+		country_leader={
+			ideology = liberalism
+		}
+	}
+}

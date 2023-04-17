@@ -16,3 +16,9 @@ spriteTypes = {
 		texturefile = "gfx/leaders/DON/DON_molodidov.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_UKR_kravchuk"
+		texturefile = "gfx/leaders/UKR/UKR_kravchuk.dds"
+	}
+}
