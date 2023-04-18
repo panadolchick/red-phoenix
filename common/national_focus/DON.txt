@@ -1,0 +1,28 @@
+focus_tree = {
+	id = DON
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DON
+		}
+	}
+
+	continuous_focus_position = {
+		x = 2
+		y = 6
+	}
+	initial_show_position = { focus = SOV_hold_the_30th_congress_of_the_CPSS_central_committee }
+	focus = {
+        id = DON_last_cosack_unit
+        icon = GFX_goal_unknown
+        x = 13
+        y = 0
+        cost = 1  
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

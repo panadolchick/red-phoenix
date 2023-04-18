@@ -1,0 +1,26 @@
+
+music_station = "Red-Phoenix_MMCT"
+
+music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}
+music = {
+    song = "Lebedinoe_Ozero_NOIZEMC_MMCT"
+    chance = {
+      modifier = { factor = 1 }
+      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+    }
+}
+
+music = {
+    song = "Lebedinoe_Ozero_Original_MMCT"
+    chance = {
+      modifier = { factor = 1 }
+      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+    }
+}
