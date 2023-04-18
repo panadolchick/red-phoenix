@@ -1,34 +1,35 @@
 
-state = {
-	id = 192
-	name = "STATE_192"
-	manpower = 432238 #1 8th removed due to Balta-Tiraspol
-	
-	state_category = rural
+state={
+	id=192
+	name="STATE_192"
 
-	history = {
+	history={
 		owner = UKR
-
 		victory_points = {
 			3757 2 
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			industrial_complex = 1
 			air_base = 6
-	
+
 		}
 		add_core_of = UKR
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 2
+
 			}
+
 		}
+
 	}
 
-	provinces = {
-		3757 9698 9714 11670 13259 13266 13267
+	provinces={
+		3757 9698 9714 13259 13266 13267 
 	}
-
-	local_supplies = 1.0 
+	manpower=432238
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
 }

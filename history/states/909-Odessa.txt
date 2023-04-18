@@ -1,30 +1,34 @@
-state = {
-	id = 909
-	name = "STATE_909"
 
-	history = {
+state={
+	id=909
+	name="STATE_909"
+
+	history={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-                        industrial_complex = 2
-                        11670 ={
+			industrial_complex = 2
+			11670 = {
 				naval_base = 3
 				coastal_bunker = 1
+
 			}
+
 		}
 		victory_points = {
-			11670 20
+			11670 20 
 		}
 		owner = SOV
 		add_core_of = UKR
 		add_core_of = SOV
+
 	}
 
-	provinces = {
-		13271 13272 13273 11670
+	provinces={
+		11670 13271 13272 13273 
 	}
-	manpower = 854000
-	buildings_max_level_factor = 1.000
-	state_category = city
-	local_supplies = 5.000
+	manpower=854000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=5.000
 }
