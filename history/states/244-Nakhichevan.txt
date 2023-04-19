@@ -1,0 +1,27 @@
+
+state={
+	id=244
+	name="STATE_244"
+
+	history={
+		owner = AZR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SOV
+		add_core_of = AZR
+		add_claim_by = ARM
+		victory_points = {
+			6997 2
+		}
+	}
+
+	provinces={
+		6997 13298 13299
+	}
+	manpower=312354
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

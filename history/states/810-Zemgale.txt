@@ -6,9 +6,6 @@ state={
 	history={
 		owner = SOV
 		victory_points = {
-			6222 3 #Jelgava
-		}
-		victory_points = {
 			3255 1 #Jekabpils
 		}
 		buildings = {
