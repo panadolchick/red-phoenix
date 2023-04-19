@@ -84,4 +84,5 @@ set_politics = {
 	elections_allowed = no
 }
 recruit_character = DON_petr_molodidov
+add_ideas = DON_last_cosack_unit
 #TODO, James make Ivan Kononov country leader for the fascists

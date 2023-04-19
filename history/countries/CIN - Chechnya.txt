@@ -81,7 +81,7 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -96,5 +96,6 @@ set_popularities = {
 
 recruit_character = CIN_hasan_israilov
 recruit_character = CIN_yusup_tambiev
+recruit_character = CIN_dzhokhar_dudayev
 
 

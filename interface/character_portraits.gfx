@@ -48,3 +48,17 @@ spriteTypes = {
 	}
 	
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CIN_dzhokhar_dudayev"
+		texturefile = "gfx/leaders/CIN/CIN_dzhokhar_dudayev.dds"
+	}
+	
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_RIG_UN_administration"
+		texturefile = "gfx/leaders/RIG/RIG_UN_administration.dds"
+	}
+	
+}

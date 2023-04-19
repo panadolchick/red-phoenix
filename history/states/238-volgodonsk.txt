@@ -10,9 +10,8 @@ state={
 
 		}
 		add_core_of = SOV
-		add_core_of = DON
 		victory_points = {
-			585 1
+			585 1 
 		}
 		victory_points = {
 			775 3 
@@ -21,9 +20,9 @@ state={
 	}
 
 	provinces={
-		426 585 775 3417 3443 3464 3587 3777 3779 6417 6468 6490 9415 9581 11400 11403 11559 13296 13301
+		426 775 3417 3443 3464 3587 3777 3779 6417 6468 6490 9415 9581 11400 11403 13296 13301 
 	}
-	manpower=556677
+	manpower=462318
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

@@ -1129,8 +1129,9 @@
  VICTORY_POINTS_9626:0 "Цхинвали"
  VICTORY_POINTS_670:0 "Назрань"
 
-
  
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  VICTORY_POINTS_6683:0 "Базель"
+#МОД
+ VICTORY_POINTS_13302: "Батайский\nАэропорт"

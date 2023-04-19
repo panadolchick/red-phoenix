@@ -3,7 +3,7 @@ characters={
 		name=RIG_UN_administration
 		portraits={
 			civilian={
-				large=GFX_portrait_RIG_UN_administration
+				large= GFX_RIG_UN_administration
 			}
 		}
 		country_leader={

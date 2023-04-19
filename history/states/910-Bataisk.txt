@@ -1,0 +1,27 @@
+state={
+	id=910
+	name="STATE_910"
+	history = {
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			industrial_complex = 1
+		}
+		owner = SOV
+		add_core_of = SOV
+		add_claim_by = DON
+		victory_points = {
+			585 10
+		}
+		victory_points = {
+			13302 1
+		}
+	}
+	provinces={
+		585 11559 13302
+	}
+	manpower= 94359
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies=0.000
+}
