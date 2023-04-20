@@ -10,6 +10,7 @@ state={
 
 		}
 		add_core_of = SOV
+		add_claim_by = DON
 		victory_points = {
 			11476 1 
 		}
