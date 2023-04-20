@@ -6,7 +6,7 @@ state={
 		steel=2 # was: 2.000
 	}
 	
-	state_category = city
+	state_category = city_region
 
 	history={
 		owner = BOL

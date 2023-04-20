@@ -4,7 +4,7 @@ state={
 	name="STATE_352" # Van
 	manpower = 262095
 
-	state_category = rural
+	state_category = rural_region
 
 	history={
 		owner = TUR

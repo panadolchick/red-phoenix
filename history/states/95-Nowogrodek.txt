@@ -22,7 +22,7 @@ state={
 	}
 	manpower=1598900
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=rural_region
 
 	local_supplies=6.0 
 }

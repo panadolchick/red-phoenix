@@ -1,0 +1,9 @@
+state_categories={
+	metropolis_region = {
+		local_building_slots = 14
+		
+		state_production_speed_infrastructure_factor = -0.25
+		
+		color = { 0 200 200 }
+	}
+}

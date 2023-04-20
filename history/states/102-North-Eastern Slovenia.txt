@@ -4,7 +4,7 @@ state=
 	name="STATE_102"
 	manpower = 811050 # was 1144300 before Ljubljana split
 	
-	state_category = large_town
+	state_category = large_town_region
 	
 	history =
 	{

@@ -1,0 +1,10 @@
+state_categories={
+	megalopolis_region = {
+		local_building_slots = 20
+		
+		state_production_speed_infrastructure_factor = -0.35
+	
+		color = { 0 240 240 }
+
+	}
+}

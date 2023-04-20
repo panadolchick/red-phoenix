@@ -4,11 +4,11 @@ state={
 	name="STATE_480"
 	manpower = 827826
 	
-	state_category = large_town
+	state_category = large_town_region
 	
 	resources={
 		oil=8
-		#steel=4 sent to Mexico City
+		#steel=4 sent to Mexico city_region
 	}
 
 	history={

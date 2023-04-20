@@ -4,7 +4,7 @@ state = {
 	name = "STATE_825" # Nenets
 	manpower = 21795
 	
-	state_category = rural
+	state_category = rural_region
 	
 	resources = {
 		oil = 7 # was: 8

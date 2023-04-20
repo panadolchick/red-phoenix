@@ -7,7 +7,7 @@ state={
 		steel=25 # was: 48
 	}
 	
-	state_category = metropolis
+	state_category = metropolis_region
 
 	history={
 		owner = BEL

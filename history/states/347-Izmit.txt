@@ -8,7 +8,7 @@ state={
 		steel = 9
 	}
 	
-	state_category = rural
+	state_category = rural_region
 
 	history={
 		owner = TUR

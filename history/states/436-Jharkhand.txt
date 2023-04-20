@@ -4,7 +4,7 @@ state={
 	name="STATE_436" # Jabalpur
 	manpower = 14123100
 	
-	state_category = rural
+	state_category = rural_region
 	
 	resources={
 		chromium=4 # was: 6

@@ -3,7 +3,7 @@ state={
 	id=295
 	name="STATE_295"
 	manpower = 1947522
-	state_category = rural
+	state_category = rural_region
 
 	history={
 		owner = COG
