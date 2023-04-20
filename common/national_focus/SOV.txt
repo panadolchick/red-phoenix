@@ -264,7 +264,7 @@ focus_tree = {
         id = SOV_into_a_bright_future
         icon = GFX_goal_unknown
 		relative_position_id = SOV_call_to_yazov
-        x = -1
+        x = -2
         y = 2
         cost = 1
 
