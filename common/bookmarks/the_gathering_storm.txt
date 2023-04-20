@@ -160,9 +160,6 @@ bookmarks = {
 			ideology = communism
 			available = { has_dlc = "No Step Back" }
 			ideas = {
-				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
 			}
 			focuses = {
 				SOV_behead_the_snake
@@ -175,9 +172,6 @@ bookmarks = {
 			ideology = communism
 			available = { NOT = { has_dlc = "No Step Back" } }
 			ideas = {
-				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
 			}
 			focuses = {
 				SOV_behead_the_snake
@@ -334,7 +328,7 @@ bookmarks = {
 				CHI_invite_the_flying_tigers
 			}
 		}
-		"PRC"={
+		"CHI"={
 			minor = yes
 			history = "PRC_GATHERING_STORM_DESC"
 			ideology = communism
@@ -627,8 +621,6 @@ bookmarks = {
 			history = "SWI_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-				SWI_swiss_neutrality
-				SWI_foreign_fascist_propaganda
 			}
 			focuses = {
 				SWI_national_redoubt
