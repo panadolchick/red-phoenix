@@ -39,26 +39,28 @@ spriteTypes = {
 		name = "GFX_FRA_fransua_mitteran"
 		texturefile = "gfx/leaders/FRA/FRA_fransua_mitteran.dds"
 	}
-	
 }
 spriteTypes = {
 	spriteType = {
 		name = "GFX_ENG_john_meidjor"
 		texturefile = "gfx/leaders/ENG/ENG_john_meidjor.dds"
 	}
-	
 }
 spriteTypes = {
 	spriteType = {
 		name = "GFX_CIN_dzhokhar_dudayev"
 		texturefile = "gfx/leaders/CIN/CIN_dzhokhar_dudayev.dds"
 	}
-	
 }
 spriteTypes = {
 	spriteType = {
 		name = "GFX_RIG_UN_administration"
 		texturefile = "gfx/leaders/RIG/RIG_UN_administration.dds"
 	}
-	
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_DON_ivan_polozkov"
+		texturefile = "gfx/leaders/DON/DON_ivan_polozkov.dds"
+	}
 }

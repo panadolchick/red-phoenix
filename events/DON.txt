@@ -1,0 +1,61 @@
+add_namespace = don
+add_namespace = don_hidden
+
+country_event = {
+    id = don.1
+    title = don.1.t
+    desc = don.1.d
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = don.1.a
+        
+    }
+	option = {
+        name = don.1.b
+        remove_ideas = DON_last_cosack_unit
+    }
+}
+country_event = {
+    id = don.2
+    title = don.2.t
+    desc = don.2.d
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = don.2.a
+        declare_war_on = {
+			target = SOV
+		}
+		set_division_template_lock = {
+			division_template = "96-ой Казачий Полк"
+			is_locked = no
+		}
+    }
+	option = {
+		name = don.2.b
+		if = {
+			limit = { 
+				has_dlc = "Together for Victory" 
+			}
+			SOV = {
+				set_autonomy = {
+					target = FROM
+					autonomy_state = autonomy_collaboration_government
+				}
+			}
+
+		}
+			else = {
+				SOV = {
+				puppet = THIS
+				}
+			}
+
+
+		
+        
+    }
+}

@@ -83,6 +83,8 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+recruit_character = DON_ivan_polozkov
 recruit_character = DON_petr_molodidov
 add_ideas = DON_last_cosack_unit
+load_oob = DON_unit
 #TODO, James make Ivan Kononov country leader for the fascists

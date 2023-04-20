@@ -1,0 +1,21 @@
+division_template = {
+    name = "96-ой Казачий Полк"
+    is_locked = yes
+    regiments = {
+        cavalry = { x = 0 y = 0 }
+    }
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+
+        location = 9417
+        division_template = "96-ой Казачий Полк"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+        start_manpower_factor = 1.0
+    }
+}

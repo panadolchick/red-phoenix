@@ -1,0 +1,3 @@
+has_last_cosack_unit = {
+	has_template = "96-ой Казачий Полк"
+}

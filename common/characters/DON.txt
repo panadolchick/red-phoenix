@@ -5,9 +5,36 @@ characters = {
 			civilian={
 				large = "GFX_DON_molodidov"
 			}
+			army={
+				small="/gfx/interface/ideas/idea_LEB_generic_land_3.dds"
+			}
+			army={
+				large="GFX_DON_molodidov"
+			}
 		}
 		country_leader={
 			ideology = despotism
+			traits = {
+				
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 1
+		}
+	}
+	DON_ivan_polozkov = {
+		name = DON_ivan_polozkov
+		portraits = {
+			civilian = {
+				large = "GFX_DON_ivan_polozkov"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
 			traits = {
 				
 			}
