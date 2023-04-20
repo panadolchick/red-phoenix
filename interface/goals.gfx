@@ -3797,4 +3797,8 @@ spriteTypes = {
 		name = "GFX_SOV_hold_the_30th_congress_of_the_CPSS_central_committee"
 		texturefile = "gfx/interface/goals/SOV_hold_the_30th_congress_of_the_CPSS_central_committee.dds"
 	}
+    SpriteType = { 
+		name = "GFX_SOV_relocation_of_missile_forces"
+		texturefile = "gfx/interface/goals/SOV_relocation_of_missile_forces.dds"
+	}
 }

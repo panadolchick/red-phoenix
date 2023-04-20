@@ -172,7 +172,7 @@ focus_tree = {
 	}
 	focus = {
         id = SOV_relocation_of_missile_forces
-        icon = GFX_goal_unknown
+        icon = GFX_SOV_relocation_of_missile_forces
 		relative_position_id = SOV_situation_in_the_army
         x = 0
         y = 2
