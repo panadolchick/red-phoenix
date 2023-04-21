@@ -481,6 +481,8 @@ ideologies = {
 			}
 			arab_communist = {
 			}
+			juche = {
+			}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_COMMUNIST_1"

@@ -1,0 +1,16 @@
+characters = {
+	NKR_kim_il_sung = {
+		name = NKR_kim_il_sung
+		portraits={
+			civilian={
+				large = "GFX_NKR_kim_il_sung"
+			}
+		}
+		country_leader={
+			ideology = juche
+			traits = {
+				
+			}
+		}
+	}
+}
