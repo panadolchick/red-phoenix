@@ -17,7 +17,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	nationalism = 11
+	ultranationalism = 9
+	nationalism = 2
 	communist = 89
 }
 
