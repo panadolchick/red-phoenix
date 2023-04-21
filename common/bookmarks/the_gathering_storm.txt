@@ -72,6 +72,15 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"DON"={
+			minor = yes
+			history = "DON_GATHERING_STORM_DESC"
+			ideology = despotism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
