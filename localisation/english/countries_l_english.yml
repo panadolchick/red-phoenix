@@ -49,7 +49,7 @@
  SOV_communist_DEF:0 "Union of Soviet Socialist Republics"
  SOV_nationalism_ADJ:0 "Russian"
  SOV_liberalism_ADJ:0 "Russian"
- SOV_despotism_ADJ:0 "Russian"
+ SOV_despotism_ADJ:0 "Soviet"
  SOV_communist_ADJ:0 "Soviet"
  SOV:0 "Russia"
  SOV_DEF:0 "Russia"
