@@ -1,0 +1,13 @@
+characters = {
+	YUG_Dobrica_Cosic = {
+		name = YUG_Dobrica_Cosic
+		portraits={
+			civilian={
+				large = "GFX_UKR_kravchuk"
+			}
+		}
+		country_leader={
+			ideology = left_communist
+		}
+	}
+}
