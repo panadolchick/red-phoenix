@@ -8,7 +8,15 @@ ideas = {
 
             }
             on_remove = {
-
+                set_division_template_lock = {
+                    division_template = "96-ой Казачий Полк"
+                    is_locked = no
+                }
+                country_event = {
+                    id = don.2
+                    days = 0
+                    hours = 7
+                }
             }
             available = {
                 has_last_cosack_unit = yes

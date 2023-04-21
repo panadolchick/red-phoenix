@@ -10,11 +10,13 @@ country_event = {
     
     option = {
         name = don.1.a
+		complete_national_focus = DON_save_last_cosack_unit
         
     }
 	option = {
         name = don.1.b
         remove_ideas = DON_last_cosack_unit
+		complete_national_focus = DON_end_of_last_cosack_unit
     }
 }
 country_event = {
@@ -26,12 +28,22 @@ country_event = {
     
     option = {
         name = don.2.a
-        declare_war_on = {
-			target = SOV
-		}
-		set_division_template_lock = {
-			division_template = "96-ой Казачий Полк"
-			is_locked = no
+		start_border_war = {
+			change_state_after_war = yes
+			attacker = { 
+				state = 218
+				num_provinces = 1
+				on_win = don_border_conflict.1
+				on_lose = don_border_conflict.2
+				on_cancel = don_border_conflict.3
+			}
+			defender = {
+				state = 910
+				num_provinces = 3
+				on_win = don_border_conflict.1
+				on_lose = don_border_conflict.2
+				on_cancel = don_border_conflict.3
+			}
 		}
     }
 	option = {

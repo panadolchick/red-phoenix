@@ -1,0 +1,137 @@
+add_namespace = don_border_conflict
+add_namespace = don_border_conflict_hidden
+country_event = {
+    id = don_border_conflict.1
+    title = don_border_conflict.1.t
+    desc = don_border_conflict.1.d
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = don_border_conflict.1.a
+		if = {
+			limit = {
+				tag = SOV
+			}
+			hidden_effect = {
+				add_stability = 0.02
+				add_war_support = 0.04
+				add_political_power = 15
+				finalize_border_war = {
+					defender_win = yes
+					attacker = 218
+					defender = 910
+				}
+			}
+			custom_effect_tooltip = We_win_tt
+		}
+		else_if = {
+			limit = { 
+				tag = DON
+			}
+			hidden_effect = {
+				910 = {
+					transfer_state_to = DON
+				}
+				add_political_power = 15
+				add_war_support = 0.05
+				finalize_border_war = {
+					attacker_win = yes
+					attacker = 218
+					defender = 910
+				}
+				load_focus_tree = DON_win_conflict_tree
+			}
+			custom_effect_tooltip = We_win_tt
+		}
+        
+    }
+}
+country_event = {
+    id = don_border_conflict.2
+    title = don_border_conflict.2.t
+    desc = don_border_conflict.2.d
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = don_border_conflict.2.a
+		if = {
+			limit = {
+				tag = SOV
+			}
+			hidden_effect = {
+				finalize_border_war = {
+					defender_win = yes
+					attacker = 218
+					defender = 910
+				}
+				army_experience = 5
+			}
+			custom_effect_tooltip = We_lose_tt
+		}
+		else_if = {
+			limit = { 
+				tag = DON
+			}
+			hidden_effect = {
+				finalize_border_war = {
+					attacker_win = no
+					attacker = 218
+					defender = 910
+				}
+				load_focus_tree = DON_lose_conflict_tree
+				set_politics = {
+					ruling_party = nationalism
+				}
+
+			}
+			custom_effect_tooltip = We_lose_tt
+		}
+    }
+}
+country_event = {
+    id = don_border_conflict.3
+    title = don_border_conflict.3.t
+    desc = don_border_conflict.3.d
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = don_border_conflict.3.a
+		if = {
+			limit = {
+				tag = SOV
+			}
+			hidden_effect = {
+				add_stability = 0.02
+				add_war_support = 0.04
+				add_political_power = 15
+				finalize_border_war = {
+					defender_win = no
+					attacker = 218
+					defender = 910
+				}
+			}
+			custom_effect_tooltip = We_win_tt
+		}
+		else_if = {
+			limit = { 
+				tag = DON
+			}
+			hidden_effect = {
+				finalize_border_war = {
+					attacker_win = no
+					attacker = 218
+					defender = 910
+				}
+				load_focus_tree = DON_lose_conflict_tree
+				set_politics = {
+					ruling_party = nationalism
+				}
+
+			}
+			custom_effect_tooltip = We_lose_tt
+		}
+    }
+}

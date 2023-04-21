@@ -1,5 +1,5 @@
 focus_tree = {
-	id = DON
+	id = DON_tree
 	country = {
 		factor = 0
 		modifier = {
@@ -12,7 +12,7 @@ focus_tree = {
 		x = 2
 		y = 6
 	}
-	initial_show_position = { focus = SOV_hold_the_30th_congress_of_the_CPSS_central_committee }
+	initial_show_position = { focus = DON_fate_of_last_cosack_unit }
 	focus = {
         id = DON_fate_of_last_cosack_unit
         icon = GFX_goal_unknown
@@ -20,7 +20,50 @@ focus_tree = {
         y = 0
         cost = 1  
 		completion_reward = {
-			
+			custom_effect_tooltip = DON_fate_of_last_cosack_unit_tt
+			hidden_effect = {
+				country_event = {
+					id = don.1
+					days = 0
+					hours = 5
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = DON_end_of_last_cosack_unit
+        icon = GFX_goal_unknown
+		mutually_exclusive = {
+			focus = DON_save_last_cosack_unit
+		}
+        x = 10
+        y = 1
+        cost = 0
+		available = {
+			always = no
+		}
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = DON_save_last_cosack_unit
+        icon = GFX_goal_unknown
+		mutually_exclusive = {
+			focus = DON_end_of_last_cosack_unit
+		}
+        x = 16
+        y = 1
+        cost = 0
+		available = {
+			always = no
+		}
+		completion_reward = {
 		}
 		ai_will_do = {
 			factor = 1
