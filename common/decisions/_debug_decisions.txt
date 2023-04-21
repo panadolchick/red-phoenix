@@ -305,13 +305,6 @@ debug_decisions = {
 		cost = 0
 
 		complete_effect = {
-			random_country_division = {
-
-				add_history_entry = {
-					key = custom_localized_key
-					subject = "Custom String (not localized)"
-					allow = yes
-				}
 			}
 			
 		}
@@ -345,8 +338,6 @@ debug_decisions = {
 		ai_will_do = {
 			base = 0
 		}
-		
-		power_balance = _test_balance
 	}
 
 
