@@ -128,6 +128,9 @@ ideologies = {
 			theocracy = {
 				can_be_randomly_selected = no
 			}
+			anarcho_monarchism = {
+				can_be_randomly_selected = no
+			}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_NONALIGNED_1"

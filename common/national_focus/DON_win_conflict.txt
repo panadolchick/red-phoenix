@@ -1,0 +1,28 @@
+focus_tree = {
+	id = DON_win_conflict_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DON
+		}
+	}
+
+	continuous_focus_position = {
+		x = 2
+		y = 6
+	}
+	initial_show_position = { focus = DON_fate_of_last_cosack_unit }
+	focus = {
+        id = DON_Bataisk
+        icon = GFX_goal_unknown
+        x = 13
+        y = 0
+        cost = 1  
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -85,6 +85,8 @@ set_politics = {
 }
 recruit_character = DON_ivan_polozkov
 recruit_character = DON_petr_molodidov
+recruit_character = DON_igor_strelkov
+recruit_character = DON_august_kruse
 add_ideas = DON_last_cosack_unit
 load_oob = DON_unit
 #TODO, James make Ivan Kononov country leader for the fascists

@@ -66,6 +66,18 @@ spriteTypes = {
 }
 spriteTypes = {
 	spriteType = {
+		name = "GFX_DON_igor_strelkov"
+		texturefile = "gfx/leaders/DON/DON_igor_strelkov.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_DON_august_kruse"
+		texturefile = "gfx/leaders/DON/DON_august_kruse.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
 		name = "GFX_BRA_itamar_franco"
 		texturefile = "gfx/leaders/BRA/BRA_itamar_franco.dds"
 	}
