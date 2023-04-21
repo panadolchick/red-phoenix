@@ -44,7 +44,7 @@ recruit_character = PAK_coi
 recruit_character = PAK_acas
 recruit_character = PAK_acgs
 recruit_character = PAK_aa2
-recruit_character = PAK_democratic_guy
+recruit_character = PAK_liberalism_guy
 recruit_character = PAK_acr
 recruit_character = PAK_stc
 recruit_character = PAK_awt
@@ -125,16 +125,16 @@ recruit_character = PAK_nt
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 17
-	fascism = 2
-	communism = 1
-	neutrality = 80
+	liberalism = 17
+	nationalism = 2
+	communist = 1
+	despotism = 80
 }
 
 

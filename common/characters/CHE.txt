@@ -1,0 +1,16 @@
+characters = {
+	CHE_dzhokhar_dudayev = {
+		name = CHE_dzhokhar_dudayev
+		portraits={
+			civilian={
+				large = "GFX_CHE_dzhokhar_dudayev"
+			}
+		}
+		country_leader={
+			ideology = islamism
+			traits = {
+				
+			}
+		}
+	}
+}

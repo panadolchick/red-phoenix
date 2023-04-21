@@ -11,14 +11,14 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = communist
 	last_election = "1977.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 11
-	communism = 89
+	nationalism = 11
+	communist = 89
 }
 
 create_country_leader = {

@@ -81,28 +81,28 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1932.2.14"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 98
-	fascism = 2
+	liberalism = 98
+	nationalism = 2
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = liberalism
 		last_election = "1936.2.9"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		democratic = 95
-		communism = 5
+		liberalism = 95
+		communist = 5
 	}
 
 	recruit_character = COS_leon_cortes_castro

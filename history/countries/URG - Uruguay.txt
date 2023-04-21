@@ -3,9 +3,9 @@
 #oob = "URG_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_#oob = "URG_1936_naval_mtg"
+		#set_naval_oob = "URG_1936_naval_mtg"
 	else = {
-		set_naval_#oob = "URG_1936_naval_legacy"
+		#set_naval_oob = "URG_1936_naval_legacy"
 	}
 }
 
@@ -70,7 +70,7 @@ set_convoys = 5
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = liberalism
 		last_election = "1938.3.28"
 		election_frequency = 48
 		elections_allowed = yes
@@ -93,9 +93,9 @@ set_convoys = 5
 	#oob = "URG_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_#oob = "URG_1939_naval_mtg"
+			#set_naval_oob = "URG_1939_naval_mtg"
 		else = {
-			set_naval_#oob = "URG_1939_naval_legacy"
+			#set_naval_oob = "URG_1939_naval_legacy"
 		}
 	}
 
@@ -132,19 +132,19 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1934.4.19"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 97
-	communism = 3
+	liberalism = 97
+	communist = 3
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = liberalism
 		last_election = "1938.3.28"
 		election_frequency = 48
 		elections_allowed = yes

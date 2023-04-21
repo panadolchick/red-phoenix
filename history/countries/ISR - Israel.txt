@@ -69,14 +69,14 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 80
-	communism = 20
+	liberalism = 80
+	communist = 20
 }
 
 create_country_leader = {
@@ -93,7 +93,7 @@ create_country_leader = {
 	name = "Itzhak Gaster"
 	desc = ""
 	picture = GFX_portrait_Itzhak_Gaster
-	ideology = fascism_ideology
+	ideology = nationalism_ideology
 	traits = {
 		#
 	}

@@ -6,14 +6,14 @@ starting_train_buffer = 5
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_#oob = "USA_1936_naval_mtg"
+		#set_naval_oob = "USA_1936_naval_mtg"
 	else = {
-		set_naval_#oob = "USA_1936_naval_legacy"
+		#set_naval_oob = "USA_1936_naval_legacy"
 	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "USA_1936_air_bba"
+		#set_air_oob = "USA_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
 			basic_small_airframe = 1
@@ -26,7 +26,7 @@ if = {
 			aircraft_construction = 1
 		}
 	else = {
-		set_air_#oob = "USA_1936_air_legacy"
+		#set_air_oob = "USA_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			cv_early_fighter = 1
@@ -158,15 +158,15 @@ set_convoys = 500
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1989.1.22"
 	election_frequency = 48
 	elections_allowed = yes
 }
 recruit_character = USA_george_hw_bush
 set_popularities = {
-	democratic = 99
-	communism = 1
+	liberalism = 99
+	communist = 1
 }
 
 add_ideas = {

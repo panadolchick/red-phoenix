@@ -3,7 +3,7 @@
 #oob = "RAJ_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "RAJ_1936_air_bba"
+		#set_air_oob = "RAJ_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
 			engines_1 = 1
@@ -11,7 +11,7 @@ if = {
 			iw_small_airframe = 1
 		}
 	else = {
-		set_air_#oob = "RAJ_1936_air_legacy"
+		#set_air_oob = "RAJ_1936_air_legacy"
 		set_technology = {
 			CAS1 = 1
 			early_fighter = 1
@@ -92,14 +92,14 @@ if = {
 set_convoys = 20
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 80
-	fascism = 7
-	communism = 1
-	neutrality = 12
+	liberalism = 80
+	nationalism = 7
+	communist = 1
+	despotism = 12
 }

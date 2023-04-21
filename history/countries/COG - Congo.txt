@@ -48,13 +48,13 @@ set_convoys = 5
 
 # A colony of Italy in 1939.  However, if independent it would have the same as its 1936 politics
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	despotism = 100
 }
 
 create_country_leader = {
@@ -83,7 +83,7 @@ create_country_leader = {
 	name = "David Manera"
 	picture = GFX_portrait_David_Manera
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = nationalism_ideology
 	traits = {
 		
 	}

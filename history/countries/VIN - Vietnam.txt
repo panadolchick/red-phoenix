@@ -91,16 +91,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 35
-	fascism = 15
-	communism = 15
-	neutrality = 35
+	liberalism = 35
+	nationalism = 15
+	communist = 15
+	despotism = 35
 }
 
 #NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
@@ -110,7 +110,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Phan_Boi_Chau
 	expire = "1953.3.1"
-	ideology = fascism_ideology 
+	ideology = nationalism_ideology 
 	traits = {
 		
 	}

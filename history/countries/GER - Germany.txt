@@ -17,7 +17,7 @@ if = {
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "GER_1936_air_bba"
+		#set_air_oob = "GER_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
 			aa_cannon_1 = 1
@@ -32,7 +32,7 @@ if = {
 			iw_large_airframe = 1
 		}
 	else = {
-		set_air_#oob = "GER_1936_air_legacy"
+		#set_air_oob = "GER_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			fighter1 = 1
@@ -110,7 +110,7 @@ if = {
 		early_battlecruiser = 1
 		transport = 1
 	}
-	set_naval_#oob = "GER_1936_naval"
+	#set_naval_oob = "GER_1936_naval"
 }
 if = {
 	limit = {
@@ -140,7 +140,7 @@ if = {
 		sonar = 1
 		basic_cruiser_armor_scheme = 1
 	}
-	set_naval_#oob = "GER_1936_naval_mtg"
+	#set_naval_oob = "GER_1936_naval_mtg"
 }
 if = {
 	limit = {
@@ -156,16 +156,16 @@ set_stability = 0.75
 set_war_support = 0.15
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1990.12.2"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 81
-	fascism = 2
-	communism = 6
-	neutrality = 11
+	liberalism = 81
+	nationalism = 2
+	communist = 6
+	despotism = 11
 }
 
 

@@ -16,21 +16,21 @@ if = {
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_#oob = "ROM_1936_naval_mtg"
+		#set_naval_oob = "ROM_1936_naval_mtg"
 	else = {
-		set_naval_#oob = "ROM_1936_naval_legacy"
+		#set_naval_oob = "ROM_1936_naval_legacy"
 	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "ROM_1936_air_bba"
+		#set_air_oob = "ROM_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
 			aa_lmg = 1
 			engines_1 = 1
 		}
 	else = {
-		set_air_#oob = "ROM_1936_air_legacy"
+		#set_air_oob = "ROM_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 
@@ -97,16 +97,16 @@ if = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = communist
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 31
-	fascism = 3
-	communism = 56
-	neutrality = 10
+	liberalism = 31
+	nationalism = 3
+	communist = 56
+	despotism = 10
 }
 
 ### VARIANTS ###

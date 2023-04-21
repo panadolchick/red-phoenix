@@ -3,9 +3,9 @@
 #oob = "SAF_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "SAF_1936_air_bba"
+		#set_air_oob = "SAF_1936_air_bba"
 	else = {
-		set_air_#oob = "SAF_1936_air_legacy"
+		#set_air_oob = "SAF_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			cv_early_fighter = 1
@@ -87,9 +87,9 @@ if = {
 	#oob = "SAF_1939"
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_#oob = "SAF_1939_air_bba"
+			#set_air_oob = "SAF_1939_air_bba"
 		else = {
-			set_air_#oob = "SAF_1939_air_legacy"
+			#set_air_oob = "SAF_1939_air_legacy"
 		}
 	}
 	if = {
@@ -179,15 +179,15 @@ if = {
 
 set_convoys = 25
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	fascism = 20
-	communism = 5
+	liberalism = 75
+	nationalism = 20
+	communist = 5
 }
 
 recruit_character = SAF_j_b_m_hertzog
@@ -215,13 +215,13 @@ recruit_character = SAF_abram_fischer
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = liberalism
 		last_election = "1938.5.18"
 		election_frequency = 60
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 100
+		liberalism = 100
 	}
 
 	#retire_character = SAF_j_b_m_hertzog

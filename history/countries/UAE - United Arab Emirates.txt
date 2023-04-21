@@ -16,7 +16,7 @@ recruit_character = UAE_ncs
 recruit_character = UAE_nt
 recruit_character = UAE_acas
 recruit_character = UAE_acd2
-recruit_character = UAE_democratic_guy
+recruit_character = UAE_liberalism_guy
 recruit_character = UAE_mt
 recruit_character = UAE_ai2
 recruit_character = UAE_coi
@@ -66,16 +66,16 @@ recruit_character = UAE_ar
 	}
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 23
-	fascism = 1
-	communism = 1
-	neutrality = 75
+	liberalism = 23
+	nationalism = 1
+	communist = 1
+	despotism = 75
 }
 
 #create_country_leader = {

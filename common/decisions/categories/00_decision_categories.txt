@@ -86,8 +86,8 @@ foreign_influence = {
 	icon = generic_political_actions
 }
 
-fascism_on_the_rise = {
-	icon = generic_fascism
+nationalism_on_the_rise = {
+	icon = generic_nationalism
 
 	allowed = {
 		NOT = {
@@ -131,18 +131,18 @@ fascism_on_the_rise = {
 				has_dlc = "La Resistance"
 				POR = { has_completed_focus = POR_the_empire_of_brazil }
 				tag = BRA
-				has_government = neutrality
+				has_government = despotism
 				has_civil_war = yes
 				AND = { #Already committed to monarchism
 					has_country_flag = POR_brazil_supports_monarchism_flag
-					has_cosmetic_tag = EOB_empire_brazil_neutrality
+					has_cosmetic_tag = EOB_empire_brazil_despotism
 				}
 			}
 		}
 	}
 }
 
-democratic_on_the_rise = {
+liberalism_on_the_rise = {
 	icon = generic_democracy
 
 	allowed = {
@@ -168,13 +168,13 @@ democratic_on_the_rise = {
 	}
 	
 	#visible = {
-	#	NOT = { has_government = democratic }
-	#	has_idea_with_trait = democratic_reformer
+	#	NOT = { has_government = liberalism }
+	#	has_idea_with_trait = liberalism_reformer
 	#}
 }
 
-communism_on_the_rise = {
-	icon = generic_communism
+communist_on_the_rise = {
+	icon = generic_communist
 
 	allowed = {
 		NOT = {
@@ -203,7 +203,7 @@ communism_on_the_rise = {
 	}
 	
 	#visible = {
-	#	NOT = { has_government = communism }
+	#	NOT = { has_government = communist }
 	#	has_idea_with_trait = communist_revolutionary
 	#}
 }

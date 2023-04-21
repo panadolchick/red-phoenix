@@ -88,13 +88,13 @@ if = {
 }
 
 set_popularities = {
-	democratic = 10
-	neutrality = 80
-	communism = 5
-	fascism = 5
+	liberalism = 10
+	despotism = 80
+	communist = 5
+	nationalism = 5
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1989.1.22"
 	election_frequency = 48
 	elections_allowed = no

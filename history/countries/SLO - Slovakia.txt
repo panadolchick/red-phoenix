@@ -39,9 +39,9 @@ if = {
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "SLO_1939_air_bba"
+		#set_air_oob = "SLO_1939_air_bba"
 	else = {
-		set_air_#oob = "SLO_1939_air_legacy"
+		#set_air_oob = "SLO_1939_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			early_bomber = 1
@@ -132,13 +132,13 @@ recruit_character = SLO_anton_pulanick
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = nationalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 90
-	communism = 5
+	liberalism = 5
+	nationalism = 90
+	communist = 5
 }

@@ -16,14 +16,14 @@ if = {
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
-	set_naval_#oob = "CAN_1936_naval_mtg"
+	#set_naval_oob = "CAN_1936_naval_mtg"
 	else = {
-		set_naval_#oob = "CAN_1936_naval_legacy"
+		#set_naval_oob = "CAN_1936_naval_legacy"
 	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "CAN_1936_air_bba"
+		#set_air_oob = "CAN_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
 			engines_1 = 1
@@ -31,7 +31,7 @@ if = {
 			iw_small_airframe = 1
 		}
 	else = {
-		set_air_#oob = "CAN_1936_air_legacy"
+		#set_air_oob = "CAN_1936_air_legacy"
 	}
 }
 
@@ -147,16 +147,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 98
-	fascism = 1
-	communism = 1
+	liberalism = 98
+	nationalism = 1
+	communist = 1
 }
 
 set_convoys = 100

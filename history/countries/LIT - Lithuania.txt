@@ -3,9 +3,9 @@
 #oob = "LIT_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "LIT_1936_air_bba"
+		#set_air_oob = "LIT_1936_air_bba"
 	else = {
-		set_air_#oob = "LIT_1936_air_legacy"
+		#set_air_oob = "LIT_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 		}
@@ -63,7 +63,7 @@ set_convoys = 10
 	#oob = "LIT_1939"
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_#oob = "LIT_1939_air_bba"
+			#set_air_oob = "LIT_1939_air_bba"
 			set_technology = {
 				iw_small_airframe = 1
 				engines_1 = 1
@@ -72,7 +72,7 @@ set_convoys = 10
 				early_bombs = 1
 			}
 		else = {
-			set_air_#oob = "LIT_1939_air_legacy"
+			#set_air_oob = "LIT_1939_air_legacy"
 			set_technology = {
 				early_bomber = 1
 			}
@@ -128,21 +128,21 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
-	fascism = 15
-	communism = 15
-	neutrality = 40
+	liberalism = 30
+	nationalism = 15
+	communist = 15
+	despotism = 40
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1936.6.10"
 		election_frequency = 120
 		elections_allowed = no

@@ -3,9 +3,9 @@
 #oob = "BOL_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "BOL_1936_air_bba"
+		#set_air_oob = "BOL_1936_air_bba"
 	else = {
-		set_air_#oob = "BOL_1936_air_legacy"
+		#set_air_oob = "BOL_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 		}
@@ -65,9 +65,9 @@ set_country_flag = monroe_doctrine
 	#oob = "BOL_1939"
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_#oob = "BOL_1939_air_bba"
+			#set_air_oob = "BOL_1939_air_bba"
 		else = {
-			set_air_#oob = "BOL_1939_air_legacy"
+			#set_air_oob = "BOL_1939_air_legacy"
 		}
 	}
 	set_technology = {
@@ -105,26 +105,26 @@ set_country_flag = monroe_doctrine
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1934.11.11"
 	election_frequency = 72
 	elections_allowed = yes
 }
 
 set_popularities = {
-	neutrality = 100
+	despotism = 100
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1934.11.11"
 		election_frequency = 72
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		neutrality = 100
+		despotism = 100
 	}
 
 }

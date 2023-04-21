@@ -11,16 +11,16 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 35
-	fascism = 25
-	communism = 30
-	neutrality = 10
+	liberalism = 35
+	nationalism = 25
+	communist = 30
+	despotism = 10
 }
 
 create_country_leader = {
@@ -50,7 +50,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Yi_Un
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = nationalism_ideology
 	traits = {
 		#
 	}

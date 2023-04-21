@@ -2005,7 +2005,7 @@ form_european_union_category = {
 						original_tag = ITA
 						original_tag = GER
 					}
-					has_government = democratic
+					has_government = liberalism
 				}
 				AND = {
 					original_tag = ENG
@@ -2518,7 +2518,7 @@ form_roman_empire_category = {
 				}
 				if = {
 					limit = {
-						has_government = fascism
+						has_government = nationalism
 					}
 					ITA_remove_king_vittorio_emanuele_as_idea = yes
 				}
@@ -4020,12 +4020,12 @@ form_roman_empire_category = {
 				IF = {
 					limit = {
 						ITA = {
-							has_government = fascism
+							has_government = nationalism
 						}
 					}
 					CRI = {
 						set_politics = {
-							ruling_party = fascism
+							ruling_party = nationalism
 						    elections_allowed = no
 						    last_election = "1935.12.17"
 						    election_frequency = 48
@@ -4035,12 +4035,12 @@ form_roman_empire_category = {
 				IF = {
 					limit = {
 						ITA = {
-							has_government = neutrality
+							has_government = despotism
 						}
 					}
 					CRI = {
 						set_politics = {
-							ruling_party = neutrality
+							ruling_party = despotism
 						    elections_allowed = no
 						    last_election = "1935.12.17"
 						    election_frequency = 48
@@ -4507,7 +4507,7 @@ form_byzantine_empire_category = {
 		visible = {
 			AND = { 
 				has_completed_focus = GRE_horror_and_fear
-				has_government = fascism
+				has_government = nationalism
 			}
 			NOT = { has_global_flag = form_byzantine_empire_flag }
 		}
@@ -5408,7 +5408,7 @@ form_hre_category = {
 		visible = {
 			AND = {
 				original_tag = GER
-				has_government = neutrality
+				has_government = despotism
 				has_country_leader = { ruling_only = yes character = GER_victoria }
 			}
 			NOT = { has_global_flag = form_hre_flag }
@@ -5502,7 +5502,7 @@ form_greater_german_reich_category = {
 		visible = {
 			AND = {
 				original_tag = GER
-				has_government = fascism
+				has_government = nationalism
 				has_country_leader = { ruling_only = yes character = GER_adolf_hitler }
 			}
 			NOT = { has_global_flag = form_greater_german_reich_flag }
@@ -6331,7 +6331,7 @@ form_greater_greece_category = {
 			is_subject = no
 			if = { 
 				limit = {
-					has_government = democratic
+					has_government = liberalism
 				}
 				has_completed_focus = GRE_nenikikamen
 			}
@@ -6358,7 +6358,7 @@ form_greater_greece_category = {
 			# Dodecanese
 			if = {
 				limit = {
-					NOT = { has_government = democratic }
+					NOT = { has_government = liberalism }
 				}
 				custom_trigger_tooltip = {
 					tooltip = form_country_dodecanese_required_state_tt
@@ -6368,7 +6368,7 @@ form_greater_greece_category = {
 			# Cyprus
 			if = {
 				limit = {
-					NOT = { has_government = democratic }
+					NOT = { has_government = liberalism }
 				}
 				custom_trigger_tooltip = {
 					tooltip = form_country_cyprus_required_state_tt
@@ -6458,7 +6458,7 @@ form_greater_greece_category = {
 			hidden_effect = {
 				if = {
 					limit = {
-						has_government = democratic
+						has_government = liberalism
 					}
 					news_event = { id = bftb_news.302 hours = 6 } 
 				}
@@ -6487,7 +6487,7 @@ form_greater_greece_category = {
 		available = {
 			is_subject = no
 			AND = {
-				has_government = democratic
+				has_government = liberalism
 				has_completed_focus = GRE_nenikikamen
 			}
 		}
@@ -6534,7 +6534,7 @@ form_greater_greece_category = {
 			is_subject = no
 			if = { 
 				limit = {
-					has_government = democratic
+					has_government = liberalism
 				}
 				has_completed_focus = GRE_nenikikamen
 			}
@@ -6582,7 +6582,7 @@ form_greater_greece_category = {
 			is_subject = no
 			if = { 
 				limit = {
-					has_government = democratic
+					has_government = liberalism
 				}
 				has_completed_focus = GRE_nenikikamen
 			}
@@ -6622,7 +6622,7 @@ form_greater_greece_category = {
 			is_subject = no
 			if = { 
 				limit = {
-					has_government = democratic
+					has_government = liberalism
 				}
 				has_completed_focus = GRE_nenikikamen
 			}
@@ -6665,7 +6665,7 @@ form_greater_greece_category = {
 			is_subject = no
 			if = { 
 				limit = {
-					has_government = democratic
+					has_government = liberalism
 				}
 				has_completed_focus = GRE_nenikikamen
 			}
@@ -7587,7 +7587,7 @@ form_mountainous_republic_category = {
 		allowed = {
 			OR = {
 				original_tag = DAG # Dagestan
-				original_tag = CIN # Chechnya-Ingushetia
+				original_tag CHE # Chechnya-Ingushetia
 				original_tag = NOA # North Ossetia-Alania
 				original_tag = KBK # Kabardino-Balkaria
 				original_tag = ABK # Abkhazia
@@ -7605,7 +7605,7 @@ form_mountainous_republic_category = {
 		visible = {
 			OR = {
 				original_tag = DAG # Dagestan
-				original_tag = CIN # Chechnya-Ingushetia
+				original_tag CHE # Chechnya-Ingushetia
 				original_tag = NOA # North Ossetia-Alania
 				original_tag = KBK # Kabardino-Balkaria
 				original_tag = ABK # Abkhazia
@@ -7914,8 +7914,8 @@ form_transcaucasus_category = {
 			is_subject = no
 			controls_state = 237 # Kalmykia
 			controls_state = 236 # Astrakhan
-			NOT = { has_government = communism }
-			NOT = { has_government = democratic }
+			NOT = { has_government = communist }
+			NOT = { has_government = liberalism }
 		}
 
 		visible = {
@@ -8035,8 +8035,8 @@ form_transcaucasus_category = {
 			is_subject = no
 			controls_state = 137 # Crimea
 			controls_state = 196 # Kherson
-			NOT = { has_government = communism }
-			NOT = { has_government = democratic }
+			NOT = { has_government = communist }
+			NOT = { has_government = liberalism }
 		}
 
 		visible = {
@@ -8925,8 +8925,8 @@ form_ethiopian_empire_category  = {
 		visible = {
 			454 = { is_owned_and_controlled_by = ROOT }
 			OR = {
-				has_government = neutrality
-				has_government = fascism
+				has_government = despotism
+				has_government = nationalism
 			}
 			NOT = { has_cosmetic_tag = gojjam }
 			NOT = { has_cosmetic_tag = jimma }

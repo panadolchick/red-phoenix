@@ -3,16 +3,16 @@
 #oob = "CHL_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_#oob = "CHL_1936_naval_mtg"
+		#set_naval_oob = "CHL_1936_naval_mtg"
 	else = {
-		set_naval_#oob = "CHL_1936_naval_legacy"
+		#set_naval_oob = "CHL_1936_naval_legacy"
 	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "CHL_1936_air_bba"
+		#set_air_oob = "CHL_1936_air_bba"
 	else = {
-		set_air_#oob = "CHL_1936_air_legacy"
+		#set_air_oob = "CHL_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			cv_early_fighter = 1
@@ -103,16 +103,16 @@ set_convoys = 20
 	#oob = "CHL_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_#oob = "CHL_1939_naval_mtg"
+			#set_naval_oob = "CHL_1939_naval_mtg"
 		else = {
-			set_naval_#oob = "CHL_1939_naval_legacy"
+			#set_naval_oob = "CHL_1939_naval_legacy"
 		}
 	}
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_#oob = "CHL_1939_air_bba"
+			#set_air_oob = "CHL_1939_air_bba"
 		else = {
-			set_air_#oob = "CHL_1939_air_legacy"
+			#set_air_oob = "CHL_1939_air_legacy"
 			set_technology = {
 				tactical_bomber1 = 1
 				CAS1 = 1
@@ -159,26 +159,26 @@ set_convoys = 20
 
 set_convoys = 5
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1932.10.30"
 	election_frequency = 72  #but 4 years after this one in 1938.
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 98
-	communism = 2
+	liberalism = 98
+	communist = 2
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = liberalism
 		last_election = "1938.10.25"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		democratic = 100
+		liberalism = 100
 	}
 
 	recruit_character = CHL_pedro_aguirre_cerda

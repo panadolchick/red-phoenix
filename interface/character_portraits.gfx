@@ -48,8 +48,8 @@ spriteTypes = {
 }
 spriteTypes = {
 	spriteType = {
-		name = "GFX_CIN_dzhokhar_dudayev"
-		texturefile = "gfx/leaders/CIN/CIN_dzhokhar_dudayev.dds"
+		name = "GFX_CHE_dzhokhar_dudayev"
+		texturefile = "gfx/leaders/CHE/CHE_dzhokhar_dudayev.dds"
 	}
 }
 spriteTypes = {

@@ -18,7 +18,7 @@ recruit_character = MOL_nccr
 recruit_character = MOL_aco2
 recruit_character = MOL_coi
 recruit_character = MOL_aa2
-recruit_character = MOL_democratic_guy
+recruit_character = MOL_liberalism_guy
 recruit_character = MOL_acd2
 recruit_character = MOL_acr
 recruit_character = MOL_fascist_guy
@@ -65,16 +65,16 @@ recruit_character = MOL_ar
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 55
-	fascism = 1
-	communism = 30
-	neutrality = 14
+	liberalism = 55
+	nationalism = 1
+	communist = 30
+	despotism = 14
 }
 
 #create_country_leader = {

@@ -3,16 +3,19 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1932.5.1"
+	ruling_party = social_democracy
+	last_election = "1989.5.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 60
-	fascism = 0
-	neutrality = 20
-	communism = 20
+	liberalism = 21
+	conservatism = 11
+	authoritarianism = 4
+	social_democracy = 51
+	nationalism = 5
+	despotism = 2
+	communist = 6
 }
 
 recruit_character = FRA_fransua_mitteran

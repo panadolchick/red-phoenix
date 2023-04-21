@@ -4,7 +4,7 @@ starting_train_buffer = 4
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "ENG_1936_air_bba"
+		#set_air_oob = "ENG_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
 			engines_1 = 1
@@ -18,7 +18,7 @@ if = {
 			basic_small_airframe = 1
 		}
 	else = {
-		set_air_#oob = "ENG_1936_air_legacy"
+		#set_air_oob = "ENG_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			cv_early_fighter = 1
@@ -151,16 +151,18 @@ add_ideas = {
 set_convoys = 675
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1992.4.9"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 95
-	fascism = 2
-	neutrality = 1
-	communism = 2
+	liberalism = 47
+	conservatism = 51
+	authoritarianism = 7
+	nationalism = 2
+	despotism = 1
+	communist = 2
 }
 recruit_character = ENG_john_meidjor
 

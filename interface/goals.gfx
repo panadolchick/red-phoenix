@@ -413,8 +413,8 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-	name = "GFX_goal_generic_neutrality_focus"
-	texturefile = "gfx/interface/goals/goal_generic_neutrality_focus.dds"			
+	name = "GFX_goal_generic_despotism_focus"
+	texturefile = "gfx/interface/goals/goal_generic_despotism_focus.dds"			
 	}	
 	
 	SpriteType = {
@@ -553,13 +553,13 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-	name = "GFX_goal_support_fascism"
-	texturefile = "gfx/interface/goals/goal_generic_support_fascism.dds"			
+	name = "GFX_goal_support_nationalism"
+	texturefile = "gfx/interface/goals/goal_generic_support_nationalism.dds"			
 	}	
 	
 	SpriteType = {
-	name = "GFX_goal_support_communism"
-	texturefile = "gfx/interface/goals/goal_generic_support_communism.dds"			
+	name = "GFX_goal_support_communist"
+	texturefile = "gfx/interface/goals/goal_generic_support_communist.dds"			
 	}		
 
 	SpriteType = {
@@ -1961,8 +1961,8 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_por_latin_american_communism"
-		texturefile = "gfx/interface/goals/focus_por_latin_american_communism.dds"
+		name = "GFX_focus_por_latin_american_communist"
+		texturefile = "gfx/interface/goals/focus_por_latin_american_communist.dds"
 	}
 	
 	SpriteType = { 
@@ -2898,8 +2898,8 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_SOV_the_glory_of_the_red_army_communism"
-		texturefile = "gfx/interface/goals/focus_SOV_the_glory_of_the_red_army_communism.dds"
+		name = "GFX_focus_SOV_the_glory_of_the_red_army_communist"
+		texturefile = "gfx/interface/goals/focus_SOV_the_glory_of_the_red_army_communist.dds"
 	}
 
 	SpriteType = { 
@@ -3122,8 +3122,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_generic_conspiracy.dds"
 	}
 	SpriteType = { 
-		name = "GFX_focus_generic_spread_fascism"
-		texturefile = "gfx/interface/goals/focus_generic_spread_fascism.dds"
+		name = "GFX_focus_generic_spread_nationalism"
+		texturefile = "gfx/interface/goals/focus_generic_spread_nationalism.dds"
 	}
 	SpriteType = { 
 		name = "GFX_focus_generic_armored_air_support"
@@ -3298,8 +3298,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_ITA_corpo_volontari_della_liberta.dds"
 	}
 	SpriteType = { 
-		name = "GFX_focus_ITA_democratic_leadership"
-		texturefile = "gfx/interface/goals/focus_ITA_democratic_leadership.dds"
+		name = "GFX_focus_ITA_liberalism_leadership"
+		texturefile = "gfx/interface/goals/focus_ITA_liberalism_leadership.dds"
 	}
 	SpriteType = { 
 		name = "GFX_focus_ITA_garibaldi_legion"
@@ -3730,8 +3730,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_SWI_patriotic_shooting_clubs.dds"
 	}
 	SpriteType = { 
-		name = "GFX_focus_SWI_neutrality_on_the_move"
-		texturefile = "gfx/interface/goals/focus_SWI_neutrality_on_the_move.dds"
+		name = "GFX_focus_SWI_despotism_on_the_move"
+		texturefile = "gfx/interface/goals/focus_SWI_despotism_on_the_move.dds"
 	}
 	SpriteType = { 
 		name = "GFX_focus_SWI_issue_war_bonds"
@@ -3762,8 +3762,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_generic_annex_country_2.dds"
 	}
 	SpriteType = { 
-		name = "GFX_focus_SWI_abandon_neutrality"
-		texturefile = "gfx/interface/goals/focus_SWI_abandon_neutrality.dds"
+		name = "GFX_focus_SWI_abandon_despotism"
+		texturefile = "gfx/interface/goals/focus_SWI_abandon_despotism.dds"
 	}
 	SpriteType = { 
 		name = "GFX_focus_generic_infiltration"

@@ -3,21 +3,21 @@
 #oob = "SWE_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_#oob = "SWE_1936_naval_mtg"
+		#set_naval_oob = "SWE_1936_naval_mtg"
 	else = {
-		set_naval_#oob = "SWE_1936_naval_legacy"
+		#set_naval_oob = "SWE_1936_naval_legacy"
 	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "SWE_1936_air_bba"
+		#set_air_oob = "SWE_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
 			aa_lmg = 1
 			engines_1 = 1
 		}
 	else = {
-		set_air_#oob = "SWE_1936_air_legacy"
+		#set_air_oob = "SWE_1936_air_legacy"
 		set_technology = {
 			CAS1 = 1
 			early_fighter = 1
@@ -32,7 +32,7 @@ set_research_slots = 3
 
 add_ideas = {
 	en_svensk_tiger
-	neutrality_idea
+	despotism_idea
 }
 set_stability = 0.9
 set_war_support = 0.1
@@ -115,16 +115,16 @@ if = {
 	#oob = "SWE_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_#oob = "SWE_1939_naval_mtg"
+			#set_naval_oob = "SWE_1939_naval_mtg"
 		else = {
-			set_naval_#oob = "SWE_1939_naval_legacy"
+			#set_naval_oob = "SWE_1939_naval_legacy"
 		}
 	}
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_#oob = "SWE_1939_air_bba"
+			#set_air_oob = "SWE_1939_air_bba"
 		else = {
-			set_air_#oob = "SWE_1939_air_legacy"
+			#set_air_oob = "SWE_1939_air_legacy"
 			set_technology = {
 				early_bomber = 1
 				tactical_bomber1 = 1
@@ -201,30 +201,30 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	neutrality = 14
-	communism = 8
-	fascism = 3
+	liberalism = 75
+	despotism = 14
+	communist = 8
+	nationalism = 3
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = liberalism
 		last_election = "1936.9.20"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 85
-		neutrality = 10
-		communism = 4
-		fascism = 1
+		liberalism = 85
+		despotism = 10
+		communist = 4
+		nationalism = 1
 	}
 }
 

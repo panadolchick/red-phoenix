@@ -3,16 +3,16 @@
 #oob = "CHI_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_#oob = "CHI_1936_naval_mtg"
+		#set_naval_oob = "CHI_1936_naval_mtg"
 	else = {
-		set_naval_#oob = "CHI_1936_naval_legacy"
+		#set_naval_oob = "CHI_1936_naval_legacy"
 	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "CHI_1936_air_bba"
+		#set_air_oob = "CHI_1936_air_bba"
 	else = {
-		set_air_#oob = "CHI_1936_air_legacy"
+		#set_air_oob = "CHI_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			early_bomber = 1
@@ -68,17 +68,17 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = communist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 12
-	communism = 78
-	fascism = 6
-	neutrality = 4
+	despotism = 12
+	communist = 78
+	nationalism = 6
+	despotism = 4
 }
 
 ### VARIANTS ###

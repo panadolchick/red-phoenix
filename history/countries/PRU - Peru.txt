@@ -3,9 +3,9 @@
 #oob = "PRU_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "PRU_1936_air_bba"
+		#set_air_oob = "PRU_1936_air_bba"
 	else = {
-		set_air_#oob = "PRU_1936_air_legacy"
+		#set_air_oob = "PRU_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			cv_early_fighter = 1
@@ -16,9 +16,9 @@ if = {
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_#oob = "PRU_1936_naval_mtg"
+		#set_naval_oob = "PRU_1936_naval_mtg"
 	else = {
-		set_naval_#oob = "PRU_1936_naval_legacy"
+		#set_naval_oob = "PRU_1936_naval_legacy"
 	}
 }
 
@@ -100,16 +100,16 @@ set_convoys = 5
 	#oob = "PRU_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_#oob = "PRU_1939_naval_mtg"
+			#set_naval_oob = "PRU_1939_naval_mtg"
 		else = {
-			set_naval_#oob = "PRU_1939_naval_legacy"
+			#set_naval_oob = "PRU_1939_naval_legacy"
 		}
 	}
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_#oob = "PRU_1939_air_bba"
+			#set_air_oob = "PRU_1939_air_bba"
 		else = {
-			set_air_#oob = "PRU_1939_air_legacy"
+			#set_air_oob = "PRU_1939_air_legacy"
 			set_technology = {
 				tactical_bomber1 = 1
 			}
@@ -150,14 +150,14 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = nationalism
 	last_election = "1931.10.11"
 	election_frequency = 96
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 49
-	fascism = 51
+	liberalism = 49
+	nationalism = 51
 }
 
 1939.1.1 = {

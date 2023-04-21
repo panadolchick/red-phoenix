@@ -84,15 +84,15 @@ set_convoys = 5
 	}
 }
 set_politics = {
-	ruling_party = fascism
+	ruling_party = nationalism
 	last_election = "1935.6.9"
 	election_frequency = 12
 	elections_allowed = no # none after offset 1
 }
 set_popularities = {
-	democratic = 15
-	fascism = 75
-	communism = 10
+	liberalism = 15
+	nationalism = 75
+	communist = 10
 }
 
 create_country_leader = {
@@ -100,7 +100,7 @@ create_country_leader = {
 	desc = "ANTE_PAVELIC_DESC"
 	picture = GFX_portrait_Ante_Pavelic
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = nationalism_ideology
 	traits = {
 		#
 	}

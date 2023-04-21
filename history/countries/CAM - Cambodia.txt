@@ -97,16 +97,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 40
-	communism = 25
-	neutrality = 35
+	liberalism = 40
+	communist = 25
+	despotism = 35
 }
 
 create_country_leader = {
@@ -114,7 +114,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Pol_Pot
 	expire = "1953.3.1"
-	ideology = anarchist_communism #insanity
+	ideology = anarchist_communist #insanity
 	traits = {
 		
 	}
@@ -143,5 +143,5 @@ create_country_leader = {
 	}
 }
 
-#couldnt find anything historical on fascism
+#couldnt find anything historical on nationalism
 

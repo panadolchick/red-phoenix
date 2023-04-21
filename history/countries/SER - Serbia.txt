@@ -74,7 +74,7 @@ recruit_character = SER_communist_guy
 recruit_character = SER_acr
 recruit_character = SER_fascist_guy
 recruit_character = SER_aa2
-recruit_character = SER_democratic_guy
+recruit_character = SER_liberalism_guy
 recruit_character = SER_ncm
 recruit_character = SER_nt
 recruit_character = SER_awt
@@ -159,21 +159,21 @@ recruit_character = SER_mt
 set_convoys = 0
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 20
-	neutrality = 30
+	liberalism = 20
+	nationalism = 30
+	communist = 20
+	despotism = 30
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1939.1.1"
 		election_frequency = 36
 		elections_allowed = yes
@@ -197,7 +197,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Milan_Nedic
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = nationalism_ideology
 	traits = {
 		#
 	}

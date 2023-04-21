@@ -4,23 +4,23 @@
 #oob = "BUL_1936" #VANILLA & DLC
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "BUL_1936_air_bba"
+		#set_air_oob = "BUL_1936_air_bba"
 	else = {
-		set_air_#oob = "BUL_1936_air_legacy"
+		#set_air_oob = "BUL_1936_air_legacy"
 	}
 }
 set_convoys = 5 #VANILLA & DLC
 
 #You don't want Bulgarian party names? Just remove these lines
 set_party_name = { # DLC
-	ideology = communism
-	name = BUL_communism_party_bulgarian
-	long_name = BUL_communism_party_bulgarian_long
+	ideology = communist
+	name = BUL_communist_party_bulgarian
+	long_name = BUL_communist_party_bulgarian_long
 }
 set_party_name = { # DLC
-	ideology = fascism
-	name = BUL_fascism_party_bulgarian
-	long_name = BUL_fascism_party_bulgarian_long
+	ideology = nationalism
+	name = BUL_nationalism_party_bulgarian
+	long_name = BUL_nationalism_party_bulgarian_long
 }
 
 if = { #DLC
@@ -30,9 +30,9 @@ if = { #DLC
 
 	#You don't want Bulgarian party names? Just remove these lines
 	set_party_name = { # DLC
-		ideology = democratic
-		name = BUL_democratic_party_bftb
-		long_name = BUL_democratic_party_bftb_bulgarian_long
+		ideology = liberalism
+		name = BUL_liberalism_party_bftb
+		long_name = BUL_liberalism_party_bftb_bulgarian_long
 	}	
 
 	###################
@@ -40,10 +40,10 @@ if = { #DLC
 	###################
 
 	#Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-	#BUL_communism
-	#BUL_democratic
-	#BUL_fascism
-	#BUL_neutrality
+	#BUL_communist
+	#BUL_liberalism
+	#BUL_nationalism
+	#BUL_despotism
 
 	#IDEAS SETUP
 	add_ideas = { #DLC
@@ -176,10 +176,10 @@ if = { #DLC
 
 	#DLC POLIICS
 	set_popularities = { #DLC
-		democratic = 10
-		fascism = 30
-		neutrality = 55
-		communism = 5
+		liberalism = 10
+		nationalism = 30
+		despotism = 55
+		communist = 5
 	}
 
 	recruit_character = BUL_boris_iii
@@ -217,7 +217,7 @@ if = { #DLC
 	recruit_character = BUL_dimitr_ayryanov
 	recruit_character = BUL_nikola_hadzipetkov
 	recruit_character = BUL_asen_toshev
-	recruit_character = BUL_bogdan_filov_fascism
+	recruit_character = BUL_bogdan_filov_nationalism
 	recruit_character = BUL_dobri_bozhilov
 	recruit_character = BUL_dimitrana_ivanova
 	recruit_character = BUL_bogdan_filov
@@ -260,7 +260,7 @@ if = { #DLC
 
 	#RULING PARTY
 	set_politics = { #DLC
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1935.1.22"
 		election_frequency = 48
 		elections_allowed = no
@@ -274,12 +274,12 @@ if = { #DLC
 
 		#POLITICS
 		set_popularities = { #VANILLA
-			democratic = 5
-			fascism = 35
-			neutrality = 60
+			liberalism = 5
+			nationalism = 35
+			despotism = 60
 		}
 		set_politics = { #VANILLA
-			ruling_party = neutrality
+			ruling_party = despotism
 			last_election = "1931.6.21"
 			election_frequency = 48
 			elections_allowed = no
@@ -339,12 +339,12 @@ if = {
 	
 	#POLIICS
 	set_popularities = { #VANILLA & DLC //  # Will get +7 from Italian focus: Potential Allies in the Balkans
-		democratic = 5
-		fascism = 35
-		neutrality = 60
+		liberalism = 5
+		nationalism = 35
+		despotism = 60
 	}
 	set_politics = { #VANILLA & DLC
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1938.3.27"
 		election_frequency = 48
 		elections_allowed = no
@@ -476,9 +476,9 @@ if = {
 	}
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_#oob = "BUL_1939_air_bba"
+			#set_air_oob = "BUL_1939_air_bba"
 		else = {
-			set_air_#oob = "BUL_1939_air_legacy"
+			#set_air_oob = "BUL_1939_air_legacy"
 			set_technology = {
 				fighter1 = 1
 				early_bomber = 1

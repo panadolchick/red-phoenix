@@ -3,9 +3,9 @@
 #oob = "NZL_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "NZL_1936_air_bba"
+		#set_air_oob = "NZL_1936_air_bba"
 	else = {
-		set_air_#oob = "NZL_1936_air_legacy"
+		#set_air_oob = "NZL_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			naval_bomber1 = 1
@@ -72,13 +72,13 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1935.11.27"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 100
+	liberalism = 100
 }
 
 set_convoys = 70

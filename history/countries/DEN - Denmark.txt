@@ -3,16 +3,16 @@
 #oob = "DEN_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_#oob = "DEN_1936_naval_mtg"
+		#set_naval_oob = "DEN_1936_naval_mtg"
 	else = {
-		set_naval_#oob = "DEN_1936_naval_legacy"
+		#set_naval_oob = "DEN_1936_naval_legacy"
 	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "DEN_1936_air_bba"
+		#set_air_oob = "DEN_1936_air_bba"
 	else = {
-		set_air_#oob = "DEN_1936_air_legacy"
+		#set_air_oob = "DEN_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			cv_early_fighter = 1
@@ -100,16 +100,16 @@ if = {
 	#oob = "DEN_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_#oob = "DEN_1939_naval_mtg"
+			#set_naval_oob = "DEN_1939_naval_mtg"
 		else = {
-			set_naval_#oob = "DEN_1939_naval_legacy"
+			#set_naval_oob = "DEN_1939_naval_legacy"
 		}
 	}
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_#oob = "DEN_1939_air_bba"
+			#set_air_oob = "DEN_1939_air_bba"
 		else = {
-			set_air_#oob = "DEN_1939_air_legacy"
+			#set_air_oob = "DEN_1939_air_legacy"
 			set_technology = {
 				early_bomber = 1
 
@@ -170,21 +170,21 @@ if = {
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1935.10.22"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 97
-	fascism = 1
-	communism = 2
+	liberalism = 97
+	nationalism = 1
+	communist = 2
 }
 
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = liberalism
 		last_election = "1939.4.3"
 		election_frequency = 48
 		elections_allowed = yes

@@ -3,16 +3,16 @@
 #oob = "GRE_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_#oob = "GRE_1936_naval_mtg"
+		#set_naval_oob = "GRE_1936_naval_mtg"
 	else = {
-		set_naval_#oob = "GRE_1936_naval_legacy"
+		#set_naval_oob = "GRE_1936_naval_legacy"
 	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "GRE_1936_air_bba"
+		#set_air_oob = "GRE_1936_air_bba"
 	else = {
-		set_air_#oob = "GRE_1936_air_legacy"
+		#set_air_oob = "GRE_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			early_bomber = 1
@@ -25,10 +25,10 @@ if = {
 ###################
 
 #Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-#GRE_communism
-#GRE_democratic
-#GRE_fascism
-#GRE_neutrality
+#GRE_communist
+#GRE_liberalism
+#GRE_nationalism
+#GRE_despotism
 
 set_research_slots = 3
 
@@ -77,16 +77,16 @@ if = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1990.5.4"
 	election_frequency = 7
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 43
-	fascism = 2
-	communism = 17
-	neutrality = 38
+	liberalism = 43
+	nationalism = 2
+	communist = 17
+	despotism = 38
 }
 
 set_stability = 0.72

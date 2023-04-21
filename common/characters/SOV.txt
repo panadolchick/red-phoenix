@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=pragmatic_socialism
 			traits = {
 				SOV_genadiy_yanaev_desc
 			}

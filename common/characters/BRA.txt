@@ -1,0 +1,16 @@
+characters = {
+	BRA_itamar_franco = {
+		name = BRA_itamar_franco
+		portraits={
+			civilian={
+				large = "GFX_BRA_itamar_franco"
+			}
+		}
+		country_leader={
+			ideology = progressive_conservatism
+			traits = {
+				
+			}
+		}
+	}
+}

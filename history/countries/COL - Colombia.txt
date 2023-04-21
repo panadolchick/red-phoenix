@@ -3,16 +3,16 @@
 #oob = "COL_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_#oob = "COL_1936_naval_mtg"
+		#set_naval_oob = "COL_1936_naval_mtg"
 	else = {
-		set_naval_#oob = "COL_1936_naval_legacy"
+		#set_naval_oob = "COL_1936_naval_legacy"
 	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "COL_1936_air_bba"
+		#set_air_oob = "COL_1936_air_bba"
 	else = {
-		set_air_#oob = "COL_1936_air_legacy"
+		#set_air_oob = "COL_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			cv_early_fighter = 1
@@ -94,16 +94,16 @@ set_convoys = 10
 	#oob = "COL_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_#oob = "COL_1939_naval_mtg"
+			#set_naval_oob = "COL_1939_naval_mtg"
 		else = {
-			set_naval_#oob = "COL_1939_naval_legacy"
+			#set_naval_oob = "COL_1939_naval_legacy"
 		}
 	}
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_#oob = "COL_1939_air_bba"
+			#set_air_oob = "COL_1939_air_bba"
 		else = {
-			set_air_#oob = "COL_1939_air_legacy"
+			#set_air_oob = "COL_1939_air_legacy"
 		}
 	}
 
@@ -144,27 +144,27 @@ set_convoys = 10
 
 set_convoys = 5
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1934.2.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
+	liberalism = 99
+	communist = 1
 }
 
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = liberalism
 		last_election = "1938.5.1"
 		election_frequency = 48  
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		democratic = 100
+		liberalism = 100
 	}
 
 	recruit_character = COL_eduardo_santos

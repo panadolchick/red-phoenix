@@ -16,16 +16,16 @@ if = {
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_#oob = "TUR_1936_naval_mtg"
+		#set_naval_oob = "TUR_1936_naval_mtg"
 	else = {
-		set_naval_#oob = "TUR_1936_naval_legacy"
+		#set_naval_oob = "TUR_1936_naval_legacy"
 	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "TUR_1936_air_bba"
+		#set_air_oob = "TUR_1936_air_bba"
 	else = {
-		set_air_#oob = "TUR_1936_air_legacy"
+		#set_air_oob = "TUR_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			early_bomber = 1
@@ -39,10 +39,10 @@ if = {
 ###################
 
 #Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-#TUR_communism
-#TUR_democratic
-#TUR_fascism
-#TUR_neutrality
+#TUR_communist
+#TUR_liberalism
+#TUR_nationalism
+#TUR_despotism
 
 set_research_slots = 3
 
@@ -105,13 +105,13 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1935.2.8"
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 6
-	neutrality = 94
+	liberalism = 6
+	despotism = 94
 }
 
 set_convoys = 20

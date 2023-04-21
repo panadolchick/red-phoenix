@@ -23,14 +23,14 @@ recruit_character = TRN_igor_smirnov
 
 set_convoys = 0
 set_politics = {
-	ruling_party = communism
+	ruling_party = despotism
 	last_election = "1991.12.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 7
-	fascism = 2
-	communism = 77
-	neutrality = 14
+	liberalism = 7
+	nationalism = 2
+	communist = 40
+	despotism = 51
 }

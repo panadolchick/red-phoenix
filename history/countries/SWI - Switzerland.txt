@@ -3,10 +3,10 @@
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_#oob = "SWI_1936_BBA"
-		set_air_#oob = "SWI_1936_air_bba"
+		#set_air_oob = "SWI_1936_air_bba"
 	else = {
 		set_#oob = "SWI_1936"
-		set_air_#oob = "SWI_1936_air_legacy"
+		#set_air_oob = "SWI_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			CAS1 = 1
@@ -142,7 +142,7 @@ if = { #########   By Blood Alone Stuff
 
 	set_variable = { SWI_diplomatic_effort_cost = 30 } 
 
-	##### Absolute Neutrality Variables #####
+	##### Absolute despotism Variables #####
 
 	set_variable = { SWI_small_opinion_change = 10 }
 	set_variable = { SWI_medium_opinion_change = 20 }
@@ -170,7 +170,7 @@ if = { #########   By Blood Alone Stuff
 	set_variable = { SWI_gold_trade_factory_max_efficiency_factor_increase = 0.035 } 
 
 	add_ideas = {
-		SWI_swiss_neutrality
+		SWI_swiss_despotism
 		SWI_citizen_militia_1
 		SWI_foreign_fascist_propaganda
 	}
@@ -218,7 +218,7 @@ if = { #########   By Blood Alone Stuff
 
 		if = {
 			limit = { has_dlc = "By Blood Alone" }
-			set_air_#oob = "SWI_1939_air_bba"
+			#set_air_oob = "SWI_1939_air_bba"
 			SWI_upgrade_template_and_divisions = yes #These are duplicated on purpose, nothing to see here.
 			SWI_upgrade_template_and_divisions = yes
 			SWI_upgrade_template_and_divisions = yes
@@ -234,7 +234,7 @@ if = { #########   By Blood Alone Stuff
 		complete_national_focus = SWI_increase_defense_budget
 		complete_national_focus = SWI_reaffirm_spiritual_defense #5
 		complete_national_focus = SWI_fortify_border_with_italy
-		complete_national_focus = SWI_armed_neutrality #5
+		complete_national_focus = SWI_armed_despotism #5
 		
 		#1937
 		complete_national_focus = SWI_federal_police
@@ -318,7 +318,7 @@ if = { #########   By Blood Alone Stuff
 			NOT = { has_dlc = "By Blood Alone"  }
 		}
 		set_#oob = "SWI_1939"
-		set_air_#oob = "SWI_1939_air_legacy"
+		#set_air_oob = "SWI_1939_air_legacy"
 		set_technology = {
 			fighter1 = 1
 		}
@@ -358,23 +358,23 @@ if = { #########   By Blood Alone Stuff
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1935.10.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 96
-	fascism = 2
-	communism = 2
+	liberalism = 96
+	nationalism = 2
+	communist = 2
 }
 
 #1939.1.1 = {
 #	#next election october 39
 #	set_popularities = {
-#		democratic = 95
-#		fascism = 2
-#		communism = 3
+#		liberalism = 95
+#		nationalism = 2
+#		communist = 3
 #	}
 #}
 

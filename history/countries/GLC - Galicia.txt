@@ -62,15 +62,15 @@ set_convoys = 20
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 93
-	fascism = 3
-	communism = 4
+	liberalism = 93
+	nationalism = 3
+	communist = 4
 }
 
 create_country_leader = {
@@ -91,7 +91,7 @@ create_country_leader = {
 	name = "Vicente Martínez Risco"
 	picture = GFX_portrait_Vicente_Martinez_Risco
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = nationalism_ideology
 }
 
 create_country_leader = {

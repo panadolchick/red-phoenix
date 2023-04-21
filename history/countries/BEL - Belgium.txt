@@ -3,9 +3,9 @@
 #oob = "BEL_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "BEL_1936_air_bba"
+		#set_air_oob = "BEL_1936_air_bba"
 	else = {
-		set_air_#oob = "BEL_1936_air_legacy"
+		#set_air_oob = "BEL_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 		}
@@ -75,9 +75,9 @@ recruit_character = BEL_paul_van_zeeland
 	#oob = "BEL_1939"
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_#oob = "BEL_1939_air_bba"
+			#set_air_oob = "BEL_1939_air_bba"
 		else = {
-			set_air_#oob = "BEL_1939_air_legacy"
+			#set_air_oob = "BEL_1939_air_legacy"
 			set_technology = {
 				fighter1 = 1
 			}
@@ -121,29 +121,29 @@ recruit_character = BEL_paul_van_zeeland
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 83
-	fascism = 11
-	communism = 6
+	liberalism = 83
+	nationalism = 11
+	communist = 6
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = liberalism
 		last_election = "1939.4.2"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 87
-		fascism = 8
-		communism = 5
+		liberalism = 87
+		nationalism = 8
+		communist = 5
 	}
 }
 

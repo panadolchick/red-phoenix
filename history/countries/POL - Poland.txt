@@ -3,14 +3,14 @@
 #oob = "POL_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_#oob = "POL_1936_naval_mtg"
+		#set_naval_oob = "POL_1936_naval_mtg"
 	else = {
-		set_naval_#oob = "POL_1936_naval_legacy"
+		#set_naval_oob = "POL_1936_naval_legacy"
 	}
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_#oob = "POL_1936_air_bba"
+		#set_air_oob = "POL_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
 			aa_cannon_1 = 1
@@ -20,7 +20,7 @@ if = {
 			early_bombs = 1
 		}
 	else = {
-		set_air_#oob = "POL_1936_air_legacy"
+		#set_air_oob = "POL_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			early_bomber = 1
@@ -90,7 +90,7 @@ if = {
 		value = 30
 	}
 	set_variable = {
-		var = pol_peasant_communism
+		var = pol_peasant_communist
 		value = 30
 	}
 }
@@ -184,14 +184,14 @@ if = {
 	
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-			set_naval_#oob = "POL_1939_naval_mtg"
+			#set_naval_oob = "POL_1939_naval_mtg"
 		else = {
-			set_naval_#oob = "POL_1939_naval_legacy"
+			#set_naval_oob = "POL_1939_naval_legacy"
 		}
 	}
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
-			set_air_#oob = "POL_1939_air_bba"
+			#set_air_oob = "POL_1939_air_bba"
 			set_technology = {
 				iw_medium_airframe = 1
 				basic_medium_airframe = 1
@@ -199,7 +199,7 @@ if = {
 				improved_small_airframe = 1
 			}
 		else = {
-			set_air_#oob = "POL_1939_air_legacy"
+			#set_air_oob = "POL_1939_air_legacy"
 			set_technology = {
 				tactical_bomber1 = 1
 			}
@@ -336,24 +336,24 @@ if = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 32
-	fascism = 11
-	communism = 19
-	neutrality = 38
+	liberalism = 32
+	nationalism = 11
+	communist = 19
+	despotism = 38
 }
 
 1939.1.1 = {
 	set_popularities = {
-		democratic = 13
-		fascism = 7
-		communism = 2
-		neutrality = 78
+		liberalism = 13
+		nationalism = 7
+		communist = 2
+		despotism = 78
 	}
 }
 
