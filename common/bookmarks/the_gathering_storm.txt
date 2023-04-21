@@ -7,14 +7,6 @@ bookmarks = {
 		default_country = "SOV"
 		default = yes
 		
-		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = social_democracy
-			ideas = {
-			}
-			focuses = {
-			}
-		}
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = liberalism
@@ -27,6 +19,14 @@ bookmarks = {
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = social_democracy
 			ideas = {
 			}
 			focuses = {
@@ -56,14 +56,6 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = despotism
-			ideas = {
-			}
-			focuses = {
-			}	
-		}
 		"CHI"={
 			history = "CHI_GATHERING_STORM_DESC"
 			ideology = despotism
@@ -71,6 +63,14 @@ bookmarks = {
 			}
 			focuses = {
 			}
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = despotism
+			ideas = {
+			}
+			focuses = {
+			}	
 		}
 		"DON"={
 			minor = yes

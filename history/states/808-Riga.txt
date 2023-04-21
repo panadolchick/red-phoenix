@@ -9,7 +9,7 @@ state={
 	history={
 		owner = RIG
 		victory_points = {
-			9340 20 
+			9340 10
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
