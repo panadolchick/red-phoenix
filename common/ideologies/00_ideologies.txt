@@ -67,8 +67,6 @@ ideologies = {
 			}
 			nationalist_monarchism = {
 			}
-			nationalism = {
-			}
 			personalistic_nationalism = {
 			}
 			islamism = {
@@ -472,15 +470,11 @@ ideologies = {
 			}
 			marxism_leninism = {
 			}
-			revisionism = {
-			}
 			national_communist = {
 			}
 			maoism = {
 			}
 			stalinism = {
-			}
-			national_bolshevism = {
 			}
 			arab_communist = {
 			}

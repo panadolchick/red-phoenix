@@ -1,0 +1,19 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "subideology_container_diplomacy"
+		position = { x = 18 y = 116 }
+		size = { width = 330 height = 70 }
+		clipping = no
+		
+		instantTextboxType = {
+			name = "subideology_politics"
+			position = { x = 245 y = 36 }
+			font = "hoi_16mbs"
+			text = "subideology_politics"
+			tooltip = "subideology_desc_politics"
+			maxWidth = 300
+			maxHeight = 20
+		}		
+	}	
+}
