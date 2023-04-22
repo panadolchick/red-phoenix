@@ -1,0 +1,29 @@
+ideas = {
+    country = {
+        yugoslavia_preservation = {
+
+			allowed = {
+				original_tag = YUG
+				always = yes
+			}
+
+			removal_cost = 1
+
+            modifier = {
+				army_defence_factor = 0.5
+            }
+        }
+		yugoslavia_spirit_innovation = {
+
+			allowed = {
+				original_tag = YUG
+				always = yes
+			}
+			removal_cost = 1
+
+			modifier = {
+				research_speed_factor = 0.1
+			}
+    	}
+	}
+}
