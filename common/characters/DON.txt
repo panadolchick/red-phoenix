@@ -18,7 +18,7 @@ characters = {
 				
 			}
 		}
-		corps_commander = {
+		field_marshal = {
 			skill = 3
 			attack_skill = 3
 			defense_skill = 3
@@ -71,11 +71,35 @@ characters = {
 			}
 		}
 		corps_commander = {
-			skill = 2
+			skill = 1
 			attack_skill = 2
 			defense_skill = 4
 			planning_skill = 1
 			logistics_skill = 1
+		}
+	}
+	DON_vladislav_kislyakov = {
+		name = DON_vladislav_kislyakov
+		portraits = {
+			army={
+				small="/gfx/interface/ideas/idea_LEB_generic_land_3.dds"
+			}
+			army={
+				large="GFX_DON_vladislav_kislyakov"
+			}
+		}
+		country_leader = {
+			ideology = nationalism_ideology
+			traits = {
+				
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 }
