@@ -63,6 +63,9 @@ characters = {
 			army={
 				large="GFX_DON_igor_strelkov"
 			}
+			civilian = {
+				large = "GFX_DON_igor_strelkov"
+			}
 		}
 		country_leader = {
 			ideology = nationalism_ideology
@@ -86,12 +89,6 @@ characters = {
 			}
 			army={
 				large="GFX_DON_vladislav_kislyakov"
-			}
-		}
-		country_leader = {
-			ideology = nationalism_ideology
-			traits = {
-				
 			}
 		}
 		corps_commander = {
