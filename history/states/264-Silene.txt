@@ -1,0 +1,24 @@
+
+state={
+	id=264
+	name="STATE_264"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = LAT
+		add_claim_by = SOV
+
+	}
+
+	provinces={
+		13329 
+	}
+	manpower=1270
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=9.000
+}
