@@ -1,27 +1,34 @@
+
 state={
 	id=910
 	name="STATE_910"
-	history = {
+
+	history={
 		buildings = {
 			infrastructure = 2
 			air_base = 1
 			industrial_complex = 1
+
 		}
 		owner = SOV
 		add_core_of = SOV
 		add_claim_by = DON
 		victory_points = {
-			585 2
+			585 2 
 		}
 		victory_points = {
-			13302 1
+			13302 1 
+		}
+		victory_points = {
+			13335 1 
 		}
 	}
+
 	provinces={
-		585 11559 13302
+		585 11559 13302 13335 13339 
 	}
-	manpower= 94359
+	manpower=94359
 	buildings_max_level_factor=1.000
-	state_category = small_town
+	state_category=small_town
 	local_supplies=0.000
 }
