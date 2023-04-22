@@ -13,5 +13,11 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	YUG_Dobrica_Cosic = {
+		random = no
 
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
