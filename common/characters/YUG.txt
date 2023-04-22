@@ -1,13 +1,13 @@
 characters = {
-	YUG_Dobrica_Cosic = {
-		name = YUG_Dobrica_Cosic
+	YUG_Zoran_Lilich = {
+		name = YUG_Zoran_Lilich
 		portraits={
 			civilian={
-				large = "GFX_UKR_kravchuk"
+				large = "YUG_Zoran_Lilich"
 			}
 		}
 		country_leader={
-			ideology = left_communist
+			ideology = pragmatic_socialism
 		}
 	}
 }

@@ -2,7 +2,7 @@
 
 set_research_slots = 3
 
-recruit_character = YUG_Dobrica_Cosic
+recruit_character = YUG_Zoran_Lilich
 
 add_ideas = {
 	yugoslavia_preservation
@@ -91,12 +91,12 @@ set_popularities = {
 	conservatism = 10
 	liberalism = 16
 	nationalism = 8
-	communist = 52
+	communist = 2
 	authoritarianism = 12
-	despotism = 2
+	despotism = 52
 }
 set_politics = {
-	ruling_party = communist
+	ruling_party = despotism
 	last_election = "1991.12.5"
 	election_frequency = 48
 	elections_allowed = yes

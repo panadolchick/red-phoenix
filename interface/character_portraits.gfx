@@ -94,3 +94,9 @@ spriteTypes = {
 		texturefile = "gfx/leaders/NKR/NKR_kim_il_sung.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "YUG_Zoran_Lilich"
+		texturefile = "gfx/leaders/YUG/YUG_Zoran_Lilich.dds"
+	}
+}
