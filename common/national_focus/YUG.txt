@@ -1,0 +1,24 @@
+focus_tree = {
+	id = YUG
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = YUG
+		}
+	}
+	default = no
+	focus = {
+		id = yug_nachalo
+		icon = GFX_goal_unknown
+		cost = 8
+		x = 11
+		y = 1
+
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+			country_event = yug.1
+		}
+	}
+}

@@ -1,0 +1,18 @@
+add_namespace = yug
+add_namespace = yug_hidden
+
+country_event = {
+    id = yug.1
+    title = yug.1.a
+    desc = yug.1.b
+    
+    is_triggered_only = yes   
+
+    trigger = {
+    	has_completed_focus = yug_nachalo
+    }
+    
+    option = {
+        name = yug.1.d
+    }	
+}
