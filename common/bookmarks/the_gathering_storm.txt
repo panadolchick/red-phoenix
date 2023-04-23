@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 1993.12.1.12
+		date = 1993.1.1.1
 		picture = "GFX_select_date_1936"
 		default_country = "SOV"
 		default = yes
@@ -77,6 +77,8 @@ bookmarks = {
 			history = "DON_GATHERING_STORM_DESC"
 			ideology = despotism
 			ideas = {
+				DON_last_cosack_unit
+				DON_ruins_1
 			}
 			focuses = {
 			}

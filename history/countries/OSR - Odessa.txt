@@ -1,0 +1,26 @@
+capital = 909
+
+set_research_slots = 3
+
+set_stability = 0,5
+
+set_war_support = 0,8
+
+add_political_power = 0
+
+set_convoys = 0
+
+set_popularities = {
+	conservatism = 0
+	communist = 100
+	nationalism = 0
+	despotism = 0
+}
+
+set_politics = {
+	ruling_party = communist
+	last_election = "1991.11.8"
+	election_frequency = 48
+	elections_allowed = No
+}
+

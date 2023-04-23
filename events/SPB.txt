@@ -13,7 +13,8 @@ country_event = {
     option = {
         name = spb.1.a
 		SPB = {
-			set_province_controller = 3151
+			set_state_owner = 195
+			set_province_controller = 6174
 		}
 		SOV = {
 			declare_war_on = {

@@ -90,5 +90,7 @@ recruit_character = DON_igor_strelkov
 recruit_character = DON_august_kruse
 add_ideas = DON_last_cosack_unit
 add_ideas = DON_ruins_1
+add_ideas = DON_ruined_land
+add_ideas = DON_ruins_of_rostov_airbase
 set_oob = DON_unit
 #TODO, James make Ivan Kononov country leader for the fascists

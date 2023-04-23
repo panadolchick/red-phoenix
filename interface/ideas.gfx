@@ -7206,5 +7206,13 @@ spriteTypes = {
 		name = "GFX_idea_DON_last_cosack_unit"
 		texturefile = "gfx/interface/ideas/DON/DON_last_cosack_unit.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_DON_ruined_land"
+		texturefile = "gfx/interface/ideas/DON/DON_ruined_land.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DON_ruins_of_rostov_airbase"
+		texturefile = "gfx/interface/ideas/DON/DON_ruins_of_rostov_airbase.dds"
+	}
 			
 }

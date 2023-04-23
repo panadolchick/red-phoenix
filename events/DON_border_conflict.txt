@@ -33,6 +33,7 @@ country_event = {
 				910 = {
 					transfer_state_to = DON
 				}
+				remove_ideas = DON_ruins_of_rostov_airbase
 				add_political_power = 15
 				add_war_support = 0.05
 				finalize_border_war = {

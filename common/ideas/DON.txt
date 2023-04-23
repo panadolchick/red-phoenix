@@ -39,6 +39,61 @@ ideas = {
                 custom_modifier_tooltip = cant_form_division_tt
             }
         }
+        DON_ruined_land = {
+            allowed_civil_war = {
+                always = yes
+            }
+            on_add = {
+
+            }
+            on_remove = {
+            }
+            available = {
+            }
+            cancel_if_invalid = yes
+            modifier = {
+                stability_factor = -0.2
+                political_power_gain = -0.2
+                disable_strategic_redeployment = 218
+                recruitable_population_factor = -0.7
+                monthly_population = -0.2
+            }
+        }
+        DON_ruins_of_rostov_airbase = {
+            allowed_civil_war = {
+                always = yes
+            }
+            on_add = {
+
+            }
+            on_remove = {
+            }
+            available = {
+            }
+            cancel_if_invalid = yes
+            modifier = {
+                experience_gain_air_factor = -1
+                production_speed_air_base_factor = -1
+                air_accidents = 1
+            }
+            equipment_bonus = {
+                category_fighter = {
+                    build_cost_ic = 0.9
+                }
+                category_nav_bomber = {
+                    build_cost_ic = 0.9
+                }
+                category_strat_bomber = {
+                    build_cost_ic = 0.9
+                }
+                category_tac_bomber = {
+                    build_cost_ic = 0.9
+                }
+                category_cas = {
+                    build_cost_ic = 0.9
+                }
+            }
+        }
         DON_ruins_1 = {
             allowed_civil_war = {
                 always = yes

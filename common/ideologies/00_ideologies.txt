@@ -10,8 +10,6 @@
 ideologies = {
 	ultranationalism = {
 		types = {
-			national_bolshevism = {
-			}
 			national_socialism = {
 			}
 			neonazism = {
@@ -66,6 +64,8 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			nationalist_monarchism = {
+			}
+			national_bolshevism = {
 			}
 			personalistic_nationalism = {
 			}
