@@ -7,4 +7,12 @@ spriteTypes = {
 		name = "GFX_ideology_anarcho_monarchism"
 		texturefile = "gfx/interface/ideologies/anarcho_monarchism.dds"
 	}
+	spriteType = {
+		name = "GFX_social_democracy_ideology"
+		texturefile = "gfx/interface/ideologies/social_democracy_ideology.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_SOV_pragmatic_socialism"
+		texturefile = "gfx/interface/ideologies/ideology_SOV_pragmatic_socialism.dds"
+	}
 }
