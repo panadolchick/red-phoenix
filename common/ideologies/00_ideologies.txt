@@ -477,8 +477,10 @@ ideologies = {
 			stalinism = {
 			}
 			arab_communist = {
+				can_be_randomly_selected = no
 			}
 			juche = {
+				can_be_randomly_selected = no
 			}
 		}
 		dynamic_faction_names = {
