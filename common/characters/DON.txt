@@ -6,10 +6,8 @@ characters = {
 				large = "GFX_DON_molodidov"
 			}
 			army={
-				small="/gfx/interface/ideas/idea_LEB_generic_land_3.dds"
-			}
-			army={
 				large="GFX_DON_molodidov"
+				small="/gfx/interface/ideas/idea_LEB_generic_land_3.dds"
 			}
 		}
 		country_leader={
@@ -59,16 +57,14 @@ characters = {
 		portraits = {
 			army={
 				small="/gfx/interface/ideas/idea_LEB_generic_land_3.dds"
-			}
-			army={
 				large="GFX_DON_igor_strelkov"
-			}
+			}	
 			civilian = {
 				large = "GFX_DON_igor_strelkov"
 			}
 		}
 		country_leader = {
-			ideology = nationalism_ideology
+			ideology = nationalist_monarchism
 			traits = {
 				
 			}
@@ -86,9 +82,10 @@ characters = {
 		portraits = {
 			army={
 				small="/gfx/interface/ideas/idea_LEB_generic_land_3.dds"
-			}
-			army={
 				large="GFX_DON_vladislav_kislyakov"
+			}
+			civilian = {
+				small = "GFX_advisor_DON_vladislav_kislyakov"
 			}
 		}
 		corps_commander = {
