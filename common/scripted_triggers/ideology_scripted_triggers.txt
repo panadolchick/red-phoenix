@@ -1,0 +1,50 @@
+
+is_enemy_ideology = {
+	OR = {
+		AND = {
+			OR = {
+				has_government = communist
+				has_government = socialist
+			}	
+			ROOT = {
+				OR = {
+					has_government = ultranationalism
+					has_government = nationalism
+					has_government = conservatism
+					has_government = liberalism
+					has_government = social_democracy
+				}
+			}
+		}
+		AND = {
+			OR = {
+				has_government = conservatism
+				has_government = liberalism
+				has_government = social_democracy
+			}	
+			ROOT = {
+				OR = {
+					has_government = communist
+					has_government = socialist
+					has_government = ultranationalism
+					has_government = nationalism
+				}
+			}
+		}
+		AND = {
+			OR = {
+				has_government = ultranationalism
+				has_government = nationalism
+			}
+			ROOT = {
+				OR = {
+					has_government = conservatism
+					has_government = liberalism
+					has_government = social_democracy
+					has_government = communist
+					has_government = socialist
+				}
+			}
+		}
+	}
+}

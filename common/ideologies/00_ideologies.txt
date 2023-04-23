@@ -114,9 +114,6 @@ ideologies = {
 			market_socialism = {
 				can_be_randomly_selected = no
 			}
-			pragmatic_socialism = {
-				can_be_randomly_selected = no
-			}
 			military_dictatorship = {
 			}
 			monarchism = {
@@ -180,6 +177,9 @@ ideologies = {
 			oligarchy = {
 			}
 			stratocracy = {
+			}
+			pragmatic_socialism = {
+				can_be_randomly_selected = no
 			}
 		}
 		dynamic_faction_names = {
