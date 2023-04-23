@@ -69,4 +69,55 @@ focus_tree = {
 			factor = 1
 		}
 	}
+	focus = {
+        id = DON_repair_rostov
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = DON_end_of_last_cosack_unit
+		}
+        x = 10
+        y = 2
+        cost = 3
+		available = {
+			has_war = no
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = DON_ruins_1
+				add_idea = DON_ruins_2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = DON_promote_kislyakov
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = DON_end_of_last_cosack_unit
+		}
+        x = 8
+        y = 2
+        cost = 3
+		available = {
+			has_war = no
+		}
+		completion_reward = {
+			DON_vladislav_kislyakov = {
+				add_advisor_role = {
+					advisor = {
+						slot = army_chief
+						idea_token = vladislav_kislyakov
+						ledger = army
+						traits = { army_chief_defensive_3 }
+					}
+				}
+				
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

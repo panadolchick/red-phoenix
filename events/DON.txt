@@ -16,7 +16,7 @@ country_event = {
 	option = {
         name = don.1.b
 		complete_national_focus = DON_end_of_last_cosack_unit
-        remove_ideas = DON_last_cosack_unit
+		remove_ideas = DON_last_cosack_unit
     }
 }
 country_event = {
