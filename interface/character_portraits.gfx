@@ -84,6 +84,12 @@ spriteTypes = {
 }
 spriteTypes = {
 	spriteType = {
+		name = "GFX_advisor_DON_vladislav_kislyakov"
+		texturefile = "gfx/interface/ideas/DON/DON_vladislav_kislyakov.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
 		name = "GFX_BRA_itamar_franco"
 		texturefile = "gfx/leaders/BRA/BRA_itamar_franco.dds"
 	}
