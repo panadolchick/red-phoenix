@@ -3,6 +3,8 @@
 set_research_slots = 3
 
 recruit_character = YUG_Zoran_Lilich
+recruit_character = YUG_Vuk_Drashkovich
+recruit_character = YUG_Vojislav_Kostunica
 
 add_ideas = {
 	yugoslavia_preservation

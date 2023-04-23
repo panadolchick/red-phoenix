@@ -10,4 +10,26 @@ characters = {
 			ideology = pragmatic_socialism
 		}
 	}
+	YUG_Vuk_Drashkovich = {
+		name = YUG_Vuk_Drashkovich
+		portraits={
+			civilian={
+				large = "YUG_Zoran_Lilich"
+			}
+		}
+		country_leader={
+			ideology = conservative_democracy
+		}
+	}
+	YUG_Vojislav_Kostunica = {
+		name = YUG_Vojislav_Kostunica
+		portraits={
+			civilian={
+				large = "YUG_Zoran_Lilich"
+			}
+		}
+		country_leader={
+			ideology = liberal_conservatism
+		}
+	}
 }
