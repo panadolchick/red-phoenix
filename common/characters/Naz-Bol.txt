@@ -1,0 +1,41 @@
+characters = {
+	SPB_egor_letov = {
+		name = SPB_egor_letov
+		portraits={
+			civilian={
+				large = "GFX_SPB_egor_letov"
+			}
+		}
+		country_leader={
+			ideology = national_bolshevism
+			traits = {
+			}
+		}
+	}
+	MOS_eduard_limonov = {
+		name = MOS_eduard_limonov
+		portraits={
+			civilian={
+				large = "GFX_MOS_eduard_limonov"
+			}
+		}
+		country_leader={
+			ideology = national_bolshevism
+			traits = {
+			}
+		}
+	}
+	IRK_aleksandr_dugin = {
+		name = IRK_aleksandr_dugin
+		portraits={
+			civilian={
+				large = "GFX_IRK_aleksandr_dugin_prison"
+			}
+		}
+		country_leader={
+			ideology = national_bolshevism
+			traits = {
+			}
+		}
+	}
+}

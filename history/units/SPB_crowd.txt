@@ -1,0 +1,62 @@
+division_template = {
+    name = "Толпа"
+    is_locked = yes
+    regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+    }
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 3151
+        division_template = "Толпа"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+        start_manpower_factor = 1.0
+    }
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 3151
+        division_template = "Толпа"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+        start_manpower_factor = 1.0
+    }
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 3151
+        division_template = "Толпа"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+        start_manpower_factor = 1.0
+    }
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 3151
+        division_template = "Толпа"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+        start_manpower_factor = 1.0
+    }
+}

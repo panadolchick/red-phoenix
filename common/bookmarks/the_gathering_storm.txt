@@ -79,6 +79,7 @@ bookmarks = {
 			ideas = {
 				DON_last_cosack_unit
 				DON_ruins_1
+				DON_ruined_land
 			}
 			focuses = {
 			}

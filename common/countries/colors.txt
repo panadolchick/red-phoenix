@@ -894,3 +894,11 @@ OSR = {
 	color = rgb { 128 0 0 }
 	color_ui  = rgb { 98 0 0 }
 }
+MOS = {
+	color = rgb { 128 0 0 }
+	color_ui  = rgb { 98 0 0 }
+}
+IRK = {
+	color = rgb { 128 0 0 }
+	color_ui  = rgb { 98 0 0 }
+}

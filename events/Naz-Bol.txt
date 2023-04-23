@@ -1,0 +1,147 @@
+add_namespace = naz-bol
+add_namespace = naz-bol_hidden
+country_event = {
+    id = naz-bol.1
+    title = naz-bol.1.t
+    desc = naz-bol.1.d
+    trigger = {
+		tag = SOV
+	}
+    mean_time_to_happen = {
+		days = 516
+	}    
+    option = {
+        name = naz-bol.1.a
+		SPB = {
+			set_state_owner = 195
+			set_province_controller = 6174
+			declare_war_on = {
+				target = SOV
+				type = take_state
+			}
+			load_oob = SPB_crowd
+		}
+			
+    }
+	option = {
+        name = naz-bol.1.b
+		SPB = {
+			set_state_owner = 195
+			set_province_controller = 6174
+			declare_war_on = {
+				target = SOV
+				type = take_state
+			}
+			load_oob = SPB_crowd
+		}
+		SPB = {
+			change_tag_from = SOV
+		}
+		
+    }
+}
+country_event = {
+    id = naz-bol.2
+    title = naz-bol.2.t
+    desc = naz-bol.2.d
+	trigger = {
+		tag = SPB
+		SPB = {
+			has_full_control_of_state = 195
+		}
+	}
+	mean_time_to_happen = {
+		days = 7
+	}
+    option = {
+        name = naz-bol.2.a
+		MOS = {
+			set_state_owner = 219
+			set_province_controller = 6380
+			declare_war_on = {
+				target = SOV
+				type = annex_everything
+			}
+			load_oob = MOS_personal_forces
+		}
+			
+    }
+	option = {
+        name = naz-bol.2.b
+		MOS = {
+			set_state_owner = 219
+			set_province_controller = 6380
+			declare_war_on = {
+				target = SOV
+				type = annex_everything
+			}
+			load_oob = MOS_personal_forces
+		}
+		MOS = {
+			change_tag_from = SPB
+		}
+			
+    }
+}
+country_event = {
+    id = naz-bol.3
+    title = naz-bol.3.t
+    desc = naz-bol.3.d
+	trigger = {
+		tag = MOS
+		MOS = {
+			has_full_control_of_state = 219
+		}
+	}
+	mean_time_to_happen = {
+		days = 35
+	}
+    option = {
+        name = naz-bol.3.a
+		IRK = {
+			set_state_owner = 566
+			set_province_controller = 4797
+			declare_war_on = {
+				target = SOV
+				type = annex_everything
+			}
+			load_oob = IRK_prisoners
+		}
+    }
+	option = {
+        name = naz-bol.3.b
+		IRK = {
+			set_state_owner = 566
+			set_province_controller = 4797
+			declare_war_on = {
+				target = SOV
+				type = annex_everything
+			}
+			load_oob = IRK_prisoners
+		}
+		IRK = {
+			change_tag_from = MOS
+		}
+    }
+}
+country_event = {
+    id = naz-bol.4
+    title = naz-bol.4.t
+    desc = naz-bol.4.d
+	trigger = {
+		tag = IRK
+		IRK = {
+			has_full_control_of_state = 566
+		}
+	}
+    option = {
+        name = naz-bol.4.a
+		IRK_aleksandr_dugin = {
+			set_portraits = {
+				civilian = {
+					large = "GFX_IRK_aleksandr_dugin"
+				}
+			}
+		}
+    }
+}

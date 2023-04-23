@@ -258,4 +258,7 @@ RIG = "countries/Riga.txt"
 NKR = "countries/North Korea.txt"
 TWN = "countries/Taiwan.txt"
 SPB = "countries/Saint Petersburg.txt"
+OSR = "countries/Odessa.txt"
+MOS = "countries/Moscow.txt"
+IRK = "countries/Irkutsk.txt"
 #NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")

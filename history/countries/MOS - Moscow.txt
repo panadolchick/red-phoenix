@@ -1,0 +1,26 @@
+capital = 219
+
+set_research_slots = 3
+
+set_stability = 0.4
+
+set_war_support = 0.80
+
+add_political_power = 0
+
+set_convoys = 0
+
+set_popularities = {
+	conservatism = 10
+	communist = 0
+	nationalism = 80
+	despotism = 10
+}
+
+set_politics = {
+	ruling_party = nationalism
+	last_election = "1991.11.8"
+	election_frequency = 48
+	elections_allowed = No
+}
+recruit_character = MOS_eduard_limonov
