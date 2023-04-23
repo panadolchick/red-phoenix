@@ -1,0 +1,26 @@
+add_namespace = spb
+add_namespace = spb_hidden
+country_event = {
+    id = spb.1
+    title = spb.1.t
+    desc = spb.1.d
+    trigger = {
+		tag = SOV
+	}
+    mean_time_to_happen = {
+		days = 516
+	}    
+    option = {
+        name = spb.1.a
+		SPB = {
+			set_province_controller = 3151
+		}
+		SOV = {
+			declare_war_on = {
+				target = SPB
+				type = annex_everything
+			}
+		}
+			
+    }
+}

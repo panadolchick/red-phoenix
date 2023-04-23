@@ -886,3 +886,7 @@ TWN = {
 	color = hsv { 0.18 0.6 0.9 } #255 244 190
 	color_ui = hsv { 0.18 0.3 0.9 }
 }
+SPB = {
+	color = rgb { 128 0 0 }
+	color_ui  = rgb { 98 0 0 }
+}

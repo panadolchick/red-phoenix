@@ -106,3 +106,27 @@ spriteTypes = {
 		texturefile = "gfx/leaders/YUG/YUG_Zoran_Lilich.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SPB_egor_letov"
+		texturefile = "gfx/leaders/SPB/SPB_egor_letov.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SPB_eduard_limonov"
+		texturefile = "gfx/leaders/SPB/SPB_eduard_limonov.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SPB_aleksandr_dugin"
+		texturefile = "gfx/leaders/SPB/SPB_aleksandr_dugin.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SPB_aleksandr_dugin_prison"
+		texturefile = "gfx/leaders/SPB/SPB_aleksandr_dugin_prison.dds"
+	}
+}

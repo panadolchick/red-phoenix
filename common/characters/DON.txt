@@ -81,11 +81,8 @@ characters = {
 		name = DON_vladislav_kislyakov
 		portraits = {
 			army={
-				small="/gfx/interface/ideas/idea_LEB_generic_land_3.dds"
+				small="GFX_advisor_DON_vladislav_kislyakov"
 				large="GFX_DON_vladislav_kislyakov"
-			}
-			civilian = {
-				small = "GFX_advisor_DON_vladislav_kislyakov"
 			}
 		}
 		corps_commander = {
