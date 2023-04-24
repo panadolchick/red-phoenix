@@ -1,0 +1,16 @@
+characters = {
+	AUS_tomas_klestil = {
+		name = AUS_tomas_klestil
+		portraits={
+			civilian={
+				large = "GFX_AUS_tomas_klestil"
+			}
+		}
+		country_leader={
+			ideology = christian_democracy
+			traits = {
+				AUS_tomas_klestil_desc
+			}
+		}
+	}
+}

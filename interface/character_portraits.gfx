@@ -130,3 +130,45 @@ spriteTypes = {
 		texturefile = "gfx/leaders/Naz-Bol/IRK_aleksandr_dugin_prison.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ITA_rafaelo_costa"
+		texturefile = "gfx/leaders/ITA/ITA_costa.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_AUS_tomas_klestil"
+		texturefile = "gfx/leaders/AUS/AUS_tomas_klestil.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SWI_adolf_ogi"
+		texturefile = "gfx/leaders/SWI/SWI_adolf_ogi.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GER_kol_gelmut"
+		texturefile = "gfx/leaders/GER/GER_kol_gelmut.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CHI_jiang_zemin"
+		texturefile = "gfx/leaders/CHI/CHI_jiang_zemin.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_RAJ_shankar_dail"
+		texturefile = "gfx/leaders/RAJ/RAJ_shankar_dail.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_JAP_kiiti_miadsiki"
+		texturefile = "gfx/leaders/JAP/JAP_kiiti_miadsiki.dds"
+	}
+}

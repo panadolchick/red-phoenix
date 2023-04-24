@@ -1,5 +1,7 @@
 ﻿capital = 3
 
+recruit_character = SWI_adolf_ogi
+
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_#oob = "SWI_1936_BBA"
@@ -358,15 +360,20 @@ if = { #########   By Blood Alone Stuff
 }
 
 set_politics = {
-	ruling_party = liberalism
-	last_election = "1935.10.27"
+	ruling_party = conservatism
+	last_election = "1991.10.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 96
-	nationalism = 2
+	liberalism = 35
+	social_democracy = 20
+	conservatism = 18
+	authoritarianism = 10
+	socialist = 6
+	despotism = 8
 	communist = 2
+	nationalism = 1
 }
 
 #1939.1.1 = {

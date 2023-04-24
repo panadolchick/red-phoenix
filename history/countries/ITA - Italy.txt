@@ -1,5 +1,7 @@
 capital = 2
 
+recruit_character = ITA_rafaelo_costa
+
 starting_train_buffer = 1.5
 
 set_research_slots = 4
@@ -130,10 +132,11 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 74
-	nationalism = 5
-	communist = 13
-	despotism = 8
+	liberalism = 46
+	nationalism = 7
+	communist = 2
+	despotism = 14
+	conservatism = 31
 }
 
 ### VARIANTS ###

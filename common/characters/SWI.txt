@@ -1,0 +1,16 @@
+characters = {
+	SWI_adolf_ogi = {
+		name = SWI_adolf_ogi
+		portraits={
+			civilian={
+				large = "GFX_SWI_adolf_ogi"
+			}
+		}
+		country_leader={
+			ideology = conservative_democracy
+			traits = {
+				SWI_adolf_ogi_desc
+			}
+		}
+	}
+}

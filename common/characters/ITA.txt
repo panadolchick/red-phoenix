@@ -1,0 +1,16 @@
+characters = {
+	ITA_rafaelo_costa = {
+		name = ITA_rafaelo_costa
+		portraits={
+			civilian={
+				large = "GFX_ITA_rafaelo_costa"
+			}
+		}
+		country_leader={
+			ideology = market_liberalism
+			traits = {
+				ITA_rafaelo_costa_desc
+			}
+		}
+	}
+}

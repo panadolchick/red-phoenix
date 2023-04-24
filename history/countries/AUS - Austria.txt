@@ -1,5 +1,7 @@
 ﻿capital = 4
 
+recruit_character = AUS_tomas_klestil
+
 #oob = "AUS_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -54,17 +56,18 @@ recruit_character = AUS_leopold_figl
 
 
 set_politics = {
-	ruling_party = despotism
-	last_election = "1930.11.9"
+	ruling_party = conservatism
+	last_election = "1990.7.10"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	despotism = 48
-	nationalism = 50
-	liberalism = 1
-	communist = 1
+	social_democracy = 42
+	conservatism = 38
+	liberalism = 10
+	communist = 3
+	socialist = 7
 }
 
 set_stability = 0.50

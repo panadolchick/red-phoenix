@@ -1,0 +1,16 @@
+characters = {
+	CHI_jiang_zemin = {
+		name = CHI_jiang_zemin
+		portraits={
+			civilian={
+				large = "GFX_CHI_jiang_zemin"
+			}
+		}
+		country_leader={
+			ideology = reformist_socialism
+			traits = {
+				CHI_jiang_zemin_desc
+			}
+		}
+	}
+}
