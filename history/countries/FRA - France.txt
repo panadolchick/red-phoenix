@@ -18,4 +18,8 @@ set_popularities = {
 	communist = 6
 }
 
+add_ideas = {
+	nuclear_power
+}
+
 recruit_character = FRA_fransua_mitteran

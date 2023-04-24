@@ -119,18 +119,20 @@ on_actions = {
 	on_nuke_drop = {
 
 		effect = {
-			set_temp_variable = {
-				var = killed_population
-				value = state_population_k
+			FROM = {
+				set_temp_variable = {
+					var = killed_population
+					value = state_population_k
+				}
+				multiply_temp_variable = {
+					var = killed_population
+					value = -25.00
+				}
+				add_manpower = killed_population
+				add_manpower = killed_population
+				add_manpower = killed_population
+				add_manpower = killed_population
 			}
-			multiply_temp_variable = {
-				var = killed_population
-				value = -25.00
-			}
-			add_manpower = killed_population
-			add_manpower = killed_population
-			add_manpower = killed_population
-			add_manpower = killed_population
 			news_event = { id = nuke_dropped.2 days = 1}
 			news_event = { id = nuke_dropped.3 days = 1}
 			news_event = { id = nuke_dropped.4 days = 1}
