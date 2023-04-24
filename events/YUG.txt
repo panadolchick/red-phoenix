@@ -5,7 +5,7 @@ country_event = {
     id = yug.1
     title = yug.1.a
     desc = yug.1.b
-    
+    fire_only_once = yes
     is_triggered_only = yes   
 
     trigger = {

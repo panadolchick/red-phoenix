@@ -2,6 +2,14 @@
 #Ideas
 DON_last_cosack_unit: "Последний Казачий Полк"
 DON_last_cosack_unit_desc: " "
+DON_ruins_1: "Руины Дона"
+DON_ruins_1_desc: " "
+DON_ruins_2: "Частичное Восстановление Дона"
+DON_ruins_2_desc: " "
+DON_ruins_3: "Восстановление Дона"
+DON_ruins_3_desc: ""
+DON_ruins_of_rostov_airbase: "Руины Ростовской Аэродрома"
+DON_ruined_land: "Испорченная Земля"
 #Units
 Last_Cosack_Unit: "Последний Казачий Полк"
 #Events
@@ -45,7 +53,7 @@ DON_despotism_ADJ: "Донск."
 DON_authoritarianism: "Войско Донское"
 DON_authoritarianism_DEF: "Войско Донское"
 DON_authoritarianism_ADJ: "Донск."
-#Heads of State
+#Characters
 DON_petr_molodidov: "Петр Молодидов"
 DON_ivan_polozkov: "Иван Полозков"
 DON_igor_strelkov: "Игорь Стрелков"
