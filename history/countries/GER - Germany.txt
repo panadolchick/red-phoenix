@@ -1,5 +1,7 @@
 ﻿capital = 64
 
+recruit_character = GER_kol_gelmut
+
 if = {
 	limit = {
 		NOT = {

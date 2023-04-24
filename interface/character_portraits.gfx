@@ -142,3 +142,15 @@ spriteTypes = {
 		texturefile = "gfx/leaders/AUS/AUS_tomas_klestil.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SWI_adolf_ogi"
+		texturefile = "gfx/leaders/SWI/SWI_adolf_ogi.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GER_kol_gelmut"
+		texturefile = "gfx/leaders/GER/GER_kol_gelmut.dds"
+	}
+}
