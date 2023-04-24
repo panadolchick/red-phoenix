@@ -1,0 +1,5 @@
+﻿l_russian:
+ spawn_army_debug:0 "Spawn Army"
+ spawn_army_debug_desc:0 "You know, I don't want to poop"
+ spawn_army_of_hobos_debug:0 "Spawn an army of hobos"
+ spawn_army_of_hobos_debug_desc:0 "Birds fly\nBomb the piglets\nThey blow up their houses"
