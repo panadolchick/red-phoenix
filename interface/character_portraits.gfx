@@ -130,3 +130,15 @@ spriteTypes = {
 		texturefile = "gfx/leaders/Naz-Bol/IRK_aleksandr_dugin_prison.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ITA_rafaelo_costa"
+		texturefile = "gfx/leaders/ITA/ITA_costa.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_AUS_tomas_klestil"
+		texturefile = "gfx/leaders/AUS/AUS_tomas_klestil.dds"
+	}
+}
