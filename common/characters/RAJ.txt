@@ -1,0 +1,16 @@
+characters = {
+	RAJ_shankar_dail = {
+		name = RAJ_shankar_dail
+		portraits={
+			civilian={
+				large = "GFX_RAJ_shankar_dail"
+			}
+		}
+		country_leader={
+			ideology = progresive_liberalism
+			traits = {
+				RAJ_shankar_dail_desc
+			}
+		}
+	}
+}

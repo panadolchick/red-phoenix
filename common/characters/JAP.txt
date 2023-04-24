@@ -1,0 +1,16 @@
+characters = {
+	JAP_kiiti_miadsiki = {
+		name = JAP_kiiti_miadsiki
+		portraits={
+			civilian={
+				large = "GFX_JAP_kiiti_miadsiki"
+			}
+		}
+		country_leader={
+			ideology = social_liberalism
+			traits = {
+				JAP_kiiti_miadsiki_desc
+			}
+		}
+	}
+}

@@ -154,3 +154,21 @@ spriteTypes = {
 		texturefile = "gfx/leaders/GER/GER_kol_gelmut.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CHI_jiang_zemin"
+		texturefile = "gfx/leaders/CHI/CHI_jiang_zemin.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_RAJ_shankar_dail"
+		texturefile = "gfx/leaders/RAJ/RAJ_shankar_dail.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_JAP_kiiti_miadsiki"
+		texturefile = "gfx/leaders/JAP/JAP_kiiti_miadsiki.dds"
+	}
+}

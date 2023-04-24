@@ -1,5 +1,7 @@
 ﻿capital = 439
 
+recruit_character = RAJ_shankar_dail
+
 #oob = "RAJ_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }

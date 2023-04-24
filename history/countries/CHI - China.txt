@@ -1,5 +1,7 @@
 ﻿capital = 608 # Nanjing
 
+recruit_character = CHI_jiang_zemin
+
 #oob = "CHI_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -68,17 +70,17 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = communist
+	ruling_party = socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	despotism = 12
-	communist = 78
-	nationalism = 6
-	despotism = 4
+	despotism = 34
+	socialist = 58
+	communist = 6
+	nationalism = 2
 }
 
 ### VARIANTS ###
