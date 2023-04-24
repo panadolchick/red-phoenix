@@ -6,193 +6,193 @@
 #And remember to change the .dds of your radio station thumbnail in the gfx folder!
 
 music = {
-    name = "Умереть_молодым_MMCT"
+    name = "Ymeret_Molodym_MMCT"
     file = "Умереть_молодым.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Трамвай_MMCT"
+    name = "Tram_MMCT"
     file = "Трамвай.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Так_же_как_раньше_MMCT"
+    name = "Takzhe_kak_ranzhe_MMCT"
     file = "Так_же_как_раньше.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Слепите_мне_маску_MMCT"
+    name = "Slepite_mne_masku_MMCT"
     file = "Слепите_мне_маску.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Сквозь_дыру_в_моей_голове_MMCT"
+    name = "Skvoz_dyry_v_moey_golove_MMCT"
     file = "Сквозь_дыру_в_моей_голове.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "С_новым_годом!_MMCT"
+    name = "S_novym_godom_MMCT"
     file = "С_новым_годом!.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Раздражение_MMCT"
+    name = "Razdrazhenie_MMCT"
     file = "Раздражение.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Пошли_вы_все_на_хуй_MMCT"
+    name = "Poshli_vy_vse_nahui_MMCT"
     file = "Пошли_вы_все_на_хуй.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Пора_кончать_MMCT"
+    name = "Pora_konchat_MMCT"
     file = "Пора_кончать.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Попс_MMCT"
+    name = "Pops_MMCT"
     file = "Попс.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Пластилин_MMCT"
+    name = "Plastilin_MMCT"
     file = "Пластилин.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Оптимизм_MMCT"
+    name = "Optimism_MMCT"
     file = "Оптимизм.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Он_увидел_cолнце_MMCT"
+    name = "On_yvidel_solntce_MMCT"
     file = "Он_увидел_cолнце.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Некрофилия_MMCT"
+    name = "Nekrrofilia_MMCT"
     file = "Некрофилия.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Насрать_на_моё_лицо_MMCT"
+    name = "Nasrat_na_moe_litso_MMCT"
     file = "Насрать_на_моё_лицо.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Наваждение_MMCT"
+    name = "Navazhdenie_MMCT"
     file = "Наваждение.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Мышеловка_MMCT"
+    name = "Myshelovka_MMCT"
     file = "Мышеловка.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Мы_в_глубокой_жопе_MMCT"
+    name = "My_v_glubokoi_jope_MMCT"
     file = "Мы_в_глубокой_жопе.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Мы_-_лёд_MMCT"
+    name = "My_led_MMCT"
     file = "Мы_-_лёд.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Мимикрия_MMCT"
+    name = "Mimikria_MMCT"
     file = "Мимикрия.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Кого-то_ещё_MMCT"
+    name = "Kogo_to_ezhe_MMCT"
     file = "Кого-то_ещё.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Игра_в_бисер_MMCT"
+    name = "Igra_v_biser_MMCT"
     file = "Игра_в_бисер.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Иван_Говнов_MMCT"
+    name = "Ivan_Govnov_MMCT"
     file = "Иван_Говнов.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "И_снова_темно_MMCT"
+    name = "I_snova_temno_MMCT"
     file = "И_снова_темно.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Здравствуй,_чёрный_понедельник_MMCT"
+    name = "Zdravstvyi_cherniy_ponedelnik_MMCT"
     file = "Здравствуй,_чёрный_понедельник.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Западло_MMCT"
+    name = "Zapadlo_MMCT"
     file = "Западло.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Жрать_MMCT"
+    name = "Zhrat_MMCT"
     file = "Жрать.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Жёлтая_пресса_MMCT"
+    name = "Zheltaya_pressa_MMCT"
     file = "Жёлтая_пресса.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Есть!_MMCT"
+    name = "Est_MMCT"
     file = "Есть!.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Детский_мир_MMCT"
+    name = "Detskiy_mir_MMCT"
     file = "Детский_мир.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "Дезертир_MMCT"
+    name = "Dezertir_MMCT"
     file = "Дезертир.ogg"
     volume = 0.65
 }
 
 music = {
-    name = "В_стену_головой_MMCT"
+    name = "V_stenu_golovoy_MMCT"
     file = "В_стену_головой.ogg"
     volume = 0.65
 }

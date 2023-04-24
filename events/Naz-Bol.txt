@@ -21,6 +21,7 @@ country_event = {
 				type = take_state
 			}
 			load_oob = SPB_crowd
+			create_faction = Naz_Bol_FACTION
 		}
 			
     }
@@ -34,6 +35,7 @@ country_event = {
 				type = take_state
 			}
 			load_oob = SPB_crowd
+			create_faction = Naz_Bol_FACTION
 		}
 		SPB = {
 			change_tag_from = SOV
@@ -66,6 +68,12 @@ country_event = {
 			}
 			load_oob = MOS_personal_forces
 		}
+		SPB = {
+			add_to_faction = MOS
+			MOS = {
+				set_faction_leader = yes
+			}
+		}
 			
     }
 	option = {
@@ -78,6 +86,12 @@ country_event = {
 				type = annex_everything
 			}
 			load_oob = MOS_personal_forces
+		}
+		SPB = {
+			add_to_faction = MOS
+			MOS = {
+				set_faction_leader = yes
+			}
 		}
 		MOS = {
 			change_tag_from = SPB
@@ -110,6 +124,9 @@ country_event = {
 			}
 			load_oob = IRK_prisoners
 		}
+		MOS = {
+			add_to_faction = IRK
+		}
     }
 	option = {
         name = naz-bol.3.b
@@ -121,6 +138,9 @@ country_event = {
 				type = annex_everything
 			}
 			load_oob = IRK_prisoners
+		}
+		MOS = {
+			add_to_faction = IRK
 		}
 		IRK = {
 			change_tag_from = MOS
