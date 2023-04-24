@@ -13,6 +13,7 @@ tags={
 }
 replace_path="common/characters"
 replace_path="common/national_focus"
+replace_path="common/on_actions"
 replace_path="common/countries"
 replace_path="common/country_tags"
 replace_path="common/decisions"
