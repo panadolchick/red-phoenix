@@ -13360,3 +13360,8 @@
 13359;170;153;0;land;false;urban;1
 13360;14;2;89;land;false;urban;1
 13361;255;255;0;land;false;urban;1
+13362;255;46;0;land;true;plains;1
+13363;25;255;48;land;false;plains;1
+13364;255;247;250;land;false;plains;1
+13365;255;0;238;land;true;plains;1
+13366;255;80;0;land;true;plains;1
