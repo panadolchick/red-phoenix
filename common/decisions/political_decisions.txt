@@ -234,14 +234,6 @@ political_actions = {
 
 		available = {
             socialist > 0.1
-            if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
         }
 	
 		modifier = {
@@ -274,14 +266,6 @@ political_actions = {
 
 		available = {
             communist > 0.1
-            if = {
-				limit = {
-					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
-			}
         }
 	
 		modifier = {

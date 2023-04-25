@@ -1,0 +1,44 @@
+﻿###########################
+# Test Events
+###########################
+
+add_namespace = test
+
+# Test Event 1
+country_event = {
+	id = test.1
+	title = test.1.t
+	desc = test.1.d
+	
+	immediate = {
+		
+	}
+	trigger = {
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = test.1.a
+		every_state = {
+			random_list = {
+				50 = {
+				}
+				50 = {
+					set_state_flag = 12345
+				}
+			}
+		}
+		start_civil_war = {
+			ideology = ultranationalism
+			size = 1
+			every_state = {
+				limit = {
+					has_state_flag = 12345
+				}
+				clr_state_flag = 12345
+				transfer_state_to = PREV
+			}
+		}
+	}
+}

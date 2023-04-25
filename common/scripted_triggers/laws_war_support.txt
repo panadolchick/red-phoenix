@@ -36,9 +36,8 @@ has_unsupported_manpower_law = {
 		limit = {
 			has_idea = limited_conscription
 		}
-			has_idea = limited_conscription
-			has_war_support < 0.1
-			hidden_trigger = { NOT = { tag = TUR } }
+		has_idea = limited_conscription
+		has_war_support < 0.1
 	}
 	else_if = {
 		limit = {
@@ -79,7 +78,7 @@ has_unsupported_manpower_law = {
 	}
 }
 has_excessive_army_size = { #not currently used due to AI concerns
-	OR = { 
+	OR = {
 		AND = {
 			num_of_factories < 25 
 			has_army_manpower = { size = 250000 }
