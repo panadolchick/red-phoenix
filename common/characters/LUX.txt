@@ -1,0 +1,16 @@
+characters = {
+	LUX_shak_santer = {
+		name = LUX_shak_santer
+		portraits={
+			civilian={
+				large = "GFX_LUX_shak_santer"
+			}
+		}
+		country_leader={
+			ideology = christian_democracy
+			traits = {
+				LUX_shak_santer_desc
+			}
+		}
+	}
+}

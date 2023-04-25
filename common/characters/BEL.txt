@@ -1,0 +1,16 @@
+characters = {
+	BEL_dexane_shan = {
+		name = BEL_dexane_shan
+		portraits={
+			civilian={
+				large = "GFX_BEL_dexane_shan"
+			}
+		}
+		country_leader={
+			ideology = christian_democracy
+			traits = {
+				BEL_dexane_shan_desc
+			}
+		}
+	}
+}

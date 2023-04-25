@@ -172,3 +172,21 @@ spriteTypes = {
 		texturefile = "gfx/leaders/JAP/JAP_kiiti_miadsiki.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_BEL_dexane_shan"
+		texturefile = "gfx/leaders/BEL/BEL_dexane_shan.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_LUX_shak_santer"
+		texturefile = "gfx/leaders/LUX/LUX_shak_santer.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_HOL_ryd_lubers"
+		texturefile = "gfx/leaders/HOL/HOL_ryd_lubers.dds"
+	}
+}
