@@ -1,8 +1,5 @@
 ﻿capital = 70
 
-
-
-
 set_technology = {
 	gw_artillery = 1
 	interwar_artillery = 1
@@ -17,7 +14,7 @@ set_technology = {
 	tech_engineers = 1
 }
 
-recruit_character = SLO_jozef_tiso
+recruit_character = SLO_lobomir_bylik
 
 
 set_politics = {
