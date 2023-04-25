@@ -73,7 +73,7 @@ ideas = {
             cancel_if_invalid = yes
             modifier = {
                 experience_gain_air_factor = -1
-                production_speed_air_base_factor = -9
+                production_speed_air_base_factor = -0.9
                 air_accidents = 1
             }
             equipment_bonus = {
