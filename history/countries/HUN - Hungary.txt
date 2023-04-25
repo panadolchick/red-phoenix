@@ -204,7 +204,7 @@ if = {
 			basic_light_tank = 1
 	
 		}
-		set_#oob = "HUN_1939"
+		#set_oob = "HUN_1939"
 	}
 	if = {
 		limit = {
@@ -234,7 +234,7 @@ if = {
 			}
 			icon = "GFX_generic_light_BAA_camo"
 		}
-		set_#oob = "HUN_1939_nsb"
+		#set_oob = "HUN_1939_nsb"
 	}
 }
 

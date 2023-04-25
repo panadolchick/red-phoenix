@@ -25,7 +25,7 @@ if = {
 		gwtank = 1
 		basic_light_tank = 1
 	}
-	set_#oob = "SLO_1939"
+	#set_oob = "SLO_1939"
 }
 if = {
 	limit = {
@@ -35,7 +35,7 @@ if = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 	}
-	set_#oob = "SLO_1939_nsb"
+	#set_oob = "SLO_1939_nsb"
 }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
