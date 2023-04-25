@@ -1,0 +1,16 @@
+characters = {
+	HUN_arpad_gendts = {
+		name = HUN_arpad_gendts
+		portraits={
+			civilian={
+				large = "GFX_HUN_arpad_gendts"
+			}
+		}
+		country_leader={
+			ideology = market_liberalism
+			traits = {
+				HUN_arpad_gendts_desc
+			}
+		}
+	}
+}

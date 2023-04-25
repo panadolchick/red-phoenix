@@ -1,0 +1,16 @@
+characters = {
+	POL_lex_valensa = {
+		name = POL_lex_valensa
+		portraits={
+			civilian={
+				large = "GFX_POL_lex_valensa"
+			}
+		}
+		country_leader={
+			ideology = conservative_democracy
+			traits = {
+				POL_lex_valensa_desc
+			}
+		}
+	}
+}
