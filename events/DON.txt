@@ -54,7 +54,7 @@ country_event = {
 			}
 			SOV = {
 				set_autonomy = {
-					target = FROM
+					target = DON
 					autonomy_state = autonomy_collaboration_government
 				}
 			}
@@ -62,7 +62,7 @@ country_event = {
 		}
 			else = {
 				SOV = {
-				puppet = THIS
+				puppet = DON
 				}
 			}
 

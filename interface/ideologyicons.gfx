@@ -15,4 +15,8 @@ spriteTypes = {
 		name = "GFX_ideology_SOV_pragmatic_socialism"
 		texturefile = "gfx/interface/ideologies/ideology_SOV_pragmatic_socialism.dds"
 	}
+	spriteType = {
+		name = "GFX_ideology_BSR_pragmatic_socialism"
+		texturefile = "gfx/interface/ideologies/ideology_BSR_pragmatic_socialism.dds"
+	}
 }

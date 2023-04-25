@@ -46,7 +46,23 @@ if = {
 		}
 	}
 }
+if = {
+	limit = { 
+		has_dlc = "Together for Victory" 
+	}
+	SOV = {
+		set_autonomy = {
+			target = BSR
+			autonomy_state = autonomy_collaboration_government
+		}
+	}
 
+}
+	else = {
+		SOV = {
+		puppet = BSR
+		}
+	}
 set_research_slots = 3
 set_stability = 0.26
 set_war_support = 0.3

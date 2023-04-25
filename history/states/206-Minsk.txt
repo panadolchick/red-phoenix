@@ -7,7 +7,7 @@ state={
 	state_category = city_region
 
 	history={
-		owner = SOV
+		owner = BSR
 		victory_points = {
 			11370 20
 		}
@@ -21,11 +21,7 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = BLR
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-			}
-		}
+		add_core_of = BSR
 	}
 
 	provinces={

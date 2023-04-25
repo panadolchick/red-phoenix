@@ -12,6 +12,12 @@ spriteTypes = {
 }
 spriteTypes = {
 	spriteType = {
+		name = "GFX_BSR_aleksandr_lukashenko"
+		texturefile = "gfx/leaders/BSR/BSR_aleksandr_lukashenko.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
 		name = "GFX_DON_molodidov"
 		texturefile = "gfx/leaders/DON/DON_molodidov.dds"
 	}

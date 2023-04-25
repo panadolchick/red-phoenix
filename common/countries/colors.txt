@@ -902,3 +902,7 @@ IRK = {
 	color = rgb { 128 0 0 }
 	color_ui  = rgb { 98 0 0 }
 }
+BSR = {
+	color = rgb { 125 13 24 }
+	color_ui  = rgb { 125 13 24 }
+}

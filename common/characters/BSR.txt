@@ -1,0 +1,15 @@
+characters = {
+	BSR_aleksandr_lukashenko = {
+		name = BSR_aleksandr_lukashenko
+		portraits={
+			civilian={
+				large = "GFX_BSR_aleksandr_lukashenko"
+			}
+		}
+		country_leader={
+			ideology = pragmatic_socialism
+			traits = {
+			}
+		}
+	}
+}
