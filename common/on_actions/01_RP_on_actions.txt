@@ -1,0 +1,29 @@
+on_actions = {
+	on_release_as_puppet = {
+		effect = {
+			ROOT = {
+				set_temp_variable = {
+					var = research_slot_was
+					value = amount_research_slots
+				}
+				inherit_technology = FROM
+				set_research_slots = research_slot_was
+			}
+		}
+	}
+
+	#ROOT is free nation FROM is releaser
+	on_release_as_free = {
+		effect = {
+			ROOT = {
+				set_temp_variable = {
+					var = research_slot_was
+					value = amount_research_slots
+				}
+				inherit_technology = FROM
+				set_research_slots = research_slot_was
+			}
+		}
+	}
+
+}

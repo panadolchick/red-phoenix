@@ -138,6 +138,7 @@ set_country_flag = SOV_TEST_REMOVE_VANILLA_ADVISORS_flag
 
 add_ideas = {	
 	partial_economic_mobilisation
+	nuclear_power
 }
 
 set_convoys = 50

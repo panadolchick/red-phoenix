@@ -71,7 +71,6 @@ recruit_character = PAK_nt
 	complete_national_focus = production_effort
 
 	add_ideas = {
-		#laws
 		volunteer_only
 		low_economic_mobilisation
 	}

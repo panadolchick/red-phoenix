@@ -1,5 +1,108 @@
 debug_decisions = {
 
+	spawn_army_debug = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			division_template = {
+				name = "Infantry"
+				division_names_group = USA_INF_01
+				priority = 1
+				template_counter = 41
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+					infantry = { x = 0 y = 4 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+					infantry = { x = 1 y = 3 }
+					infantry = { x = 1 y = 4 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+					recon = { x = 0 y = 1 }
+				}
+			}
+			capital = {
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry\" start_experience_factor = 0.3 start_equipment_factor = 1.0"
+					owner = ROOT
+				}
+			}
+			every_controlled_state = {
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Infantry\" start_experience_factor = 0.1 start_equipment_factor = 0.95"
+					owner = ROOT
+				}
+			}
+		}
+	}
+
+	spawn_army_of_hobos_debug = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			division_template = {
+				name = "Hobos"
+				division_names_group = USA_INF_01
+				priority = 0
+				template_counter = 48
+				regiments = {
+					irregular_infantry = { x = 0 y = 0 }
+					irregular_infantry = { x = 0 y = 1 }
+					irregular_infantry = { x = 0 y = 2 }
+					irregular_infantry = { x = 0 y = 3 }
+					irregular_infantry = { x = 0 y = 4 }
+				}
+				support = {
+				}
+			}
+			capital = {
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Hobos\" start_experience_factor = 0.1 start_equipment_factor = 0.3"
+					owner = ROOT
+				}
+			}
+			every_controlled_state = {
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Hobos\" start_experience_factor = 0.0 start_equipment_factor = 0.15"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"Infantry Division\" division_template = \"Hobos\" start_experience_factor = 0.0 start_equipment_factor = 0.10"
+					owner = ROOT
+				}
+			}
+		}
+	}
+
 	research_all_tank_techs_nsb = {
 		icon = generic_tank
 

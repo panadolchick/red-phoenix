@@ -67,6 +67,7 @@ if = {
 
 add_ideas = {
 	free_trade
+	nuclear_power
 }
 
 set_politics = {

@@ -1,4 +1,4 @@
-l_russian:
+﻿l_russian:
 
 #Country
  SPB_nationalism:0 "Ленинград"
@@ -41,3 +41,5 @@ l_russian:
 SPB_egor_letov: "Егор Летов"
 MOS_eduard_limonov: "Эдуард Лимонов"
 IRK_aleksandr_dugin: "Александр Дугин"
+#Factions
+Naz_Bol_FACTION: "Союз Нац-Болов"

@@ -65,9 +65,9 @@ ideologies = {
 			}
 			nationalist_monarchism = {
 			}
-			national_bolshevism = {
-			}
 			personalistic_nationalism = {
+			}
+			national_bolshevism = {
 			}
 			islamism = {
 				can_be_randomly_selected = no
