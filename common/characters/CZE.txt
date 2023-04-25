@@ -1,0 +1,16 @@
+characters = {
+	CZE_ladislav_adamec = {
+		name = CZE_ladislav_adamec
+		portraits={
+			civilian={
+				large = "GFX_CZE_ladislav_adamec"
+			}
+		}
+		country_leader={
+			ideology = reformist_socialism
+			traits = {
+				CZE_ladislav_adamec_desc
+			}
+		}
+	}
+}

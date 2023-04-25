@@ -202,3 +202,15 @@ spriteTypes = {
 		texturefile = "gfx/leaders/POL/POL_lex_valensa.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CZE_ladislav_adamec"
+		texturefile = "gfx/leaders/CZE/CZE_ladislav_adamec.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SLO_lobomir_bylik"
+		texturefile = "gfx/leaders/SLO/SLO_lobomir_bylik.dds"
+	}
+}

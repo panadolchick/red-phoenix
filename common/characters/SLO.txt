@@ -1,0 +1,16 @@
+characters = {
+	SLO_lobomir_bylik = {
+		name = SLO_lobomir_bylik
+		portraits={
+			civilian={
+				large = "GFX_SLO_lobomir_bylik"
+			}
+		}
+		country_leader={
+			ideology = personalistic_nationalism
+			traits = {
+				SLO_lobomir_bylik_desc
+			}
+		}
+	}
+}
