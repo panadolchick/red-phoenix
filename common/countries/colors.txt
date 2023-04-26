@@ -914,3 +914,7 @@ ARH = {
 	color = rgb { 0 128 255 }
 	color_ui  = rgb { 0 98 225 }
 }
+KRR = {
+	color = rgb { 0 0 160 }
+	color_ui  = rgb { 0 0 130 }
+}

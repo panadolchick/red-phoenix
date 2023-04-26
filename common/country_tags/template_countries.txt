@@ -1,2 +1,0 @@
-
-ARH = "countries/Arhangelsk.txt"

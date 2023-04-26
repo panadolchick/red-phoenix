@@ -1,0 +1,15 @@
+characters = {
+	KRR_gregory_yavlinskiy = {
+		name = KRR_gregory_yavlinskiy
+		portraits={
+			civilian={
+				large = "GFX_KRR_gregory_yavlinskiy"
+			}
+		}
+		country_leader={
+			ideology = social_liberalism
+			traits = {
+			}
+		}
+	}
+}
