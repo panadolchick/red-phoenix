@@ -1,0 +1,26 @@
+﻿l_russian:
+#Ideas
+consequences_velvet_revolution: "Последствия "Бархатной революции""
+#Focus
+
+#Events
+
+#Parties
+CZE_conservatism_party: "ХДД"
+CZE_conservatism_party_long: "Христианско-демократическое движение"
+CZE_liberalism_party: "ЛСС"
+CZE_liberalism_party_long: "Либерально-социальный союз"
+CZE_social_democracy_party: "ЧСДП"
+CZE_social_democracy_party_long: "Чехословацкая социал-демократическая партия"
+CZE_socialist_party: "КПЧ(Р)"
+CZE_socialist_party_long: "Коммунистическая партия Чехословакии - Реформисты"
+CZE_communist_party: "КПЧ(К)"
+CZE_communist_party_long: "Коммунистическая партия Чехословакии - Консерваторы"
+CZE_nationalism_party: "НФС"
+CZE_nationalism_party_long: "Национальный фашистский союз"
+CZE_ultranationalism_party: "НСКЧ"
+CZE_ultranationalism_party_long: "Национал-Социалистический Комитет Чехословакии"
+CZE_despotism_party: "Гражданский форум"
+CZE_despotism_party_long: "Гражданский форум"
+CZE_authoritarianism_party: "МДЧ"
+CZE_authoritarianism_party_long: "Монархическое Движение Чехии"

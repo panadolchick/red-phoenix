@@ -1,0 +1,27 @@
+ideas = {
+    country = {
+        consequences_velvet_revolution = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = incompetence_of_bureaucracy
+
+			
+			modifier = {
+				political_power_gain = -0.15
+				stability_weekly_factor = -0.005
+				communist_drift = -0.05
+				socialist_drift = -0.05
+				army_org_factor = -0.05
+			}
+		}
+    }
+}

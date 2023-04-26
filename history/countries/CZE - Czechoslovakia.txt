@@ -35,4 +35,6 @@ set_popularities = {
 	conservatism = 3
 }
 
-
+add_ideas = {
+	consequences_velvet_revolution
+}
