@@ -1,0 +1,10 @@
+state_categories={
+	rural_encleve = {
+		local_building_slots = 1
+		
+		state_production_speed_infrastructure_factor = 0.25
+	
+		color = { 240 160 0 }
+
+	}
+}

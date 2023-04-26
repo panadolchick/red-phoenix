@@ -1,0 +1,34 @@
+
+state={
+	id=70
+	name="STATE_70"
+	resources={
+		tungsten=1.000
+		steel=13.000
+		chromium=3.000
+	}
+
+	history={
+		owner = CZE
+		victory_points = {
+			9692 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 3
+		}
+		add_core_of = CZE
+		add_core_of = SLO
+		set_demilitarized_zone = yes
+	}
+
+	provinces={
+		541 3484 3716 9539 9692 11522 11679 13364 13381 13382 13390 
+	}
+	manpower=2346158
+	buildings_max_level_factor=1.000
+	state_category=city_region
+	local_supplies=5.000
+}
