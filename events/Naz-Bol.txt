@@ -24,6 +24,11 @@ country_event = {
 			load_oob = SPB_crowd
 			create_faction = Naz_Bol_FACTION
 		}
+		news_event = {
+			id = news.2
+			days = 1
+			hours = 5
+		}
 			
     }
 	option = {
