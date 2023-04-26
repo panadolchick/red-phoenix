@@ -10,7 +10,7 @@ country_event = {
 		tag = SOV
 	}
     mean_time_to_happen = {
-		days = 516
+		days = 517
 	}    
     option = {
         name = naz-bol.1.a
@@ -150,6 +150,7 @@ country_event = {
 		}
 		MOS = {
 			add_to_faction = IRK
+			add_to_faction = SPB
 		}
 		IRK = {
 			change_tag_from = MOS

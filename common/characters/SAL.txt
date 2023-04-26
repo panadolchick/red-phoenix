@@ -1,0 +1,15 @@
+characters = {
+	SAL_fyodor_konuhov = {
+		name = SAL_fyodor_konuhov
+		portraits={
+			civilian={
+				large = "GFX_SAL_fyodor_konuhov"
+			}
+		}
+		country_leader={
+			ideology = christian_democracy
+			traits = {
+			}
+		}
+	}
+}

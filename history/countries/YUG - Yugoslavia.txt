@@ -94,11 +94,11 @@ set_popularities = {
 	liberalism = 16
 	nationalism = 8
 	communist = 2
-	authoritarianism = 12
-	despotism = 52
+	despotism = 12
+	authoritarianism = 52
 }
 set_politics = {
-	ruling_party = despotism
+	ruling_party = authoritarianism
 	last_election = "1991.12.5"
 	election_frequency = 48
 	elections_allowed = yes

@@ -906,3 +906,11 @@ BSR = {
 	color = rgb { 125 13 24 }
 	color_ui  = rgb { 125 13 24 }
 }
+SAL = {
+	color = rgb { 255 255 128 }
+	color_ui  = rgb { 225 225 98 }
+}
+ARH = {
+	color = rgb { 0 128 255 }
+	color_ui  = rgb { 0 98 225 }
+}

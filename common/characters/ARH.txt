@@ -1,0 +1,15 @@
+characters = {
+	ARH_genady_burbulis = {
+		name = ARH_genady_burbulis
+		portraits={
+			civilian={
+				large = "GFX_ARH_genady_burbulis"
+			}
+		}
+		country_leader={
+			ideology = market_liberalism
+			traits = {
+			}
+		}
+	}
+}
