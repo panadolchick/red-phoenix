@@ -25,11 +25,10 @@ country_event = {
 			create_faction = Naz_Bol_FACTION
 		}
 		news_event = {
-			id = news.2
+			id = RP_news.2
 			days = 1
 			hours = 5
 		}
-			
     }
 	option = {
         name = naz-bol.1.b
@@ -46,7 +45,11 @@ country_event = {
 		SPB = {
 			change_tag_from = SOV
 		}
-		
+		news_event = {
+			id = RP_news.2
+			days = 1
+			hours = 5
+		}
     }
 }
 country_event = {

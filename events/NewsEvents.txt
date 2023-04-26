@@ -2,13 +2,13 @@
 # News Events
 ###########################
 
-add_namespace = news
+add_namespace = RP_news
 
 #Основание Нац-Бол Партии
 news_event = {
-	id = news.1
-	title = news.1.t
-	desc = news.1.d
+	id = RP_news.1
+	title = RP_news.1.t
+	desc = RP_news.1.d
 	picture = GFX_news_event_001
 	
 	major = yes
@@ -17,11 +17,15 @@ news_event = {
 		days = 121
 	}
 	option = {
-		name = news.1.a
-		
+		name = RP_news.1.a
+		trigger = {
+			NOT = {
+				tag = SOV
+			}
+		}
 	}
 	option = {
-		name = news.1.SOV
+		name = RP_news.1.SOV
 		trigger = {
 			tag = SOV
 		}
@@ -30,14 +34,14 @@ news_event = {
 }
 #Концерт в Городе Герое
 news_event = {
-	id = news.2
-	title = news.2.t
-	desc = news.2.d
+	id = RP_news.2
+	title = RP_news.2.t
+	desc = RP_news.2.d
 	picture = GFX_news_event_002
 	major = yes
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
-		name = news.2.a
+		name = RP_news.2.a
 	}
 }
