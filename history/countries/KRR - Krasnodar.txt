@@ -9,7 +9,7 @@ set_war_support = 0,1
 add_political_power = 0
 
 set_convoys = 0
-
+recruit_character = KRR_gregory_yavlinskiy
 set_popularities = {
 	liberalism = 60
 	communist = 10
