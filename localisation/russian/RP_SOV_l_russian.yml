@@ -1,8 +1,5 @@
 ﻿l_russian:
- WHILE_FOCUSING:0 "При выборе этого фокуса будут следующие эффекты:\n$EFF$"
- generic_focus:0 "Национальный фокус"
- army_effort:0 "Развитие армии"
- army_effort_desc:0 "Несмотря на все новые возможности ведения боевых действий на море и в воздухе, сухопутные войска остаются ключевым элементом войны. При должной подготовке мы сумеем избежать прежнего ада в траншеях."
+#Focuses 
  SOV_hold_the_30th_congress_of_the_CPSS_central_committee:0 "Провести 30 съезд ЦК КПСС"
  SOV_hold_the_30th_congress_of_the_CPSS_central_committee_desc:0 "Провести 30 съезд ЦК КПСС - описание фокуса"
  SOV_everything_is_going_according_to_plan:0 "Всё идёт по плану..."

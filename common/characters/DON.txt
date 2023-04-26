@@ -32,7 +32,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = stalinism
+			ideology = pragmatic_socialism
 			traits = {
 				
 			}
