@@ -124,9 +124,18 @@ on_actions = {
 					var = killed_population
 					value = state_population_k
 				}
+				set_temp_variable = {
+					var = killed_population_factor
+					value = -30.0
+				}
+				set_variable_to_random = {
+					var = killed_population_factor
+					max = -10.0
+					integer = yes
+				}
 				multiply_temp_variable = {
 					var = killed_population
-					value = -25.00
+					value = killed_population_factor
 				}
 				add_manpower = killed_population
 				add_manpower = killed_population
