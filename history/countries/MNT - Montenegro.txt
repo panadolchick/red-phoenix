@@ -84,11 +84,3 @@ set_popularities = {
 	despotism = 33
 	communist = 34
 }
-
-recruit_character = MNT_kristo_popovic
-recruit_character = MNT_blazo_jovanovic
-recruit_character = MNT_blazo_dukanovic
-
-
-
-

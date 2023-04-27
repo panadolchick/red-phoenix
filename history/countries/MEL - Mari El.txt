@@ -94,8 +94,3 @@ set_popularities = {
 	communist = 10
 	despotism = 0
 }
-
-
-recruit_character = MEL_zinovy_zhadinov
-
-

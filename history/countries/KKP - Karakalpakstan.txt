@@ -96,11 +96,3 @@ set_popularities = {
 	communist = 30
 	despotism = 0
 }
-
-recruit_character = KKP_islam_sadyk
-
-
-
-
-
-

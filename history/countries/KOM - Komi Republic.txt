@@ -94,8 +94,3 @@ set_popularities = {
 	nationalism = 10
 	communist = 40
 }
-
-
-recruit_character = KOM_pavel_murashev
-
-

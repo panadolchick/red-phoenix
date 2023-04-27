@@ -69,8 +69,6 @@ if = {
 	#set_naval_oob = "BRA_1936_naval"	
 }
 
-recruit_character = BRA_itamar_franco
-
 set_politics = {
 	ruling_party = conservatism
 	last_election = "1934.7.17"

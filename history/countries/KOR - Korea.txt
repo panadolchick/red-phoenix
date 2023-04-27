@@ -22,36 +22,3 @@ set_popularities = {
 	communist = 30
 	despotism = 10
 }
-
-create_country_leader = {
-	name = "Syngman Rhee"
-	desc = ""
-	picture = GFX_portrait_Syngman_Rhee
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Yi Kang"
-	desc = ""
-	picture = GFX_portrait_Yi_Kang
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Yi Un"
-	desc = ""
-	picture = GFX_portrait_Yi_Un
-	expire = "1965.1.1"
-	ideology = nationalism_ideology
-	traits = {
-		#
-	}
-}

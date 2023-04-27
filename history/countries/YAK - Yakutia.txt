@@ -96,12 +96,3 @@ set_popularities = {
 	communist = 20
 	despotism = 20
 }
-
-recruit_character = YAK_pavel_pevznyak
-recruit_character = YAK_anatoly_pepelyayev
-
-
-
-
-
-

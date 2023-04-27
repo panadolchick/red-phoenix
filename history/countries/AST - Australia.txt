@@ -82,12 +82,6 @@ if = {
 		}
 	}
 }
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	recruit_character = AST_iven_mackay #Empty char can become unit leader via FT
-}
 
 set_politics = {
 	ruling_party = liberalism
