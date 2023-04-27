@@ -13,6 +13,10 @@ set_technology = {
 	basic_train = 1
 }
 recruit_character = CZE_ladislav_adamec
+recruit_character = CZE_milos_jakes
+recruit_character = CZE_klays_vacvav
+recruit_character = CZE_josef_lux
+recruit_character = CZE_irshi_dinsbir
 
 
 
@@ -27,7 +31,7 @@ set_politics = {
 
 set_popularities = {
 	socialist = 33
-	despotism = 34
+	authoritarianism = 34
 	nationalism = 6
 	communist = 10
 	social_democracy = 11

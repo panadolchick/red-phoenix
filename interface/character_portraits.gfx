@@ -216,6 +216,30 @@ spriteTypes = {
 }
 spriteTypes = {
 	spriteType = {
+		name = "GFX_CZE_milos_jakes"
+		texturefile = "gfx/leaders/CZE/CZE_milos_jakes.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CZE_klays_vacvav"
+		texturefile = "gfx/leaders/CZE/CZE_klays_vacvav.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CZE_josef_lux"
+		texturefile = "gfx/leaders/CZE/CZE_josef_lux.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CZE_irshi_dinsbir"
+		texturefile = "gfx/leaders/CZE/CZE_irshi_dinsbir.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
 		name = "GFX_SLO_lobomir_bylik"
 		texturefile = "gfx/leaders/SLO/SLO_lobomir_bylik.dds"
 	}

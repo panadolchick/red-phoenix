@@ -13,4 +13,48 @@ characters = {
 			}
 		}
 	}
+	CZE_milos_jakes = {
+		name = CZE_milos_jakes
+		portraits={
+			civilian={
+				large = "GFX_CZE_milos_jakes"
+			}
+		}
+		country_leader={
+			ideology = left_communist
+		}
+	}
+	CZE_klays_vacvav = {
+		name = CZE_klays_vacvav
+		portraits={
+			civilian={
+				large = "GFX_CZE_klays_vacvav"
+			}
+		}
+		country_leader={
+			ideology = national_democracy
+		}
+	}
+	CZE_josef_lux = {
+		name = CZE_josef_lux
+		portraits={
+			civilian={
+				large = "GFX_CZE_josef_lux"
+			}
+		}
+		country_leader={
+			ideology = christian_democracy
+		}
+	}
+	CZE_irshi_dinsbir = {
+		name = CZE_irshi_dinsbir
+		portraits={
+			civilian={
+				large = "GFX_CZE_irshi_dinsbir"
+			}
+		}
+		country_leader={
+			ideology = social_liberalism
+		}
+	}
 }
