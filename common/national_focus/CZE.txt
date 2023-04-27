@@ -1,0 +1,262 @@
+focus_tree = {
+	id = CZE_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CZE
+		}
+	}
+
+	continuous_focus_position = {
+		x = 13
+		y = 0
+	}
+	initial_show_position = { focus = CZE_emergency_congress_communist_party }
+	focus = {
+        id = CZE_emergency_congress_communist_party
+        icon = GFX_goal_unknown
+        x = 13
+        y = 0
+        cost = 1  
+		completion_reward = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = CZE_military_position
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = CZE_emergency_congress_communist_party
+		}
+        x = 10
+        y = 1
+        cost = 1  
+		completion_reward = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = CZE_MVD
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = CZE_military_position
+		}
+        x = 9
+        y = 2
+        cost = 1  
+		completion_reward = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = CZE_people_squads
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = CZE_MVD
+		}
+        x = 9
+        y = 3
+        cost = 1  
+		completion_reward = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = CZE_disbanding
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = CZE_military_position
+		}
+        x = 11
+        y = 3
+        cost = 1  
+		completion_reward = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = CZE_arrest
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = CZE_disbanding
+			focus = CZE_people_squads
+		}
+        x = 10
+        y = 4
+        cost = 1  
+		completion_reward = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = CZE_slovakia_svobod
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = CZE_arrest
+		}
+		mutually_exclusive = {
+			focus = CZE_slovakia_ne_svobod
+		}
+        x = 9
+        y = 5
+        cost = 1  
+		completion_reward = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = CZE_slovakia_ne_svobod
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = CZE_arrest
+		}
+		mutually_exclusive = {
+			focus = CZE_slovakia_svobod
+		}
+        x = 11
+        y = 5
+        cost = 1  
+		completion_reward = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = CZE_our_future
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = CZE_slovakia_ne_svobod
+			focus = CZE_slovakia_svobod
+		}
+        x = 10
+        y = 6
+        cost = 1  
+		completion_reward = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = CZE_likvidatia_xyesosov
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = CZE_disbanding
+		}
+        x = 12
+        y = 4
+        cost = 1  
+		completion_reward = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = CZE_cheh_narodny_army
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = CZE_emergency_congress_communist_party
+		}
+        x = 16
+        y = 1
+        cost = 1  
+		completion_reward = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = CZE_genshtab
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = CZE_cheh_narodny_army
+		}
+        x = 15
+        y = 2
+        cost = 1  
+		completion_reward = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = CZE_sovietsklad
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = CZE_cheh_narodny_army
+		}
+        x = 17
+        y = 2
+        cost = 1  
+		completion_reward = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = CZE_specnaz
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = CZE_genshtab
+			focus = CZE_sovietsklad
+		}
+        x = 16
+        y = 3
+        cost = 1  
+		completion_reward = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = CZE_zimniy_priziv
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = CZE_genshtab
+		}
+        x = 14
+        y = 3
+        cost = 1  
+		completion_reward = {
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

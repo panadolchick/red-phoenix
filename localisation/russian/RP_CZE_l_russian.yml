@@ -1,8 +1,22 @@
 ﻿l_russian:
 #Ideas
-consequences_velvet_revolution: "Последствия "Бархатной революции""
+consequences_velvet_revolution: "Последствия «Бархатной революции»"
 #Focus
-
+CZE_emergency_congress_communist_party: "Экстренный съезд КПЧ"
+CZE_military_position: "Военное положение"
+CZE_MVD: "Реформа МВД"
+CZE_people_squads: "Добровольные народные дружины"
+CZE_disbanding: "Расформирование КПС"
+CZE_arrest: "Арест Булика"
+CZE_slovakia_svobod: "Автономная Словацкая социалистическая республика"
+CZE_slovakia_ne_svobod: "Ввод войск в Словакию"
+CZE_our_future: "Наше будущее"
+CZE_likvidatia_xyesosov: "Ликвидация «Совета Министров Словакии»"
+CZE_cheh_narodny_army: "«Чехословацкая народная армия»"
+CZE_genshtab: "Генштаб"
+CZE_sovietsklad: "Расконсервация советских складов"
+CZE_specnaz: "Спецназ"
+CZE_zimniy_priziv: "Зимний Призыв"
 #Events
 
 #Parties
