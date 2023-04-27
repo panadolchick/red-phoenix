@@ -20,7 +20,11 @@ focus_tree = {
         y = 0
         cost = 1  
 		completion_reward = {
-		
+		    country_event = {
+				id = cze.1
+				days = 1
+			}
+			add_political_power = 10
 		}
 		ai_will_do = {
 			factor = 1
