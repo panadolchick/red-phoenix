@@ -152,6 +152,7 @@ country_event = {
 		}
 		MOS = {
 			add_to_faction = IRK
+			add_to_faction = SPB
 		}
     }
 	option = {
