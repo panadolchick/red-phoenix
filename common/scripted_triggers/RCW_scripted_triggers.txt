@@ -1,0 +1,11 @@
+has_civil_war_in_russia = {
+	OR = {
+		has_war_with = SPB
+		has_war_with = MOS
+		has_war_with = IRK
+		has_war_with = ARH
+		has_war_with = KRR
+		has_war_with = SAL
+		has_war_with = SOV
+	}
+}

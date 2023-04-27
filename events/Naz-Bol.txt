@@ -51,6 +51,16 @@ country_event = {
 			hours = 5
 		}
     }
+	immediate = {
+		hidden_effect = {
+			SPB = {
+				add_ideas = RCW_russian_civil_war
+			}
+			SOV = {
+				add_ideas = RCW_russian_civil_war
+			}
+		}
+	}
 }
 country_event = {
     id = naz-bol.2
@@ -107,6 +117,13 @@ country_event = {
 		}
 			
     }
+	immediate = {
+		hidden_effect = {
+			MOS = {
+				add_ideas = RCW_russian_civil_war
+			}
+		}
+	}
 }
 country_event = {
     id = naz-bol.3
@@ -156,6 +173,13 @@ country_event = {
 			change_tag_from = MOS
 		}
     }
+	immediate = {
+		hidden_effect = {
+			IRK = {
+				add_ideas = RCW_russian_civil_war
+			}
+		}
+	}
 }
 country_event = {
     id = naz-bol.4

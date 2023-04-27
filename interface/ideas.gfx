@@ -7215,6 +7215,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/DON/DON_ruins_of_rostov_airbase.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_RCW_russian_civil_war"
+		texturefile = "gfx/interface/ideas/RCW/RCW_russian_civil_war.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_nuclear_power"
 		textureFile = "gfx/interface/ideas/nuclear_power.dds"
 	}		
