@@ -93,8 +93,3 @@ set_popularities = {
 	communist = 10
 	despotism = 40
 }
-
-
-recruit_character = CHU_gerasim_ivanov
-
-

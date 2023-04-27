@@ -1,8 +1,5 @@
 ﻿l_english:
- WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
- generic_focus:0 "National Focus"
- army_effort:0 "Army Effort"
- army_effort_desc:0 "Despite the increasing possibilities of aerial and naval warfare, ground combat is still key in tomorrow's wars. With preparation, we can avoid reliving the hell of the trenches."
+#Focuses 
  SOV_hold_the_30th_congress_of_the_CPSS_central_committee:0 "Hold the 30th Congress of the CPSS Central Committee"
  SOV_hold_the_30th_congress_of_the_CPSS_central_committee_desc:0 "Hold the 30th Congress of the CPSS Central Committee - focus description"
  SOV_everything_is_going_according_to_plan:0 "Everything is going according to plan..."
@@ -33,3 +30,4 @@
  SOV_and_china_desc:0 "And to China - focus description"
  SOV_into_a_bright_future:0 "Into a brighter future!"
  SOV_into_a_bright_future_desc:0 "Into a brighter future! - focus description"
+ 

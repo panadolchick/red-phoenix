@@ -92,8 +92,3 @@ set_popularities = {
 	nationalism = 20
 	communist = 30
 }
-
-
-recruit_character = CRI_ilyas_tarkhan
-
-
