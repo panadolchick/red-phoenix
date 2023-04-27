@@ -1,0 +1,30 @@
+state={
+	id=664
+	name="STATE_664"
+	manpower = 468536
+	
+	state_category = small_town
+	
+	history={
+		owner = GEO
+		victory_points = {
+			3653 3 
+		}
+		buildings = {
+			infrastructure = 2 #was: 6
+			industrial_complex = 1
+			3653 = {
+				naval_base = 2
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = SOV
+		add_core_of = GEO
+	}
+	
+	provinces={
+		3653
+	}
+
+	local_supplies=1.0 
+}

@@ -5,11 +5,12 @@ country_event = {
     title = naz-bol.1.t
     desc = naz-bol.1.d
 	fire_only_once = yes
+	picture = GFX_report_event_SOV_leningrad_concert
     trigger = {
 		tag = SOV
 	}
     mean_time_to_happen = {
-		days = 516
+		days = 517
 	}    
     option = {
         name = naz-bol.1.a
@@ -23,7 +24,11 @@ country_event = {
 			load_oob = SPB_crowd
 			create_faction = Naz_Bol_FACTION
 		}
-			
+		news_event = {
+			id = RP_news.2
+			days = 1
+			hours = 5
+		}
     }
 	option = {
         name = naz-bol.1.b
@@ -40,7 +45,11 @@ country_event = {
 		SPB = {
 			change_tag_from = SOV
 		}
-		
+		news_event = {
+			id = RP_news.2
+			days = 1
+			hours = 5
+		}
     }
 }
 country_event = {
@@ -141,6 +150,7 @@ country_event = {
 		}
 		MOS = {
 			add_to_faction = IRK
+			add_to_faction = SPB
 		}
 		IRK = {
 			change_tag_from = MOS

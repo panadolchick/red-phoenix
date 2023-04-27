@@ -1,0 +1,26 @@
+capital = 234
+
+set_research_slots = 3
+
+set_stability = 0,8
+
+set_war_support = 0,1
+
+add_political_power = 0
+
+set_convoys = 0
+recruit_character = KRR_gregory_yavlinskiy
+set_popularities = {
+	liberalism = 60
+	communist = 10
+	nationalism = 30
+	authoritarianism = 0
+}
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1991.11.8"
+	election_frequency = 48
+	elections_allowed = Yes
+}
+

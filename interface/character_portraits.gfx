@@ -226,3 +226,21 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TRN/TRN_igor_smirnov.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SAL_fyodor_konuhov"
+		texturefile = "gfx/leaders/Liberals-RUS/SAL_fyodor_konuhov.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ARH_genady_burbulis"
+		texturefile = "gfx/leaders/Liberals-RUS/ARH_genady_burbulis.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_KRR_gregory_yavlinskiy"
+		texturefile = "gfx/leaders/Liberals-RUS/KRR_gregory_yavlinskiy.dds"
+	}
+}

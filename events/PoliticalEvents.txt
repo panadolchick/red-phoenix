@@ -294,9 +294,9 @@ country_event = {
 		is_puppet = no
 		count_triggers = {
 			amount = 2
-			NOT = { conservatism > 0.39 }
-			NOT = { liberalism > 0.39 }
-			NOT = { social_democracy > 0.39 }
+			conservatism > 0.39
+			liberalism > 0.39
+			social_democracy > 0.39
 		}
 	}
 	
@@ -315,7 +315,7 @@ country_event = {
 			popularity = 0.035
 		}
 		add_popularity = {
-			ideology = liberal_conservatism
+			ideology = liberalism
 			popularity = 0.035
 		}
 		add_popularity = {
