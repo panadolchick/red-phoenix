@@ -1,5 +1,7 @@
 ﻿capital = 6
 
+recruit_character = BEL_dexane_shan
+
 #oob = "BEL_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }

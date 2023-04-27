@@ -1,5 +1,7 @@
 ﻿capital = 3
 
+recruit_character = SWI_adolf_ogi
+
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		#set_oob = "SWI_1936_BBA"
