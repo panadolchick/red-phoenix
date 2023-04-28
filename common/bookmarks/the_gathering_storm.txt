@@ -99,5 +99,15 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"CZE"={
+			minor = yes
+			history = "CZE_GATHERING_STORM_DESC"
+			ideology = socialist
+			ideas = {
+				consequences_velvet_revolution
+			}
+			focuses = {
+			}
+		}
 	}
 }

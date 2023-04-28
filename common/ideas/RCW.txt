@@ -1,0 +1,29 @@
+ideas = {
+    country = {
+		RCW_russian_civil_war = {
+            allowed_civil_war = {
+                always = yes
+            }
+            on_add = {
+            }
+            on_remove = {
+            }
+            available = {
+				has_civil_war_in_russia = yes
+            }
+			cancel = {
+				has_civil_war_in_russia = no
+			}
+            cancel_if_invalid = yes
+            modifier = {
+				surrender_limit = 1
+				army_org_factor = -0.3
+				army_attack_factor = 0.5
+				army_defence_factor = -0.3
+				stability_factor = -0.2
+				war_support_factor = 0.3
+				consumer_goods_factor = -0.2
+            }
+        }
+	}
+}

@@ -1,0 +1,18 @@
+﻿l_russian:
+#Events
+#Country
+ SAL:0 "Салехардская Православная Республика"
+ SAL_DEF:0 "Салехардская Православная Республика"
+ SAL_ADJ:0 "Салехардск."
+ ARH:0 "Новая Россия"
+ ARH_DEF:0 "Новая Россия"
+ ARH_ADJ:0 "Российск."
+ KRR:0 "ВСЮР"
+ KRR_DEF:0 "Вооружённые Силы Юга России"
+ KRR_ADJ:0 "Российск."
+#Characters
+ARH_genady_burbulis: "Геннадий Бурбулис"
+KRR_gregory_yavlinskiy: "Грегорий Явлинский"
+SAL_fyodor_konuhov: "Фёдор Конюхов"
+#Factions
+LIBERALS_NOVAYA_ROSSIYA: "Новая Россия"

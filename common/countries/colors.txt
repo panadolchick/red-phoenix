@@ -879,7 +879,7 @@ TWN = {
 	color_ui = hsv { 0.18 0.3 0.9 }
 }
 SPB = {
-	color = rgb { 128 0 0 }
+	color = rgb { 163 49 19 }
 	color_ui  = rgb { 98 0 0 }
 }
 OSR = {
@@ -887,11 +887,11 @@ OSR = {
 	color_ui  = rgb { 98 0 0 }
 }
 MOS = {
-	color = rgb { 128 0 0 }
+	color = rgb { 163 49 19 }
 	color_ui  = rgb { 98 0 0 }
 }
 IRK = {
-	color = rgb { 128 0 0 }
+	color = rgb { 163 49 19 }
 	color_ui  = rgb { 98 0 0 }
 }
 BSR = {
