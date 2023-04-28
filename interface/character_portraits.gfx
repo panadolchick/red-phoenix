@@ -264,6 +264,12 @@ spriteTypes = {
 }
 spriteTypes = {
 	spriteType = {
+		name = "GFX_CZE_KPC"
+		texturefile = "gfx/leaders/CZE/CZE_KPC.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
 		name = "GFX_SLO_lobomir_bylik"
 		texturefile = "gfx/leaders/SLO/SLO_lobomir_bylik.dds"
 	}

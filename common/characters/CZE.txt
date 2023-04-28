@@ -101,4 +101,15 @@ characters = {
 			ideology = nationalism_ideology
 		}
 	}
+	CZE_KPC = {
+		name = CZE_KPC
+		portraits={
+			civilian={
+				large = "GFX_CZE_KPC"
+			}
+		}
+		country_leader={
+			ideology = populist_socialism
+		}
+	}
 }
