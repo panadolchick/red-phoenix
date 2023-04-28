@@ -1,7 +1,7 @@
 add_namespace = sov
 add_namespace = sov_hidden
 #Основание Нац-Бол Партии
-news_event = {
+country_event = {
 	id = sov.1
 	title = sov.1.t
 	desc = sov.1.d
