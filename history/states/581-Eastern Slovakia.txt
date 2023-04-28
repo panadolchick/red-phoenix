@@ -19,7 +19,6 @@ state={
 		add_core_of = CZE
 		add_core_of = SLO
 		set_demilitarized_zone = yes
-
 	}
 
 	provinces={
@@ -27,6 +26,6 @@ state={
 	}
 	manpower=1538787
 	buildings_max_level_factor=1.000
-	state_category=rural_region
+	state_category=small_town_region
 	local_supplies=0.000
 }

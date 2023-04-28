@@ -622,7 +622,7 @@ slightly_naval_focused_nation = {
 
 more_naval_focused_nation = {
 	enable = {
-		date > "1941.1.1" #Delaying it by a couple of years
+		date > "2000.1.1" #Delaying it by a couple of years
 	}
 
 	ai_strategy = {
@@ -755,60 +755,7 @@ default_stockpile_management = {
 
 DEFAULT_template_design = {
 	enable = {
-		date < 1940.1.1
-	}
-	abort = {
-		date > 1940.1.1
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = motorized
-		value = 10
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = cavalry
-		value = -100
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = light_armor
-		value = 50
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = medium_armor
-		value = -10
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = heavy_armor
-		value = -50
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = paratroopers
-		value = -50
-	}
-
-	ai_strategy = {
-		type = template_prio
-		id = infantry
-		value = 60
-	}
-}
-
-DEFAULT_template_design = {
-	enable = {
-		NOT = {
-		}
-		date > 1940.1.1
+		always = yes
 	}
 
 	ai_strategy = {
@@ -912,7 +859,6 @@ build_intelligence_agency_as_major = {
 		is_major = yes
 		OR = {
 			has_war = yes
-			date > 1938.1.1
 		}
 	}
 
@@ -925,7 +871,7 @@ build_intelligence_agency_as_major = {
 
 build_intelligence_agency = {
 	enable = {
-		date > 1940.1.1
+		date > 1994.1.1
 		has_war = no
 		num_of_civilian_factories > 25
 	}
@@ -945,7 +891,7 @@ build_intelligence_agency = {
 
 upgrade_intelligence_agency = {
 	enable = {
-		date > 1940.1.1
+		date > 1995.1.1
 		num_of_civilian_factories > 50
 	}
 	abort = {
