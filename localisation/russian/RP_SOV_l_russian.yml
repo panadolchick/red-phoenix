@@ -1,5 +1,5 @@
 ﻿l_russian:
-#Focuses 
+ #Focuses 
  SOV_hold_the_30th_congress_of_the_CPSS_central_committee:0 "Провести 30 съезд ЦК КПСС"
  SOV_hold_the_30th_congress_of_the_CPSS_central_committee_desc:0 "Провести 30 съезд ЦК КПСС - описание фокуса"
  SOV_everything_is_going_according_to_plan:0 "Всё идёт по плану..."
@@ -30,4 +30,23 @@
  SOV_and_china_desc:0 "И к Китаю - описание фокуса"
  SOV_into_a_bright_future:0 "В светлое будущее!"
  SOV_into_a_bright_future_desc:0 "В светлое будущее! - описание фокуса"
+ #Parties
+ SOV_conservatism_party: "ЛДСС"
+ SOV_conservatism_party_long: "Либерально-демократическая партия Советского Союза"
+ SOV_liberalism_party: "ДПР"
+ SOV_liberalism_party_long: "Демократическая партия России"
+ SOV_social_democracy_party: "КПСС (Д)"
+ SOV_social_democracy_party_long: "Коммунистическая партия Советского Союза - Демократы"
+ SOV_socialist_party: "КПСС(Р)"
+ SOV_socialist_party_long: "Коммунистическая партия Советского Союза - Реформисты"
+ SOV_communist_party: "КПСС(К)"
+ SOV_communist_party_long: "Коммунистическая партия Советского Союза - Консерваторы"
+ SOV_nationalism_party: "НБП"
+ SOV_nationalism_party_long: "Национал-большевистская партия"
+ SOV_ultranationalism_party: "РНЕ"
+ SOV_ultranationalism_party_long: "Русское национальное единство"
+ SOV_despotism_party: "КПСС(С)"
+ SOV_despotism_party_long: "Коммунистическая партия Советского Союза - Сталинисты"
+ SOV_authoritarianism_party: "КПСС - ГКЧП"
+ SOV_authoritarianism_party_long: "Коммунистическая партия Советского Союза - Государственный комитет по чрезвычайному положению"
  
