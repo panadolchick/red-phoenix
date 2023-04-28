@@ -57,5 +57,20 @@ news_event = {
 	
 	option = {
 		name = RP_news.3.a
+		trigger = {
+			OR = {
+				TAG = CZE
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = RP_news.3.b
+		trigger = {
+			NOT = {
+				TAG = CZE
+				TAG = SOV
+			}
+		}
 	}
 }

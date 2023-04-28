@@ -3169,5 +3169,8 @@ spriteTypes = {
 		name = "GFX_report_event_SOV_leningrad_concert"
 		texturefile = "gfx/event_pictures/report_event_leningrad_concert.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_country_event_001"
+		texturefile = "gfx/event_pictures/country_event_CZE_001.dds"
+	}
 }

@@ -3,8 +3,9 @@ add_namespace = cze_hidden
 
 country_event = {
     id = cze.1
-    title = cze.1.a
+    title = cze.1.t
     desc = cze.1.b
+	picture = GFX_country_event_001
     fire_only_once = yes
     is_triggered_only = yes   
     
