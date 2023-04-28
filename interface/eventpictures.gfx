@@ -3170,6 +3170,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_leningrad_concert.dds"
 	}
 	spriteType = {
+		name = "GFX_report_event_SOV_foundation_of_naz_bol_party"
+		texturefile = "gfx/event_pictures/report_event_foundation_of_naz_bol_party.dds"
+	}
+	spriteType = {
 		name = "GFX_country_event_001"
 		texturefile = "gfx/event_pictures/country_event_CZE_001.dds"
 	}
