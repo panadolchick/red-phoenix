@@ -276,6 +276,12 @@ spriteTypes = {
 }
 spriteTypes = {
 	spriteType = {
+		name = "GFX_SLO_milan_chich"
+		texturefile = "gfx/leaders/SLO/SLO_milan_chich.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
 		name = "GFX_portrait_TRN_igor_smirnov"
 		texturefile = "gfx/leaders/TRN/TRN_igor_smirnov.dds"
 	}

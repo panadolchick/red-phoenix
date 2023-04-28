@@ -15,6 +15,7 @@ set_technology = {
 }
 
 recruit_character = SLO_lobomir_bylik
+recruit_character = SLO_milan_chich
 
 
 set_politics = {

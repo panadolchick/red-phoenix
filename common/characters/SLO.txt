@@ -13,4 +13,15 @@ characters = {
 			}
 		}
 	}
+	SLO_milan_chich = {
+		name = SLO_milan_chich
+		portraits={
+			civilian={
+				large = "GFX_SLO_milan_chich"
+			}
+		}
+		country_leader={
+			ideology = populist_socialism
+		}
+	}
 }
