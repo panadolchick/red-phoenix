@@ -97,9 +97,4 @@ set_popularities = {
 	communist = 5
 }
 
-
-recruit_character = CHE_hasan_israilov
-recruit_character = CHE_yusup_tambiev
 recruit_character = CHE_dzhokhar_dudayev
-
-

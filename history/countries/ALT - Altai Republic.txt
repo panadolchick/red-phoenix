@@ -99,12 +99,3 @@ set_popularities = {
 	communist = 30
 	despotism = 10
 }
-
-recruit_character = ALT_grigory_gurkin
-recruit_character = ALT_samuil_yufit
-
-
-
-
-
-
