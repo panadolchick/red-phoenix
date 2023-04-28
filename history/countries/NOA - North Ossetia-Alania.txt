@@ -94,8 +94,3 @@ set_popularities = {
 	communist = 20
 	despotism = 10
 }
-
-
-recruit_character = NOA_vasily_lemayev
-
-

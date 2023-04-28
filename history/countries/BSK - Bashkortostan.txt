@@ -94,8 +94,3 @@ set_popularities = {
 	communist = 20
 	despotism = 20
 }
-
-
-recruit_character = BSK_yakov_bykin
-
-

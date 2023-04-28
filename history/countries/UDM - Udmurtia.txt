@@ -93,8 +93,3 @@ set_popularities = {
 	communist = 10
 	despotism = 10
 }
-
-
-recruit_character = UDM_boris
-
-
