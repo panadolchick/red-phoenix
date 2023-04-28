@@ -910,3 +910,7 @@ KRR = {
 	color = rgb { 0 0 160 }
 	color_ui  = rgb { 0 0 130 }
 }
+SOS = {
+	color = rgb { 245 240 0 }
+	color_ui  = rgb { 215 210 0 }
+}

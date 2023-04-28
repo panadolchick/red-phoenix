@@ -8224,3 +8224,8 @@
  KRR:0 "AFSR"
  KRR_DEF:0 "Armed Forces of Southern Russia"
  KRR_ADJ:0 "Russian"
+ SOS:0 "South Ossetia"
+ SOS_DEF:0 "South Ossetia"
+ SOS_SOV_subject:0 "SOSSR"
+ SOS_SOV_subject_DEF:0 "South Ossetian Soviet Socialist Republic"
+ SOS_ADJ:0 "South Ossetian"
