@@ -57,4 +57,48 @@ characters = {
 			ideology = social_liberalism
 		}
 	}
+	CZE_milosh_zeman = {
+		name = CZE_milosh_zeman
+		portraits={
+			civilian={
+				large = "GFX_CZE_milosh_zeman"
+			}
+		}
+		country_leader={
+			ideology = democratic_socialism
+		}
+	}
+	CZE_monarchy_sovet = {
+		name = CZE_monarchy_sovet
+		portraits={
+			civilian={
+				large = "GFX_CZE_monarchy_sovet"
+			}
+		}
+		country_leader={
+			ideology = monarchism
+		}
+	}
+	CZE_fascist_sovet = {
+		name = CZE_fascist_sovet
+		portraits={
+			civilian={
+				large = "GFX_CZE_fascist_sovet"
+			}
+		}
+		country_leader={
+			ideology = neonazism
+		}
+	}
+	CZE_petr_hanning = {
+		name = CZE_petr_hanning
+		portraits={
+			civilian={
+				large = "GFX_CZE_petr_hanning"
+			}
+		}
+		country_leader={
+			ideology = nationalism_ideology
+		}
+	}
 }

@@ -240,6 +240,30 @@ spriteTypes = {
 }
 spriteTypes = {
 	spriteType = {
+		name = "GFX_CZE_milosh_zeman"
+		texturefile = "gfx/leaders/CZE/CZE_milosh_zeman.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CZE_monarchy_sovet"
+		texturefile = "gfx/leaders/CZE/CZE_monarchy_sovet.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CZE_fascist_sovet"
+		texturefile = "gfx/leaders/CZE/CZE_fascist_sovet.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CZE_petr_hanning"
+		texturefile = "gfx/leaders/CZE/CZE_petr_hanning.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
 		name = "GFX_SLO_lobomir_bylik"
 		texturefile = "gfx/leaders/SLO/SLO_lobomir_bylik.dds"
 	}

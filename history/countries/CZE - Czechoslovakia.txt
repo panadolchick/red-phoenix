@@ -17,7 +17,10 @@ recruit_character = CZE_milos_jakes
 recruit_character = CZE_klays_vacvav
 recruit_character = CZE_josef_lux
 recruit_character = CZE_irshi_dinsbir
-
+recruit_character = CZE_milosh_zeman
+recruit_character = CZE_monarchy_sovet
+recruit_character = CZE_fascist_sovet
+recruit_character = CZE_petr_hanning
 
 
 set_research_slots = 3
