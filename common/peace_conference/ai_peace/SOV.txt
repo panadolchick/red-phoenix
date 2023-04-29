@@ -1,0 +1,41 @@
+# Scripted AI desire for peace actions.
+# See documentation.info file for more detailed scripting information.
+
+peace_ai_desires = {
+
+    SOV_not_puppet_or_force_goverment_our_lands = {
+        peace_action_type = { puppet liberate force_government }
+        enable = {
+            FROM.FROM.FROM = {
+                OR = {
+                    is_core_of = UKR
+                    is_core_of = EST
+                    is_core_of = LAT
+                    is_core_of = LIT
+                }
+            }
+            ROOT = {
+                original_tag = SOV
+            }
+        }
+        ai_desire = -9999
+    }
+    
+    SOV_return_our_land = {
+        peace_action_type = { take_states }
+        enable = {
+            FROM.FROM.FROM = {
+                OR = {
+                    is_core_of = UKR
+                    is_core_of = EST
+                    is_core_of = LAT
+                    is_core_of = LIT
+                }
+            }
+            ROOT = {
+                original_tag = SOV
+            }
+        }
+        ai_desire = 9100
+    }
+}

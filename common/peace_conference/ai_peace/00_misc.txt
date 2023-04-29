@@ -30,7 +30,7 @@ peace_ai_desires = {
                 NOT = { is_claimed_by = ROOT.FROM }
             }
         }
-        ai_desire = -9999
+        ai_desire = -9000
     }
 	
     always_puppet = {
