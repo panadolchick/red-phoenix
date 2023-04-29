@@ -86,39 +86,7 @@ if = {
 	}
 }
 
-# DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = INS
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = INS
-	}
-}
-
-set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
-
 add_ideas = {
-	HOL_wilhelmina
-}
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	add_ideas = {
-		HOL_aloof_despotism
-		HOL_shell_shocked_spectator_5
-		HOL_de_crisisjaren_5
-		HOL_weak_government
-	}
 }
 
 set_politics = {
