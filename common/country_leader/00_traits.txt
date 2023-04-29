@@ -2405,9 +2405,9 @@ leader_traits = {
 		random = no
 		# Boosts Democracy
 		sprite = 13
-		conservatism_drift = 0.333
-		liberalism_drift = 0.333
-		social_democracy_drift = 0.333
+		conservatism_drift = 0.033
+		liberalism_drift = 0.033
+		social_democracy_drift = 0.033
 
 		ai_will_do = {
 			factor = 0

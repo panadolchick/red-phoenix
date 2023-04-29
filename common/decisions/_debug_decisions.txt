@@ -16,29 +16,36 @@ debug_decisions = {
 		cost = 0
 
 		complete_effect = {
-			division_template = {
-				name = "Infantry"
-				division_names_group = USA_INF_01
-				priority = 1
-				template_counter = 41
-				regiments = {
-					infantry = { x = 0 y = 0 }
-					infantry = { x = 0 y = 1 }
-					infantry = { x = 0 y = 2 }
-					infantry = { x = 0 y = 3 }
-					infantry = { x = 0 y = 4 }
-					infantry = { x = 1 y = 0 }
-					infantry = { x = 1 y = 1 }
-					infantry = { x = 1 y = 2 }
-					infantry = { x = 1 y = 3 }
-					infantry = { x = 1 y = 4 }
+			if = {
+				limit = {
+					NOT = {
+						has_template = "Infantry"
+					}
 				}
-				support = {
-					artillery = { x = 0 y = 0 }
-					recon = { x = 0 y = 1 }
+				division_template = {
+					name = "Infantry"
+					division_names_group = USA_INF_01
+					priority = 1
+					template_counter = 41
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+						infantry = { x = 0 y = 4 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+						infantry = { x = 1 y = 3 }
+						infantry = { x = 1 y = 4 }
+					}
+					support = {
+						artillery = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+					}
 				}
 			}
-			capital = {
+			capital_scope = {
 				create_unit = {
 					division = "name = \"Infantry Division\" division_template = \"Infantry\" start_experience_factor = 0.3 start_equipment_factor = 1.0"
 					owner = ROOT
@@ -69,22 +76,29 @@ debug_decisions = {
 		cost = 0
 
 		complete_effect = {
-			division_template = {
-				name = "Hobos"
-				division_names_group = USA_INF_01
-				priority = 0
-				template_counter = 48
-				regiments = {
-					irregular_infantry = { x = 0 y = 0 }
-					irregular_infantry = { x = 0 y = 1 }
-					irregular_infantry = { x = 0 y = 2 }
-					irregular_infantry = { x = 0 y = 3 }
-					irregular_infantry = { x = 0 y = 4 }
+			if = {
+				limit = {
+					NOT = {
+						has_template = "Hobos"
+					}
 				}
-				support = {
+				division_template = {
+					name = "Hobos"
+					division_names_group = USA_INF_01
+					priority = 0
+					template_counter = 47
+					regiments = {
+						irregular_infantry = { x = 0 y = 0 }
+						irregular_infantry = { x = 0 y = 1 }
+						irregular_infantry = { x = 0 y = 2 }
+						irregular_infantry = { x = 0 y = 3 }
+						irregular_infantry = { x = 0 y = 4 }
+					}
+					support = {
+					}
 				}
 			}
-			capital = {
+			capital_scope = {
 				create_unit = {
 					division = "name = \"Infantry Division\" division_template = \"Hobos\" start_experience_factor = 0.1 start_equipment_factor = 0.3"
 					owner = ROOT
@@ -98,6 +112,206 @@ debug_decisions = {
 				create_unit = {
 					division = "name = \"Infantry Division\" division_template = \"Hobos\" start_experience_factor = 0.0 start_equipment_factor = 0.10"
 					owner = ROOT
+				}
+			}
+		}
+	}
+
+	spawn_mobile_army_debug = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			if = {
+				limit = {
+					has_dlc = "No Step Back"
+					NOT = { has_design_based_on = basic_medium_tank_chassis }
+				}
+				set_technology = {
+					basic_medium_tank_chassis = 1
+					gwtank_chassis = 1
+					basic_light_tank_chassis = 1
+					improved_light_tank_chassis = 1
+					basic_heavy_tank_chassis = 1
+					engine_tech_1 = 1 
+				}
+				create_equipment_variant = {
+					name = "Medium Tank"
+					type = medium_tank_chassis_1
+					parent_version = 0
+					modules = {
+						main_armament_slot = tank_small_cannon_2
+						turret_type_slot = tank_medium_three_man_tank_turret
+						suspension_type_slot = tank_torsion_bar_suspension
+						armor_type_slot = tank_welded_armor
+						engine_type_slot = tank_gasoline_engine
+						special_type_slot_1 = tank_radio_1
+						special_type_slot_2 = smoke_launchers
+						special_type_slot_3 = empty
+						special_type_slot_4 = empty
+					}
+					upgrades = {
+						tank_nsb_engine_upgrade = 9
+						tank_nsb_armor_upgrade = 3
+					}
+					icon = "GFX_GER_basic_medium_tank_medium"
+				}
+			}
+			else = {
+				set_technology = {
+					basic_medium_tank = 1
+				}
+			}
+			set_technology = {
+				motorised_infantry = 1
+				gw_artillery = 1
+				tech_support = 1
+				tech_recon = 1
+				tech_engineers = 1
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_template = "Medium Tank Division"
+					}
+				}
+				division_template = {
+					name = "Medium Tank Division"
+					division_names_group = USA_INF_01
+					priority = 1
+					template_counter = 32
+					regiments = {
+						medium_armor = { x = 0 y = 0 }
+						medium_armor = { x = 0 y = 1 }
+						medium_armor = { x = 0 y = 2 }
+						medium_armor = { x = 0 y = 3 }
+						medium_armor = { x = 0 y = 4 }
+						motorized = { x = 1 y = 0 }
+						motorized = { x = 1 y = 1 }
+						motorized = { x = 1 y = 2 }
+						motorized = { x = 1 y = 3 }
+						motorized = { x = 1 y = 4 }
+					}
+					support = {
+						artillery = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+						engineer = { x = 0 y = 2 }
+					}
+				}
+			}
+			capital_scope = {
+				create_unit = {
+					division = "name = \"Medium Tank Division\" division_template = \"Medium Tank Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0"
+					owner = ROOT
+				}
+			}
+			if = {
+				limit = {
+					num_of_controlled_states > 7
+				}
+				every_controlled_state = {
+					random_list = {
+						80 = {
+						}
+						20 = {
+							create_unit = {
+								division = "name = \"Medium Tank Division\" division_template = \"Medium Tank Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0"
+								owner = ROOT
+							}
+						}
+					}
+				}
+			}
+			else = {
+				every_controlled_state = {
+					random_list = {
+						60 = {
+						}
+						40 = {
+							create_unit = {
+								division = "name = \"Medium Tank Division\" division_template = \"Medium Tank Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0"
+								owner = ROOT
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_template = "Motorized Infantry"
+					}
+				}
+				division_template = {
+					name = "Motorized Infantry"
+					division_names_group = USA_INF_01
+					priority = 1
+					template_counter = 34
+					regiments = {
+						motorized = { x = 0 y = 0 }
+						motorized = { x = 0 y = 1 }
+						motorized = { x = 0 y = 2 }
+						motorized = { x = 0 y = 3 }
+						motorized = { x = 0 y = 4 }
+						motorized = { x = 1 y = 0 }
+						motorized = { x = 1 y = 1 }
+						motorized = { x = 1 y = 2 }
+						motorized = { x = 1 y = 3 }
+						motorized = { x = 1 y = 4 }
+					}
+					support = {
+						artillery = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+						engineer = { x = 0 y = 2 }
+					}
+				}
+			}
+			capital_scope = {
+				create_unit = {
+					division = "name = \"Motorized Infantry\" division_template = \"Motorized Infantry\" start_experience_factor = 0.1 start_equipment_factor = 1.0"
+					owner = ROOT
+				}
+			}
+			if = {
+				limit = {
+					num_of_controlled_states > 9
+				}
+				every_controlled_state = {
+					random_list = {
+						75 = {
+						}
+						25 = {
+							create_unit = {
+								division = "name = \"Motorized Infantry\" division_template = \"Motorized Infantry\" start_experience_factor = 0.1 start_equipment_factor = 1.0"
+								owner = ROOT
+							}
+						}
+					}
+				}
+			}
+			else = {
+				every_controlled_state = {
+					random_list = {
+						55 = {
+						}
+						45 = {
+							create_unit = {
+								division = "name = \"Motorized Infantry\" division_template = \"Motorized Infantry\" start_experience_factor = 0.1 start_equipment_factor = 1.0"
+								owner = ROOT
+							}
+						}
+					}
 				}
 			}
 		}
@@ -403,7 +617,7 @@ debug_decisions = {
 		}
 
 		ai_will_do = {
-			base = 0
+			base = 1
 		}
 	}
 

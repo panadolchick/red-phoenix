@@ -217,21 +217,6 @@ on_actions = {
 					}
 				}
 			}
-			if = {
-				limit = {
-					ROOT = {
-						original_tag = FROM
-						NOT = { has_country_flag = warlord_replaced }
-					}
-				}
-				ROOT = {
-					retire_country_leader = yes
-					set_country_flag = warlord_replaced
-				}
-				FROM = {
-					warlord_rule_all_parties = yes
-				}
-			}
 			#If prepared with surprise attack plan, get bonus
 			if = {
 				limit = {

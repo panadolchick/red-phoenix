@@ -23,5 +23,47 @@ ideas = {
 				army_org_factor = -0.05
 			}
 		}
+		CZE_genshtab = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = incompetence_of_bureaucracy
+
+			
+			modifier = {
+				army_org_factor = 0.05
+				experience_gain_army_unit_factor = 0.05
+				experience_gain_army = 0.05
+				command_power_gain = 0.05
+			}
+		}
+		CZE_priziv = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = incompetence_of_bureaucracy
+
+			
+			modifier = {
+				conscription = 0.05
+				experience_gain_army = -0.5
+			}
+		}
     }
 }
