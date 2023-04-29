@@ -1,5 +1,6 @@
 ﻿capital = 500
 
+recruit_character = BRA_itamar_franco
 
 #oob = "BRA_1936"
 if = {
