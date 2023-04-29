@@ -192,7 +192,14 @@ focus_tree = {
         y = 1
         cost = 1  
 		completion_reward = {
-		
+			army_experience = 15
+			add_command_power = 25
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.3
+				uses = 1
+				category = land_doctrine
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -208,7 +215,8 @@ focus_tree = {
         y = 2
         cost = 1  
 		completion_reward = {
-		
+		    army_experience = 5
+		    add_ideas = CZE_genshtab
 		}
 		ai_will_do = {
 			factor = 1
@@ -224,7 +232,18 @@ focus_tree = {
         y = 2
         cost = 1  
 		completion_reward = {
-		
+		    add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 2000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 500
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_1
+				amount = 100
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -241,7 +260,17 @@ focus_tree = {
         y = 3
         cost = 1  
 		completion_reward = {
-		
+		    add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 1.0
+				uses = 1
+				technology = paratroopers
+				technology = paratroopers2
+				technology = marines
+				technology = marines2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -257,7 +286,10 @@ focus_tree = {
         y = 3
         cost = 1  
 		completion_reward = {
-		
+		    add_timed_idea = {
+				idea = CZE_priziv
+				days = 30
+			}
 		}
 		ai_will_do = {
 			factor = 1
