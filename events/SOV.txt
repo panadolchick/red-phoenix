@@ -1,0 +1,36 @@
+add_namespace = sov
+add_namespace = sov_hidden
+#Основание Нац-Бол Партии
+country_event = {
+	id = sov.1
+	title = sov.1.t
+	desc = sov.1.d
+	picture = GFX_report_event_SOV_foundation_of_naz_bol_party
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 121
+	}
+	option = {
+		name = sov.1.a
+		news_event = {
+			id = RP_news.1
+			days = 0
+		}
+	}
+	option = {
+		name = sov.1.b
+		news_event = {
+			id = RP_news.1
+			days = 0
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			set_party_name = {
+				ideology = nationalism
+				long_name = SOV_Naz_Bol_party_long
+				name = SOV_Naz_Bol_party
+			}
+		}
+	}
+}

@@ -1,8 +1,10 @@
-﻿l_russian:
+﻿l_english:
  spawn_army_debug:0 "Spawn Army"
  spawn_army_debug_desc:0 "You know, I don't want to poop"
  spawn_army_of_hobos_debug:0 "Spawn an army of hobos"
- spawn_army_of_hobos_debug_desc:0 "Birds fly\nBomb the piglets\nThey blow up their houses"
+ spawn_army_of_hobos_debug_desc:0 "§TBi§!§Br§!§Rds§! §Cfly§!\n§RBomb§! the §Bpig§!§8lets§!\n§TTh§!§Be§!§Ry§! §Rblow up§! §Bthe§!§8ir§! §Yhouses§!"
+ spawn_mobile_army_debug:0 "Spawn a mobile army".
+ spawn_mobile_army_debug_desc:0 "Speedrun to conquer §BUkra§!§Yine§!, let's go!"
 
  #Ideas
  nuclear_power:0 "Nuclear power"
