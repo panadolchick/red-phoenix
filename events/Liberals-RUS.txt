@@ -8,7 +8,9 @@ country_event = {
 	picture = GFX_report_event_SOV_leningrad_concert
     trigger = {
 		tag = SOV
-		country_exists = MOS
+		SOV = {
+			has_idea = RCW_russian_civil_war
+		}
 	}
     option = {
         name = rus.1.a

@@ -22,7 +22,6 @@ country_event = {
 				type = take_state
 			}
 			load_oob = SPB_crowd
-			create_faction = Naz_Bol_FACTION
 		}
 		news_event = {
 			id = RP_news.2
@@ -40,7 +39,6 @@ country_event = {
 				type = take_state
 			}
 			load_oob = SPB_crowd
-			create_faction = Naz_Bol_FACTION
 		}
 		SPB = {
 			change_tag_from = SOV
@@ -78,6 +76,17 @@ country_event = {
 	}
     option = {
         name = naz-bol.2.a
+		random_list = {
+			30 = {
+				MOS = {
+					create_faction = Naz_Bol_FACTION
+					add_to_faction = SPB
+				}
+			}
+			70 = {
+				
+			}
+		}
 		MOS = {
 			set_state_owner = 219
 			set_province_controller = 6380
@@ -86,17 +95,22 @@ country_event = {
 				type = annex_everything
 			}
 			load_oob = MOS_personal_forces
-		}
-		SPB = {
-			add_to_faction = MOS
-			MOS = {
-				set_faction_leader = yes
-			}
 		}
 			
     }
 	option = {
         name = naz-bol.2.b
+		random_list = {
+			30 = {
+				MOS = {
+					create_faction = Naz_Bol_FACTION
+					add_to_faction = SPB
+				}
+			}
+			70 = {
+				
+			}
+		}
 		MOS = {
 			set_state_owner = 219
 			set_province_controller = 6380
@@ -105,12 +119,6 @@ country_event = {
 				type = annex_everything
 			}
 			load_oob = MOS_personal_forces
-		}
-		SPB = {
-			add_to_faction = MOS
-			MOS = {
-				set_faction_leader = yes
-			}
 		}
 		MOS = {
 			change_tag_from = SPB
@@ -141,6 +149,16 @@ country_event = {
 	}
     option = {
         name = naz-bol.3.a
+		random_list = {
+			10 = {
+				MOS = {
+					add_to_faction = IRK
+				}
+			}
+			90 = {
+				
+			}
+		}
 		IRK = {
 			set_state_owner = 566
 			set_province_controller = 4797
@@ -149,14 +167,20 @@ country_event = {
 				type = annex_everything
 			}
 			load_oob = IRK_prisoners
-		}
-		MOS = {
-			add_to_faction = IRK
-			add_to_faction = SPB
 		}
     }
 	option = {
         name = naz-bol.3.b
+		random_list = {
+			10 = {
+				MOS = {
+					add_to_faction = IRK
+				}
+			}
+			90 = {
+				
+			}
+		}
 		IRK = {
 			set_state_owner = 566
 			set_province_controller = 4797
@@ -165,10 +189,6 @@ country_event = {
 				type = annex_everything
 			}
 			load_oob = IRK_prisoners
-		}
-		MOS = {
-			add_to_faction = IRK
-			add_to_faction = SPB
 		}
 		IRK = {
 			change_tag_from = MOS
