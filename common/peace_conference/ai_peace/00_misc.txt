@@ -9,7 +9,7 @@ peace_ai_desires = {
             ROOT = { tag = ROOT.FROM } #We are negotiating for ourselves
             ROOT.FROM.FROM.FROM = { is_core_of = ROOT.FROM } #It is ours
         }
-        ai_desire = 100
+        ai_desire = 150
     }
 
     take_our_cores = {
@@ -18,7 +18,7 @@ peace_ai_desires = {
             ROOT = { tag = ROOT.FROM } #We are negotiating for ourselves
             ROOT.FROM.FROM.FROM = { is_claimed_by = ROOT.FROM } #It is ours
         }
-        ai_desire = 50
+        ai_desire = 100
     }
 
     doesnt_control_no_claim = {
@@ -33,6 +33,14 @@ peace_ai_desires = {
         ai_desire = -9999
     }
 	
+    always_puppet = {
+        peace_action_type = { puppet }
+        enable = {
+            always = yes
+        }
+        ai_desire = 50
+    }
+
     force_gov_puppets = {
         peace_action_type = force_government
         enable = {
@@ -54,18 +62,6 @@ peace_ai_desires = {
             }
         }
         ai_desire = -85  # 85 percent lower desire
-    }
-
-
-    # Countries the ai should be more unlikely to puppet in a peace deal
-    unlikely_countries = {
-        peace_action_type = puppet
-        enable = {
-            FROM = {
-                is_unlikely_country_tag = yes
-            }
-        }
-        ai_desire = -15  # 15 percent lower desire (slightly more keen to puppet than to liberate)
     }
 
     other_owner_does_not_have_core = {

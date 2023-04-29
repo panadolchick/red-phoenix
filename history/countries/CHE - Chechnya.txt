@@ -2,6 +2,8 @@
 
 ##oob = "CHE_1936"
 
+recruit_character = CHE_dzhokhar_dudayev
+
 set_research_slots = 3
 
 # Starting tech
@@ -96,5 +98,3 @@ set_popularities = {
 	conservatism = 1
 	communist = 5
 }
-
-recruit_character = CHE_dzhokhar_dudayev
