@@ -2,7 +2,9 @@
  spawn_army_debug:0 "Заспавнить армию"
  spawn_army_debug_desc:0 "Знаете, я не хочу какать"
  spawn_army_of_hobos_debug:0 "Заспавнить армию бомжей"
- spawn_army_of_hobos_debug_desc:0 "Птички летят\nБомбить поросят\nОни взрывают им домики"
+ spawn_army_of_hobos_debug_desc:0 "§TПт§!§Bич§!§Rки§! §Cлетят§!\n§RБомбить§! §Bпор§!§8осят§!\n§TО§!§Bн§!§Rи§! §Rвзрывают§! §Bи§!§8м§! §Yдомики§!"
+ spawn_mobile_army_debug:0 "Заспавнить мобильную армию"
+ spawn_mobile_army_debug_desc:0 "Спидран по захвату §BУкра§!§Yины§!, погнали!"
  
  #Ideas
  nuclear_power:0 "Ядерная держава"
