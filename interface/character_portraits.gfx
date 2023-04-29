@@ -304,3 +304,15 @@ spriteTypes = {
 		texturefile = "gfx/leaders/Liberals-RUS/KRR_gregory_yavlinskiy.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_OSR_igor_kasatonov"
+		texturefile = "gfx/leaders/OSR/OSR_igor_kasatonov.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_advisor_OSR_igor_kasatonov"
+		texturefile = "gfx/interface/ideas/OSR/OSR_igor_kasatonov.dds"
+	}
+}

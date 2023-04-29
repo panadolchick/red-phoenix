@@ -1,0 +1,16 @@
+﻿l_russian:
+#parties
+OSR_ultranationalism_party: "§tОтсутствует§!"
+OSR_nationalism_party: "§tОтсутствует§!"
+OSR_despotism_party: "ВА"
+OSR_despotism_party_long: "Военная администрация"
+OSR_authoritarianism_party: "ВА"
+OSR_authoritarianism_party_long: "Военная администрация"
+OSR_conservatism_party: "§tОтсутствует§!"
+OSR_liberalism_party: "§tОтсутствует§!"
+OSR_social_democracy_party: "КПО(Д)"
+OSR_social_democracy_party_long: "Коммунистическая партия Одессы - Демократы"
+OSR_socialist_party: "КПО(Р)"
+OSR_socialist_party_long: "Коммунистическая партия Одессы - Реформаторы"
+OSR_communist_party: "КПО(К)"
+OSR_communist_party_long: "Коммунистическая партия Одессы - Консерваторы"

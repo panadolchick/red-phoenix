@@ -1,0 +1,34 @@
+characters = {
+	OSR_igor_kasatonov = {
+		name = OSR_igor_kasatonov
+		portraits={
+			civilian={
+				large = "GFX_OSR_igor_kasatonov"
+			}
+			army = {
+				large = "GFX_OSR_igor_kasatonov"
+				small = "GFX_advisor_OSR_igor_kasatonov"
+			}
+		}
+		country_leader={
+			ideology = stratocracy
+		}
+		navy_leader = {
+			traits = { ironside ground_pounder }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = OSR_igor_kasatonov
+			can_be_fired = no
+			ledger = navy
+			traits = { 
+				navy_capital_ship_3
+			}
+		}
+	}
+}
