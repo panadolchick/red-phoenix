@@ -9,11 +9,21 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
 			11670 = {
-				naval_base = 3
-				coastal_bunker = 1
-
+				naval_base = 5
+				coastal_bunker = 5
+				bunker = 5
 			}
-
+			13272 = {
+				naval_base = 3
+				coastal_bunker = 3
+				bunker = 4
+			}
+			13273 = {
+				bunker = 2
+			}
+			13271 = {
+				bunker = 2
+			}
 		}
 		victory_points = {
 			11670 20 

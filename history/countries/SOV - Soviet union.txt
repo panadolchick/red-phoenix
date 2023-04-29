@@ -4,7 +4,8 @@
 ####
 
 recruit_character = SOV_genadiy_yanaev
-
+recruit_character = SOV_yazov
+activate_advisor = SOV_yazov
 #Add synthetic refineries tech
 set_technology = {
 	synth_oil_experiments = 1

@@ -316,3 +316,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/OSR/OSR_igor_kasatonov.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_advisor_SOV_yazov"
+		texturefile = "gfx/interface/ideas/SOV/SOV_yazov.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_OSR_mahmut_gareev"
+		texturefile = "gfx/leaders/OSR/OSR_mahmut_gareev.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_advisor_OSR_mahmut_gareev"
+		texturefile = "gfx/interface/ideas/OSR/OSR_mahmut_gareev.dds"
+	}
+}

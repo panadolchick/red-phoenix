@@ -1,12 +1,27 @@
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
+		name = "RED_PHOENIX_NAME"
+		desc = "RED_PHOENIX_DESC"
 		date = 1993.1.1.1
-		picture = "GFX_select_date_1936"
+		picture = "GFX_RED_PHOENIX_IMAGE"
 		default_country = "SOV"
 		default = yes
-		
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = despotism
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"CHI"={
+			history = "CHI_GATHERING_STORM_DESC"
+			ideology = despotism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = liberalism
@@ -56,21 +71,14 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"CHI"={
-			history = "CHI_GATHERING_STORM_DESC"
-			ideology = despotism
+		"OSR"={
+			minor = yes
+			history = "OSR_GATHERING_STORM_DESC"
+			ideology = authoritarianism
 			ideas = {
 			}
 			focuses = {
 			}
-		}
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = despotism
-			ideas = {
-			}
-			focuses = {
-			}	
 		}
 		"DON"={
 			minor = yes

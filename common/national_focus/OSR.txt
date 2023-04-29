@@ -1,0 +1,21 @@
+focus_tree = {
+	id = OSR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = OSR
+		}
+	}
+	default = no
+	focus = {
+		id = OSR_our_situation
+		icon = GFX_OSR_igor_kasatonov_focus
+		cost = 8
+		x = 8
+		y = 1
+		completion_reward = {
+			add_stability = 0.2
+		}
+	}
+}

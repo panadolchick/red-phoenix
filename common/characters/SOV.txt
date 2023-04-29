@@ -13,4 +13,21 @@ characters={
 			}
 		}
 	}
+	SOV_yazov = {
+		name = SOV_yazov
+		portraits={
+			army = {
+				small = "GFX_advisor_SOV_yazov"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = SOV_yazov
+			can_be_fired = no
+			ledger = army
+			traits = { 
+				great_war_hero
+			}
+		}
+	}
 }

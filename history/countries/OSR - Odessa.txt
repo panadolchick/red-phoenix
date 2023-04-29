@@ -1,16 +1,15 @@
 capital = 909
-
-set_research_slots = 3
-
+set_research_slots = 1
 set_stability = 0.5
-
 set_war_support = 0.2
-
 add_political_power = 0
-
+set_oob = OSR_unit
 set_convoys = 20
+add_manpower = 70000
 recruit_character = OSR_igor_kasatonov
 activate_advisor = OSR_igor_kasatonov
+recruit_character = OSR_mahmut_gareev
+activate_advisor = OSR_mahmut_gareev
 set_popularities = {
 	authoritarianism = 50
 	despotism = 5
@@ -20,7 +19,6 @@ set_popularities = {
 	conservatism = 10
 	liberalism = 5
 }
-
 set_politics = {
 	ruling_party = authoritarianism
 	last_election = "1991.11.8"
