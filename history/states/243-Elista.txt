@@ -12,9 +12,8 @@ state={
 		add_core_of = SOV
 		add_core_of = KAL
 		victory_points = {
-			11336 1 
+			11724 2
 		}
-
 	}
 
 	provinces={
