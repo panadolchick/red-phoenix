@@ -47,8 +47,9 @@ characters = {
 		}
 		corps_commander = {
 			skill = 6
-			attack_skill = 2
-			defense_skill = 5
+			traits = { infantry_leader infantry_expert infantry_officer defensive_doctrine guerilla_fighter unyielding_defender camouflage_expert }
+			attack_skill = 4
+			defense_skill = 8
 			planning_skill = 3
 			logistics_skill = 2
 		}
@@ -57,8 +58,12 @@ characters = {
 			idea_token = OSR_mahmut_gareev
 			can_be_fired = no
 			ledger = army
-			traits = { 
-			}
+			traits = { army_chief_defensive_3 }
+		}
+		advisor = {
+			slot = theorist
+			idea_token = OSR_mahmut_gareev_2
+			traits = { superior_firepower_expert }
 		}
 	}
 }

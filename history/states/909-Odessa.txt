@@ -30,7 +30,7 @@ state={
 			11670 20 
 		}
 		owner = OSR
-		add_core_of = UKR
+		add_claim_by = UKR
 		add_core_of = OSR
 
 	}

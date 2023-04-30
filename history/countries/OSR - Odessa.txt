@@ -10,6 +10,7 @@ recruit_character = OSR_igor_kasatonov
 activate_advisor = OSR_igor_kasatonov
 recruit_character = OSR_mahmut_gareev
 activate_advisor = OSR_mahmut_gareev
+activate_advisor = OSR_mahmut_gareev_2
 add_ideas = {
 war_economy
 closed_economy
