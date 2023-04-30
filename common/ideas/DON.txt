@@ -16,16 +16,16 @@ ideas = {
                         division_template = "96-ой Казачий Полк"
                     }
                     load_oob = DON_end_of_unit
+                    country_event = {
+                        id = don.2
+                        days = 40
+                    }
                 }
                 else = {
                     set_division_template_lock = {
                         division_template = "96-ой Казачий Полк"
                         is_locked = no
                     }
-                }
-                country_event = {
-                    id = don.2
-                    days = 40
                 }
             }
             available = {

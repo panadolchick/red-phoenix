@@ -94,5 +94,5 @@ add_ideas = DON_ruins_1
 add_ideas = DON_ruined_land
 add_ideas = DON_ruins_of_rostov_airbase
 set_oob = DON_unit
-set_oob = DON_air
+load_oob = DON_air
 #TODO, James make Ivan Kononov country leader for the fascists
