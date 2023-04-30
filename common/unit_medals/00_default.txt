@@ -636,7 +636,7 @@ unit_medals = {
 		available = { 
 			should_have_ethiopian_medals_trigger = yes
 			OR = {
-				has_government = ultramilitarism
+				 has_government = ultranationalism
 				has_government = nationalism
 			}
 			has_country_leader = {
@@ -663,7 +663,7 @@ unit_medals = {
 		available = { 
 			should_have_ethiopian_medals_trigger = yes 
 			OR = {
-				has_government = ultramilitarism
+				 has_government = ultranationalism
 				has_government = nationalism
 			}
 			has_country_leader = {
@@ -690,7 +690,7 @@ unit_medals = {
 		available = { 
 			should_have_ethiopian_medals_trigger = yes 
 			OR = {
-				has_government = ultramilitarism
+				 has_government = ultranationalism
 				has_government = nationalism
 			}
 			has_country_leader = {
@@ -989,7 +989,7 @@ unit_medals = {
 		
 		available = { 
 			OR = {
-				has_government = ultramilitarism
+				 has_government = ultranationalism
 				has_government = nationalism
 			}
 			should_have_any_unique_medals_trigger = no
@@ -1013,7 +1013,7 @@ unit_medals = {
 		
 		available = { 
 			OR = {
-				has_government = ultramilitarism
+				 has_government = ultranationalism
 				has_government = nationalism
 			}
 			should_have_any_unique_medals_trigger = no
@@ -1037,7 +1037,7 @@ unit_medals = {
 		
 		available = { 
 			OR = {
-				has_government = ultramilitarism
+				 has_government = ultranationalism
 				has_government = nationalism
 			}
 			should_have_any_unique_medals_trigger = no
@@ -1062,7 +1062,7 @@ unit_medals = {
 		
 		available = { 
 			OR = {
-				has_government = ultramilitarism
+				 has_government = ultranationalism
 				has_government = nationalism
 			}
 			should_have_any_unique_medals_trigger = no
@@ -1189,7 +1189,6 @@ unit_medals = {
 		
 		available = { 
 			tag = YUG
-			has_completed_focus = YUG_medal_for_extreme_bravery
 		}
 		frame = 1
 		icon = "GFX_medal_icon_default"

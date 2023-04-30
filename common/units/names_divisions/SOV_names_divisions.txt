@@ -1544,8 +1544,7 @@ SOV_GTC_01 =
 }
 
 
-SOV_CAV_02 = #COSSACK CAVALRY
-{
+SOV_CAV_02 = {
 	name = "Cossack Cavalry Division"
 
 	for_countries = { SOV UKR }
@@ -1668,29 +1667,5 @@ SOV_CAV_02 = #COSSACK CAVALRY
 		317 = { "17ya Gvds. Kazachya Kavaleriyskaya Div." }
 		59 = { "%dya Kazachya Kavaleriyskaya Diviziya" }
 		84 = { "%dya Kazachya Kavaleriyskaya Diviziya" }
-	}
-}
-
-SOV_JAP_INF = {
-	name = "Japanese Expeditionary Force"
-
-	for_countries = { SOV }
-
-	can_use = { 
-		ROOT = { has_country_flag = SOV_CSW_transfer_vladivostok_flag }
-	}
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SOV_INF_01 }
-
-	fallback_name = "%d Japanese Expeditionary Division"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-
 	}
 }

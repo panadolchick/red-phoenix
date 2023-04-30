@@ -205,7 +205,7 @@ political_actions = {
         }
 	
 		modifier = {
-			social_democracy = -0.05
+			social_democracy_drift = -0.05
 			stability_weekly = 0.007
 		}
 	

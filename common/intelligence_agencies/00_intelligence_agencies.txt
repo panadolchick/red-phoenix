@@ -114,24 +114,24 @@ intelligence_agency = {
 
 intelligence_agency = {
 	
-	picture = GFX_intelligence_agency_logo_prc
-	names = { "Intelligence Department Central Military Commission" }
-	
-	available = { always = yes }
-	
-	default = { tag = PRC }
-	available = { original_tag = PRC }
-}
-
-intelligence_agency = {
-	
 	picture = GFX_intelligence_agency_logo_chi
-	names = { "NBIS" }
+	names = { "Intelligence Department Central Military Commission" }
 	
 	available = { always = yes }
 	
 	default = { tag = CHI }
 	available = { original_tag = CHI }
+}
+
+intelligence_agency = {
+	
+	picture = GFX_intelligence_agency_logo_twn
+	names = { "NBIS" }
+	
+	available = { always = yes }
+	
+	default = { tag = TWN }
+	available = { original_tag = TWN }
 }
 
 intelligence_agency = {
@@ -309,20 +309,10 @@ intelligence_agency = {
 	
 	available = { 
 		tag = SWI
-		NOT = {
-			has_government = ultranationalism
-			has_government = nationalism
-		}
-		has_completed_focus = SWI_buero_ha
 	}
 	
 	default = { 		
 		tag = SWI
-		NOT = {
-			has_government = ultranationalism
-			has_government = nationalism
-		}
-		has_completed_focus = SWI_buero_ha
 	} 
 }
 
@@ -333,14 +323,11 @@ intelligence_agency = {
 	
 	available = { 
 		tag = SWI
-		has_completed_focus = SWI_federal_police
-
 	}
 	
 	default = { 		
 		tag = SWI
-		has_completed_focus = SWI_federal_police
-	} 
+	}
 }
 
 intelligence_agency = {

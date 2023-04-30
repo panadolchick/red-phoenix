@@ -980,8 +980,16 @@ country_event = {
 		add_political_power = -30
 		add_war_support = -0.05
 		add_popularity = {
-			ideology = democratic
-			popularity = -0.05
+			ideology = conservatism
+			popularity = -0.02
+		}
+		add_popularity = {
+			ideology = liberalism
+			popularity = -0.02
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = -0.02
 		}
 	}
 
@@ -996,8 +1004,12 @@ country_event = {
 		add_political_power = -30
 		add_war_support = -0.05
 		add_popularity = {
-			ideology = communism
-			popularity = -0.05
+			ideology = socialist
+			popularity = -0.03
+		}
+		add_popularity = {
+			ideology = communist
+			popularity = -0.03
 		}
 	}
 
@@ -1014,8 +1026,12 @@ country_event = {
 		add_political_power = -30
 		add_war_support = -0.05
 		add_popularity = {
-			ideology = fascism
-			popularity = -0.05
+			ideology = ultranationalism
+			popularity = -0.03
+		}
+		add_popularity = {
+			ideology = nationalism
+			popularity = -0.025
 		}
 	}
 }

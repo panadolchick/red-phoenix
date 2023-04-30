@@ -118,7 +118,6 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 			}
 			has_dlc = "Death or Dishonor"
 			original_tag = YUG
-			NOT = { has_completed_focus = YUG_reunite_the_kingdom }
 		}
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_RELEASE_NATIONS_NOT_YUGOSLAVIA_TOOLTIP

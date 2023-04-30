@@ -133,8 +133,10 @@ SOV_BB_HISTORICAL = {
 
 	can_use = {
 		NOT = { 
-			has_government = fascism
-			has_government = neutrality
+			has_government = ultranationalism
+			has_government = nationalism
+			has_government = despotism
+			has_government = authoritarianism
 		}
 	}
 

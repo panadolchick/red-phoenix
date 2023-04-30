@@ -185,8 +185,11 @@ BUL_INF_03 =
 
 	for_countries = { BUL }
 
-	can_use = { 
-		has_government = communism
+	can_use = {
+		OR = {
+			has_government = socialist
+			has_government = communist
+		}
 	}
 
 	division_types = { "infantry" }

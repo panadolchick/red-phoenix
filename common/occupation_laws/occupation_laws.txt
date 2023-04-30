@@ -83,7 +83,11 @@ no_garrison = {
 
 		modifier = {
 			FROM = {
-				has_government = democratic
+				OR = {
+					has_government = conservatism
+					has_government = liberalism
+					has_government = social_democracy
+				}
 			}
 			has_active_resistance = no
 			add = 200
@@ -114,7 +118,11 @@ autonomous_occupation = {
 	sound_effect = "Martial_Law_Interface_Autonomous_Occupation_Unique_DEM"
 
 	visible = {
-		has_government = democratic #? on design
+		OR = { #? on design
+			has_government = conservatism
+			has_government = liberalism
+			has_government = social_democracy
+		}
 	}
 
 	state_modifier = {
@@ -221,7 +229,10 @@ liberate_workers_occupation = {
 	sound_effect = "Martial_Law_Interface_Liberate_Workers_Occupation_Unique_COM"
 
 	visible = {
-		has_government = communism
+		OR = {
+			has_government = socialist
+			has_government = communist
+		}
 	}
 
 	state_modifier = {
@@ -438,7 +449,10 @@ brutally_oppressive_occupation = {
 	sound_effect = "Martial_Law_Interface_Brutally_Oppressive_Occupation_Unique_FAS"
 
 	visible = {
-		has_government = fascism
+		OR = {
+			has_government = ultranationalism
+			has_government = nationalism
+		}
 	}
 
 	state_modifier = {

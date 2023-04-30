@@ -187,12 +187,7 @@ prospect_for_resources = {
 			base = 0.5
 			modifier = {
 				factor = 20 #10 was the basic default AI weight before, meant for Chinas.
-				OR = {
-					is_literally_china = yes
-					original_tag = MAN
-					original_tag = MEN
-					original_tag = JAP
-				}
+				original_tag = CHI
 			}
 			modifier = {
 				factor = 0
@@ -558,12 +553,7 @@ prospect_for_resources = {
 			base = 0.5
 			modifier = {
 				factor = 10 #5 was the basic default AI weight before, meant for Chinas.
-				OR = {
-					is_literally_china = yes
-					original_tag = MAN
-					original_tag = MEN
-					original_tag = JAP
-				}
+				original_tag = CHI
 			}
 			modifier = {
 				factor = 0
@@ -977,9 +967,7 @@ prospect_for_resources = {
 		icon = oil
 
 		allowed = {
-			NOT = {
-				tag = ITA
-			}
+			original_tag = LBA
 		}
 
 		available = {
@@ -1017,8 +1005,8 @@ prospect_for_resources = {
 		ai_will_do = {
 			base = 0.5
 			modifier = {
-				factor = 20 #10 was the default weight before, meant for ITA.
-				original_tag = ITA
+				factor = 15
+				original_tag = LBA
 			}
 			modifier = {
 				factor = 0
@@ -1060,7 +1048,7 @@ prospect_for_resources = {
 
 		allowed = {
 			NOT = {
-				tag = ITA
+				tag = LBA
 			}
 		}
 
@@ -1100,8 +1088,8 @@ prospect_for_resources = {
 		ai_will_do = {
 			base = 0.5
 			modifier = {
-				factor = 20 #10 was the default weight before, meant for ITA.
-				original_tag = ITA
+				factor = 15
+				original_tag = LBA
 			}
 			modifier = {
 				factor = 0
@@ -4098,10 +4086,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -4183,10 +4168,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -4269,10 +4251,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -4355,10 +4334,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -4445,10 +4421,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -4548,10 +4521,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -4634,10 +4604,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -4720,10 +4687,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -4838,10 +4802,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -4956,10 +4917,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -5070,10 +5028,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -5188,10 +5143,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -5306,10 +5258,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -5419,10 +5368,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -5505,10 +5451,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -5771,10 +5714,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -5962,10 +5902,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -6050,10 +5987,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -6138,10 +6072,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -6225,10 +6156,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -6416,10 +6344,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -6504,10 +6429,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -6814,10 +6736,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -6903,10 +6822,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -6993,10 +6909,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -7088,10 +7001,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -7182,10 +7092,7 @@ prospect_for_resources = {
 				OR = {
 					AND = { #Ultimatum decisions are available and we should prio them
 						original_tag = SOV
-						OR = {
-							SOV_save_pp_for_manpower_trouble = yes
-							SOV_we_want_to_send_ultimatums = yes
-						}
+						SOV_save_pp_for_manpower_trouble = yes
 					}
 					AND = { #Too low MP we need to save PP for the laws
 						has_manpower < 10000
@@ -7227,7 +7134,7 @@ prospect_for_resources = {
 		icon = oil
 
 		allowed = {
-			original_tag = ITA			
+			original_tag = LBA			
 		}
 
 		available = {
@@ -7248,7 +7155,6 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			has_completed_focus = ITA_oil_in_tripoli
 			448 = {
 				NOT = {
 					has_state_flag = {
@@ -7320,7 +7226,7 @@ prospect_for_resources = {
 		icon = steel
 
 		allowed = {
-			original_tag = ITA
+			original_tag = LBA
 		}
 		available = {
 			has_tech = excavation3
@@ -7340,7 +7246,6 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			has_completed_focus = ITA_steel_in_tripoli
 			448 = {
 				NOT = {
 					has_state_flag = {

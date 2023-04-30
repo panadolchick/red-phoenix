@@ -344,7 +344,10 @@ FRA_PRESIDENTS = {
 	for_countries = { FRA }
 
 	can_use = { 
-		NOT = { has_government = neutrality }
+		NOT = { 
+			has_government = despotism
+			has_government = authoritarianism 
+		}
 	}
 
 	type = ship
@@ -363,7 +366,12 @@ FRA_KINGS = {
 	for_countries = { FRA }
 
 	can_use = { 
-		NOT = { has_government = communism }
+		NOT = {
+			OR = {
+				has_government = socialist
+				has_government = communist
+			} 
+		}
 	}
 
 	type = ship
