@@ -1,8 +1,10 @@
-﻿capital = 237 #Elista
+﻿capital = 243 #Elista
 
 ##oob = "KAL_1936"
 
 set_research_slots = 3
+
+recruit_character = KAL_national_congress
 
 # Starting tech
 set_technology = {
@@ -84,15 +86,20 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = authoritarianism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	liberalism = 60
-	nationalism = 10
-	communist = 20
-	despotism = 10
+	ultranationalism = 5
+	nationalism = 14
+	despotism = 7
+	authoritarianism = 41
+	liberalism = 9
+	conservatism = 14
+	social_democracy = 3
+	socialist = 2
+	communist = 5
 }

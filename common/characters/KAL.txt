@@ -1,0 +1,16 @@
+characters = {
+	KAL_national_congress = {
+		name = KAL_national_congress
+		portraits={
+			civilian={
+				large = "GFX_KAL_national_congress"
+			}
+		}
+		country_leader={
+			ideology = oligarchy
+			traits = {
+				KAL_national_congress_desc
+			}
+		}
+	}
+}

@@ -346,3 +346,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/OSR/OSR_mahmut_gareev.dds"
 	}
 }
+spriteTypes = {
+	spriteType = {
+		name = "GFX_KAL_national_congress"
+		texturefile = "gfx/leaders/KAL/KAL_national_congress.dds"
+	}
+}

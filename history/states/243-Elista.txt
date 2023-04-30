@@ -1,0 +1,27 @@
+
+state={
+	id=243
+	name="STATE_243"
+
+	history={
+		owner = KAL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = SOV
+		add_core_of = KAL
+		victory_points = {
+			11336 1 
+		}
+
+	}
+
+	provinces={
+		11724 
+	}
+	manpower=90728
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

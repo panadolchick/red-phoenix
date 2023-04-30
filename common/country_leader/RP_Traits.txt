@@ -13,6 +13,13 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	KAL_national_congress_desc = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	YUG_Dobrica_Cosic = {
 		random = no
 
