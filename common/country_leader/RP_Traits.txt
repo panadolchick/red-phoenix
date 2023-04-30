@@ -20,4 +20,9 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	anarcho_monarchist = {
+		random = no
+		sprite = 13
+		despotism_drift = 0.05
+	}
 }

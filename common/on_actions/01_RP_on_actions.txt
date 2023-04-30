@@ -19,6 +19,20 @@ on_actions = {
 					damage = 1
 				}
 			}
+			218 = {
+				damage_building = {
+					type = air_base
+					damage = 4
+				}
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+				damage_building = {
+					type = rail_way
+					damage = 1
+				}
+			}
 		}
 	}
 	on_release_as_puppet = {

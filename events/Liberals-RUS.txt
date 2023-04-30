@@ -12,6 +12,9 @@ country_event = {
 			has_idea = RCW_russian_civil_war
 		}
 	}
+	mean_time_to_happen = {
+		days = 10
+	}
     option = {
         name = rus.1.a
 		ARH = {
@@ -60,6 +63,9 @@ country_event = {
 		ARH = {
 			has_full_control_of_state = 214
 		}
+	}
+	mean_time_to_happen = {
+		days = 5
 	}
     option = {
         name = rus.2.a

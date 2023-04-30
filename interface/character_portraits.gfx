@@ -78,6 +78,12 @@ spriteTypes = {
 }
 spriteTypes = {
 	spriteType = {
+		name = "GFX_advisor_DON_igor_strelkov"
+		texturefile = "gfx/interface/ideas/DON/DON_igor_strelkov.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
 		name = "GFX_DON_august_kruse"
 		texturefile = "gfx/leaders/DON/DON_august_kruse.dds"
 	}
@@ -92,6 +98,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_advisor_DON_vladislav_kislyakov"
 		texturefile = "gfx/interface/ideas/DON/DON_vladislav_kislyakov.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_DON_dmitriy_kochinskiy"
+		texturefile = "gfx/leaders/DON/DON_dmitriy_kochinskiy.dds"
 	}
 }
 spriteTypes = {

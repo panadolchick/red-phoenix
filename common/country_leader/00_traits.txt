@@ -1996,7 +1996,7 @@ leader_traits = {
 	anarchist = { 
 		random = no
 		sprite = 13 
-		communist_drift = 0.05
+		socialism_drift = 0.05
 	}
 
 	### Pro Council ### 
@@ -6899,5 +6899,4 @@ leader_traits = {
 			factor = 1
 		}
 	}
-
 }

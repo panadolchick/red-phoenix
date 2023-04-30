@@ -85,7 +85,6 @@ country_event = {
 				set_politics = {
 					ruling_party = nationalism
 				}
-
 			}
 			custom_effect_tooltip = We_lose_tt
 		}

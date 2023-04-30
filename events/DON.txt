@@ -71,3 +71,259 @@ country_event = {
         
     }
 }
+country_event = {
+    id = don.3
+    title = don.3.t
+    desc = don.3.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = don.3.a
+		hidden_effect = {
+			load_oob = DON_UPSD
+			add_manpower = 17200
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1420
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 168
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 60
+			}
+		}
+		DON_dmitriy_kochinskiy = {
+			add_corps_commander_role = {
+				skill = 5
+				attack_skill = 5
+				defense_skill = 3
+				planning_skill = 1
+				logistics_skill = 1
+			}
+		}
+		add_popularity = {
+			ideology = ultranationalism
+			popularity = 0.02
+		}
+		set_country_flag = DON_USPD
+    }
+}
+country_event = {
+    id = don.4
+    title = don.4.t
+    desc = don.4.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = don.4.a
+		hidden_effect = {
+			add_popularity = {
+				ideology = authoritarianism
+				popularity = -0.07
+			}
+			add_stability = 0.05
+			add_war_support = 0.1
+			add_opinion_modifier = {
+				target = SOV
+				modifier = DON_ivan_polozkov_executed
+			}
+		}
+		set_party_name = {
+			ideology = authoritarianism
+			long_name = DON_authoritarianism_executed_party_long
+			name = DON_authoritarianism_executed_party
+		}
+		set_country_flag = DON_ivan_polozkov_executed
+		kill_ideology_leader = authoritarianism
+		modify_country_flag = {
+			flag = DON_august_kruse_accept
+			value = 1
+		}
+    }
+	option = {
+        name = don.4.b
+		hidden_effect = {
+			add_popularity = {
+				ideology = authoritarianism
+				popularity = 0.07
+			}
+			add_opinion_modifier = {
+				target = SOV
+				modifier = DON_ivan_polozkov_exiled
+			}
+		}
+		add_political_power = -50
+		set_party_name = {
+			ideology = authoritarianism
+			long_name = DON_authoritarianism_executed_party_long
+			name = DON_authoritarianism_executed_party
+		}
+		remove_country_leader_role = {
+			character = DON_ivan_polozkov
+			ideology = pragmatic_socialism
+		}
+		modify_country_flag = {
+			flag = DON_august_kruse_accept
+			value = -1
+		}
+		set_country_flag = DON_ivan_polozkov_exiled
+    }
+}
+country_event = {
+    id = don.5
+    title = don.5.t
+    desc = don.5.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = don.5.a
+		hidden_effect = {
+			add_popularity = {
+				ideology = nationalism
+				popularity = -0.7
+			}
+		}
+		set_party_name = {
+			ideology = nationalism
+			long_name = DON_nationalism_executed_party_long
+			name = DON_nationalism_executed_party
+		}
+		remove_country_leader_role = {
+			character = DON_igor_strelkov
+			ideology = nationalist_monarchism
+		}
+		DON_igor_strelkov = {
+			add_advisor_role = {
+				advisor = {
+					slot = political_advisor
+					idea_token = igor_strelkov
+					ledger = civilian
+					traits = { anarcho_monarchist }
+				 }
+			}	
+		}
+		modify_country_flag = {
+			flag = DON_august_kruse_accept
+			value = -2
+		}
+		set_country_flag = DON_igor_strelkov_advisor
+    }
+	option = {
+        name = don.5.b
+		hidden_effect = {
+			add_popularity = {
+				ideology = nationalism
+				popularity = -0.7
+			}
+		}
+		set_party_name = {
+			ideology = nationalism
+			long_name = DON_nationalism_executed_party_long
+			name = DON_nationalism_executed_party
+		}
+		remove_country_leader_role = {
+			character = DON_igor_strelkov
+			ideology = nationalist_monarchism
+		}
+		DON_igor_strelkov = {
+			add_advisor_role = {
+				advisor = {
+					slot = army_chief
+					idea_token = igor_strelkov
+					ledger = army
+					traits = { army_cavalry_1 }
+				 }
+			}	
+		}
+		modify_country_flag = {
+			flag = DON_august_kruse_accept
+			value = 2
+		}
+		set_country_flag = DON_igor_strelkov_army_chief
+    }
+}
+country_event = {
+    id = don.6
+    title = don.6.t
+    desc = don.6.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = don.6.a
+		trigger = {
+			has_country_flag = {
+				flag = DON_august_kruse_accept
+				value > 0
+			}
+		}
+		remove_country_leader_role = {
+			character = DON_august_kruse
+			ideology = social_liberalism
+		}
+		set_party_name = {
+			ideology = liberalism
+			long_name = DON_liberalism_executed_party_long
+			name = DON_liberalism_executed_party
+		}
+		load_focus_tree = DON_Petr_Molodidov_tree
+    }
+	option = {
+        name = don.6.b
+		trigger = {
+			has_country_flag = {
+				flag = DON_august_kruse_accept
+				value < 0
+			}
+		}
+		set_politics = {
+			ruling_party = liberalism
+		}
+		kill_ideology_leader = despotism
+		load_focus_tree = DON_August_Kruse_tree
+    }
+	option = {
+        name = don.6.c
+		trigger = {
+			has_country_flag = DON_USPD
+		}
+		set_party_name = {
+			ideology = liberalism
+			long_name = DON_liberalism_executed_party_long
+			name = DON_liberalism_executed_party
+		}
+		kill_ideology_leader = despotism
+		kill_ideology_leader = liberalism
+			add_country_leader_role = {
+				character = DON_dmitriy_kochinskiy
+				promote_leader = yes
+				country_leader = { 
+					ideology = ultramilitarism
+					traits = {
+						army_chief_offensive_3
+					}
+				}
+			}	
+		set_party_name = {
+			ideology = ultranationalism
+			long_name = DON_USPD_party_long
+			name = DON_USPD_party
+		}
+		set_politics = {
+			ruling_party = ultranationalism
+		}
+		load_focus_tree = DON_USDP_tree
+		set_cosmetic_tag = DON_RNR
+    }
+	immediate = {
+		hidden_effect = {
+			add_manpower = -17
+		}
+	}
+}

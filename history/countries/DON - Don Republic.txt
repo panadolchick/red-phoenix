@@ -72,10 +72,10 @@ set_politics = {
 }
 
 set_popularities = {
-	liberalism = 10
-	despotism = 70
-	communist = 10
-	nationalism = 10
+	liberalism = 18
+	despotism = 60
+	authoritarianism = 10
+	nationalism = 12
 }
 set_politics = {
 	ruling_party = despotism
@@ -88,9 +88,11 @@ recruit_character = DON_petr_molodidov
 recruit_character = DON_vladislav_kislyakov
 recruit_character = DON_igor_strelkov
 recruit_character = DON_august_kruse
+recruit_character = DON_dmitriy_kochinskiy
 add_ideas = DON_last_cosack_unit
 add_ideas = DON_ruins_1
 add_ideas = DON_ruined_land
 add_ideas = DON_ruins_of_rostov_airbase
 set_oob = DON_unit
+set_oob = DON_air
 #TODO, James make Ivan Kononov country leader for the fascists

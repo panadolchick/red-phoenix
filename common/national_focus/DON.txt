@@ -39,6 +39,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = DON_save_last_cosack_unit
 		}
+		prerequisite = {
+			focus = DON_fate_of_last_cosack_unit
+		}
         x = 10
         y = 1
         cost = 0
@@ -57,6 +60,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = DON_end_of_last_cosack_unit
 		}
+		prerequisite = {
+			focus = DON_fate_of_last_cosack_unit
+		}
         x = 16
         y = 1
         cost = 0
@@ -64,6 +70,89 @@ focus_tree = {
 			always = no
 		}
 		completion_reward = {
+			hidden_effect = {
+				set_country_flag = {
+					flag = DON_august_kruse_accept
+					value = 0
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = DON_call_UPSD_volunteers
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = DON_save_last_cosack_unit
+		}
+        x = 16
+        y = 2
+        cost = 10
+		completion_reward = {
+			country_event = {
+				id = don.3
+				days = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = DON_fate_of_USSR_puppet
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = DON_save_last_cosack_unit
+		}
+        x = 14
+        y = 2
+        cost = 2
+		completion_reward = {
+			country_event = {
+				id = don.4
+				days = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = DON_end_the_strelkov_clique
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = DON_save_last_cosack_unit
+		}
+        x = 18
+        y = 2
+        cost = 2
+		completion_reward = {
+			country_event = {
+				id = don.5
+				days = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = DON_fate_of_german_from_volga
+        icon = GFX_goal_unknown
+		prerequisite = {
+			focus = DON_end_the_strelkov_clique
+			focus = DON_fate_of_USSR_puppet
+		}
+        x = 16
+        y = 3
+        cost = 2
+		completion_reward = {
+			country_event = {
+				id = don.6
+				days = 1
+			}
 		}
 		ai_will_do = {
 			factor = 1

@@ -943,3 +943,7 @@ SWI_helvetic_republic = {
 	color_ui = rgb { 140 140 140 }
 }
 
+DON_RNR = {
+	color = rgb { 80 201 94 }
+	color_ui = rgb { 60 181 74 }
+}

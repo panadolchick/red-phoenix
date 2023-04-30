@@ -36,6 +36,16 @@ state={
 			13334 = {
 				naval_base = 1
 			}
+			air_base = 4
+			13348 = {
+				bunker = 2
+			}
+			11450 = {
+				bunker = 2
+			}
+			13345 = {
+				bunker = 2
+			}
 		}
 		add_core_of = SOV
 		add_core_of = DON

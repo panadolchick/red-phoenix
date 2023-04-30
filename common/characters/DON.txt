@@ -56,10 +56,11 @@ characters = {
 		name = DON_igor_strelkov
 		portraits = {
 			army={
-				small="/gfx/interface/ideas/idea_LEB_generic_land_3.dds"
+				small="GFX_advisor_DON_igor_strelkov"
 				large="GFX_DON_igor_strelkov"
 			}	
 			civilian = {
+				small="GFX_advisor_DON_igor_strelkov"
 				large = "GFX_DON_igor_strelkov"
 			}
 		}
@@ -91,6 +92,17 @@ characters = {
 			defense_skill = 3
 			planning_skill = 2
 			logistics_skill = 2
+		}
+	}
+	DON_dmitriy_kochinskiy = {
+		name = DON_dmitriy_kochinskiy
+		portraits = {
+			army={
+				large="GFX_DON_dmitriy_kochinskiy"
+			}
+			civilian = {
+				large = "GFX_DON_dmitriy_kochinskiy"
+			}
 		}
 	}
 }

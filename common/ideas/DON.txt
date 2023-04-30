@@ -111,6 +111,7 @@ ideas = {
                 production_factory_max_efficiency_factor = -0.1
                 consumer_goods_factor = 0.1
                 stability_factor = -0.15
+                repair_speed_air_base_factor = -1
             }
         }
         DON_ruins_2 = {
@@ -130,6 +131,7 @@ ideas = {
                 production_factory_max_efficiency_factor = -0.05
                 consumer_goods_factor = 0.1
                 stability_factor = -0.10
+                repair_speed_air_base_factor = -0.5
             }
         }
         DON_ruins_3 = {
