@@ -1,8 +1,8 @@
 ﻿capital = 243 #Elista
 
-##oob = "KAL_1936"
+oob = "KAL_units"
 
-set_research_slots = 3
+set_research_slots = 2
 
 recruit_character = KAL_national_congress
 
@@ -85,11 +85,22 @@ if = {
 		basic_torpedo = 1
 	}
 }
+
+set_stability = 0.4
+set_war_support = 0.6
+
 set_politics = {
 	ruling_party = authoritarianism
-	last_election = "1936.1.1"
+	last_election = "1991.4.22"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+}
+
+add_ideas = {
+	service_by_requirement
+	limited_exports
+	war_economy
+	KAL_city_fortress_in_the_middle_of_the_steppes
 }
 
 set_popularities = {

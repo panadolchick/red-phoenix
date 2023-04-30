@@ -5,6 +5,7 @@
  spawn_army_of_hobos_debug_desc:0 "§TПт§!§Bич§!§Rки§! §Cлетят§!\n§RБомбить§! §Bпор§!§8осят§!\n§TО§!§Bн§!§Rи§! §Rвзрывают§! §Bи§!§8м§! §Yдомики§!"
  spawn_mobile_army_debug:0 "Заспавнить мобильную армию"
  spawn_mobile_army_debug_desc:0 "Спидран по захвату §BУкра§!§Yины§!, погнали!"
+ modifier_repair_speed_bunker_factor:0 "Скорость восстановления §Yбункеров§!"
  
  #Ideas
  nuclear_power:0 "Ядерная держава"

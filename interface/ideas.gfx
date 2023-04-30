@@ -7221,5 +7221,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_nuclear_power"
 		textureFile = "gfx/interface/ideas/nuclear_power.dds"
-	}		
+	}
+	spriteType = {
+		name = "GFX_idea_KAL_city_fortress_in_the_middle_of_the_steppes"
+		textureFile = "gfx/interface/ideas/KAL/KAL_city_fortress_in_the_middle_of_the_steppes.dds"
+	}	
 }

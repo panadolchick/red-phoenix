@@ -5,6 +5,7 @@
  spawn_army_of_hobos_debug_desc:0 "§TBi§!§Br§!§Rds§! §Cfly§!\n§RBomb§! the §Bpig§!§8lets§!\n§TTh§!§Be§!§Ry§! §Rblow up§! §Bthe§!§8ir§! §Yhouses§!"
  spawn_mobile_army_debug:0 "Spawn a mobile army".
  spawn_mobile_army_debug_desc:0 "Speedrun to conquer §BUkra§!§Yine§!, let's go!"
+ modifier_repair_speed_bunker_factor:0 "Скорость восстановления §Yбункеров§!"
 
  #Ideas
  nuclear_power:0 "Nuclear power"
