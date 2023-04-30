@@ -1,0 +1,9 @@
+ideas = {
+    country = {
+        OSR_defence = {
+            modifier = {
+				army_core_defence_factor = 0.2
+            }
+        }
+	}
+}

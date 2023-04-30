@@ -24,6 +24,7 @@ state={
 			13271 = {
 				bunker = 2
 			}
+			anti_air_building = 3
 		}
 		victory_points = {
 			11670 20 

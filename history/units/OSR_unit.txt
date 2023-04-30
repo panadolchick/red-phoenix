@@ -80,7 +80,7 @@ units = {
         }
         location = 13273
         division_template = "Пехотная дивизия"
-        start_experience_factor = 0.075
+        start_experience_factor = 1.0
         start_equipment_factor = 1.0
         start_manpower_factor = 1.0
     }
@@ -92,7 +92,7 @@ units = {
         }
         location = 13271
         division_template = "Пехотная дивизия"
-        start_experience_factor = 0.1
+        start_experience_factor = 1.0
         start_equipment_factor = 1.0
         start_manpower_factor = 1.0
     }
