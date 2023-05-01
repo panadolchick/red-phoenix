@@ -73,9 +73,11 @@ bookmarks = {
 		}
 		"OSR"={
 			minor = yes
-			history = "OSR_GATHERING_STORM_DESC"
+			history = "OSR_RED_PHOENIX_DESC"
 			ideology = authoritarianism
 			ideas = {
+				OSR_regular_attacks
+				OSR_defence
 			}
 			focuses = {
 			}

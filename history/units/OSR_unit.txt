@@ -83,18 +83,6 @@ units = {
             is_name_ordered = yes
         }
         location = 11670
-        division_template = "Морская пехота"
-        start_experience_factor = 1.0
-        start_equipment_factor = 1.0
-        start_manpower_factor = 1.0
-    }
-}
-units = {
-    division = {
-        division_name = {
-            is_name_ordered = yes
-        }
-        location = 11670
         division_template = "Танковая дивизия"
         start_experience_factor = 1.0
         start_equipment_factor = 1.0
@@ -122,6 +110,18 @@ units = {
             is_name_ordered = yes
         }
         location = 13272
+        division_template = "Морская пехота"
+        start_experience_factor = 1.0
+        start_equipment_factor = 1.0
+        start_manpower_factor = 1.0
+    }
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+        location = 13271
         division_template = "Морская пехота"
         start_experience_factor = 1.0
         start_equipment_factor = 1.0
@@ -165,7 +165,7 @@ units = {
 units = {
     division = {
         name = "28-я гвардейская мотострелковая Харьковская Краснознамённая дивизия"
-        location = 13273
+        location = 11670
         division_template = "Моторизованная дивизия"
         start_experience_factor = 1.0
         start_equipment_factor = 1.0

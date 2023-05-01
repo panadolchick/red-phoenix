@@ -40,7 +40,7 @@
  SOV_conservatism_party_long: "Либерально-демократическая партия Советского Союза"
  SOV_liberalism_party: "ДПР"
  SOV_liberalism_party_long: "Демократическая партия России"
- SOV_social_democracy_party: "КПСС (Д)"
+ SOV_social_democracy_party: "КПСС(Д)"
  SOV_social_democracy_party_long: "Коммунистическая партия Советского Союза - Демократы"
  SOV_socialist_party: "КПСС(Р)"
  SOV_socialist_party_long: "Коммунистическая партия Советского Союза - Реформисты"
@@ -54,6 +54,6 @@
  SOV_ultranationalism_party_long: "Русское национальное единство"
  SOV_despotism_party: "КПСС(С)"
  SOV_despotism_party_long: "Коммунистическая партия Советского Союза - Сталинисты"
- SOV_authoritarianism_party: "КПСС (П)"
+ SOV_authoritarianism_party: "КПСС(П)"
  SOV_authoritarianism_party_long: "Коммунистическая партия Советского Союза - Прагматики"
  
