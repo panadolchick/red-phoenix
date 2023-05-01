@@ -8,9 +8,10 @@ country_event = {
 	picture = GFX_report_event_SOV_leningrad_concert
     trigger = {
 		tag = SOV
-		SOV = {
-			has_idea = RCW_russian_civil_war
-		}
+		has_civil_war_in_russia = yes
+	}
+	mean_time_to_happen = {
+		days = 7
 	}
     option = {
         name = rus.1.a
