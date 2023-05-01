@@ -2,23 +2,104 @@
 state={
 	id=69
 	name="STATE_69"
-	
 	resources={
 		steel=13.000
 	}
 
 	history={
 		owner = SOV
+		victory_points = {
+			13399 3
+		}
+		victory_points = {
+			13421 2
+		}
+		victory_points = {
+			13422 2
+		}
+		victory_points = {	
+			13416 4
+		}
+		victory_points = {
+			13425 3
+		}
+		victory_points = {
+			13429 4
+		}
+		victory_points = {
+			13427 5
+		}
+		victory_points = {
+			13424 5
+		}
+		victory_points = {
+			13426 5
+		}
+		victory_points = {
+			13412 3
+		}
+		victory_points = {
+			13402 5
+		}
+		victory_points = {
+			13407 2
+		}
+		victory_points = {
+			13403 3
+		}
+		victory_points = {
+			13411 5
+		}
+		victory_points = {
+			13408 3
+		}
+		victory_points = {
+			13406 2
+		}
+		victory_points = {
+			13415 10
+		}
+		victory_points = {
+			13433 2
+		}
+		victory_points = {
+			13428 2
+		}
+		victory_points = {
+			13431 2
+		}
+		victory_points = {
+			13432 2
+		}
+		victory_points = {
+			13395 4
+		}
+		victory_points = {
+			13441 1
+		}
+		victory_points = {
+			13439 1
+		}
+		victory_points = {
+			13440 1
+		}
+		victory_points = {
+			13347 1
+		}
+		victory_points = {
+			13444 4
+		}	
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 2
+
 		}
 		add_core_of = SOV
 	}
 
 	provinces={
-		301 350 366 401 3259 3290 3327 3358 3391 6283 6290 9235 9282 9302 9348 9378 9395 11217 11236 11268 11282 11330 
+		301 350 366 401 3259 3290 3327 3358 3391 6283 6290 9235 9282 9302 9348 9378 9395 11217 11236 11268 11282 11330 13347 13393 13394 13395 13396 13397 13398 13399 13400 13402 13403 13405 13406 13407 13408 13409 13411 13412 13414 13415 13416 13417 13419 13421 13422 13423 13424 13425 13426 13427 13428 13429 13430 13431 13432 13433 13435 13436 13437 13438 13439 13440 13441 13442 13443 13444
 	}
 	manpower=6608325
 	buildings_max_level_factor=1.000
