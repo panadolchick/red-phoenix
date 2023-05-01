@@ -1,6 +1,4 @@
-﻿capital = 563 #Chita
-
-##oob = "FER_1936"
+﻿capital = 408
 
 set_research_slots = 3
 
@@ -81,6 +79,7 @@ if = {
 		basic_torpedo = 1
 	}
 }
+recruit_character = FER_valerya_novodvorovskoya
 set_politics = {
 	ruling_party = liberalism
 	last_election = "1936.1.1"
@@ -91,7 +90,8 @@ set_politics = {
 set_popularities = {
 	liberalism = 60
 	nationalism = 0
-	communist = 40
+	conservatism = 30
+	communist = 10
 }
 
 

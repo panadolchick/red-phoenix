@@ -318,6 +318,12 @@ spriteTypes = {
 }
 spriteTypes = {
 	spriteType = {
+		name = "GFX_FER_valerya_novodvorovskoya"
+		texturefile = "gfx/leaders/Liberals-RUS/FER_valerya_novodvorovskoya.dds"
+	}
+}
+spriteTypes = {
+	spriteType = {
 		name = "GFX_OSR_igor_kasatonov"
 		texturefile = "gfx/leaders/OSR/OSR_igor_kasatonov.dds"
 	}
