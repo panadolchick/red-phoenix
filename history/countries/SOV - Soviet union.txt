@@ -18,6 +18,11 @@ set_technology = {
 
 capital = 219
 
+create_intelligence_agency = {
+	name = "КГБ"
+	icon = GFX_agency_logo_kgb
+}
+
 starting_train_buffer = 3.0
 
 if = {

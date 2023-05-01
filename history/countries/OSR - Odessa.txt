@@ -11,6 +11,10 @@ activate_advisor = OSR_igor_kasatonov
 recruit_character = OSR_mahmut_gareev
 activate_advisor = OSR_mahmut_gareev
 activate_advisor = OSR_mahmut_gareev_2
+create_intelligence_agency = {
+	name = "КГБ"
+	icon = GFX_agency_logo_kgb
+}
 add_ideas = {
 war_economy
 closed_economy
