@@ -4,7 +4,7 @@
 # Political advisors
 every_possible_country = {
 	limit = {
-		NOT = { OR = { tag = SOV } }
+		NOT = { OR = { tag = SOV tag = OSR } }
 		# avoid generic advisors in temporary countries
 		is_dynamic_country = no
 		NOT = {
@@ -34,7 +34,7 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { tag = SOV } }
+		NOT = { OR = { tag = SOV tag = OSR } }
 		is_dynamic_country = no
 		NOT = {
 			has_allowed_idea_with_traits = { idea = democratic_reformer characters = yes }
@@ -63,7 +63,7 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { tag = SOV } }
+		NOT = { OR = { tag = SOV tag = OSR } }
 		is_dynamic_country = no
 		NOT = {
 			has_allowed_idea_with_traits = { idea = fascist_demagogue characters = yes }
@@ -123,7 +123,7 @@ every_possible_country = {
 # Military advisors
 every_possible_country = {
 	limit = {
-		NOT = { OR = { tag = SOV } }
+		NOT = { OR = { tag = SOV tag = OSR } }
 	}
 	# generic political advisors
 	generate_character = {

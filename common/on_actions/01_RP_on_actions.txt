@@ -1,18 +1,38 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			SOV = {
+				create_intelligence_agency = {
+				name = "КГБ"
+				icon = GFX_agency_logo_kgb
+				}
+			}
+			OSR = {
+				create_intelligence_agency = {
+				name = "КГБ"
+				icon = GFX_agency_logo_kgb
+				}
+			}
 			909 = {
 				damage_building = {
 					type = infrastructure
 					damage = 3
 				}
 				damage_building = {
+					type = air_base
+					damage = 2
+				}
+				damage_building = {
 					type = industrial_complex
+					damage = 3
+				}
+				damage_building = {
+					type = dockyard
 					damage = 2
 				}
 				damage_building = {
 					type = arms_factory
-					damage = 1
+					damage = 2
 				}
 				damage_building = {
 					type = rail_way

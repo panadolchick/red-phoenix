@@ -1,0 +1,5 @@
+air_wings = {
+	242 = {
+		small_plane_airframe_1 = { owner = "OSR" amount = 60 version_name = "I-16 Type 10"}
+	}
+}
