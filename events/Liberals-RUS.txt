@@ -179,7 +179,7 @@ country_event = {
 				target = SOV
 				type = annex_everything
 			}
-			load_oob = SAL_units
+			load_oob = FER_units
 		}
     }
 	option = {
@@ -191,7 +191,7 @@ country_event = {
 				target = SOV
 				type = annex_everything
 			}
-			load_oob = SAL_units
+			load_oob = FER_units
 		}
 		FER = {
 			change_tag_from = SOV
