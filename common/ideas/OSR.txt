@@ -21,5 +21,12 @@ ideas = {
                 industrial_capacity_dockyard = -0.9
             }
         }
+        OSR_unrecognised_state = {
+                add_opinion_modifier = {
+					target = OSR
+					modifier = unrecognised_state
+				}
+            }
+        }
 	}
 }

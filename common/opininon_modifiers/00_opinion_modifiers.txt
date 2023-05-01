@@ -1139,4 +1139,8 @@ opinion_modifiers = {
 	DON_ivan_polozkov_exiled = {
 		value = 30
 	}
+	###ALL
+	unrecognised_state = {
+		value = -200
+	}
 }
