@@ -96,14 +96,13 @@ country_event = {
 				amount = 60
 			}
 		}
-		DON_dmitriy_kochinskiy = {
-			add_corps_commander_role = {
-				skill = 5
-				attack_skill = 5
-				defense_skill = 3
-				planning_skill = 1
-				logistics_skill = 1
-			}
+		add_corps_commander_role = {
+			character = DON_dmitriy_kochinskiy
+			skill = 5
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
 		}
 		add_popularity = {
 			ideology = ultranationalism
@@ -198,15 +197,14 @@ country_event = {
 			character = DON_igor_strelkov
 			ideology = nationalist_monarchism
 		}
-		DON_igor_strelkov = {
-			add_advisor_role = {
-				advisor = {
-					slot = political_advisor
-					idea_token = igor_strelkov
-					ledger = civilian
-					traits = { anarcho_monarchist }
-				 }
-			}	
+		add_advisor_role = {
+			character = DON_igor_strelkov
+			advisor = {
+				slot = political_advisor
+				idea_token = igor_strelkov
+				ledger = civilian
+				traits = { anarcho_monarchist }
+			}
 		}
 		modify_country_flag = {
 			flag = DON_august_kruse_accept
@@ -231,16 +229,15 @@ country_event = {
 			character = DON_igor_strelkov
 			ideology = nationalist_monarchism
 		}
-		DON_igor_strelkov = {
-			add_advisor_role = {
-				advisor = {
-					slot = army_chief
-					idea_token = igor_strelkov
-					ledger = army
-					traits = { army_cavalry_1 }
-				 }
-			}	
-		}
+		add_advisor_role = {
+			character = DON_igor_strelkov
+			advisor = {
+				slot = army_chief
+				idea_token = igor_strelkov
+				ledger = army
+				traits = { army_cavalry_1 }
+			}
+		}	
 		modify_country_flag = {
 			flag = DON_august_kruse_accept
 			value = 2
@@ -310,6 +307,14 @@ country_event = {
 					}
 				}
 			}	
+			add_field_marshal_role = {
+				character = DON_dmitriy_kochinskiy
+				skill = 5
+				attack_skill = 5
+				defense_skill = 3
+				planning_skill = 1
+				logistics_skill = 1
+			}
 		set_party_name = {
 			ideology = ultranationalism
 			long_name = DON_USPD_party_long
