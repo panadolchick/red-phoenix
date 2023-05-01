@@ -70,7 +70,7 @@ country_event = {
 	trigger = {
 		tag = SPB
 		SPB = {
-			has_full_control_of_state = 195
+			controls_state = 195
 		}
 	}
 	mean_time_to_happen = {
@@ -143,7 +143,7 @@ country_event = {
 	trigger = {
 		tag = MOS
 		MOS = {
-			has_full_control_of_state = 219
+			controls_state = 219
 		}
 	}
 	mean_time_to_happen = {
@@ -152,14 +152,21 @@ country_event = {
 	}
     option = {
         name = naz-bol.3.a
-		random_list = {
-			10 = {
+		if = {
+			limit = { 
 				MOS = {
-					add_to_faction = IRK
+					is_in_faction = yes
 				}
 			}
-			90 = {
-				
+			random_list = {
+				10 = {
+					MOS = {
+						add_to_faction = IRK
+					}
+				}
+				90 = {
+					
+				}
 			}
 		}
 		IRK = {
