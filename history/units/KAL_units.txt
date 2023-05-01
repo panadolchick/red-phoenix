@@ -38,7 +38,7 @@ units = {
             is_name_ordered = yes
         }
 
-        location = 11724
+        location = 13392
         division_template = "Дурс бригада"
         start_experience_factor = 0.25
         start_equipment_factor = 0.45
@@ -49,7 +49,7 @@ units = {
             is_name_ordered = yes
         }
 
-        location = 11724
+        location = 13392
         division_template = "Дурс бригада"
         start_experience_factor = 0.5
         start_equipment_factor = 0.35
@@ -60,7 +60,7 @@ units = {
             is_name_ordered = yes
         }
 
-        location = 11724
+        location = 13392
         division_template = "Дурс дивизий"
         start_experience_factor = 0.35
         start_equipment_factor = 0.8
