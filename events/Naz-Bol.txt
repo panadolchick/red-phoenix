@@ -10,7 +10,9 @@ country_event = {
 		tag = SOV
 	}
     mean_time_to_happen = {
-		days = 517
+		years = 1
+		months = 5
+		days = 1
 	}    
     option = {
         name = naz-bol.1.a
@@ -145,7 +147,8 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		days = 35
+		months = 1
+		days = 4
 	}
     option = {
         name = naz-bol.3.a
