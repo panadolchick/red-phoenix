@@ -12,6 +12,7 @@ peace_ai_desires = {
                     is_core_of = EST
                     is_core_of = LAT
                     is_core_of = LIT
+                    is_core_of = MOL
                 }
             }
             ROOT = {
@@ -30,6 +31,7 @@ peace_ai_desires = {
                     is_core_of = EST
                     is_core_of = LAT
                     is_core_of = LIT
+                    is_core_of = MOL
                 }
             }
             ROOT = {
