@@ -7230,4 +7230,8 @@ spriteTypes = {
 		name = "GFX_idea_OSR_defence"
 		textureFile = "gfx/interface/ideas/OSR/OSR_defence.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_OSR_regular_attacks"
+		textureFile = "gfx/interface/ideas/OSR/OSR_regular_attacks.dds"
+	}
 }

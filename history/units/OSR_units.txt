@@ -37,6 +37,46 @@ division_template = {
         recon = { x = 0 y = 2 }
     }
 }
+division_template = {
+	name = "Моторизованная дивизия"
+	regiments = {
+        motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 0 y = 4 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+		mot_artillery_brigade = { x = 1 y = 4 }
+    }
+    support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+        mot_recon = { x = 0 y = 2 }
+    }
+}
+division_template = {
+	name = "Танковая дивизия"
+	regiments = {
+        modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 3 }
+		modern_armor = { x = 0 y = 4 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+		motorized_rocket_brigade = { x = 1 y = 4 }
+    }
+    support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+        mot_recon = { x = 0 y = 2 }
+    }
+}
 units = {
     division = {
         division_name = {
@@ -47,6 +87,21 @@ units = {
         start_experience_factor = 1.0
         start_equipment_factor = 1.0
         start_manpower_factor = 1.0
+    }
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+        location = 11670
+        division_template = "Танковая дивизия"
+        start_experience_factor = 1.0
+        start_equipment_factor = 1.0
+        start_manpower_factor = 1.0
+		force_equipment_variants = {
+			modern_tank_chassis_1 = { owner = OSR version_name = "Т-80" }
+		}
     }
 }
 units = {
@@ -92,6 +147,26 @@ units = {
         }
         location = 13271
         division_template = "Пехотная дивизия"
+        start_experience_factor = 1.0
+        start_equipment_factor = 1.0
+        start_manpower_factor = 1.0
+    }
+}
+units = {
+    division = {
+        name = "180-я мотострелковая Киевская Краснознамённая дивизия"
+        location = 13272
+        division_template = "Моторизованная дивизия"
+        start_experience_factor = 1.0
+        start_equipment_factor = 1.0
+        start_manpower_factor = 1.0
+    }
+}
+units = {
+    division = {
+        name = "28-я гвардейская мотострелковая Харьковская Краснознамённая дивизия"
+        location = 13273
+        division_template = "Моторизованная дивизия"
         start_experience_factor = 1.0
         start_equipment_factor = 1.0
         start_manpower_factor = 1.0
