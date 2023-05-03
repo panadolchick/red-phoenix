@@ -851,7 +851,7 @@
  VICTORY_POINTS_9131:0 "Вологда"
  VICTORY_POINTS_11476:0 "Миллерово"
  VICTORY_POINTS_775:0 "Сальск"
- VICTORY_POINTS_11724:1 "Элиста" #(Was Elitsa), which is an incorrect spelling of the area, and merely a feminine Bulgarian name
+ VICTORY_POINTS_11724:1 "Элиста"
  VICTORY_POINTS_11696:0 "Ставрополь"
  VICTORY_POINTS_9628:0 "Орджоникидзе"
  VICTORY_POINTS_9663:0 "Сочи"
@@ -1186,4 +1186,8 @@
  VICTORY_POINTS_13450:0 "Можайск"
  VICTORY_POINTS_13451:0 "Волоколамск"
  VICTORY_POINTS_13453:0 "Шаховская"
+ VICTORY_POINTS_13470:0 "Шатура"
+ VICTORY_POINTS_13468:0 "Воскресенск"
+ VICTORY_POINTS_13471:0 "Егорьевск"
+ VICTORY_POINTS_9395:0 "Кашира"
  

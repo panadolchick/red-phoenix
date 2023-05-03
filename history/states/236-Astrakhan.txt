@@ -11,17 +11,17 @@ state={
 		buildings = {
 			infrastructure = 2
 			air_base = 1
-
+			industrial_complex = 1
 		}
 		add_core_of = SOV
 
 	}
 
 	provinces={
-		618 757 3435 3461 3487 6486 6516 6620 9440 9455 9592 9735 9753 11429 11579 11706 11736 
+		618 757 3435 3461 3487 6486 6516 6620 6760 6791 9440 9455 9592 9735 9753 11429 11579 11706 11736 13464 13465 13466
 	}
-	manpower=647208
+	manpower=993223
 	buildings_max_level_factor=1.000
-	state_category=rural_region
+	state_category=small_town_region
 	local_supplies=0.000
 }
