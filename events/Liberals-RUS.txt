@@ -9,9 +9,7 @@ country_event = {
     trigger = {
 		tag = SOV
 		has_civil_war_in_russia = yes
-	}
-	mean_time_to_happen = {
-		days = 14
+		date > 1994.06.17
 	}
     option = {
         name = rus.1.a
@@ -27,6 +25,9 @@ country_event = {
 		}
     }
 	option = {
+		trigger = {
+			is_ai = no
+		}
         name = rus.1.b
 		ARH = {
 			set_state_owner = 214
@@ -59,7 +60,7 @@ country_event = {
     trigger = {
 		tag = ARH
 		ARH = {
-			has_full_control_of_state = 214
+			controls_state = 214
 		}
 	}
 	mean_time_to_happen = {
@@ -81,6 +82,9 @@ country_event = {
 		}
     }
 	option = {
+		trigger = {
+			is_ai = no
+		}
         name = rus.2.b
 		KRR = {
 			set_state_owner = 234
@@ -115,11 +119,11 @@ country_event = {
     trigger = {
 		tag = ARH
 		ARH = {
-			has_full_control_of_state = 214
+			controls_state = 214
 		}
-	}
-	mean_time_to_happen = {
-		days = 40
+		KRR = {
+			controls_state = 234
+		}
 	}
     option = {
         name = rus.3.a
@@ -134,6 +138,9 @@ country_event = {
 		}
     }
 	option = {
+		trigger = {
+			is_ai = no
+		}
         name = rus.3.b
 		SAL = {
 			set_state_owner = 579
@@ -165,10 +172,7 @@ country_event = {
     trigger = {
 		tag = SOV
 		has_civil_war_in_russia = yes
-	}
-	mean_time_to_happen = {
-		days = 10
-		months = 1
+		date > 1994.07.12
 	}
     option = {
         name = rus.4.a
@@ -183,6 +187,9 @@ country_event = {
 		}
     }
 	option = {
+		trigger = {
+			is_ai = no
+		}
         name = rus.4.b
 		VLA = {
 			set_state_owner = 408
