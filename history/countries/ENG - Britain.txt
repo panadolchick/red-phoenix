@@ -155,11 +155,13 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 47
-	conservatism = 51
-	authoritarianism = 7
 	nationalism = 2
 	despotism = 1
+	authoritarianism = 6
+	conservatism = 39
+	liberalism = 36
+	social_democracy = 11
+	socialist = 3
 	communist = 2
 }
 recruit_character = ENG_john_meidjor
