@@ -98,7 +98,7 @@ set_politics = {
 
 add_ideas = {
 	service_by_requirement
-	limited_exports
+	closed_economy
 	war_economy
 	KAL_city_fortress_in_the_middle_of_the_steppes
 }

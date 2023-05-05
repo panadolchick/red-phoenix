@@ -318,8 +318,8 @@ spriteTypes = {
 }
 spriteTypes = {
 	spriteType = {
-		name = "GFX_FER_valerya_novodvorovskoya"
-		texturefile = "gfx/leaders/Liberals-RUS/FER_valerya_novodvorovskoya.dds"
+		name = "GFX_VLA_valerya_novodvorovskoya"
+		texturefile = "gfx/leaders/Liberals-RUS/VLA_valerya_novodvorovskoya.dds"
 	}
 }
 spriteTypes = {

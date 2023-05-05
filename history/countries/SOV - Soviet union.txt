@@ -64,13 +64,13 @@ if = {
 	}
 
 }
-	else = {
-		SOV = {
+else = {
+	SOV = {
 		puppet = BSR
-		}
 	}
+}
 set_research_slots = 3
-set_stability = 0.26
+set_stability = 0.43
 set_war_support = 0.3
 # Starting tech
 set_technology = { #WARNING: Do not just remove techs from here -> It can impact a lot of stuff. Before removing, double check that content does not count on these techs being researched
@@ -159,7 +159,16 @@ if = {
 set_country_flag = SOV_TEST_REMOVE_VANILLA_ADVISORS_flag
 
 add_ideas = {	
-	partial_economic_mobilisation
+	low_economic_mobilisation
+	extensive_conscription
+	SOV_still_here
+	SOV_ideological_hopelessness
+	SOV_divided_party
+	SOV_ruined_economy
+	SOV_carosia_in_the_military
+	SOV_growing_dissident_movement
+	SOV_population_decline
+	SOV_widespread_drunkenness
 	nuclear_power
 }
 

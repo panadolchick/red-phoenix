@@ -1,5 +1,19 @@
 ﻿l_english:
-#Focuses 
+ #Events
+ sov.1.t: "The Founding of the National-Bolshevik Party
+ sov.1.d: "The National Bolshevik Party (NBP) was founded today in Moscow as a radical political organization, becoming the first nationalist party after a long time in its absence. It combines elements of communism and nationalism. The party was founded by Russian political activist Eduard Limonov and Alexander Dugin, together with Yegor Letov. The NBP became known for its extreme views and commitment to a national-Bolshevik ideology, which combines elements of nationalism, socialism and anti-capitalism. It has also become known for its aggressive stance toward other political parties and our government."
+ sov.1.a: "This must end!"
+ sov.1.b: "Sounds interesting..."
+#Ideas
+ SOV_still_here: "Still Here"
+ SOV_ideological_hopelessness: "Ideological Hopelessness"
+ SOV_divided_party: "Divided Party"
+ SOV_ruined_economy: "Ruined Economy"
+ SOV_carosia_in_the_military: "Carosia in the Military"
+ SOV_growing_dissident_movement: "Growing Dissident Movement"
+ SOV_population_decline: "Population Decline"
+ SOV_widespread_drunkenness: "Widespread Drunkenness"
+#Focuses
  SOV_hold_the_30th_congress_of_the_CPSS_central_committee:0 "Hold the 30th Congress of the CPSS Central Committee"
  SOV_hold_the_30th_congress_of_the_CPSS_central_committee_desc:0 "Hold the 30th Congress of the CPSS Central Committee - focus description"
  SOV_everything_is_going_according_to_plan:0 "Everything is going according to plan..."

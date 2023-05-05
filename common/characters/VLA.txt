@@ -1,0 +1,15 @@
+characters = {
+	VLA_valerya_novodvorovskoya = {
+		name = VLA_valerya_novodvorovskoya
+		portraits={
+			civilian={
+				large = "GFX_VLA_valerya_novodvorovskoya"
+			}
+		}
+		country_leader={
+			ideology = market_liberalism
+			traits = {
+			}
+		}
+	}
+}

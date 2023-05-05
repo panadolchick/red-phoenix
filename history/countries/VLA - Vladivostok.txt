@@ -86,11 +86,16 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
-
+recruit_character = VLA_valerya_novodvorovskoya
 set_popularities = {
-	liberalism = 50
-	nationalism = 20
-	communist = 30
+	liberalism = 38
+	conservatism = 12
+	social_democracy = 12
+	despotism = 3
+	authoritarianism = 4
+	nationalism = 8
+	socialist = 8
+	communist = 15
 }
 
 

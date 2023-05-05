@@ -79,7 +79,6 @@ if = {
 		basic_torpedo = 1
 	}
 }
-recruit_character = FER_valerya_novodvorovskoya
 set_politics = {
 	ruling_party = liberalism
 	last_election = "1936.1.1"

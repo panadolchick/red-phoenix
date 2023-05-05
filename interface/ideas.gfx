@@ -7234,4 +7234,36 @@ spriteTypes = {
 		name = "GFX_idea_OSR_regular_attacks"
 		textureFile = "gfx/interface/ideas/OSR/OSR_regular_attacks.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_SOV_still_here"
+		textureFile = "gfx/interface/ideas/SOV/SOV_still_here.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_ideological_hopelessness"
+		textureFile = "gfx/interface/ideas/SOV/SOV_ideological_hopelessness.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_divided_party"
+		textureFile = "gfx/interface/ideas/SOV/SOV_divided_party.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_ruined_economy"
+		textureFile = "gfx/interface/ideas/SOV/SOV_ruined_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_carosia_in_the_military"
+		textureFile = "gfx/interface/ideas/SOV/SOV_carosia_in_the_military.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_growing_dissident_movement"
+		textureFile = "gfx/interface/ideas/SOV/SOV_growing_dissident_movement.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_population_decline"
+		textureFile = "gfx/interface/ideas/SOV/SOV_population_decline.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_widespread_drunkenness"
+		textureFile = "gfx/interface/ideas/SOV/SOV_widespread_drunkenness.dds"
+	}
 }

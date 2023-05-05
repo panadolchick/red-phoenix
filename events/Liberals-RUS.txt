@@ -167,39 +167,39 @@ country_event = {
 		has_civil_war_in_russia = yes
 	}
 	mean_time_to_happen = {
-		months = 1
 		days = 10
+		months = 1
 	}
     option = {
         name = rus.4.a
-		FER = {
+		VLA = {
 			set_state_owner = 408
 			set_province_controller = 957
 			declare_war_on = {
 				target = SOV
 				type = annex_everything
 			}
-			load_oob = FER_units
+			load_oob = VLA_units
 		}
     }
 	option = {
         name = rus.4.b
-		FER = {
+		VLA = {
 			set_state_owner = 408
 			set_province_controller = 957
 			declare_war_on = {
 				target = SOV
 				type = annex_everything
 			}
-			load_oob = FER_units
+			load_oob = VLA_units
 		}
-		FER = {
+		VLA = {
 			change_tag_from = SOV
 		}
     }
 	immediate = {
 		hidden_effect = {
-			FER = {
+			VLA = {
 				add_ideas = RCW_russian_civil_war
 			}
 		}

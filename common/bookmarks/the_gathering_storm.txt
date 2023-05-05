@@ -10,6 +10,9 @@ bookmarks = {
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = despotism
 			ideas = {
+				SOV_still_here
+				SOV_ideological_hopelessness
+				SOV_divided_party
 			}
 			focuses = {
 			}	
