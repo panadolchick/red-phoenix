@@ -7,12 +7,10 @@ country_event = {
 	desc = sov.1.d
 	picture = GFX_report_event_SOV_foundation_of_naz_bol_party
 	fire_only_once = yes
+	is_triggered_only = yes
 	trigger = {
 		tag = SOV
-	}
-	mean_time_to_happen = {
-		months = 4
-		days = 1
+		date = 1993.05.01
 	}
 	option = {
 		name = sov.1.a

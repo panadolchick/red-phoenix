@@ -8,12 +8,8 @@ country_event = {
 	picture = GFX_report_event_SOV_leningrad_concert
     trigger = {
 		tag = SOV
+		date = 1994.06.03
 	}
-    mean_time_to_happen = {
-		years = 1
-		months = 5
-		days = 1
-	}    
     option = {
         name = naz-bol.1.a
 		SPB = {
@@ -32,6 +28,9 @@ country_event = {
 		}
     }
 	option = {
+		trigger = {
+			is_ai = no
+		}
         name = naz-bol.1.b
 		SPB = {
 			set_state_owner = 195
@@ -102,6 +101,9 @@ country_event = {
     }
 	option = {
         name = naz-bol.2.b
+		trigger = {
+			is_ai = no
+		}
 		random_list = {
 			30 = {
 				MOS = {
@@ -181,6 +183,9 @@ country_event = {
     }
 	option = {
         name = naz-bol.3.b
+		trigger = {
+			is_ai = no
+		}
 		random_list = {
 			10 = {
 				MOS = {
@@ -220,7 +225,7 @@ country_event = {
 	trigger = {
 		tag = IRK
 		IRK = {
-			has_full_control_of_state = 566
+			controls_state = 566
 		}
 	}
     option = {

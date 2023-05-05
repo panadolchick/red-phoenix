@@ -8,5 +8,7 @@ has_civil_war_in_russia = {
 		has_war_with = SAL
 		has_war_with = SOV
 		has_war_with = VLA
+		has_war_with = BSR
+		has_war_with = DON
 	}
 }
