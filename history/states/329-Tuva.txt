@@ -12,6 +12,7 @@ state={
 			infrastructure = 1
 			arms_factory = 1
 			industrial_complex = 1
+
 		}
 		victory_points = {
 			10627 3 
@@ -19,10 +20,11 @@ state={
 		add_core_of = SOV
 		add_core_of = TAN
 		add_claim_by = TWN
+
 	}
 
 	provinces={
-		1676 1877 7804 7819 10597 10627 12610 
+		1676 1877 4680 7804 7819 10597 10627 12610 
 	}
 	manpower=265020
 	buildings_max_level_factor=1.000
