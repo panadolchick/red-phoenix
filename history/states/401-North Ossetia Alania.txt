@@ -7,18 +7,20 @@ state={
 		owner = SOV
 		buildings = {
 			infrastructure = 2
+
 		}
 		add_core_of = SOV
 		add_core_of = NOA
 		victory_points = {
-			9628 2
+			13497 2 
 		}
+
 	}
 
 	provinces={
-		9628 9632 13279 
+		9628 9632 13279 13485 13494 13496 13497 13498
 	}
-	manpower=658773	
+	manpower=658773
 	buildings_max_level_factor=1.000
 	state_category=rural_region
 	local_supplies=0.000
