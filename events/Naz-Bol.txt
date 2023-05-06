@@ -90,7 +90,7 @@ country_event = {
 		}
 		MOS = {
 			set_state_owner = 219
-			set_province_controller = 6380
+			set_province_controller = 13410
 			declare_war_on = {
 				target = SOV
 				type = annex_everything
@@ -117,7 +117,7 @@ country_event = {
 		}
 		MOS = {
 			set_state_owner = 219
-			set_province_controller = 6380
+			set_province_controller = 13410
 			declare_war_on = {
 				target = SOV
 				type = annex_everything
