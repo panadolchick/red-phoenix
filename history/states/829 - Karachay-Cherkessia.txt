@@ -4,19 +4,22 @@ state={
 	name="STATE_829"
 
 	history={
-		owner = SOV
+		owner = CAU
 		buildings = {
 			infrastructure = 2
+
 		}
 		add_core_of = SOV
-		add_core_of = KBK
+		add_core_of = KRC
+		add_core_of = CAU
 		victory_points = {
-			714 1
+			714 1 
 		}
+
 	}
 
 	provinces={
-		714 6692 9649 9674 11664 13277 
+		714 6692 9649 9674 11664 13277 13488 13489 13490 13492 13493 13495 
 	}
 	manpower=424280
 	buildings_max_level_factor=1.000

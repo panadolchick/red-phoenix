@@ -1,0 +1,35 @@
+﻿l_russian:
+#Ideas
+#Units
+#Country
+ CAU: "Северный Кавказ"
+ CAU_DEF: "Северный Кавказ"
+ CAU_ADJ: "Север-кавказск."
+ CAU_ultranationalism: "Кавказский эмират"
+ CAU_ultranationalism_DEF: "Кавказский эмират"
+ CAU_ultranationalism_ADJ: "кавказск."
+#Characters
+ CAU_unknown_leadership: "§gНеизвестное руководство§!"
+#Parties
+ CAU_ultranationalism_party: "§RПоследователи Аллаха§!"
+ CAU_ultranationalism_party_long: "§RПоследователи Аллаха§!"
+ CAU_nationalism_party: "§RУНИЧТОЖЕНА§!"
+ CAU_nationalism_party_long: " "
+ CAU_despotism_party: "§RУНИЧТОЖЕНА§!"
+ CAU_despotism_party_long: " "
+ CAU_authoritarianism_party: "§RУНИЧТОЖЕНА§!"
+ CAU_authoritarianism_party_long: " "
+ CAU_authoritarianism_executed_party: "§RУНИЧТОЖЕНА§!"
+ CAU_authoritarianism_executed_party_long: " "
+ CAU_conservatism_party: "§RУНИЧТОЖЕНА§!"
+ CAU_conservatism_party_long: " "
+ CAU_liberalism_party: "§RУНИЧТОЖЕНА§!"
+ CAU_liberalism_party_long: " "
+ CAU_liberalism_executed_party: "§RУНИЧТОЖЕНА§!"
+ CAU_liberalism_executed_party_long: " "
+ CAU_social_democracy_party: "§RУНИЧТОЖЕНА§!"
+ CAU_social_democracy_party_long: " "
+ CAU_socialist_party: "§RУНИЧТОЖЕНА§!"
+ CAU_socialist_party_long: " "
+ CAU_communist_party: "§RУНИЧТОЖЕНА§!"
+ CAU_communist_party_long: " "

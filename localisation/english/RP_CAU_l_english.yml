@@ -1,0 +1,35 @@
+﻿l_english:
+#Ideas
+#Units
+#Country
+ CAU: "North Caucasus"
+ CAU_DEF: "North Caucasus"
+ CAU_ADJ: "North Caucasus"
+ CAU_ultranationalism: "Caucasian Emirate"
+ CAU_ultranationalism_DEF: "Caucasian Emirate"
+ CAU_ultranationalism_ADJ: "Caucasian"
+#Characters
+ CAU_unknown_leadership: "§gUnknown Leadership§!"
+#Parties
+ CAU_ultranationalism_party: "§RFollowers of Allah§!"
+ CAU_ultranationalism_party_long: "§RFollowers of Allah§!"
+ CAU_nationalism_party: "§RDESTROYED§!"
+ CAU_nationalism_party_long: " "
+ CAU_despotism_party: "§RDESTROYED§!"
+ CAU_despotism_party_long: " "
+ CAU_authoritarianism_party: "§RDESTROYED§!"
+ CAU_authoritarianism_party_long: " "
+ CAU_authoritarianism_executed_party: "§RDESTROYED§!"
+ CAU_authoritarianism_executed_party_long: " "
+ CAU_conservatism_party: "§RDESTROYED§!"
+ CAU_conservatism_party_long: " "
+ CAU_liberalism_party: "§RDESTROYED§!"
+ CAU_liberalism_party_long: " "
+ CAU_liberalism_executed_party: "§RDESTROYED§!"
+ CAU_liberalism_executed_party_long: " "
+ CAU_social_democracy_party: "§RDESTROYED§!"
+ CAU_social_democracy_party_long: " "
+ CAU_socialist_party: "§RDESTROYED§!"
+ CAU_socialist_party_long: " "
+ CAU_communist_party: "§RDESTROYED§!"
+ CAU_communist_party_long: " "

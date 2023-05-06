@@ -1,0 +1,15 @@
+characters = {
+	CAU_unknown_leadership = {
+		name = CAU_unknown_leadership
+		portraits={
+			civilian={
+				large = "GFX_CAU_unknown_leadership"
+			}
+		}
+		country_leader={
+			ideology = fundamentalism
+			traits = {
+			}
+		}
+	}
+}

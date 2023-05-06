@@ -914,3 +914,19 @@ SOS = {
 	color = rgb { 245 240 0 }
 	color_ui  = rgb { 215 210 0 }
 }
+ING = {
+	color = rgb { 7 186 67 }
+	color_ui  = rgb { 5 170 44 }
+}
+KRC = {
+	color = rgb { 6 168 87 }
+	color_ui  = rgb { 5 145 69 }
+}
+CAU = {
+	color = rgb { 6 6 6 }
+	color_ui  = rgb { 3 3 3 }
+}
+ADY = {
+	color = rgb { 41 105 18 }
+	color_ui  = rgb { 32 81 13 }
+}

@@ -10,18 +10,17 @@ state={
 		owner = CHE
 		buildings = {
 			infrastructure = 2
-
 		}
 		add_core_of = SOV
+		add_core_of = ING
 		add_core_of = CHE
 		victory_points = {
-			670 1
+			13483 1
 		}
-
 	}
 
 	provinces={
-		670 13280 
+		670 13280 13482 13483 13484
 	}
 	manpower=193862
 	buildings_max_level_factor=1.000

@@ -3,358 +3,244 @@ spriteTypes = {
 		name = "GFX_SOV_genadiy_yanaev"
 		texturefile = "gfx/leaders/SOV/SOV_genadiy_yanaev.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_BLR_shushkevich"
 		texturefile = "gfx/leaders/BLR/BLR_shushkevich.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_BSR_aleksandr_lukashenko"
 		texturefile = "gfx/leaders/BSR/BSR_aleksandr_lukashenko.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_DON_molodidov"
 		texturefile = "gfx/leaders/DON/DON_molodidov.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_UKR_kravchuk"
 		texturefile = "gfx/leaders/UKR/UKR_kravchuk.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_USA_george_hw_bush"
 		texturefile = "gfx/leaders/USA/USA_george_hw_bush.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_FRA_fransua_mitteran"
 		texturefile = "gfx/leaders/FRA/FRA_fransua_mitteran.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_FRA_fransua_mitteran"
 		texturefile = "gfx/leaders/FRA/FRA_fransua_mitteran.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_ENG_john_meidjor"
 		texturefile = "gfx/leaders/ENG/ENG_john_meidjor.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_CHE_dzhokhar_dudayev"
 		texturefile = "gfx/leaders/CHE/CHE_dzhokhar_dudayev.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_RIG_UN_administration"
 		texturefile = "gfx/leaders/RIG/RIG_UN_administration.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_DON_ivan_polozkov"
 		texturefile = "gfx/leaders/DON/DON_ivan_polozkov.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_DON_igor_strelkov"
 		texturefile = "gfx/leaders/DON/DON_igor_strelkov.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_advisor_DON_igor_strelkov"
 		texturefile = "gfx/interface/ideas/DON/DON_igor_strelkov.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_DON_august_kruse"
 		texturefile = "gfx/leaders/DON/DON_august_kruse.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_DON_vladislav_kislyakov"
 		texturefile = "gfx/leaders/DON/DON_vladislav_kislyakov.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_advisor_DON_vladislav_kislyakov"
 		texturefile = "gfx/interface/ideas/DON/DON_vladislav_kislyakov.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_DON_dmitriy_kochinskiy"
 		texturefile = "gfx/leaders/DON/DON_dmitriy_kochinskiy.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_BRA_itamar_franco"
 		texturefile = "gfx/leaders/BRA/BRA_itamar_franco.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_NKR_kim_il_sung"
 		texturefile = "gfx/leaders/NKR/NKR_kim_il_sung.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "YUG_Zoran_Lilich"
 		texturefile = "gfx/leaders/YUG/YUG_Zoran_Lilich.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_SPB_egor_letov"
 		texturefile = "gfx/leaders/Naz-Bol/SPB_egor_letov.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_MOS_eduard_limonov"
 		texturefile = "gfx/leaders/Naz-Bol/MOS_eduard_limonov.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_IRK_aleksandr_dugin"
 		texturefile = "gfx/leaders/Naz-Bol/IRK_aleksandr_dugin.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_IRK_aleksandr_dugin_prison"
 		texturefile = "gfx/leaders/Naz-Bol/IRK_aleksandr_dugin_prison.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_ITA_rafaelo_costa"
 		texturefile = "gfx/leaders/ITA/ITA_costa.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_AUS_tomas_klestil"
 		texturefile = "gfx/leaders/AUS/AUS_tomas_klestil.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_SWI_adolf_ogi"
 		texturefile = "gfx/leaders/SWI/SWI_adolf_ogi.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_GER_kol_gelmut"
 		texturefile = "gfx/leaders/GER/GER_kol_gelmut.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_CHI_jiang_zemin"
 		texturefile = "gfx/leaders/CHI/CHI_jiang_zemin.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_RAJ_shankar_dail"
 		texturefile = "gfx/leaders/RAJ/RAJ_shankar_dail.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_JAP_kiiti_miadsiki"
 		texturefile = "gfx/leaders/JAP/JAP_kiiti_miadsiki.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_BEL_dexane_shan"
 		texturefile = "gfx/leaders/BEL/BEL_dexane_shan.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_LUX_shak_santer"
 		texturefile = "gfx/leaders/LUX/LUX_shak_santer.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_HOL_ryd_lubers"
 		texturefile = "gfx/leaders/HOL/HOL_ryd_lubers.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_HUN_arpad_gendts"
 		texturefile = "gfx/leaders/HUN/HUN_arpad_gendts.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_POL_lex_valensa"
 		texturefile = "gfx/leaders/POL/POL_lex_valensa.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_CZE_ladislav_adamec"
 		texturefile = "gfx/leaders/CZE/CZE_ladislav_adamec.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_CZE_milos_jakes"
 		texturefile = "gfx/leaders/CZE/CZE_milos_jakes.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_CZE_klays_vacvav"
 		texturefile = "gfx/leaders/CZE/CZE_klays_vacvav.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_CZE_josef_lux"
 		texturefile = "gfx/leaders/CZE/CZE_josef_lux.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_CZE_irshi_dinsbir"
 		texturefile = "gfx/leaders/CZE/CZE_irshi_dinsbir.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_CZE_milosh_zeman"
 		texturefile = "gfx/leaders/CZE/CZE_milosh_zeman.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_CZE_monarchy_sovet"
 		texturefile = "gfx/leaders/CZE/CZE_monarchy_sovet.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_CZE_fascist_sovet"
 		texturefile = "gfx/leaders/CZE/CZE_fascist_sovet.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_CZE_petr_hanning"
 		texturefile = "gfx/leaders/CZE/CZE_petr_hanning.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_CZE_KPC"
 		texturefile = "gfx/leaders/CZE/CZE_KPC.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_SLO_lobomir_bylik"
 		texturefile = "gfx/leaders/SLO/SLO_lobomir_bylik.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_SLO_milan_chich"
 		texturefile = "gfx/leaders/SLO/SLO_milan_chich.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_TRN_igor_smirnov"
 		texturefile = "gfx/leaders/TRN/TRN_igor_smirnov.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_SAL_fyodor_konuhov"
 		texturefile = "gfx/leaders/Liberals-RUS/SAL_fyodor_konuhov.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_ARH_genady_burbulis"
 		texturefile = "gfx/leaders/Liberals-RUS/ARH_genady_burbulis.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_KRR_gregory_yavlinskiy"
 		texturefile = "gfx/leaders/Liberals-RUS/KRR_gregory_yavlinskiy.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_VLA_valerya_novodvorovskoya"
 		texturefile = "gfx/leaders/Liberals-RUS/VLA_valerya_novodvorovskoya.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_OSR_igor_kasatonov"
 		texturefile = "gfx/leaders/OSR/OSR_igor_kasatonov.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_advisor_OSR_igor_kasatonov"
 		texturefile = "gfx/interface/ideas/OSR/OSR_igor_kasatonov.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_advisor_SOV_yazov"
 		texturefile = "gfx/interface/ideas/SOV/SOV_yazov.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_OSR_mahmut_gareev"
 		texturefile = "gfx/leaders/OSR/OSR_mahmut_gareev.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_advisor_OSR_mahmut_gareev"
 		texturefile = "gfx/interface/ideas/OSR/OSR_mahmut_gareev.dds"
 	}
-}
-spriteTypes = {
 	spriteType = {
 		name = "GFX_KAL_national_congress"
 		texturefile = "gfx/leaders/KAL/KAL_national_congress.dds"
+	}
+	spriteType = {
+		name = "GFX_CAU_unknown_leadership"
+		texturefile = "gfx/leaders/CAU/CAU_unknown_leadership.dds"
 	}
 }
