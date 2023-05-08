@@ -11,28 +11,66 @@ state={
 	history={
 		owner = SOV
 		victory_points = {
-			719 3 
+			3734 10 
+		}
+		victory_points = {
+			13554 1
+		}
+		victory_points = {
+			13552 1
+		}
+		victory_points = {
+			13509 5 
+		}
+		victory_points = {
+			13506 3 
+		}
+		victory_points = {
+			13516 2 
+		}
+		victory_points = {
+			13501 1 
+		}
+		victory_points = {
+			13500 5 
 		}
 		victory_points = {
 			9663 1 
 		}
 		victory_points = {
-			3734 10
+			13511 1 
+		}
+		victory_points = {
+			13523 1 
+		}
+		victory_points = {
+			13528 1 
+		}
+		victory_points = {
+			13526 2 
+		}
+		victory_points = {
+			13530 2 
+		}
+		victory_points = {
+			13533 1 
+		}
+		victory_points = {
+			13534 1 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
-			719 = {
+			13509 = {
 				naval_base = 3
 				coastal_bunker = 1
 			}
 		}
 		add_core_of = SOV
-
 	}
 
 	provinces={
-		717 719 735 750 765 3698 3734 3752 3760 3765 6721 6736 6741 6755 6768 6781 6783 9663 9691 9696 9709 9744 11668 11681 11729 13274 13275 13276 13300
+		717 719 735 750 765 3698 3734 3752 3760 3765 6721 6736 6741 6755 6768 6781 6783 9663 9691 9696 9709 9744 11668 11681 11729 13274 13275 13276 13300 13499 13500 13501 13502 13503 13505 13506 13507 13508 13509 13511 13512 13513 13514 13515 13516 13517 13518 13519 13520 13521 13522 13523 13524 13525 13526 13527 13528 13529 13530 13531 13532 13533 13534 13552 13554 13555 
 	}
 	manpower=4734976
 	buildings_max_level_factor=1.000

@@ -10,16 +10,18 @@ state={
 		owner = SOV
 		buildings = {
 			infrastructure = 2
+
 		}
 		add_core_of = SOV
 		add_core_of = ADY
 		victory_points = {
 			3720 1 
 		}
+
 	}
 
 	provinces={
-		3717 3720 6738 13297 13457 13458
+		3717 3720 6738 13297 13457 13458 13504 13510 
 	}
 	manpower=440855
 	buildings_max_level_factor=1.000

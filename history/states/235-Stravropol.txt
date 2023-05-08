@@ -12,16 +12,40 @@ state={
 			infrastructure = 2
 			air_base = 2
 			industrial_complex = 1
+
 		}
 		add_core_of = SOV
 		victory_points = {
-			11696 5
+			11696 5 
 		}
-
+		victory_points = {
+			13550 1 
+		}
+		victory_points = {
+			13550 2
+		}
+		victory_points = {
+			13549 1
+		}
+		victory_points = {
+			13540 1
+		}
+		victory_points = {
+			13542 1
+		}
+		victory_points = {
+			13539 3
+		}
+		victory_points = {
+			13538 2
+		}
+		victory_points = {
+			13535 2
+		}
 	}
 
 	provinces={
-		731 748 3748 6702 6718 6733 6750 6753 9688 9694 9705 9707 9722 9726 9742 11633 11661 11678 11690 11693 11694 11696 11727 13281 
+		731 748 3748 6702 6718 6733 6750 6753 9688 9694 9705 9707 9722 9726 9742 11633 11661 11678 11690 11693 11694 11696 11727 13281 13535 13536 13537 13538 13539 13540 13541 13542 13543 13544 13545 13546 13547 13548 13549 13550 13551 13553 
 	}
 	manpower=2619615
 	buildings_max_level_factor=1.000
