@@ -1,5 +1,7 @@
 ﻿capital = 784
 
+recruit_character = LIT_Mikolas_Brazauskas
+
 #oob = "LIT_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -34,14 +36,16 @@ set_technology = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = social_democracy
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 30
-	nationalism = 15
+	social_democracy = 30
+	nationalism = 10
+	conservatism = 5
 	communist = 15
-	despotism = 40
+	liberalism = 25
+	socialist = 15
 }
