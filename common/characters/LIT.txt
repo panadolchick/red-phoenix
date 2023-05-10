@@ -1,0 +1,16 @@
+characters = {
+	LIT_Mikolas_Brazauskas = {
+		name = LIT_Mikolas_Brazauskas
+		portraits={
+			civilian={
+				large = "GFX_LIT_Mikolas_Brazauskas"
+			}
+		}
+		country_leader={
+			ideology = democratic_socialism
+			traits = {
+				
+			}
+		}
+	}
+}
