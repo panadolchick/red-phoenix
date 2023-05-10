@@ -1,0 +1,32 @@
+﻿l_english:
+#Ideas
+#Units
+#Country
+ DGE: "Dagestan Emirate"
+ DGE_DEF: "Dagestan Emirate"
+ DGE_ADJ: "Dagestani"
+#Characters
+ DGE_magomed_suleimanov: "Magomed Suleymanov"
+#Parties
+ DGE_ultranationalism_party: "Fil Mubashir"
+ DGE_ultranationalism_party_long: "Fil Mubashir"
+ DGE_nationalism_party: "CPD"
+ DGE_nationalism_party_long: "Congress of the Peoples of Dagestan"
+ DGE_despotism_party: "Darbat Saliha"
+ DGE_despotism_party_long: "Darbat Saliha"
+ DGE_authoritarianism_party: "§RDESTROYED§!"
+ DGE_authoritarianism_party_long: " "
+ DGE_authoritarianism_executed_party: "§RDESTROYED§!"
+ DGE_authoritarianism_executed_party_long: " "
+ DGE_conservatism_party: "§RDESTROYED§!"
+ DGE_conservatism_party_long: " "
+ DGE_liberalism_party: "§RDESTROYED§!"
+ DGE_liberalism_party_long: " "
+ DGE_liberalism_executed_party: "§RDESTROYED§!"
+ DGE_liberalism_executed_party_long: " "
+ DGE_social_democracy_party: "§RDESTROYED§!"
+ DGE_social_democracy_party_long: " "
+ DGE_socialist_party: "§RDESTROYED§!"
+ DGE_socialist_party_long: " "
+ DGE_communist_party: "§RDESTROYED§!"
+ DGE_communist_party_long: " "

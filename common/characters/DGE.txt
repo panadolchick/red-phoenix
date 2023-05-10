@@ -1,0 +1,16 @@
+characters = {
+	DGE_magomed_suleimanov = {
+		name = DGE_magomed_suleimanov
+		portraits={
+			civilian={
+				large = "GFX_DGE_magomed_suleimanov"
+			}
+		}
+		country_leader={
+			ideology = islamism
+			traits = {
+				DGE_magomed_suleimanov_desc
+			}
+		}
+	}
+}

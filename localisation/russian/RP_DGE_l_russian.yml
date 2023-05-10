@@ -1,0 +1,32 @@
+﻿l_russian:
+#Ideas
+#Units
+#Country
+ DGE: "Дагестанский Эмират"
+ DGE_DEF: "Дагестанский Эмират"
+ DGE_ADJ: "Дагестанск."
+#Characters
+ DGE_magomed_suleimanov: "Магомед Сулейманов"
+#Parties
+ DGE_ultranationalism_party: "Фил Мубашир"
+ DGE_ultranationalism_party_long: "Фил Мубашир"
+ DGE_nationalism_party: "КНД"
+ DGE_nationalism_party_long: "Конгресс народов Дагестана"
+ DGE_despotism_party: "Дарбат Салиха"
+ DGE_despotism_party_long: "Дарбат Салиха"
+ DGE_authoritarianism_party: "§RУНИЧТОЖЕНА§!"
+ DGE_authoritarianism_party_long: " "
+ DGE_authoritarianism_executed_party: "§RУНИЧТОЖЕНА§!"
+ DGE_authoritarianism_executed_party_long: " "
+ DGE_conservatism_party: "§RУНИЧТОЖЕНА§!"
+ DGE_conservatism_party_long: " "
+ DGE_liberalism_party: "§RУНИЧТОЖЕНА§!"
+ DGE_liberalism_party_long: " "
+ DGE_liberalism_executed_party: "§RУНИЧТОЖЕНА§!"
+ DGE_liberalism_executed_party_long: " "
+ DGE_social_democracy_party: "§RУНИЧТОЖЕНА§!"
+ DGE_social_democracy_party_long: " "
+ DGE_socialist_party: "§RУНИЧТОЖЕНА§!"
+ DGE_socialist_party_long: " "
+ DGE_communist_party: "§RУНИЧТОЖЕНА§!"
+ DGE_communist_party_long: " "

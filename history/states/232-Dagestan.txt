@@ -1,0 +1,52 @@
+
+state={
+	id=232
+	name="STATE_232"
+	resources={
+		oil=10.000
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			13572 5
+		}
+		victory_points = {
+			13571 2
+		}
+		victory_points = {
+			13565 1
+		}
+		victory_points = {
+			13564 1
+		}
+		victory_points = {
+			13575 3 
+		}
+		victory_points = {
+			13574 1 
+		}
+		victory_points = {
+			13580 1 
+		}
+		victory_points = {
+			3668 2 
+		}
+		add_core_of = SOV
+		add_core_of = DAG
+
+	}
+
+	provinces={
+		700 712 728 3668 3682 4463 6689 6701 6730 6748 7624 9645 13557 13560 13562 13563 13564 13565 13567 13571 13572 13573 13574 13575 13576 13577 13578 13579 13580 13581 13582 13583 13584 13585 
+	}
+	manpower=1701837
+	buildings_max_level_factor=1.000
+	state_category=town_region
+	local_supplies=0.000
+}

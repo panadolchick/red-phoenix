@@ -82,6 +82,7 @@ if = {
 		basic_torpedo = 1
 	}
 }
+
 set_politics = {
 	ruling_party = nationalism
 	last_election = "1936.1.1"

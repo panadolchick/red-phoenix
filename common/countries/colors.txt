@@ -930,3 +930,7 @@ ADY = {
 	color = rgb { 41 105 18 }
 	color_ui  = rgb { 32 81 13 }
 }
+DGE = {
+	color = rgb { 70 75 75 }
+	color_ui  = rgb { 55 60 60 }
+}
