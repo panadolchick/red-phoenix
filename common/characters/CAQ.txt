@@ -1,0 +1,16 @@
+characters = {
+	CAQ_abu_umar_as_saif = {
+		name = CAQ_abu_umar_as_saif
+		portraits={
+			civilian={
+				large = "GFX_CAQ_abu_umar_as_saif"
+			}
+		}
+		country_leader={
+			ideology = fundamentalism
+			traits = {
+				CAQ_abu_umar_as_saif_desc
+			}
+		}
+	}
+}

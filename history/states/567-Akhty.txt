@@ -1,0 +1,27 @@
+
+state={
+	id=567
+	name="STATE_567"
+
+	history={
+		owner = CAQ
+		victory_points = {
+			13586 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOV
+		add_core_of = DAG
+		add_core_of = CAQ
+
+	}
+
+	provinces={
+		1450 13556 13586
+	}
+	manpower=22954
+	buildings_max_level_factor=1.000
+	state_category=rural_encleve
+	local_supplies=0.000
+}

@@ -1,0 +1,32 @@
+﻿l_english:
+#Ideas
+#Units
+#Country
+ CAQ: "Al Qaeda"
+ CAQ_DEF: "Al Qaeda Branch in the North Caucasus"
+ CAQ_ADJ: "Al Qaeda"
+#Characters
+ CAQ_abu_umar_as_saif: "Abu Umar As-Saif"
+#Parties
+ CAQ_ultranationalism_party: "Al Qaeda"
+ CAQ_ultranationalism_party_long: "Al Qaeda"
+ CAQ_nationalism_party: "CPD"
+ CAQ_nationalism_party_long: "Congress of the Peoples of Dagestan"
+ CAQ_despotism_party: "§RDESTROYED§!"
+ CAQ_despotism_party_long: " "
+ CAQ_authoritarianism_party: "§RDESTROYED§!"
+ CAQ_authoritarianism_party_long: " "
+ CAQ_authoritarianism_executed_party: "§RDESTROYED§!"
+ CAQ_authoritarianism_executed_party_long: " "
+ CAQ_conservatism_party: "§RDESTROYED§!"
+ CAQ_conservatism_party_long: " "
+ CAQ_liberalism_party: "§RDESTROYED§!"
+ CAQ_liberalism_party_long: " "
+ CAQ_liberalism_executed_party: "§RDESTROYED§!"
+ CAQ_liberalism_executed_party_long: " "
+ CAQ_social_democracy_party: "§RDESTROYED§!"
+ CAQ_social_democracy_party_long: " "
+ CAQ_socialist_party: "§RDESTROYED§!"
+ CAQ_socialist_party_long: " "
+ CAQ_communist_party: "§RDESTROYED§!"
+ CAQ_communist_party_long: " "

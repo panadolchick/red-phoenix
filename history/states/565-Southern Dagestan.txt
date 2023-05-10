@@ -6,7 +6,7 @@ state={
 	history={
 		owner = DGE
 		victory_points = {
-			13569 1
+			13569 1 
 		}
 		buildings = {
 			infrastructure = 1
@@ -19,10 +19,10 @@ state={
 	}
 
 	provinces={
-		1450 1455 3711 7554 13556 13558 13559 13561 13566 13568 13569 13570 
+		1455 3711 7554 13558 13559 13561 13566 13568 13569 13570 
 	}
-	manpower=278424
+	manpower=255470
 	buildings_max_level_factor=1.000
-	state_category=rural_region
+	state_category=pastoral
 	local_supplies=5.000
 }

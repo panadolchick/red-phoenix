@@ -1,0 +1,32 @@
+﻿l_russian:
+#Ideas
+#Units
+#Country
+ CAQ: "Аль-Каида"
+ CAQ_DEF: "Подразделение Аль-Каиды на Северном Кавказе"
+ CAQ_ADJ: "Аль-каидск."
+#Characters
+ CAQ_abu_umar_as_saif: "Абу Умар Ас-Сейф"
+#Parties
+ CAQ_ultranationalism_party: "Аль-Каида"
+ CAQ_ultranationalism_party_long: "Аль-Каида"
+ CAQ_nationalism_party: "КНД"
+ CAQ_nationalism_party_long: "Конгресс народов Дагестана"
+ CAQ_despotism_party: "§RУНИЧТОЖЕНА§!"
+ CAQ_despotism_party_long: " "
+ CAQ_authoritarianism_party: "§RУНИЧТОЖЕНА§!"
+ CAQ_authoritarianism_party_long: " "
+ CAQ_authoritarianism_executed_party: "§RУНИЧТОЖЕНА§!"
+ CAQ_authoritarianism_executed_party_long: " "
+ CAQ_conservatism_party: "§RУНИЧТОЖЕНА§!"
+ CAQ_conservatism_party_long: " "
+ CAQ_liberalism_party: "§RУНИЧТОЖЕНА§!"
+ CAQ_liberalism_party_long: " "
+ CAQ_liberalism_executed_party: "§RУНИЧТОЖЕНА§!"
+ CAQ_liberalism_executed_party_long: " "
+ CAQ_social_democracy_party: "§RУНИЧТОЖЕНА§!"
+ CAQ_social_democracy_party_long: " "
+ CAQ_socialist_party: "§RУНИЧТОЖЕНА§!"
+ CAQ_socialist_party_long: " "
+ CAQ_communist_party: "§RУНИЧТОЖЕНА§!"
+ CAQ_communist_party_long: " "

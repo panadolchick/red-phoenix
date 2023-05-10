@@ -89,6 +89,15 @@ if = {
 }
 
 give_military_access = CHE
+
+set_stability = -0.05
+set_war_support = 0.72
+
+add_ideas = {
+	service_by_requirement
+	closed_economy
+	war_economy
+}
 set_politics = {
 	ruling_party = nationalism
 	last_election = "1991.1.1"

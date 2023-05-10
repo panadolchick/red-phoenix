@@ -934,3 +934,7 @@ DGE = {
 	color = rgb { 70 75 75 }
 	color_ui  = rgb { 55 60 60 }
 }
+CAQ = {
+	color = rgb { 175 175 175 }
+	color_ui  = rgb { 155 155 155 }
+}
