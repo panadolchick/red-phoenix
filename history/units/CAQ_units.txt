@@ -1,0 +1,109 @@
+division_template = {
+    name = "Чырагьан тере"
+    is_locked = no
+    regiments = {
+        infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+		irregular_infantry = { x = 0 y = 3 }
+        irregular_infantry = { x = 0 y = 4 }
+        irregular_infantry = { x = 1 y = 0 }
+        artillery_brigade = { x = 1 y = 1 }
+    }
+	support = {
+        artillery = { x = 0 y = 0 }
+        mot_recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+    name = "firaq alyayisin"
+    priority = 1
+    is_locked = no
+    regiments = {
+        mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        irregular_infantry = { x = 0 y = 4 }
+        irregular_infantry = { x = 1 y = 0 }
+    }
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+    name = "Арабиячу ишчила"
+    is_locked = yes
+    regiments = {
+        motorized = { x = 0 y = 0 }
+        motorized = { x = 0 y = 1 }
+        motorized = { x = 0 y = 2 }
+        mot_artillery_brigade = { x = 0 y = 3 }
+        mot_artillery_brigade = { x = 0 y = 4 }
+        modern_armor = { x = 1 y = 0 }
+    }
+	support = {
+		engineer = { x = 0 y = 0 }
+        anti_tank = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+        mot_recon = { x = 0 y = 3 }
+        maintenance_company = { x = 0 y = 4 }
+	}
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13586
+        division_template = "Чырагьан тере"
+        start_experience_factor = 0.3
+        start_equipment_factor = 0.75
+        start_manpower_factor = 0.85
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13586
+        division_template = "Чырагьан тере"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.85
+        start_manpower_factor = 0.9
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 1450
+        division_template = "firaq alyayisin"
+        start_experience_factor = 0.55
+        start_equipment_factor = 0.7
+        start_manpower_factor = 0.7
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13556
+        division_template = "firaq alyayisin"
+        start_experience_factor = 0.35
+        start_equipment_factor = 0.55
+        start_manpower_factor = 0.6
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 1450
+        division_template = "Арабиячу ишчила"
+        start_experience_factor = 0.71
+        start_equipment_factor = 0.94
+        start_manpower_factor = 0.97
+    }
+}

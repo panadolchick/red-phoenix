@@ -10,6 +10,8 @@ characters = {
 			ideology = fundamentalism
 			traits = {
 				CAQ_abu_umar_as_saif_desc
+				prince_of_terror
+				terrorist
 			}
 		}
 	}

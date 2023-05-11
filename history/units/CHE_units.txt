@@ -1,0 +1,192 @@
+division_template = {
+    name = "Хьцийнар ГӀулсан ГӀалгӀай бригада"
+    is_locked = no
+    regiments = {
+        infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 0 y = 3 }
+        militia = { x = 1 y = 0 }
+        militia = { x = 1 y = 1 }
+        artillery_brigade = { x = 1 y = 2 }
+    }
+	support = {
+        artillery = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        mot_recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+    name = "МӀужӀахӀар"
+    priority = 0
+    is_locked = no
+    regiments = {
+        irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+		irregular_infantry = { x = 0 y = 3 }
+    }
+	support = {
+        artillery = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+    name = "Танкхойн пайхӏам"
+    is_locked = no
+    regiments = {
+        motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 3 }
+    }
+	support = {
+        artillery = { x = 0 y = 0 }
+        mot_recon = { x = 0 y = 1 }
+        engineer = { x = 0 y = 2 }
+        maintenance_company = { x = 0 y = 3 }
+	}
+}
+units = {
+    division = {
+       name = "ХӀалифатан пайхӏам ГӀулсан ГӀалгӀай"
+
+        location = 3672
+        division_template = "Хьцийнар ГӀулсан ГӀалгӀай бригада"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.85
+        start_manpower_factor = 0.95
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13476
+        division_template = "Хьцийнар ГӀулсан ГӀалгӀай бригада"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.7
+        start_manpower_factor = 0.9
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13475
+        division_template = "Хьцийнар ГӀулсан ГӀалгӀай бригада"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.7
+        start_manpower_factor = 0.9
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13483
+        division_template = "Хьцийнар ГӀулсан ГӀалгӀай бригада"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.7
+        start_manpower_factor = 0.9
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13478
+        division_template = "Хьцийнар ГӀулсан ГӀалгӀай бригада"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.7
+        start_manpower_factor = 0.9
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 3672
+        division_template = "МӀужӀахӀар"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.45
+        start_manpower_factor = 0.7
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13280
+        division_template = "МӀужӀахӀар"
+        start_experience_factor = 0.6
+        start_equipment_factor = 0.45
+        start_manpower_factor = 0.57
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13481
+        division_template = "МӀужӀахӀар"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.55
+        start_manpower_factor = 0.6
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13479
+        division_template = "МӀужӀахӀар"
+        start_experience_factor = 0.45
+        start_equipment_factor = 0.5
+        start_manpower_factor = 0.65
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13283
+        division_template = "МӀужӀахӀар"
+        start_experience_factor = 0.55
+        start_equipment_factor = 0.5
+        start_manpower_factor = 0.6
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13282
+        division_template = "МӀужӀахӀар"
+        start_experience_factor = 0.5
+        start_equipment_factor = 0.55
+        start_manpower_factor = 0.65
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13568
+        division_template = "МӀужӀахӀар"
+        start_experience_factor = 0.65
+        start_equipment_factor = 0.5
+        start_manpower_factor = 0.55
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13477
+        division_template = "Танкхойн пайхӏам"
+        start_experience_factor = 0.15
+        start_equipment_factor = 0.8
+        start_manpower_factor = 0.95
+    }
+}

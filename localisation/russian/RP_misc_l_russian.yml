@@ -6,6 +6,7 @@
  spawn_mobile_army_debug:0 "Заспавнить мобильную армию"
  spawn_mobile_army_debug_desc:0 "Спидран по захвату §BУкра§!§Yины§!, погнали!"
  modifier_repair_speed_bunker_factor:0 "Скорость восстановления §Yбункеров§!"
+ terrorist:0 "Террорист"
  
  #Ideas
  nuclear_power:0 "Ядерная держава"

@@ -10,6 +10,34 @@ characters = {
 			ideology = islamism
 			traits = {
 				DGE_magomed_suleimanov_desc
+				terrorist
+			}
+		}
+		corps_commander = {
+			skill = 5
+			traits = { war_hero irregulars_officer trait_reckless }
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = DGE_magomed_suleimanov_political
+			can_be_fired = no
+			traits = { patriotic_guerilla }
+			cost = 150
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = DGE_magomed_suleimanov_military
+			traits = { army_infantry_1 }
+			cost = 100
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}

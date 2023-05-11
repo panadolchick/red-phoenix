@@ -5,7 +5,9 @@ set_capital = {
 	remember_old_capital = yes
 }
 
-##oob = "CAQ_1936"
+add_manpower = 26800
+
+oob = CAQ_units
 
 set_research_slots = 1
 
@@ -15,16 +17,18 @@ recruit_character = CAQ_abu_umar_as_saif
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	tech_support = 1
 	tech_recon = 1
-	tech_support = 1		
 	tech_engineers = 1
 	tech_military_police = 1
-	tech_mountaineers = 1
+	tech_maintenance_company = 1
 	motorised_infantry = 1
-	paratroopers = 1
+	mechanised_infantry = 1
+	main_battle_tank_chassis = 1
 	gw_artillery = 1
-	mass_assault = 1
-	fleet_in_being = 1
+	interwar_antiair = 1
+	gwtank_chassis = 1
+	motorized_rocket_unit = 1
 }
 if = {
 	limit = {

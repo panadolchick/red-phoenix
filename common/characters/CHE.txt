@@ -12,5 +12,117 @@ characters = {
 				
 			}
 		}
+		field_marshal = {
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
+			traits = {
+				media_personality defensive_doctrine
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = CHE_dzhokhar_dudayev
+			allowed = {
+				original_tag = CHE
+			}
+			traits = {
+				army_chief_organizational_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHE_aslan_maskhadov = {
+		name = CHE_aslan_maskhadov
+		portraits={
+			civilian={
+				large = "GFX_CHE_aslan_maskhadov"
+			}
+		}
+		corps_commander = {
+			traits = { media_personality inflexible_strategist }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = CHE_aslan_maskhadov
+			allowed = {
+				original_tag = CHE
+			}
+			traits = {
+				army_chief_defensive_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHE_zelimkhan_yandarbiev = {
+		name = CHE_zelimkhan_yandarbiev
+		portraits={
+			civilian={
+				large = "GFX_CHE_zelimkhan_yandarbiev"
+			}
+		}
+		corps_commander = {
+			traits = { media_personality infantry_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = CHE_zelimkhan_yandarbiev
+			can_be_fired = no
+			traits = { nationalist_symbol }
+			cost = 150
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	CHE_daud_ahmadov = {
+		name = CHE_daud_ahmadov
+		portraits={
+			civilian={
+				large = "GFX_CHE_daud_ahmadov"
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	CHE_abdul_khalim_sadulaev = {
+		name = CHE_abdul_khalim_sadulaev
+		portraits={
+			civilian={
+				large = "GFX_CHE_abdul_khalim_sadulaev"
+			}
+		}
+		corps_commander = {
+			traits = { inspirational_leader engineer_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
 	}
 }
