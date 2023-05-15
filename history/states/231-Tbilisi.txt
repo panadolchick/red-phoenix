@@ -23,9 +23,6 @@ state={
 		start_resistance = GEO
 		set_resistance = 52
 		set_compliance = 3
-		1993.1.1 = {
-			set_garrison_strength = 74
-		}
 
 	}
 

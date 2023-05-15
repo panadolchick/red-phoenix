@@ -23,7 +23,6 @@ state={
 		set_resistance = 38
 		set_compliance = 6
 		1993.1.1 = {
-			set_garrison_strength = 64
 			GEO = {
 				set_province_controller = 13616
 				set_province_controller = 13606
