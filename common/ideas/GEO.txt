@@ -1,0 +1,32 @@
+ideas = {
+    country = {
+        GEO_great_liberation_war = {
+			allowed_civil_war = {
+                always = yes
+            }
+            available = {
+                has_war_with = SOV
+            }
+            modifier = {
+                war_support_factor = 0.3
+                stability_factor = -0.15
+                stability_weekly = -0.0035
+                surrender_limit = 1
+                resistance_damage_to_garrison_on_our_occupied_states = 0.4
+                resistance_target_on_our_occupied_states = 0.2
+                resistance_growth_on_our_occupied_states = 0.3
+                compliance_growth_on_our_occupied_states = -0.35
+                attrition = -0.5
+                out_of_supply_factor = -0.75
+                army_org_factor = 0.1
+                army_org_regain = 0.3
+                pocket_penalty = -0.35
+            }
+            targeted_modifier = {
+                tag = SOV
+                attack_bonus_against = 0.2
+                defense_bonus_against = 0.3
+            }
+        }
+    }
+}

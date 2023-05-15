@@ -4,20 +4,29 @@ state={
 	name="STATE_210"
 
 	history={
-		owner = SOV
+		owner = GEO
+		controller = SOV
+		victory_points = {
+			9626 2
+		}
 		buildings = {
 			infrastructure = 2
+
 		}
-		add_core_of = SOV
 		add_core_of = GEO
+		add_claim_by = SOV
 		add_core_of = SOS
-		victory_points = {
-			9626 1 
+		start_resistance = GEO
+		set_resistance = 21
+		set_compliance = 26
+		1993.1.1 = {
+			set_garrison_strength = 91
 		}
+
 	}
 
 	provinces={
-		9626 13284 
+		9626 13284 13634 13638 13639 13644 13649 13652 13655 
 	}
 	manpower=97114
 	buildings_max_level_factor=1.000

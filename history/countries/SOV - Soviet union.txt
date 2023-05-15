@@ -11,12 +11,13 @@ set_technology = {
 	synth_oil_experiments = 1
 }
 
-
 ####
 #### VANILLA ####
 ####
 
 capital = 219
+
+oob = "SOV_units"
 
 create_intelligence_agency = {
 	name = "КГБ"
@@ -156,9 +157,20 @@ if = {
 	}
 }
 
+set_convoys = 50
+
 set_country_flag = SOV_TEST_REMOVE_VANILLA_ADVISORS_flag
 
-add_ideas = {	
+declare_war_on = {
+	target = GEO
+	type = annex_everything
+}
+declare_war_on = {
+	target = ADJ
+	type = annex_everything
+}
+
+add_ideas = {
 	low_economic_mobilisation
 	extensive_conscription
 	SOV_still_here
@@ -171,8 +183,6 @@ add_ideas = {
 	SOV_widespread_drunkenness
 	nuclear_power
 }
-
-set_convoys = 50
 
 set_politics = {
 	ruling_party = authoritarianism

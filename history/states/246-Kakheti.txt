@@ -1,0 +1,44 @@
+
+state={
+	id=246
+	name="STATE_246"
+
+	history={
+		owner = GEO
+		controller = SOV
+		victory_points = {
+			13631 2
+		}
+		victory_points = {
+			6436 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = GEO
+		add_claim_by = SOV
+		start_resistance = GEO
+		set_resistance = 48
+		set_compliance = 7
+		1993.1.1 = {
+			set_garrison_strength = 83
+			GEO = {
+				set_province_controller = 6671
+				set_province_controller = 13623
+				set_province_controller = 13626
+				set_province_controller = 13657
+				set_province_controller = 13627
+			}
+		}
+
+	}
+
+	provinces={
+		1530 3667 4534 4605 6436 6671 11609 12309 13608 13610 13611 13617 13620 13623 13624 13625 13626 13627 13630 13631 13633 13640 13645 13646 13650 13656 13657 13658 
+	}
+	manpower=429982
+	buildings_max_level_factor=1.000
+	state_category=rural_region
+	local_supplies=0.000
+}

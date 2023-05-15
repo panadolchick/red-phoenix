@@ -8,9 +8,9 @@ state={
 		victory_points = {
 			1467 1
 		}
-		add_core_of = SOV
-		add_core_of = ARM
 		add_claim_by = AZR
+		add_core_of = ARM
+		add_claim_by = SOV
 		buildings = {
 			infrastructure = 2
 			air_base = 1

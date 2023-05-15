@@ -269,4 +269,5 @@ CAU = "countries/North Caucasus.txt"
 ADY = "countries/Adygea.txt"
 DGE = "countries/Dagestan Emirate.txt"
 CAQ = "countries/Caucasian Al Qaeda.txt"
+ADJ = "countries/Adjara.txt"
 #NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")

@@ -1,0 +1,165 @@
+division_template = {
+    name = "kveiti divizia"
+    is_locked = no
+    regiments = {
+        infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 0 y = 3 }
+        artillery_brigade = { x = 0 y = 4 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+    }
+	support = {
+        artillery = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        mot_recon = { x = 0 y = 2 }
+	}
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13613
+        division_template = "kveiti divizia"
+        start_experience_factor = 0.45
+        start_equipment_factor = 0.5
+        start_manpower_factor = 0.75
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13619
+        division_template = "kveiti divizia"
+        start_experience_factor = 0.35
+        start_equipment_factor = 0.7
+        start_manpower_factor = 0.9
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13606
+        division_template = "kveiti divizia"
+        start_experience_factor = 0.35
+        start_equipment_factor = 0.7
+        start_manpower_factor = 0.9
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13616
+        division_template = "kveiti divizia"
+        start_experience_factor = 0.35
+        start_equipment_factor = 0.7
+        start_manpower_factor = 0.9
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13626
+        division_template = "kveiti divizia"
+        start_experience_factor = 0.35
+        start_equipment_factor = 0.7
+        start_manpower_factor = 0.9
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13623
+        division_template = "kveiti divizia"
+        start_experience_factor = 0.35
+        start_equipment_factor = 0.7
+        start_manpower_factor = 0.9
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 6671
+        division_template = "kveiti divizia"
+        start_experience_factor = 0.35
+        start_equipment_factor = 0.7
+        start_manpower_factor = 0.9
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13614
+        division_template = "kveiti divizia"
+        start_experience_factor = 0.35
+        start_equipment_factor = 0.7
+        start_manpower_factor = 0.9
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 9702
+        division_template = "kveiti divizia"
+        start_experience_factor = 0.35
+        start_equipment_factor = 0.7
+        start_manpower_factor = 0.9
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13627
+        division_template = "kveiti divizia"
+        start_experience_factor = 0.75
+        start_equipment_factor = 0.15
+        start_manpower_factor = 0.25
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13627
+        division_template = "kveiti divizia"
+        start_experience_factor = 0.75
+        start_equipment_factor = 0.15
+        start_manpower_factor = 0.25
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13657
+        division_template = "kveiti divizia"
+        start_experience_factor = 0.8
+        start_equipment_factor = 0.45
+        start_manpower_factor = 0.45
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 13661
+        division_template = "kveiti divizia"
+        start_experience_factor = 0.85
+        start_equipment_factor = 0.35
+        start_manpower_factor = 0.35
+    }
+    
+}

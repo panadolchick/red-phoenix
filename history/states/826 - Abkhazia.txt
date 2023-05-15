@@ -4,24 +4,35 @@ state={
 	name="STATE_826"
 
 	history={
-		owner = SOV
+		owner = GEO
+		controller = SOV
 		victory_points = {
-			11617 1 
+			11617 2 
+		}
+		victory_points = {
+			13597 1 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 
 		}
-		add_core_of = SOV
 		add_core_of = GEO
+		add_claim_by = SOV
 		add_core_of = ABK
+		start_resistance = GEO
+		set_resistance = 15
+		set_compliance = 36
+		1993.1.1 = {
+			set_garrison_strength = 92
+		}
+
 	}
 
 	provinces={
-		11599 11617 11647 13293
+		11599 11617 11647 13588 13589 13590 13591 13592 13594 13595 13597 13599
 	}
-	manpower=516251
+	manpower=515437
 	buildings_max_level_factor=1.000
 	state_category=small_town_region
 	local_supplies=0.000

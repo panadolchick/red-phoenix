@@ -1,0 +1,34 @@
+﻿l_russian:
+#Ideas
+#Units
+#Country
+ ADJ: "Аджария"
+ ADJ_DEF: "Республика Аджария"
+ ADJ_GEO_autonomy: "Аджарская АР"
+ ADJ_GEO_autonomy_DEF: "Аджарская Автономная Республика"
+ ADJ_ADJ: "Аджарск."
+#Characters
+ ADJ_unknown_leadership: "§gНеизвестное руководство§!"
+#Parties
+ ADJ_ultranationalism_party: "§RУНИЧТОЖЕНА§!"
+ ADJ_ultranationalism_party_long: " "
+ ADJ_nationalism_party: "§RУНИЧТОЖЕНА§!"
+ ADJ_nationalism_party_long: " "
+ ADJ_despotism_party: "§RУНИЧТОЖЕНА§!"
+ ADJ_despotism_party_long: " "
+ ADJ_authoritarianism_party: "НДПА"
+ ADJ_authoritarianism_party_long: "Национал-Демократическая партия Аджарии"
+ ADJ_authoritarianism_executed_party: "§RУНИЧТОЖЕНА§!"
+ ADJ_authoritarianism_executed_party_long: " "
+ ADJ_conservatism_party: "§RУНИЧТОЖЕНА§!"
+ ADJ_conservatism_party_long: " "
+ ADJ_liberalism_party: "§RУНИЧТОЖЕНА§!"
+ ADJ_liberalism_party_long: " "
+ ADJ_liberalism_executed_party: "§RУНИЧТОЖЕНА§!"
+ ADJ_liberalism_executed_party_long: " "
+ ADJ_social_democracy_party: "§RУНИЧТОЖЕНА§!"
+ ADJ_social_democracy_party_long: " "
+ ADJ_socialist_party: "§RУНИЧТОЖЕНА§!"
+ ADJ_socialist_party_long: " "
+ ADJ_communist_party: "§RУНИЧТОЖЕНА§!"
+ ADJ_communist_party_long: " "

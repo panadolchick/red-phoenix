@@ -1,0 +1,27 @@
+
+state={
+	id=163
+	name="STATE_163"
+
+	history={
+		owner = CAU
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = GEO
+		add_claim_by = SOV
+		add_claim_by = CAU
+		start_resistance = GEO
+		set_resistance = 17
+		set_compliance = 6
+
+	}
+
+	provinces={
+		6674 13660 13662 13664 13665 13666 13667 13669 13670 
+	}
+	manpower=2101
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

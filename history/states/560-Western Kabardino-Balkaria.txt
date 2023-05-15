@@ -10,17 +10,19 @@ state={
 		owner = CAU
 		buildings = {
 			infrastructure = 1
+
 		}
 		add_core_of = SOV
 		add_core_of = KBK
 		add_core_of = CAU
+
 	}
 
 	provinces={
-		11614 13278 13486 13487 
+		11614 13278 13486 13487 13668 13671 13672 
 	}
 	manpower=202224
 	buildings_max_level_factor=1.000
-	state_category= rural_encleve
+	state_category=rural_encleve
 	local_supplies=0.000
 }

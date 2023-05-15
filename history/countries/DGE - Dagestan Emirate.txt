@@ -91,6 +91,9 @@ if = {
 		basic_torpedo = 1
 	}
 }
+DGE = {
+	set_occupation_law = brutally_oppressive_occupation
+}
 
 give_military_access = CHE
 

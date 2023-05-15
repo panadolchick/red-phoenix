@@ -200,4 +200,44 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9718;6771;sea;8282;-1;-1;-1;-1;;Genicheskaya kosa
 13327;13310;sea;1434;-1;-1;-1;-1;;Petrodvorets - Kotlin
 13307;13310;sea;1434;-1;-1;-1;-1;;Kurortnyy - Kotlin
+13293;13599;impassable;-1;-1;-1;-1;-1;;Caucasus
+13293;13589;impassable;-1;-1;-1;-1;-1;;Caucasus
+13293;13598;impassable;-1;-1;-1;-1;-1;;Caucasus
+13601;13598;impassable;-1;-1;-1;-1;-1;;Caucasus
+13601;13488;impassable;-1;-1;-1;-1;-1;;Caucasus
+13601;13490;impassable;-1;-1;-1;-1;-1;;Caucasus
+13601;13596;impassable;-1;-1;-1;-1;-1;;Caucasus
+13593;13594;impassable;-1;-1;-1;-1;-1;;Caucasus
+13593;13591;impassable;-1;-1;-1;-1;-1;;Caucasus
+13593;13598;impassable;-1;-1;-1;-1;-1;;Caucasus
+13593;13596;impassable;-1;-1;-1;-1;-1;;Caucasus
+13600;13293;impassable;-1;-1;-1;-1;-1;;Caucasus
+13600;13598;impassable;-1;-1;-1;-1;-1;;Caucasus
+13600;13488;impassable;-1;-1;-1;-1;-1;;Caucasus
+13600;13489;impassable;-1;-1;-1;-1;-1;;Caucasus
+13673;13489;impassable;-1;-1;-1;-1;-1;;Caucasus
+13673;11664;impassable;-1;-1;-1;-1;-1;;Caucasus
+13673;11614;impassable;-1;-1;-1;-1;-1;;Caucasus
+13673;13487;impassable;-1;-1;-1;-1;-1;;Caucasus
+13673;13664;impassable;-1;-1;-1;-1;-1;;Caucasus
+13673;13293;impassable;-1;-1;-1;-1;-1;;Caucasus
+13670;13664;impassable;-1;-1;-1;-1;-1;;Caucasus
+13670;13666;impassable;-1;-1;-1;-1;-1;;Caucasus
+13670;13669;impassable;-1;-1;-1;-1;-1;;Caucasus
+13670;13672;impassable;-1;-1;-1;-1;-1;;Caucasus
+13670;13487;impassable;-1;-1;-1;-1;-1;;Caucasus
+13667;6674;impassable;-1;-1;-1;-1;-1;;Caucasus
+13667;13665;impassable;-1;-1;-1;-1;-1;;Caucasus
+13667;13669;impassable;-1;-1;-1;-1;-1;;Caucasus
+13667;13672;impassable;-1;-1;-1;-1;-1;;Caucasus
+13671;13672;impassable;-1;-1;-1;-1;-1;;Caucasus
+13671;13487;impassable;-1;-1;-1;-1;-1;;Caucasus
+13671;13486;impassable;-1;-1;-1;-1;-1;;Caucasus
+13668;13486;impassable;-1;-1;-1;-1;-1;;Caucasus
+13663;13486;impassable;-1;-1;-1;-1;-1;;Caucasus
+13663;13496;impassable;-1;-1;-1;-1;-1;;Caucasus
+13663;13655;impassable;-1;-1;-1;-1;-1;;Caucasus
+13662;13655;impassable;-1;-1;-1;-1;-1;;Caucasus
+13662;13660;impassable;-1;-1;-1;-1;-1;;Caucasus
+13662;6674;impassable;-1;-1;-1;-1;-1;;Caucasus
 -1;-1;;-1;-1;-1;-1;-1;-1

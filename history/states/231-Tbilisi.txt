@@ -1,0 +1,39 @@
+
+state={
+	id=231
+	name="STATE_231"
+
+	history={
+		owner = GEO
+		controller = SOV
+		victory_points = {
+			1599 10
+		}
+		victory_points = {
+			13604 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 3
+
+		}
+		add_core_of = GEO
+		add_claim_by = SOV
+		start_resistance = GEO
+		set_resistance = 52
+		set_compliance = 3
+		1993.1.1 = {
+			set_garrison_strength = 74
+		}
+
+	}
+
+	provinces={
+		1599 13604 
+	}
+	manpower=1222359
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

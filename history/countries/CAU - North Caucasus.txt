@@ -83,6 +83,9 @@ if = {
 		basic_torpedo = 1
 	}
 }
+CAU = {
+	set_occupation_law = brutally_oppressive_occupation
+}
 add_ideas = {
 	all_adults_serve
 	closed_economy

@@ -1,30 +1,39 @@
+
 state={
 	id=664
 	name="STATE_664"
-	manpower = 468536
-	
-	state_category = small_town
-	
+
 	history={
-		owner = GEO
+		owner = ADJ
 		victory_points = {
-			3653 3 
+			3653 4
 		}
 		buildings = {
-			infrastructure = 2 #was: 6
+			infrastructure = 2
 			industrial_complex = 1
 			3653 = {
 				naval_base = 2
 				coastal_bunker = 1
+
+			}
+
+		}
+		add_core_of = GEO
+		add_core_of = ADJ
+		add_claim_by = SOV
+		1993.1.1 = {
+			SOV = {
+				set_province_controller = 13621
 			}
 		}
-		add_core_of = SOV
-		add_core_of = GEO
-	}
-	
-	provinces={
-		3653
+
 	}
 
-	local_supplies=1.0 
+	provinces={
+		3653 13612 13613 13619 13621 
+	}
+	manpower=468536
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=1.000
 }

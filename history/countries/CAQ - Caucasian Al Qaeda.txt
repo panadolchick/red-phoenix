@@ -92,6 +92,10 @@ if = {
 	}
 }
 
+CAQ = {
+	set_occupation_law = brutally_oppressive_occupation
+}
+
 set_stability = -0.19
 set_war_support = 0.58
 

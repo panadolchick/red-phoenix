@@ -938,3 +938,7 @@ CAQ = {
 	color = rgb { 175 175 175 }
 	color_ui  = rgb { 155 155 155 }
 }
+ADJ = {
+	color = rgb { 28 69 140 }
+	color_ui  = rgb { 22  59  125 }
+}
