@@ -4,19 +4,51 @@
   
 #Please confirm the output is as expected before testing in-game.
 #And remember to change the .dds of your radio station thumbnail in the gfx folder!
-
 music = {
-    name = "Lobotomiya_MMCT"
-    file = "Lobotomiya.ogg"
+    name = "Pro_durachka_MMCT"
+    file = "Pro_durachka.ogg"
     volume = 0.65
 }
-
+music = {
+    name = "Novyi_den_MMCT"
+    file = "Novyi_den.ogg"
+    volume = 0.65
+}
+music = {
+    name = "RBL_Razdrazhenie_MMCT"
+    file = "Razdrazhenie.ogg"
+    volume = 0.65
+}
 music = {
     name = "Vse_kak_y_ludei_MMCT"
     file = "Vse_kak_y_ludei.ogg"
     volume = 0.65
 }
-
+music = {
+    name = "Mne_nasrat_na_moe_litso_MMCT"
+    file = "Mne_nasrat_na_moe_litso.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Lobotomiya_MMCT"
+    file = "Lobotomiya.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Otryad_ne_zametil_poteri_boytsa_MMCT"
+    file = "Otryad_ne_zametil_poteri_boytsa.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Neponyatnaya_pesenka_MMCT"
+    file = "Neponyatnaya_pesenka.ogg"
+    volume = 0.65
+}
+music = {
+    name = "Toshnota_MMCT"
+    file = "Toshnota.ogg"
+    volume = 0.65
+}
 music = {
     name = "Vse_idet_po_plany_MMCT"
     file = "Vse_idet_po_plany.ogg"
@@ -30,12 +62,6 @@ music = {
 }
 
 music = {
-    name = "Toshnota_MMCT"
-    file = "Toshnota.ogg"
-    volume = 0.65
-}
-
-music = {
     name = "Sistema_MMCT"
     file = "Sistema.ogg"
     volume = 0.65
@@ -44,41 +70,5 @@ music = {
 music = {
     name = "Rodina_MMCT"
     file = "Rodina.ogg"
-    volume = 0.65
-}
-
-music = {
-    name = "Razdrazhenie_MMCT"
-    file = "Razdrazhenie.ogg"
-    volume = 0.65
-}
-
-music = {
-    name = "Pro_durachka_MMCT"
-    file = "Pro_durachka.ogg"
-    volume = 0.65
-}
-
-music = {
-    name = "Otryad_ne_zametil_poteri_boytsa_MMCT"
-    file = "Otryad_ne_zametil_poteri_boytsa.ogg"
-    volume = 0.65
-}
-
-music = {
-    name = "Novyi_den_MMCT"
-    file = "Novyi_den.ogg"
-    volume = 0.65
-}
-
-music = {
-    name = "Neponyatnaya_pesenka_MMCT"
-    file = "Neponyatnaya_pesenka.ogg"
-    volume = 0.65
-}
-
-music = {
-    name = "Mne_nasrat_na_moe_litso_MMCT"
-    file = "Mne_nasrat_na_moe_litso.ogg"
     volume = 0.65
 }

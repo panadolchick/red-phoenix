@@ -13,21 +13,69 @@
 
 music_station = "Russian_Breakthrough_Leningrad_MMCT"
 music = {
+  song = "Pro_durachka_MMCT"
+  chance = {
+    modifier = { factor = 1 }
+    #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+  }
+}
+music = {
+  song = "Novyi_den_MMCT"
+  chance = {
+    modifier = { factor = 1 }
+    #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+  }
+}
+music = {
+  song = "RBL_Razdrazhenie_MMCT"
+  chance = {
+    modifier = { factor = 1 }
+    #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+  }
+}
+music = {
+  song = "Vse_kak_y_ludei_MMCT"
+  chance = {
+    modifier = { factor = 1 }
+    #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+  }
+}
+music = {
+  song = "Mne_nasrat_na_moe_litso_MMCT"
+  chance = {
+    modifier = { factor = 1 }
+    #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+  }
+}
+
+music = {
     song = "Lobotomiya_MMCT"
     chance = {
       modifier = { factor = 1 }
       #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
     }
 }
-
 music = {
-    song = "Vse_kak_y_ludei_MMCT"
-    chance = {
-      modifier = { factor = 1 }
-      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
-    }
+  song = "Otryad_ne_zametil_poteri_boytsa_MMCT"
+  chance = {
+    modifier = { factor = 1 }
+    #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+  }
 }
-
+music = {
+  song = "Neponyatnaya_pesenka_MMCT"
+  chance = {
+    modifier = { factor = 1 }
+    #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+  }
+}
+music = {
+  song = "Toshnota_MMCT"
+  chance = {
+    modifier = { factor = 1 }
+    #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+  }
+}
 music = {
     song = "Vse_idet_po_plany_MMCT"
     chance = {
@@ -45,73 +93,16 @@ music = {
 }
 
 music = {
-    song = "Toshnota_MMCT"
-    chance = {
-      modifier = { factor = 1 }
-      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
-    }
-}
-
-music = {
     song = "Sistema_MMCT"
     chance = {
       modifier = { factor = 1 }
       #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
     }
 }
-
 music = {
-    song = "Rodina_MMCT"
-    chance = {
-      modifier = { factor = 1 }
-      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
-    }
-}
-
-music = {
-    song = "Razdrazhenie_MMCT"
-    chance = {
-      modifier = { factor = 1 }
-      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
-    }
-}
-
-music = {
-    song = "Pro_durachka_MMCT"
-    chance = {
-      modifier = { factor = 1 }
-      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
-    }
-}
-
-music = {
-    song = "Otryad_ne_zametil_poteri_boytsa_MMCT"
-    chance = {
-      modifier = { factor = 1 }
-      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
-    }
-}
-
-music = {
-    song = "Novyi_den_MMCT"
-    chance = {
-      modifier = { factor = 1 }
-      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
-    }
-}
-
-music = {
-    song = "Neponyatnaya_pesenka_MMCT"
-    chance = {
-      modifier = { factor = 1 }
-      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
-    }
-}
-
-music = {
-    song = "Mne_nasrat_na_moe_litso_MMCT"
-    chance = {
-      modifier = { factor = 1 }
-      #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
-    }
+  song = "Rodina_MMCT"
+  chance = {
+    modifier = { factor = 1 }
+    #modifier = { factor = 0 has_war = yes } #example modifier: music will not play when at war
+  }
 }
