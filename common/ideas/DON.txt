@@ -16,16 +16,16 @@ ideas = {
                         division_template = "96-ой Казачий Полк"
                     }
                     load_oob = DON_end_of_unit
+                    country_event = {
+                        id = don.2
+                        days = 40
+                    }
                 }
                 else = {
                     set_division_template_lock = {
                         division_template = "96-ой Казачий Полк"
                         is_locked = no
                     }
-                }
-                country_event = {
-                    id = don.2
-                    days = 40
                 }
             }
             available = {
@@ -37,6 +37,21 @@ ideas = {
                 cavalry_attack_factor = 0.1
                 cavalry_defence_factor = -0.1
                 custom_modifier_tooltip = cant_form_division_tt
+            }
+        }
+        DON_expanded_last_cosack_unit = {
+			allowed_civil_war = {
+                always = yes
+            }
+            available = {
+                has_last_cosack_unit = yes
+            }
+            cancel_if_invalid = yes
+            modifier = {
+                despotism_drift = 0.05
+                cavalry_attack_factor = 0.2
+                cavalry_defence_factor = 0.2
+                unit_cavalry_design_cost_factor = -1
             }
         }
         DON_ruined_land = {

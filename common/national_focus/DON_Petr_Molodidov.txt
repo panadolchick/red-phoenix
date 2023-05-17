@@ -12,7 +12,7 @@ focus_tree = {
 		x = 2
 		y = 6
 	}
-	initial_show_position = { focus = DON_fate_of_last_cosack_unit }
+	initial_show_position = { focus = DON_all_in }
 	focus = {
         id = DON_all_in
         icon = GFX_goal_unknown
@@ -20,6 +20,10 @@ focus_tree = {
         y = 0
         cost = 1  
 		completion_reward = {
+			country_event = {
+				id = don.7
+				days = 1
+			}
 		}
 		ai_will_do = {
 			factor = 1

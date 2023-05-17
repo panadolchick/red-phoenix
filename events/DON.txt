@@ -206,6 +206,7 @@ country_event = {
 				traits = { anarcho_monarchist }
 			}
 		}
+		remove_unit_leader_role = DON_igor_strelkov
 		modify_country_flag = {
 			flag = DON_august_kruse_accept
 			value = -2
@@ -331,4 +332,42 @@ country_event = {
 			add_manpower = -17
 		}
 	}
+}
+country_event = {
+    id = don.7
+    title = don.7.t
+    desc = don.7.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = don.7.a    
+		hidden_effect = {
+			country_event = {
+				id = don.8
+				days = 1
+			}
+		}
+		custom_effect_tooltip = its_not_good
+    }
+}
+country_event = {
+    id = don.8
+    title = don.8.t
+    desc = don.8.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = don.8.a    
+		swap_ideas = {
+			remove_idea = DON_last_cosack_unit
+			add_idea = DON_expanded_last_cosack_unit
+		}
+		load_oob = DON_expand_of_unit
+		delete_unit_template_and_units = {
+			division_template = "96-ой Казачий Полк"
+			disband = yes
+		}
+    }
 }

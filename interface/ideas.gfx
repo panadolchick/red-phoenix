@@ -7207,6 +7207,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/DON/DON_last_cosack_unit.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_DON_expanded_last_cosack_unit"
+		texturefile = "gfx/interface/ideas/DON/DON_last_cosack_unit.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_DON_ruined_land"
 		texturefile = "gfx/interface/ideas/DON/DON_ruined_land.dds"
 	}
