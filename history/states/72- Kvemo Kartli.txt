@@ -13,14 +13,14 @@ state={
 			13622 1
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
 
 		}
 		add_core_of = GEO
 		add_claim_by = SOV
 		start_resistance = GEO
-		set_resistance = 38
+		set_resistance = 29
 		set_compliance = 6
 		1993.1.1 = {
 			GEO = {

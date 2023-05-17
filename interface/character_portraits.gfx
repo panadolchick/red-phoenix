@@ -247,4 +247,8 @@ spriteTypes = {
 		name = "GFX_CAU_unknown_leadership"
 		texturefile = "gfx/leaders/CAU/CAU_unknown_leadership.dds"
 	}
+	spriteType = {
+		name = "GFX_GEO_eduard_shevardnadze"
+		texturefile = "gfx/leaders/GEO/GEO_eduard_shevardnadze.dds"
+	}
 }

@@ -3795,11 +3795,19 @@ spriteTypes = {
 	}
     SpriteType = { 
 		name = "GFX_SOV_hold_the_30th_congress_of_the_CPSS_central_committee"
-		texturefile = "gfx/interface/goals/SOV_hold_the_30th_congress_of_the_CPSS_central_committee.dds"
+		texturefile = "gfx/interface/goals/SOV/SOV_hold_the_30th_congress_of_the_CPSS_central_committee.dds"
 	}
     SpriteType = { 
 		name = "GFX_SOV_relocation_of_missile_forces"
-		texturefile = "gfx/interface/goals/SOV_relocation_of_missile_forces.dds"
+		texturefile = "gfx/interface/goals/SOV/SOV_relocation_of_missile_forces.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SOV_withdraw_troops"
+		texturefile = "gfx/interface/goals/SOV/SOV_withdraw_troops.dds"
+	}
+	SpriteType = { 
+		name = "GFX_SOV_continue_SMO"
+		texturefile = "gfx/interface/goals/SOV/SOV_continue_SMO.dds"
 	}
     SpriteType = { 
 		name = "GFX_OSR_igor_kasatonov_focus"

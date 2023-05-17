@@ -17,7 +17,7 @@ focus_tree = {
     focus = {
         id = SOV_hold_the_30th_congress_of_the_CPSS_central_committee 
         icon = GFX_SOV_hold_the_30th_congress_of_the_CPSS_central_committee
-        x = 15
+        x = 19
         y = 0
         cost = 1  
 		completion_reward = {
@@ -48,8 +48,8 @@ focus_tree = {
         id = SOV_situation_in_the_party
         icon = GFX_goal_unknown
 		relative_position_id = SOV_everything_is_going_according_to_plan
-        x = -5
-        y = 2
+        x = -10
+        y = 1
         cost = 1
 
 		prerequisite = {
@@ -67,7 +67,7 @@ focus_tree = {
         icon = GFX_goal_unknown
 		relative_position_id = SOV_situation_in_the_party
         x = 0
-        y = 2
+        y = 1
         cost = 1
 
 		prerequisite = {
@@ -81,11 +81,29 @@ focus_tree = {
 		}
 	}
 	focus = {
+        id = SOV_traitors_of_motherland_dissidents_slaveowners_exploiters_degenerates_dickheads
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_yanayevs_position
+        x = -1
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_yanayevs_position
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
         id = SOV_cancerous_tumor_of_the_state
         icon = GFX_goal_unknown
 		relative_position_id = SOV_yanayevs_position
-        x = 0
-        y = 2
+        x = 1
+        y = 1
         cost = 1
 
 		prerequisite = {
@@ -102,8 +120,8 @@ focus_tree = {
         id = SOV_feel_the_pulse_of_the_economy
         icon = GFX_goal_unknown
 		relative_position_id = SOV_everything_is_going_according_to_plan
-        x = -2
-        y = 2
+        x = -6
+        y = 1
         cost = 1
 
 		prerequisite = {
@@ -121,7 +139,7 @@ focus_tree = {
         icon = GFX_goal_unknown
 		relative_position_id = SOV_feel_the_pulse_of_the_economy
         x = 0
-        y = 2
+        y = 1
         cost = 1
 
 		prerequisite = {
@@ -139,7 +157,7 @@ focus_tree = {
         icon = GFX_goal_unknown
 		relative_position_id = SOV_situation_of_the_common_people
         x = 0
-        y = 2
+        y = 1
         cost = 1
 
 		prerequisite = {
@@ -153,11 +171,141 @@ focus_tree = {
 		}
 	}
 	focus = {
+        id = SOV_a_mutilated_union
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_everything_is_going_according_to_plan
+        x = 0
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_everything_is_going_according_to_plan
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = SOV_western_frontiers
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_a_mutilated_union
+        x = 0
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_a_mutilated_union
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = SOV_southern_borders
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_a_mutilated_union
+        x = 3
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_a_mutilated_union
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+        id = SOV_georgian_meat_grinder
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_southern_borders
+        x = 0
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_southern_borders
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+        id = SOV_withdraw_troops
+        icon = GFX_SOV_withdraw_troops
+		relative_position_id = SOV_georgian_meat_grinder
+        x = -1
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_georgian_meat_grinder
+		}
+
+		mutually_exclusive = {
+			focus = SOV_continue_SMO
+		}
+
+		available = {
+			has_war_with = GEO
+		}
+
+		bypass = {
+			country_exists = GEO
+			NOT = {
+				has_war_with = GEO
+			}
+		}
+
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_failure_of_the_SMO_in_georgia
+			add_stability = -0.1
+			add_war_support = -0.05
+			clr_country_flag = first_georgian_war
+			white_peace = GEO
+			GEO = {
+				country_event = {
+					id = geo.4
+					days = 1
+					hours = 2
+					random_hours = 7
+				}
+			}
+			add_popularity = {
+				ideology = authoritarianism
+				popularity = 0.01
+			}
+			add_popularity = {
+				ideology = socialist
+				popularity = 0.02
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
         id = SOV_situation_in_the_army
         icon = GFX_goal_unknown
 		relative_position_id = SOV_everything_is_going_according_to_plan
-        x = 2
-        y = 2
+        x = 6
+        y = 1
         cost = 1
 
 		prerequisite = {
@@ -175,8 +323,8 @@ focus_tree = {
         icon = GFX_SOV_relocation_of_missile_forces
 		relative_position_id = SOV_situation_in_the_army
         x = 0
-        y = 2
-        cost = 10
+        y = 1
+        cost = 3
 
 		prerequisite = {
 			focus = SOV_situation_in_the_army
@@ -193,7 +341,7 @@ focus_tree = {
         icon = GFX_goal_unknown
 		relative_position_id = SOV_relocation_of_missile_forces
         x = 0
-        y = 2
+        y = 1
         cost = 1
 
 		prerequisite = {
@@ -207,11 +355,57 @@ focus_tree = {
 		}
 	}
 	focus = {
+        id = SOV_continue_SMO
+        icon = GFX_SOV_continue_SMO
+		relative_position_id = SOV_georgian_meat_grinder
+        x = 1
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_georgian_meat_grinder
+		}
+		prerequisite = {
+			focus = SOV_call_to_yazov
+		}
+
+		mutually_exclusive = {
+			focus = SOV_withdraw_troops
+		}
+
+		available = {
+			has_war_with = GEO
+		}
+
+		bypass = {
+			NOT = {
+				country_exists = GEO
+			}
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_possible_failure_of_the_SMO_in_georgia
+			add_stability = -0.075
+			add_war_support = 0.05
+			add_popularity = {
+				ideology = despotism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = communist
+				popularity = 0.02
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
         id = SOV_our_foreign_policy_position
         icon = GFX_goal_unknown
 		relative_position_id = SOV_everything_is_going_according_to_plan
-        x = 5
-        y = 2
+        x = 10
+        y = 1
         cost = 1
 
 		prerequisite = {
@@ -229,7 +423,7 @@ focus_tree = {
         icon = GFX_goal_unknown
 		relative_position_id = SOV_our_foreign_policy_position
         x = 0
-        y = 2
+        y = 1
         cost = 1
 
 		prerequisite = {
@@ -243,11 +437,29 @@ focus_tree = {
 		}
 	}
 	focus = {
+        id = SOV_europe
+        icon = GFX_goal_unknown
+		relative_position_id = SOV_policy_towards_the_usa
+        x = -1
+        y = 1
+        cost = 1
+
+		prerequisite = {
+			focus = SOV_policy_towards_the_usa
+		}
+
+		completion_reward = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
         id = SOV_and_china
         icon = GFX_goal_unknown
 		relative_position_id = SOV_policy_towards_the_usa
-        x = 0
-        y = 2
+        x = 1
+        y = 1
         cost = 1
 
 		prerequisite = {
@@ -263,10 +475,14 @@ focus_tree = {
 	focus = {
         id = SOV_into_a_bright_future
         icon = GFX_goal_unknown
-		relative_position_id = SOV_call_to_yazov
-        x = -2
-        y = 2
+		relative_position_id = SOV_a_mutilated_union
+        x = 0
+        y = 4
         cost = 1
+
+		prerequisite = {
+			focus = SOV_traitors_of_motherland_dissidents_slaveowners_exploiters_degenerates_dickheads
+		}
 
 		prerequisite = {
 			focus = SOV_cancerous_tumor_of_the_state
@@ -275,16 +491,21 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_upper_class_of_the_socialist_state
 		}
-
 		prerequisite = {
 			focus = SOV_call_to_yazov
 		}
 
 		prerequisite = {
+			focus = SOV_europe
+		}
+		prerequisite = {
 			focus = SOV_and_china
 		}
 
 		completion_reward = {
+			add_political_power = 300
+			add_stability = 0.1
+			add_war_support = 0.05
 		}
 		ai_will_do = {
 			factor = 1

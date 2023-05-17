@@ -71,7 +71,7 @@ else = {
 	}
 }
 set_research_slots = 3
-set_stability = 0.43
+set_stability = 0.46
 set_war_support = 0.3
 # Starting tech
 set_technology = { #WARNING: Do not just remove techs from here -> It can impact a lot of stuff. Before removing, double check that content does not count on these techs being researched
@@ -91,6 +91,7 @@ set_technology = { #WARNING: Do not just remove techs from here -> It can impact
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
+	rocket_artillery = 1
 }
 
 if = {
@@ -113,6 +114,8 @@ if = {
 		improved_light_tank_chassis = 1
 		engine_tech_1 = 1
 		engine_tech_2 = 1
+		mechanised_infantry = 1
+		main_battle_tank_chassis = 1
 	}
 }
 if = {
@@ -160,6 +163,7 @@ if = {
 set_convoys = 50
 
 set_country_flag = SOV_TEST_REMOVE_VANILLA_ADVISORS_flag
+set_country_flag = first_georgian_war
 
 declare_war_on = {
 	target = GEO
@@ -181,6 +185,7 @@ add_ideas = {
 	SOV_growing_dissident_movement
 	SOV_population_decline
 	SOV_widespread_drunkenness
+	SOV_caucasus_is_ablaze
 	nuclear_power
 }
 
@@ -412,6 +417,23 @@ if = {
 			tank_nsb_engine_upgrade = 10
 		}
 		icon = "GFX_SOV_basic_heavy_tank_medium"
+	}
+	create_equipment_variant = {
+		name = "Т-80"
+		type = modern_tank_chassis_1
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_medium_cannon_2
+			turret_type_slot = tank_modern_tank_turret
+			suspension_type_slot = tank_torsion_bar_suspension
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gas_turbine_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+		icon = "GFX_SOV_main_battle_tank_medium"
 	}
 }
 if = {

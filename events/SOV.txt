@@ -36,3 +36,61 @@ country_event = {
 		}
 	}
 }
+
+#Defeat in Georgia
+country_event = {
+	id = sov.2
+	title = sov.2.t
+	desc = sov.2.d
+	picture = GFX_report_event_china_ledo_road
+	fire_only_once = yes
+	trigger = {
+		has_country_flag = first_georgian_war
+		has_war_with = GEO
+		OR = {
+			surrender_progress > 0.1
+			GEO = {
+				surrender_progress < 0.25
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	#What a shame...
+	option = {
+		name = sov.2.a
+		custom_effect_tooltip = SOV_failure_of_the_SMO_in_georgia
+        if = {
+            limit = {
+                has_completed_focus = SOV_continue_SMO
+            }
+            uncomplete_national_focus = {
+                focus = SOV_continue_SMO
+            }
+        }
+        if = {
+            limit = {
+                has_completed_focus = SOV_georgian_meat_grinder
+            }
+            complete_national_focus = SOV_withdraw_troops
+        }
+        add_political_power = -125
+        add_stability = -0.1
+		add_war_support = -0.075
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = -0.035
+		}
+		clr_country_flag = first_georgian_war
+        white_peace = GEO
+        GEO = {
+            country_event = {
+                id = geo.4
+                days = 1
+                hours = 2
+                random_hours = 7
+            }
+        }
+	}
+}

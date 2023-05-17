@@ -855,3 +855,23 @@ SOV_boost_div_upgrades = { #lets make sure sov upgrades divs when at war
 		value = 100
 	}
 }
+
+SOV_first_georgian_war = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		has_country_flag = first_georgian_war
+	}
+	abort = {
+		NOT = {
+			has_war_with = GEO
+		}
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		tag = GEO
+		value = 125
+	}
+}

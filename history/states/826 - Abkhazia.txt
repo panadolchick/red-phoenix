@@ -21,7 +21,7 @@ state={
 		add_claim_by = SOV
 		add_core_of = ABK
 		start_resistance = GEO
-		set_resistance = 15
+		set_resistance = 11
 		set_compliance = 36
 
 	}

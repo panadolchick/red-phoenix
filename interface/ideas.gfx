@@ -7270,4 +7270,8 @@ spriteTypes = {
 		name = "GFX_idea_SOV_widespread_drunkenness"
 		textureFile = "gfx/interface/ideas/SOV/SOV_widespread_drunkenness.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_SOV_caucasus_is_ablaze"
+		textureFile = "gfx/interface/ideas/SOV/SOV_caucasus_is_ablaze.dds"
+	}
 }

@@ -1,0 +1,398 @@
+add_namespace = geo
+add_namespace = geo_hidden
+
+#Just a little more
+country_event = {
+    id = geo.1
+    title = geo.1.t
+    desc = geo.1.d
+	picture = GFX_report_event_soldiers_marching
+    fire_only_once = yes
+    is_triggered_only = yes   
+    
+    #Offer the Russians a peace treaty. They are too weak
+    option = {
+        name = geo.1.a
+		add_war_support = -0.025
+        add_political_power = 10
+        SOV = {
+            country_event = {
+                id = geo.2
+                days = 1
+                random_days = 2
+                random_hours = 8
+            }
+        }
+    }
+    #Just a little more, one last offensive!
+    option = {
+        name = geo.1.b
+		add_war_support = 0.05
+        add_political_power = 25
+        add_timed_idea = {
+            idea = GEO_grand_offensive
+            days = 45
+        }
+        set_country_flag = GEO_ai_grand_offensive
+        every_army_leader = {
+            add_attack = 1
+        }
+        every_owned_state = {
+            limit = {
+                is_controlled_by = SOV
+            }
+            add_resistance = 7.5
+            add_compliance = -5
+        }
+        if = {
+            limit = {
+                SOV = {
+                    controls_state = 664
+                }
+            }
+            664 = {
+                add_resistance = 10
+                add_compliance = -7.5
+            }
+        }
+    }
+}
+
+#Georgia offers our capitulation! (SOV)
+country_event = {
+    id = geo.2
+    title = geo.2.t
+    desc = geo.2.d
+	picture = GFX_report_event_generic_sign_treaty1
+    fire_only_once = yes
+    is_triggered_only = yes   
+    
+    #No treaties with separatists! The goals of the SMO will be achieved!
+    option = {
+        name = geo.2.a
+        custom_effect_tooltip = SOV_possible_failure_of_the_SMO_in_georgia
+        if = {
+            limit = {
+                has_completed_focus = SOV_georgian_meat_grinder
+                has_completed_focus = SOV_call_to_yazov
+            }
+            complete_national_focus = SOV_continue_SMO
+        }
+        add_political_power = -30
+        add_stability = -0.035
+		add_war_support = 0.01
+        GEO = {
+            country_event = {
+                id = geo.3
+                days = 0
+                hours = 7
+                random_hours = 16
+            }
+            custom_effect_tooltip = EFFECTS_FOR_COUNTRY
+            effect_tooltip = {
+                add_timed_idea = {
+                    idea = GEO_grand_offensive
+                    days = 50
+                }
+                set_country_flag = GEO_ai_grand_offensive
+                every_army_leader = {
+                    add_attack = 1
+                }
+                every_owned_state = {
+                    limit = {
+                        is_controlled_by = SOV
+                    }
+                    add_resistance = 10
+                    add_compliance = -7.5
+                }
+                if = {
+                    limit = {
+                        SOV = {
+                            controls_state = 664
+                        }
+                    }
+                    664 = {
+                        add_resistance = 12.5
+                        add_compliance = -10
+                    }
+                }
+            }
+        }
+    }
+    #The situation is too critical, we have no choice...
+    option = {
+        name = geo.2.b
+        custom_effect_tooltip = SOV_failure_of_the_SMO_in_georgia
+        if = {
+            limit = {
+                has_completed_focus = SOV_continue_SMO
+            }
+            uncomplete_national_focus = {
+                focus = SOV_continue_SMO
+            }
+        }
+        if = {
+            limit = {
+                has_completed_focus = SOV_georgian_meat_grinder
+            }
+            complete_national_focus = SOV_withdraw_troops
+        }
+        add_political_power = -100
+        add_stability = -0.075
+		add_war_support = -0.05
+        add_popularity = {
+			ideology = authoritarianism
+			popularity = -0.025
+		}
+        clr_country_flag = first_georgian_war
+        white_peace = GEO
+        GEO = {
+            country_event = {
+                id = geo.4
+                days = 1
+                hours = 2
+                random_hours = 7
+            }
+        }
+    }
+}
+
+#The Soviets refused to conclude a peace treaty!
+country_event = {
+    id = geo.3
+    title = geo.3.t
+    desc = geo.3.d
+	picture = GFX_report_event_SOV_military_offensive
+    fire_only_once = yes
+    is_triggered_only = yes   
+    
+    #Let's go, attack!
+    option = {
+        name = geo.3.a
+		add_war_support = 0.1
+        add_political_power = 25
+        effect_tooltip = {
+            add_timed_idea = {
+                idea = GEO_grand_offensive
+                days = 50
+            }
+            set_country_flag = GEO_ai_grand_offensive
+            every_army_leader = {
+                add_attack = 1
+            }
+            every_owned_state = {
+                limit = {
+                    is_controlled_by = SOV
+                }
+                add_resistance = 10
+                add_compliance = -7.5
+            }
+            if = {
+                limit = {
+                    SOV = {
+                        controls_state = 664
+                    }
+                }
+                664 = {
+                    add_resistance = 12.5
+                    add_compliance = -10
+                }
+            }
+        } 
+    }
+    immediate = {
+		hidden_effect = {
+            add_timed_idea = {
+                idea = GEO_grand_offensive
+                days = 50
+            }
+            set_country_flag = GEO_ai_grand_offensive
+            every_army_leader = {
+                add_attack = 1
+            }
+            every_owned_state = {
+                limit = {
+                    is_controlled_by = SOV
+                }
+                add_resistance = 10
+                add_compliance = -7.5
+            }
+            if = {
+                limit = {
+                    SOV = {
+                        controls_state = 664
+                    }
+                }
+                664 = {
+                    add_resistance = 12.5
+                    add_compliance = -10
+                }
+            }
+		}
+	}
+}
+
+#Russians surrender!
+country_event = {
+    id = geo.4
+    title = geo.4.t
+    desc = geo.4.d
+	picture = GFX_report_event_generic_sign_treaty2
+    fire_only_once = yes
+    is_triggered_only = yes   
+    
+    #Victory!
+    option = {
+        name = geo.4.a
+		effect_tooltip = {
+            white_peace = SOV
+        }
+        add_political_power = 150
+        add_stability = 0.05
+        add_war_support = -0.1
+        remove_ideas = {
+            GEO_great_liberation_war
+        }
+    }
+    immediate = {
+        hidden_effect = {
+            clr_global_flag = first_georgian_war
+            remove_ideas = {
+                GEO_great_liberation_war
+            }
+            573 = {
+                start_resistance = GEO
+            }
+            country_event = {
+                id = geo.5
+                days = 70
+                random_days = 30
+            }
+        }
+    }
+}
+
+#Partisans of the North
+country_event = {
+    id = geo.5
+    title = geo.5.t
+    desc = geo.5.d
+	picture = GFX_report_event_ITA_partisans
+    fire_only_once = yes
+    is_triggered_only = yes   
+    
+    #They, too, are heroes of the nation
+    option = {
+        name = geo.5.a
+        add_political_power = 10
+        add_war_support = 0.03
+        CAU = {
+            country_event = {
+                id = geo.6
+                days = 0
+                hours = 7
+                random_hours = 6
+            }
+            add_opinion_modifier = {
+                target = ROOT
+                modifier = hostile_status
+            }
+        }
+        add_opinion_modifier = {
+            target = CAU
+            modifier = hostile_status
+        }
+		163 = {
+            add_resistance_target = 12
+            add_resistance = 10
+            add_compliance = -5
+        }
+        573 = {
+            add_resistance_target = 7
+            add_resistance = 5
+            add_compliance = -2.5
+        }
+    }
+}
+
+#Growth of partisan activity by Georgians (CAU)
+country_event = {
+    id = geo.6
+    title = geo.6.t
+    desc = geo.6.d
+	picture = GFX_report_event_yugoslavia_partisans
+    fire_only_once = yes
+    is_triggered_only = yes   
+    
+    #Damn...
+    option = {
+        name = geo.6.a
+        add_stability = -0.025
+        effect_tooltip = {
+            add_opinion_modifier = {
+                target = PREV
+                modifier = hostile_status
+            }
+            163 = {
+                add_resistance_target = 12
+                add_resistance = 10
+                add_compliance = -5
+            }
+            573 = {
+                add_resistance_target = 7
+                add_resistance = 5
+                add_compliance = -2.5
+            }
+        }
+    }
+}
+
+#Tbilisi is liberated!
+country_event = {
+    id = geo.7
+    title = geo.7.t
+    desc = geo.7.d
+	picture = GFX_report_event_gre_city_siege
+    fire_only_once = yes
+    is_triggered_only = yes   
+    
+    #Victory is coming!
+    option = {
+        name = geo.7.a
+        add_political_power = 75
+        add_war_support = 0.03
+        every_owned_state = {
+            limit = {
+                is_controlled_by = SOV
+            }
+            add_resistance = 3
+            add_compliance = -2
+        }
+    }
+}
+
+#Tbilisi has fallen! (SOV)
+country_event = {
+    id = geo.8
+    title = geo.8.t
+    desc = geo.8.d
+	picture = GFX_report_event_gre_city_devastated
+    fire_only_once = yes
+    is_triggered_only = yes   
+    
+    #They will surely pay for everything!
+    option = {
+        name = geo.8.a
+        add_political_power = -50
+        add_war_support = -0.015
+        effect_tooltip = {
+            every_controlled_state = {
+                limit = {
+                    is_owned_by = GEO
+                }
+                add_resistance = 3
+                add_compliance = -2
+            }
+        }
+    }
+}

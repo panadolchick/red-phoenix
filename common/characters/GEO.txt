@@ -1,0 +1,16 @@
+characters = {
+	GEO_eduard_shevardnadze = {
+		name = GEO_eduard_shevardnadze
+		portraits={
+			civilian={
+				large = "GFX_GEO_eduard_shevardnadze"
+			}
+		}
+		country_leader={
+			ideology = military_dictatorship
+			traits = {
+				
+			}
+		}
+	}
+}

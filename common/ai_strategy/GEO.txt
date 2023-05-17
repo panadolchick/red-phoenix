@@ -1,0 +1,47 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+GEO_grand_offensive = {
+	allowed = {
+		original_tag = GEO
+	}
+	enable = {
+		has_country_flag = GEO_ai_grand_offensive
+	}
+	abort = {
+		NOT = {
+			has_idea = GEO_grand_offensive
+		}
+	}
+
+	ai_strategy = {
+		type = front_control
+		state_trigger = {
+			is_owned_by = GEO
+		}
+		ratio = 0.9
+		ordertype = front
+		execution_type = rush
+		manual_attack = no
+	}
+
+	ai_strategy = {
+		type = front_control
+		state_trigger = {
+			is_owned_by = GEO
+		}
+		priority = 1
+		ratio = 0.95
+		ordertype = invasion
+		execute_order = yes
+	}
+}

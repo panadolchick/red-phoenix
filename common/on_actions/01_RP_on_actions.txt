@@ -1,7 +1,6 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			}
 			909 = {
 				damage_building = {
 					type = infrastructure
@@ -42,6 +41,24 @@ on_actions = {
 					damage = 1
 				}
 			}
+			210 = {
+				set_garrison_strength = 0.91
+			}
+			231 = {
+				set_garrison_strength = 0.74
+			}
+			246 = {
+				set_garrison_strength = 0.83
+			}
+			262 = {
+				set_garrison_strength = 0.88
+			}
+			72 = {
+				set_garrison_strength = 0.64
+			}
+			826 = {
+				set_garrison_strength = 0.92
+			}
 		}
 	}
 	on_release_as_puppet = {
@@ -71,4 +88,36 @@ on_actions = {
 		}
 	}
 
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = tbilisi_liberated }
+					FROM.FROM = {
+						state = 231
+					}
+					FROM = {
+						tag = SOV
+						has_country_flag = first_georgian_war
+					}
+					ROOT = {
+						tag = GEO
+					}
+				}
+				set_global_flag = tbilisi_liberated
+				country_event = {
+					id = geo.7
+					hours = 2
+					random_hours = 5
+				}
+				SOV = {
+					country_event = {
+						id = geo.8
+						hours = 4
+						random_hours = 13
+					}
+				}
+			}
+		}
+	}
 }
