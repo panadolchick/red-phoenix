@@ -250,7 +250,7 @@ focus_tree = {
 		relative_position_id = SOV_georgian_meat_grinder
         x = -1
         y = 1
-        cost = 1
+        cost = 3
 
 		prerequisite = {
 			focus = SOV_georgian_meat_grinder
@@ -262,6 +262,10 @@ focus_tree = {
 
 		available = {
 			has_war_with = GEO
+			casualties_inflicted_by = {
+				opponent = GEO
+				thousands > 10
+			}
 		}
 
 		bypass = {
@@ -296,7 +300,125 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			base = 1
+			modifier = {
+				add = 2
+				casualties_inflicted_by = {
+					opponent = GEO
+					thousands > 15
+				}
+			}
+			modifier = {
+				add = 2
+				casualties_inflicted_by = {
+					opponent = GEO
+					thousands > 20
+				}
+			}
+			modifier = {
+				add = 2
+				casualties_inflicted_by = {
+					opponent = GEO
+					thousands > 25
+				}
+			}
+			modifier = {
+				add = 2
+				casualties_inflicted_by = {
+					opponent = GEO
+					thousands > 30
+				}
+			}
+			modifier = {
+				add = 2
+				casualties_inflicted_by = {
+					opponent = GEO
+					thousands > 35
+				}
+			}
+			modifier = {
+				add = 2
+				casualties_inflicted_by = {
+					opponent = GEO
+					thousands > 40
+				}
+			}
+			modifier = {
+				add = 2
+				casualties_inflicted_by = {
+					opponent = GEO
+					thousands > 55
+				}
+			}
+			modifier = {
+				add = 2
+				casualties_inflicted_by = {
+					opponent = GEO
+					thousands > 60
+				}
+			}
+			modifier = {
+				add = 2
+				casualties_inflicted_by = {
+					opponent = GEO
+					thousands > 65
+				}
+			}
+			modifier = {
+				add = 2
+				casualties_inflicted_by = {
+					opponent = GEO
+					thousands > 70
+				}
+			}
+			modifier = {
+				add = 2
+				casualties_inflicted_by = {
+					opponent = GEO
+					thousands > 75
+				}
+			}
+			modifier = {
+				add = 2
+				casualties_inflicted_by = {
+					opponent = GEO
+					thousands > 80
+				}
+			}
+			modifier = {
+				add = 2
+				casualties_inflicted_by = {
+					opponent = GEO
+					thousands > 85
+				}
+			}
+			modifier = {
+				add = 2
+				casualties_inflicted_by = {
+					opponent = GEO
+					thousands > 90
+				}
+			}
+			modifier = {
+				add = 2
+				casualties_inflicted_by = {
+					opponent = GEO
+					thousands > 95
+				}
+			}
+			modifier = {
+				add = 2
+				casualties_inflicted_by = {
+					opponent = GEO
+					thousands > 100
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_completed_focus = SOV_call_to_yazov
+				}
+			}
 		}
 	}
 
@@ -360,7 +482,7 @@ focus_tree = {
 		relative_position_id = SOV_georgian_meat_grinder
         x = 1
         y = 1
-        cost = 1
+        cost = 3
 
 		prerequisite = {
 			focus = SOV_georgian_meat_grinder
@@ -397,7 +519,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 20
 		}
 	}
 	focus = {
@@ -415,7 +537,7 @@ focus_tree = {
 		completion_reward = {
 		}
 		ai_will_do = {
-			factor = 1
+			base = 1
 		}
 	}
 	focus = {

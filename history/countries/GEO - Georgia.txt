@@ -97,18 +97,14 @@ set_stability = 0.29
 set_war_support = 0.82
 
 add_ideas = {
-	tot_economic_mobilisation
 	limited_exports
 	all_adults_serve
+	war_economy
 	GEO_great_liberation_war
 	GEO_mountain_guerrilla_tactics
 }
-	
-set_autonomy = {
-	target = ADJ
-	autonomy_state = autonomy_dominion
-	freedom_level = 0.8
-}
+
+complete_national_focus = GEO_our_great_struggle
 
 set_politics = {
 	ruling_party = despotism
@@ -127,4 +123,10 @@ set_popularities = {
 	social_democracy = 10
 	socialist = 4
 	communist = 15
+}
+
+set_autonomy = {
+	target = ADJ
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.8
 }

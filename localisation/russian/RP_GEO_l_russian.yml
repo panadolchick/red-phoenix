@@ -1,5 +1,9 @@
 ﻿l_russian:
 #Ideas
+ GEO_great_liberation_war: "Великая освободительная война"
+ GEO_mountain_guerrilla_tactics: "Тактика горных партизан"
+ GEO_grand_offensive: "Великое наступление"
+ GEO_post_war_devastation: "Послевоенная разруха"
 #Units
 #Country
  GEO: "Грузия"
@@ -40,11 +44,14 @@
  GEO_liberalism_party_long: "Республиканская партия Грузии"
  GEO_social_democracy_party: "СГГ"
  GEO_social_democracy_party_long: "Союз граждан Грузии"
- GEO_socialist_party: "§yОтсутствует§!"
+ GEO_socialist_party: "§YОтсутствует§!"
  GEO_socialist_party_long: " "
  GEO_communist_party: "КПГ"
  GEO_communist_party_long: "Коммунистическая партия Грузии"
  
+ #Focuses
+ GEO_our_great_struggle:0 "Наша великая борьба"
+ GEO_our_great_struggle_desc:0 "Наша великая борьба - описание фокуса"
  #Events
  geo.1.t: "Еще немного"
  geo.1.a: "Предложить русским мирный договор. Они слишком слабы!"
@@ -64,3 +71,39 @@
  geo.7.a: "Победа уже близко!"
  geo.8.t: "Тбилиси пал!"
  geo.8.a: "Они обязательно за все заплатят!"
+ geo.9.t: "Грузия просит отправить добровольцев"
+ geo.9.a.: "Мы должны поддержать грузинский народ в его борьбе"
+ geo.9.b.: "Наши граждане не будут умирать за Грузию"
+ geo.10.t: "[FROM.GetAdjectiveCap] Добровольцы прибыли"
+ geo.10.a: "Отлично!"
+ geo.11.t: "Грузия просит вооружения"
+ geo.11.a: "У нас своих проблем хватает, это слишком дорого"
+ geo.11.b: "Мы можем послать легкое оружие"
+ geo.11.c: "Мы можем послать легкое оружие и артиллерийские орудия"
+ geo.11.d: "Мы можем отправить полный комплект вооружений"
+ geo.12.t: "[FROM.GetName] отправляет легкое вооружение"
+ geo.12.a: "Хорошо"
+ geo.13.t: "[FROM.GetName] отправляет легкое вооружение и артиллерийские орудия"
+ geo.13.a: "Отлично!"
+ geo.14.t: "[FROM.GetName] отправляет полный комплект вооружений"
+ geo.14.a: "Замечательно!"
+ 
+ #Tooltips
+ GEO_reward_per_1_country_accept_foreign_volunteers_focus: "Каждая §GСогласившаяся§! страна отправит нам по §H500 добровольцев§!"
+ GEO_reward_per_1_country_accept_ask_for_an_armament_focus: "Каждая §GСогласившаяся§! страна может отправит нам по §G150 пехотного снаряжения§!, §G15 артиллерийских установок§! и §G25 дополнительного снаряжения§!"
+ 
+ #Dynamic modifiers
+ GEO_guerrilla_recruitment:0 "Вербовка партизан"
+ 
+ #Opinion modifiers
+ GEO_supports_our_independence:0 "Поддержали нашу независимость"
+ GEO_sent_volunteers:0 "Отправили нам добровольцев"
+ GEO_refused_to_send_volunteers:0 "Отказались отправлять добровольцев"
+ GEO_sent_volunteers_to_georgia:0 "Отправили добровольцев Грузии"
+ GEO_refused_to_send_weapons:0 "Отказались отправлять вооружение"
+ GEO_sent_the_light_weapons:0 "Отправили пехотное снаряжение"
+ GEO_sent_the_light_weapons_to_georgia:0 "Отправили пехотное снаряжение Грузии"
+ GEO_sent_the_light_weapons_and_artillery_pieces:0 "Отправили пехотное снаряжение и артиллерию"
+ GEO_sent_the_light_weapons_and_artillery_pieces_to_georgia:0 "Отправили пехотное снаряжение и артиллерию Грузии"
+ GEO_sent_the_complete_package_of_armaments:0 "Отправили полный пакет вооружений"
+ GEO_sent_the_complete_package_of_armaments_to_georgia:0 "Отправили полный пакет вооружений Грузии"

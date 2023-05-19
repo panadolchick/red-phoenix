@@ -122,5 +122,16 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"GEO"={
+			minor = yes
+			history = "GEO_GATHERING_STORM_DESC"
+			ideology = despotism
+			ideas = {
+				GEO_great_liberation_war
+				GEO_mountain_guerrilla_tactics
+			}
+			focuses = {
+			}
+		}
 	}
 }

@@ -1,4 +1,5 @@
 ﻿l_english:
+ #Decisions
  spawn_army_debug:0 "Spawn Army"
  spawn_army_debug_desc:0 "You know, I don't want to poop"
  spawn_army_of_hobos_debug:0 "Spawn an army of hobos"
@@ -12,3 +13,6 @@
 
  #Ideas
  nuclear_power:0 "Nuclear power"
+ #Tooltips
+ its_not_good: "§RIt's not good...§!"
+ VIP: "§YWork in progress§!"

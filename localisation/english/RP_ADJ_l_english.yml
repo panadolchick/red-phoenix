@@ -8,7 +8,7 @@
  ADJ_GEO_autonomy_DEF: "Adjara Autonomous Republic"
  ADJ_ADJ: "Adjarian"
 #Characters
- ADJ_unknown_leadership: "§gUnknown Leadership§!"
+ ADJ_mikhail_makharadze: "Mikhail Makharadze"
 #Parties
  ADJ_ultranationalism_party: "§RDESTROYED§!"
  ADJ_ultranationalism_party_long: " "
@@ -22,8 +22,6 @@
  ADJ_conservatism_party_long: " "
  ADJ_liberalism_party: "§RDESTROYED§!"
  ADJ_liberalism_party_long: " "
- ADJ_liberalism_executed_party: "§RDESTROYED§!"
- ADJ_liberalism_executed_party_long: " "
  ADJ_social_democracy_party: "§RDESTROYED§!"
  ADJ_social_democracy_party_long: " "
  ADJ_socialist_party: "§RDESTROYED§!"

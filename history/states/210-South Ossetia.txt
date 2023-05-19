@@ -17,7 +17,7 @@ state={
 		add_claim_by = SOV
 		add_core_of = SOS
 		start_resistance = GEO
-		set_resistance = 13
+		set_resistance = 10
 		set_compliance = 26
 
 	}

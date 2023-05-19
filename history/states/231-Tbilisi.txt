@@ -17,13 +17,18 @@ state={
 			industrial_complex = 2
 			arms_factory = 1
 			air_base = 3
-
+			1599 = {
+				bunker = 2
+			}
+			13604 = {
+				bunker = 1
+			}
 		}
 		add_core_of = GEO
 		add_claim_by = SOV
 		start_resistance = GEO
-		set_resistance = 41
-		set_compliance = 3
+		set_resistance = 35
+		set_compliance = 4
 
 	}
 

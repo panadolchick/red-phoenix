@@ -152,6 +152,8 @@ add_to_faction = LUX
 add_to_faction = HOL
 add_to_faction = GER
 add_to_faction = ITA
+add_to_faction = GRE
+add_to_faction = TUR
 
 set_convoys = 500
 
@@ -164,7 +166,8 @@ set_politics = {
 }
 recruit_character = USA_george_hw_bush
 set_popularities = {
-	liberalism = 99
+	liberalism = 51
+	conservatism = 48
 	communist = 1
 }
 

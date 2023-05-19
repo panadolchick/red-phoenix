@@ -251,4 +251,8 @@ spriteTypes = {
 		name = "GFX_GEO_eduard_shevardnadze"
 		texturefile = "gfx/leaders/GEO/GEO_eduard_shevardnadze.dds"
 	}
+	spriteType = {
+		name = "GFX_ADJ_mikhail_makharadze"
+		texturefile = "gfx/leaders/ADJ/ADJ_mikhail_makharadze.dds"
+	}
 }

@@ -1,0 +1,16 @@
+characters = {
+	ADJ_mikhail_makharadze = {
+		name = ADJ_mikhail_makharadze
+		portraits={
+			civilian={
+				large = "GFX_ADJ_mikhail_makharadze"
+			}
+		}
+		country_leader={
+			ideology = national_democracy
+			traits = {
+				ADJ_mikhail_makharadze_desc
+			}
+		}
+	}
+}

@@ -1132,14 +1132,64 @@ opinion_modifiers = {
 		value = -30
 	}
 	
+	###GEO
+
+	GEO_supports_our_independence = {
+		value = 25
+	}
+
+	GEO_sent_volunteers = {
+		value = 15
+	}
+
+	GEO_refused_to_send_volunteers = {
+		value = -15
+	}
+
+	GEO_sent_volunteers_to_georgia = {
+		value = -30
+	}
+
+	GEO_refused_to_send_weapons = {
+		value = -20
+	}
+
+	GEO_sent_the_light_weapons = {
+		value = 15
+	}
+
+	GEO_sent_the_light_weapons_to_georgia = {
+		value = -25
+	}
+
+	GEO_sent_the_light_weapons_and_artillery_pieces = {
+		value = 25
+	}
+
+	GEO_sent_the_light_weapons_and_artillery_pieces_to_georgia = {
+		value = -30
+	}
+
+	GEO_sent_the_complete_package_of_armaments = {
+		value = 35
+	}
+
+	GEO_sent_the_complete_package_of_armaments_to_georgia = {
+		value = -40
+	}
+
 	###DON
+
 	DON_ivan_polozkov_executed = {
 		value = -30
 	}
+	
 	DON_ivan_polozkov_exiled = {
 		value = 30
 	}
+	
 	###ALL
+
 	unrecognised_state = {
 		value = -200
 	}

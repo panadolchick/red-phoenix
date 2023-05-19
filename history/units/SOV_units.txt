@@ -6,8 +6,8 @@ division_template = {
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
         infantry = { x = 0 y = 3 }
-        rocket_artillery_brigade = { x = 0 y = 4 }
-        infantry = { x = 1 y = 0 }
+        infantry = { x = 0 y = 4 }
+        rocket_artillery_brigade = { x = 1 y = 0 }
         artillery_brigade = { x = 1 y = 1 }
         
     }
@@ -15,6 +15,7 @@ division_template = {
         artillery = { x = 0 y = 0 }
         engineer = { x = 0 y = 1 }
         mot_recon = { x = 0 y = 2 }
+        maintenance_company = { x = 0 y = 3 }
 	}
 }
 units = {
@@ -26,7 +27,7 @@ units = {
         location = 13438
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.8
+        start_equipment_factor = 0.85
         start_manpower_factor = 0.95
     }
     division = {
@@ -37,7 +38,7 @@ units = {
         location = 181
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.8
+        start_equipment_factor = 0.85
         start_manpower_factor = 0.95
     }
     division = {
@@ -48,7 +49,7 @@ units = {
         location = 9626
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.4
-        start_equipment_factor = 0.5
+        start_equipment_factor = 0.55
         start_manpower_factor = 0.75
     }
     division = {
@@ -59,7 +60,7 @@ units = {
         location = 11617
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.4
-        start_equipment_factor = 0.5
+        start_equipment_factor = 0.55
         start_manpower_factor = 0.75
     }
     division = {
@@ -70,7 +71,7 @@ units = {
         location = 13641
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.4
-        start_equipment_factor = 0.5
+        start_equipment_factor = 0.55
         start_manpower_factor = 0.75
     }
     division = {
@@ -81,7 +82,7 @@ units = {
         location = 13621
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.75
+        start_equipment_factor = 0.8
         start_manpower_factor = 0.9
     }
     division = {
@@ -92,7 +93,7 @@ units = {
         location = 13295
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.75
+        start_equipment_factor = 0.8
         start_manpower_factor = 0.9
     }
     division = {
@@ -103,7 +104,7 @@ units = {
         location = 3658
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.15
-        start_equipment_factor = 0.7
+        start_equipment_factor = 0.75
         start_manpower_factor = 0.8
     }
     division = {
@@ -114,7 +115,7 @@ units = {
         location = 3656
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.25
-        start_equipment_factor = 0.6
+        start_equipment_factor = 0.65
         start_manpower_factor = 0.6
     }
     division = {
@@ -125,7 +126,7 @@ units = {
         location = 3656
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.3
-        start_equipment_factor = 0.55
+        start_equipment_factor = 0.6
         start_manpower_factor = 0.55
     }
     division = {
@@ -136,7 +137,7 @@ units = {
         location = 13622
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.1
-        start_equipment_factor = 0.75
+        start_equipment_factor = 0.8
         start_manpower_factor = 0.9
     }
     division = {
@@ -147,7 +148,7 @@ units = {
         location = 13622
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.15
-        start_equipment_factor = 0.75
+        start_equipment_factor = 0.8
         start_manpower_factor = 0.9
     }
     division = {
@@ -158,7 +159,7 @@ units = {
         location = 13609
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.15
-        start_equipment_factor = 0.7
+        start_equipment_factor = 0.75
         start_manpower_factor = 0.8
     }
     division = {
@@ -169,7 +170,7 @@ units = {
         location = 13630
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.15
-        start_equipment_factor = 0.75
+        start_equipment_factor = 0.8
         start_manpower_factor = 0.9
     }
     division = {
@@ -180,7 +181,7 @@ units = {
         location = 13633
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.75
+        start_equipment_factor = 0.8
         start_manpower_factor = 0.9
     }
     division = {
@@ -191,7 +192,7 @@ units = {
         location = 13631
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.75
+        start_equipment_factor = 0.8
         start_manpower_factor = 0.9
     }
     division = {
@@ -202,7 +203,7 @@ units = {
         location = 1530
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.75
+        start_equipment_factor = 0.8
         start_manpower_factor = 0.9
     }
     division = {
@@ -213,7 +214,7 @@ units = {
         location = 13604
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.4
-        start_equipment_factor = 0.65
+        start_equipment_factor = 0.7
         start_manpower_factor = 0.7
     }
     division = {
@@ -224,7 +225,7 @@ units = {
         location = 1599
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.4
-        start_equipment_factor = 0.6
+        start_equipment_factor = 0.65
         start_manpower_factor = 0.65
     }
     division = {
@@ -235,7 +236,7 @@ units = {
         location = 1599
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.4
-        start_equipment_factor = 0.6
+        start_equipment_factor = 0.65
         start_manpower_factor = 0.65
     }
     division = {
@@ -246,7 +247,7 @@ units = {
         location = 13607
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.25
-        start_equipment_factor = 0.75
+        start_equipment_factor = 0.8
         start_manpower_factor = 0.9
     }
     division = {
@@ -257,7 +258,7 @@ units = {
         location = 13615
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.25
-        start_equipment_factor = 0.75
+        start_equipment_factor = 0.8
         start_manpower_factor = 0.9
     }
     division = {
@@ -268,7 +269,7 @@ units = {
         location = 13285
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.3
-        start_equipment_factor = 0.7
+        start_equipment_factor = 0.75
         start_manpower_factor = 0.85
     }
     division = {
@@ -301,18 +302,7 @@ units = {
         location = 3667
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.65
-        start_equipment_factor = 0.35
-        start_manpower_factor = 0.55
-    }
-    division = {
-        division_name = {
-            is_name_ordered = yes
-        }
-
-        location = 3667
-        division_template = "Пехотная Дивизия"
-        start_experience_factor = 0.65
-        start_equipment_factor = 0.35
+        start_equipment_factor = 0.4
         start_manpower_factor = 0.55
     }
     division = {
@@ -367,7 +357,7 @@ units = {
         location = 654
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.6
-        start_equipment_factor = 0.35
+        start_equipment_factor = 0.3
         start_manpower_factor = 0.45
     }
     division = {
@@ -378,7 +368,7 @@ units = {
         location = 13654
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.6
-        start_equipment_factor = 0.35
+        start_equipment_factor = 0.3
         start_manpower_factor = 0.45
     }
     division = {
@@ -389,7 +379,7 @@ units = {
         location = 672
         division_template = "Пехотная Дивизия"
         start_experience_factor = 0.6
-        start_equipment_factor = 0.35
+        start_equipment_factor = 0.3
         start_manpower_factor = 0.45
     }
 

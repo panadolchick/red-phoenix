@@ -4,6 +4,8 @@ oob = "ADJ_units"
 
 set_research_slots = 2
 
+recruit_character = ADJ_mikhail_makharadze
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

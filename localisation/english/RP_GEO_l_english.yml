@@ -1,5 +1,9 @@
 ﻿l_english:
 #Ideas
+ GEO_great_liberation_war: "Great Liberation War"
+ GEO_mountain_guerrilla_tactics: "Mountain Guerrilla Tactics"
+ GEO_grand_offensive: "Grand Offensive"
+ GEO_post_war_devastation: "Postwar Devastation"
 #Units
 #Country
  GEO: "Georgia"
@@ -45,6 +49,9 @@
  GEO_communist_party: "CPG"
  GEO_communist_party_long: "Communist Party of Georgia"
  
+ #Focuses
+ GEO_our_great_struggle:0 "Our Great Struggle"
+ GEO_our_great_struggle_desc:0 "Our Great Struggle - focus description"
  #Events
  geo.1.t: "Just a little more"
  geo.1.a: "Offer the Russians a peace treaty. They are too weak"
@@ -64,3 +71,39 @@
  geo.7.a.: "Victory is coming!"
  geo.8.t: "Tbilisi has fallen!"
  geo.8.a.: "They will surely pay for everything!"
+ geo.9.t: "Georgia is asking for volunteers"
+ geo.9.a: "We must support the Georgian people in their struggle"
+ geo.9.b: "Our citizens will not die for Georgia"
+ geo.10.a: "[FROM.GetAdjectiveCap] Volunteers arrived"
+ geo.10.b: "Great!"
+ geo.11.t: "Georgia asks for armaments"
+ geo.11.a: "We have enough problems of our own, it's too expensive"
+ geo.11.b: "We can send the light arms"
+ geo.11.c: "We can send the light arms and artillery pieces"
+ geo.11.d: "We can send a complete package of armaments"
+ geo.12.t: "[FROM.GetName] sends light arms"
+ geo.12.a: "Great!"
+ geo.13.t: "[FROM.GetName] sends light arms and artillery pieces"
+ geo.13.a: "Excellent!"
+ geo.14.t: "[FROM.GetName] sends a complete package of armaments"
+ geo.14.a: "Wonderful!"
+ 
+ #Tooltips.
+ GEO_reward_per_1_country_accept_foreign_volunteers_focus: "Each country that §Gagrees§! will send us §H500 volunteers!§!"
+ GEO_reward_per_1_country_accept_ask_for_an_armament_focus: "Each country that §Gagrees§! may send us §G150 infantry equipment§!, §G15 artillery pieces§! and §G25 support equipment§!"
+ 
+ #Dynamic modifiers
+ GEO_guerrilla_recruitment:0 "Guerrilla Recruitment"
+ 
+ #Opinion modifiers
+ GEO_supports_our_independence:0 "Supports our independence"
+ GEO_sent_volunteers:0 "Sent volunteers"
+ GEO_refused_to_send_volunteers:0 "Refused to send volunteers"
+ GEO_sent_volunteers_to_georgia:0 "Sent volunteers to Georgia"
+ GEO_refused_to_send_weapons:0 "Refused to send weapons"
+ GEO_sent_the_light_weapons:0 "Sent the light weapons"
+ GEO_sent_the_light_weapons_to_georgia:0 "Sent the light weapons to Georgia"
+ GEO_sent_the_light_weapons_and_artillery_pieces:0 "Sent the light weapons and artillery pieces"
+ GEO_sent_the_light_weapons_and_artillery_pieces_to_georgia:0 "Sent the light weapons and artillery pieces to Georgia"
+ GEO_sent_the_complete_package_of_armaments:0 "Sent the complete package of armaments"
+ GEO_sent_the_complete_package_of_armaments_to_georgia:0 "Sent the complete package of armaments Georgia"
