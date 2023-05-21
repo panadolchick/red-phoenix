@@ -1178,6 +1178,22 @@ opinion_modifiers = {
 		value = -40
 	}
 
+	GEO_helped_in_the_war_of_independence = {
+		value = 30
+	}
+
+	GEO_refused_to_help_in_the_war_of_independence = {
+		value = -30
+	}
+
+	GEO_refused_to_send_weapons_to_georgia = {
+		value = 10
+	}
+
+	GEO_USA_refused_to_send_weapons_to_georgia = {
+		value = -10
+	}
+
 	###DON
 
 	DON_ivan_polozkov_executed = {

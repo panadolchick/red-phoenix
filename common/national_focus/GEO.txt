@@ -14,10 +14,15 @@ focus_tree = {
     focus = {
         id = GEO_our_great_struggle
         icon = GFX_goal_unknown
-        x = 8
+        x = 10
         y = 0
         cost = 1  
 		completion_reward = {
+			effect_tooltip = {
+				add_ideas = {
+					GEO_great_liberation_war
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -27,7 +32,7 @@ focus_tree = {
         id = GEO_peoples_war
         icon = GFX_goal_unknown
 		relative_position_id = GEO_our_great_struggle
-        x = -5
+        x = -6
         y = 1
         cost = 1
 
@@ -76,6 +81,7 @@ focus_tree = {
 
 		available = {
 			has_war_with = SOV
+			command_power > 5
 		}
 		completion_reward = {
 			add_command_power = -5
@@ -85,10 +91,25 @@ focus_tree = {
                 limit = {
                     is_controlled_by = SOV
                 }
-                add_resistance = 5
-				add_dynamic_modifier = {
-					modifier = GEO_guerrilla_recruitment
-					days = 365
+				random_list = {
+					75 = {
+						add_dynamic_modifier = {
+							modifier = GEO_guerrilla_recruitment
+							days = 365
+						}
+					}
+					15 = {
+						add_resistance = 5
+						add_compliance = -5
+					}
+					10 = {
+						add_resistance = 5
+						add_compliance = -5
+						add_dynamic_modifier = {
+							modifier = GEO_guerrilla_recruitment
+							days = 365
+						}
+					}
 				}
             }
             if = {
@@ -202,12 +223,179 @@ focus_tree = {
 		}
 	}
 	focus = {
+        id = GEO_war_of_liberation
+        icon = GFX_goal_unknown
+		relative_position_id = GEO_peoples_war
+        x = 2
+        y = 1
+        cost = 4
+
+		prerequisite = {
+			focus = GEO_peoples_war
+		}
+
+		available = {
+			has_war_with = SOV
+		}
+		completion_reward = {
+			add_war_support = 0.05
+			add_ideas = {
+				GEO_war_of_liberation_1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = GEO_centralize_the_activities_of_the_guerrillas
+        icon = GFX_goal_unknown
+		relative_position_id = GEO_guerrilla_recruitment
+        x = 1
+        y = 1
+        cost = 4
+
+		prerequisite = {
+			focus = GEO_guerrilla_recruitment
+		}
+		prerequisite = {
+			focus = GEO_root_out_the_indifference
+		}
+
+		available = {
+			has_war_with = SOV
+			command_power > 5
+		}
+		completion_reward = {
+			add_command_power = -5
+			add_political_power = 10
+			add_war_support = 0.02
+			add_ideas = {
+				GEO_central_organ_of_guerrilla_coordination
+			}
+			every_owned_state = {
+                limit = {
+                    is_controlled_by = SOV
+                }
+                add_resistance = 2.5
+            }
+			if = {
+                limit = {
+                    SOV = {
+                        controls_state = 664
+                    }
+                }
+                664 = {
+                    add_resistance = 3
+                }
+            }
+			if = {
+                limit = {
+                    826 = {
+						is_owned_by = ABK
+						is_controlled_by = SOV
+					}
+                }
+                826 = {
+                    add_resistance = 3
+                }
+            }
+			if = {
+                limit = {
+                    210 = {
+						is_owned_by = SOS
+						is_controlled_by = SOV
+					}
+                }
+                210 = {
+                    add_resistance = 3
+                }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = GEO_for_shavernidze
+        icon = GFX_goal_unknown
+		relative_position_id = GEO_war_of_liberation
+        x = -1
+        y = 1
+        cost = 4
+
+		prerequisite = {
+			focus = GEO_root_out_the_indifference
+		}
+		prerequisite = {
+			focus = GEO_war_of_liberation
+		}
+
+		available = {
+			has_war_with = SOV
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.075
+			add_war_support = 0.03
+			add_popularity = {
+				ideology = despotism
+				popularity = 0.035
+			}
+			add_popularity = {
+				ideology = communist
+				popularity = -0.015
+			}
+			GEO_eduard_shevardnadze = {
+				add_trait = {
+					trait = GEO_national_symbol
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = GEO_for_georgia
+        icon = GFX_goal_unknown
+		relative_position_id = GEO_for_shavernidze
+        x = -1
+        y = 1
+        cost = 4
+
+		prerequisite = {
+			focus = GEO_centralize_the_activities_of_the_guerrillas
+		}
+		prerequisite = {
+			focus = GEO_for_shavernidze
+		}
+
+		available = {
+			has_war_with = SOV
+			has_war_support > 0.99
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = communist
+				popularity = -0.015
+			}
+			swap_ideas = {
+				remove_idea = GEO_war_of_liberation_1
+				add_idea = GEO_war_of_liberation_2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
         id = GEO_nationwide_mobilization
         icon = GFX_goal_unknown
 		relative_position_id = GEO_our_great_struggle
         x = 0
         y = 1
-        cost = 2
+        cost = 3
 
 		prerequisite = {
 			focus = GEO_our_great_struggle
@@ -217,10 +405,37 @@ focus_tree = {
 			has_war_with = SOV
 		}
 		completion_reward = {
-			add_manpower = 1000
-			swap_ideas = {
-				remove_idea = war_economy
-				add_idea = tot_economic_mobilisation
+			add_manpower = 1500
+			if = {
+				limit = {
+					NOT = {
+						has_idea = service_by_requirement
+						has_idea = all_adults_serve
+						has_idea = scraping_the_barrel
+					}
+				}
+				swap_ideas = {
+					remove_idea = extensive_conscription
+					add_idea = service_by_requirement
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = service_by_requirement 
+				}
+				swap_ideas = {
+					remove_idea = service_by_requirement
+					add_idea = all_adults_serve
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = all_adults_serve 
+				}
+				swap_ideas = {
+					remove_idea = all_adults_serve
+					add_idea = scraping_the_barrel
+				}
 			}
 		}
 		ai_will_do = {
@@ -228,10 +443,280 @@ focus_tree = {
 		}
 	}
 	focus = {
+        id = GEO_all_for_the_front
+        icon = GFX_goal_unknown
+		relative_position_id = GEO_nationwide_mobilization
+        x = -2
+        y = 1
+        cost = 3
+
+		prerequisite = {
+			focus = GEO_nationwide_mobilization
+		}
+
+		available = {
+			has_war_with = SOV
+			num_of_controlled_states > 0
+		}
+		completion_reward = {
+			add_ideas = {
+				GEO_all_for_the_front
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	focus = {
+        id = GEO_mobilization_of_home_front
+        icon = GFX_goal_unknown
+		relative_position_id = GEO_nationwide_mobilization
+        x = 0
+        y = 1
+        cost = 4
+
+		prerequisite = {
+			focus = GEO_nationwide_mobilization
+		}
+
+		available = {
+			has_war_with = SOV
+		}
+		completion_reward = {
+			add_stability = -0.075
+			swap_ideas = {
+				remove_idea = war_economy
+				add_idea = tot_economic_mobilisation
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = GEO_take_everything_that_is_bad
+        icon = GFX_goal_unknown
+		relative_position_id = GEO_nationwide_mobilization
+        x = 2
+        y = 1
+        cost = 3
+
+		prerequisite = {
+			focus = GEO_nationwide_mobilization
+		}
+
+		available = {
+			has_war_with = SOV
+		}
+		completion_reward = {
+			add_ideas = {
+				GEO_collecting_enemy_equipment
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = GEO_create_an_elite_mkhedrioni_unit
+        icon = GFX_goal_unknown
+		relative_position_id = GEO_war_of_liberation
+        x = 1
+        y = 2
+        cost = 5
+
+		prerequisite = {
+			focus = GEO_war_of_liberation
+		}
+		prerequisite = {
+			focus = GEO_all_for_the_front
+		}
+
+		available = {
+			has_war_with = SOV
+			has_manpower > 10000
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = ultranationalism
+				popularity = 0.01
+			}
+			add_popularity = {
+				ideology = nationalism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = despotism
+				popularity = 0.035
+			}
+			army_experience = 5
+			division_template = {
+				name = "spetsialuri tavdaskhmis ganqopileba raindebi"
+				is_locked = yes
+				priority = 2
+				template_counter = 8
+				regiments = {
+					motorized = { x = 0 y = 0 }
+					motorized = { x = 0 y = 1 }
+					motorized = { x = 0 y = 2 }
+					mot_artillery_brigade = { x = 0 y = 3 }
+					mechanized = { x = 1 y = 0 }
+					mechanized = { x = 1 y = 1 }
+					mot_anti_tank_brigade = { x = 1 y = 2 }
+					mot_artillery_brigade = { x = 1 y = 3 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+					engineer = { x = 0 y = 1 }
+					mot_recon = { x = 0 y = 2 }
+					rocket_artillery = { x = 0 y = 3 }
+					maintenance_company = { x = 0 y = 4 }
+				}
+			}
+			capital_scope = {
+				create_unit = {
+					division = "name = \"spetsialuri tavdaskhmis ganqopileba raindebi\" division_template = \"spetsialuri tavdaskhmis ganqopileba raindebi\" start_experience_factor = 0.3 start_equipment_factor = 1.0 start_manpower_factor = 1.0"
+					owner = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = GEO_everyone_will_work_or_fight
+        icon = GFX_goal_unknown
+		relative_position_id = GEO_all_for_the_front
+        x = 1
+        y = 1
+        cost = 5
+
+		prerequisite = {
+			focus = GEO_all_for_the_front
+		}
+		prerequisite = {
+			focus = GEO_mobilization_of_home_front
+		}
+
+		available = {
+			has_war_with = SOV
+			num_of_military_factories > 2
+		}
+		completion_reward = {
+			add_ideas = {
+				GEO_total_mobilization
+			}
+			add_ideas = {
+				closed_economy
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = GEO_scorch_earth_in_occupied_territories
+        icon = GFX_goal_unknown
+		relative_position_id = GEO_mobilization_of_home_front
+        x = 1
+        y = 1
+        cost = 5
+
+		prerequisite = {
+			focus = GEO_mobilization_of_home_front
+		}
+		prerequisite = {
+			focus = GEO_take_everything_that_is_bad
+		}
+
+		available = {
+			has_war_with = SOV
+			has_completed_focus = GEO_centralize_the_activities_of_the_guerrillas
+			any_owned_state = {
+				resistance > 35
+				industrial_complex > 0
+			}
+		}
+		completion_reward = {
+			unlock_decision_tooltip = GEO_supply_roads_sabotage
+			unlock_decision_tooltip = GEO_factory_sabotage
+			unlock_decision_tooltip = GEO_military_factory_sabotage
+			random_owned_state = {
+				limit = {
+					resistance > 35
+					industrial_complex > 0
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+				add_resistance = -2
+				add_compliance = -2.5
+				add_resistance_target = {
+					amount = -5
+					days = 40
+				}
+				set_state_flag = GEO_diversion_here
+			}
+			SOV = {
+				country_event = {
+					id = geo.15
+					hours = 3
+					random_hours = 9
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = GEO_steel_nation
+        icon = GFX_goal_unknown
+		relative_position_id = GEO_everyone_will_work_or_fight
+        x = 1
+        y = 1
+        cost = 5
+
+		prerequisite = {
+			focus = GEO_everyone_will_work_or_fight
+		}
+		prerequisite = {
+			focus = GEO_scorch_earth_in_occupied_territories
+		}
+
+		available = {
+			has_war_with = SOV
+		}
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = {
+				ideology = ultranationalism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = nationalism
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = communist
+				popularity = -0.02
+			}
+			swap_ideas = {
+				remove_idea = GEO_total_mobilization
+				add_idea = GEO_steel_nation
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
         id = GEO_foreign_support
         icon = GFX_goal_unknown
 		relative_position_id = GEO_our_great_struggle
-        x = 5
+        x = 6
         y = 1
         cost = 2
 
@@ -391,6 +876,459 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = VIP
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = GEO_ichkerian_diversionary_strike
+        icon = GFX_goal_unknown
+		relative_position_id = GEO_foreign_volunteers
+        x = -1
+        y = 2
+        cost = 3
+
+		prerequisite = {
+			focus = GEO_take_everything_that_is_bad
+		}
+		prerequisite = {
+			focus = GEO_foreign_volunteers
+		}
+
+		available = {
+			has_war_with = SOV
+			country_exists = CHE
+			SOV = {
+				controls_state = 401
+			}
+		}
+		completion_reward = {
+			add_stability = -0.03
+			add_war_support = -0.02
+			CHE = {
+				country_event = {
+					id = geo.21
+					days = 1
+					random_days = 2
+					random_hours = 10
+				}
+				effect_tooltip = {
+					custom_effect_tooltip = if_they_accept_tt
+					GEO = {
+						add_political_power = -50
+						add_war_support = -0.01
+						add_stability = -0.015
+					}
+					start_border_war = {
+						change_state_after_war = no
+						attacker = {
+							state = 828
+							num_provinces = 3
+							on_win = japan_border_conflict.2
+							on_lose = japan_border_conflict.3
+							on_cancel = japan_border_conflict.4
+						}	
+						defender = {
+							state = 401
+							num_provinces = 3
+							on_win = japan_border_conflict.3
+							on_lose = japan_border_conflict.2
+							on_cancel = japan_border_conflict.4
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = GEO_conclude_contracts_with_western_PMCs
+        icon = GFX_goal_unknown
+		relative_position_id = GEO_foreign_volunteers
+        x = 1
+        y = 1
+        cost = 3
+
+		prerequisite = {
+			focus = GEO_foreign_volunteers
+		}
+
+		prerequisite = {
+			focus = GEO_ask_for_an_armament
+		}
+
+		available = {
+			has_war_with = SOV
+			has_political_power > 75
+		}
+		completion_reward = {
+			add_political_power = -75
+			USA = {
+				add_political_power = 30
+			}
+			ENG = {
+				add_political_power = 25
+			}
+			add_stability = -0.05
+			division_template = {
+				name = "MPRI"
+				is_locked = yes
+				priority = 2
+				template_counter = 38
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					artillery_brigade = { x = 0 y = 2 }
+				}
+				support = {
+					artillery = { x = 0 y = 0 }
+					engineer = { x = 0 y = 1 }
+					mot_recon = { x = 0 y = 2 }
+					rocket_artillery = { x = 0 y = 3 }
+					anti_tank = { x = 0 y = 4 }
+				}
+			}
+			division_template = {
+				name = "Sandline International"
+				is_locked = yes
+				priority = 2
+				template_counter = 11
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					artillery_brigade = { x = 0 y = 2 }
+				}
+				support = {
+					engineer = { x = 0 y = 1 }
+					recon = { x = 0 y = 2 }
+				}
+			}
+			capital_scope = {
+				create_unit = {
+					division = "name = \"MPRI\" division_template = \"MPRI\" start_experience_factor = 0.4 start_equipment_factor = 0.9 start_manpower_factor = 0.9"
+					owner = ROOT
+				}
+				create_unit = {
+					division = "name = \"Sandline International\" division_template = \"Sandline International\" start_experience_factor = 0.25 start_equipment_factor = 0.75 start_manpower_factor = 0.8"
+					owner = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_idea = GEO_NATO_lend_lease_1
+						has_idea = GEO_NATO_lend_lease_2
+						has_idea = GEO_NATO_lend_lease_3
+					}
+				}
+				add_ideas = {
+					GEO_NATO_lend_lease_1
+				}
+			}
+			else_if = {
+				limit = { 
+					has_idea = GEO_NATO_lend_lease_1 
+				}
+				swap_ideas = {
+					remove_idea = GEO_NATO_lend_lease_1
+					add_idea = GEO_NATO_lend_lease_2
+				}
+			}
+			else_if = {
+				limit = { 
+					has_idea = GEO_NATO_lend_lease_2 
+				}
+				swap_ideas = {
+					remove_idea = GEO_NATO_lend_lease_2
+					add_idea = GEO_NATO_lend_lease_3
+				}
+			}
+			else_if = {
+				limit = { 
+					has_idea = GEO_NATO_lend_lease_3 
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 250
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment
+					amount = 30
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 35
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = GEO_request_an_american_lend_lease
+        icon = GFX_goal_unknown
+		relative_position_id = GEO_ask_for_an_armament
+        x = 1
+        y = 1
+        cost = 3
+
+		prerequisite = {
+			focus = GEO_ask_for_an_armament
+		}
+
+		prerequisite = {
+			focus = GEO_seeking_international_recognition
+		}
+
+		available = {
+			has_war_with = SOV
+		}
+		completion_reward = {
+			USA = {
+				country_event = {
+					id = geo.16
+					days = 1
+					random_days = 3
+					random_hours = 3
+				}
+			}
+			effect_tooltip = {
+				custom_effect_tooltip = if_they_accept_tt
+				add_political_power = 50
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+                    producer = USA
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment
+					amount = 100
+                    producer = USA
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 125
+                    producer = USA
+				}
+				if = {
+                    limit = {
+                        NOT = {
+                            has_idea = GEO_NATO_lend_lease_1
+                            has_idea = GEO_NATO_lend_lease_2
+                            has_idea = GEO_NATO_lend_lease_3
+                        }
+                    }
+                    add_ideas = {
+                        GEO_NATO_lend_lease_1
+                    }
+                }
+                else_if = {
+                    limit = { 
+                        has_idea = GEO_NATO_lend_lease_1 
+                    }
+                    swap_ideas = {
+                        remove_idea = GEO_NATO_lend_lease_1
+                        add_idea = GEO_NATO_lend_lease_2
+                    }
+                }
+                else_if = {
+                    limit = { 
+                        has_idea = GEO_NATO_lend_lease_2 
+                    }
+                    swap_ideas = {
+                        remove_idea = GEO_NATO_lend_lease_2
+                        add_idea = GEO_NATO_lend_lease_3
+                    }
+                }
+                else_if = {
+                    limit = { 
+                        has_idea = GEO_NATO_lend_lease_3 
+                    }
+                    add_equipment_to_stockpile = {
+                        type = infantry_equipment
+                        amount = 250
+                    }
+                    add_equipment_to_stockpile = {
+                        type = artillery_equipment
+                        amount = 30
+                    }
+                    add_equipment_to_stockpile = {
+                        type = support_equipment
+                        amount = 35
+                    }
+                }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = GEO_ask_NATO_for_weapons
+        icon = GFX_goal_unknown
+		relative_position_id = GEO_request_an_american_lend_lease
+        x = -1
+        y = 1
+        cost = 4
+
+		prerequisite = {
+			focus = GEO_conclude_contracts_with_western_PMCs
+		}
+
+		prerequisite = {
+			focus = GEO_request_an_american_lend_lease
+		}
+
+		available = {
+			has_war_with = SOV
+		}
+		completion_reward = {
+			custom_effect_tooltip = GEO_reward_per_1_country_accept_ask_NATO_for_weapons_focus
+			set_variable = {
+				var = GEO_ask_NATO_for_weapons_agree_countries
+				value = 0
+			}
+			every_country = {
+				limit = {
+					is_ally_with = USA
+					NOT = {
+						has_war_with = GEO
+					}
+					NOT = {
+						tag = SOV
+						tag = GEO
+						is_puppet_of = GEO
+					}
+				}
+				country_event = {
+					id = geo.19
+					days = 2
+					random_days = 1
+					random_hours = 18
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = GEO_begin_the_grand_offensive
+        icon = GFX_goal_unknown
+		relative_position_id = GEO_steel_nation
+        x = 0
+        y = 1
+        cost = 5
+
+		prerequisite = {
+			focus = GEO_for_georgia
+		}
+
+		prerequisite = {
+			focus = GEO_steel_nation
+		}
+
+		prerequisite = {
+			focus = GEO_ask_NATO_for_weapons
+		}
+
+		prerequisite = {
+			focus = GEO_create_an_elite_mkhedrioni_unit
+			focus = GEO_ichkerian_diversionary_strike
+		}
+
+		available = {
+			has_war_with = SOV
+			has_manpower > 15000
+		}
+		completion_reward = {
+			add_war_support = 0.15
+        	add_political_power = 75
+			add_timed_idea = {
+                idea = GEO_grand_offensive
+                days = 75
+            }
+            set_country_flag = GEO_ai_grand_offensive
+            every_army_leader = {
+                add_attack = 1
+            }
+            every_owned_state = {
+                limit = {
+                    is_controlled_by = SOV
+                }
+                add_resistance = 12.5
+                add_compliance = -10
+            }
+            if = {
+                limit = {
+                    SOV = {
+                        controls_state = 664
+                    }
+                }
+                664 = {
+                    add_resistance = 12.5
+                    add_compliance = -10
+                }
+            }
+            if = {
+                limit = {
+                    826 = {
+						is_owned_by = ABK
+						is_controlled_by = SOV
+					}
+                }
+                826 = {
+                    add_resistance = 12.5
+                    add_compliance = -10
+                }
+            }
+			if = {
+                limit = {
+                    210 = {
+						is_owned_by = SOS
+						is_controlled_by = SOV
+					}
+                }
+                210 = {
+                    add_resistance = 12.5
+                    add_compliance = -10
+                }
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+
+focus_tree = {
+	id = GEO
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 105 y = 980 }  
+	initial_show_position = { focus = GEO_our_great_struggle_is_not_over_yet }
+
+    focus = {
+        id = GEO_our_great_struggle_is_not_over_yet
+        icon = GFX_goal_unknown
+        x = 10
+        y = 0
+        cost = 1  
+		completion_reward = {
+			effect_tooltip = {
+				add_political_power = 150
+				add_stability = 0.05
+				add_war_support = -0.15
+				add_ideas = {
+					GEO_post_war_devastation
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1

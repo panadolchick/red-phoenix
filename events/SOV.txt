@@ -50,7 +50,7 @@ country_event = {
 		OR = {
 			surrender_progress > 0.1
 			GEO = {
-				surrender_progress < 0.25
+				surrender_progress < 0.2
 			}
 		}
 	}

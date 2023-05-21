@@ -1,0 +1,14 @@
+
+GEO_great_liberation_war_category = {
+	icon = generic_mountain_fortification
+	
+	priority = 3
+
+	allowed = {
+		tag = GEO
+	}
+
+	visible = {
+		has_idea = GEO_great_liberation_war
+	}
+}

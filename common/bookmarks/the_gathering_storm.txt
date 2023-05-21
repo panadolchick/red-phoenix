@@ -131,6 +131,9 @@ bookmarks = {
 				GEO_mountain_guerrilla_tactics
 			}
 			focuses = {
+				GEO_our_great_struggle
+				GEO_for_shavernidze
+				GEO_everyone_will_work_or_fight
 			}
 		}
 	}

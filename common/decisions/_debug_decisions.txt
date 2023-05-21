@@ -612,8 +612,6 @@ debug_decisions = {
 		cost = 0
 
 		complete_effect = {
-			}
-			
 		}
 
 		ai_will_do = {

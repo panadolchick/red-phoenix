@@ -1,0 +1,199 @@
+GEO_great_liberation_war_category = {
+
+	GEO_supply_roads_sabotage = {
+		icon = generic_trucks
+
+		available = {
+			has_war_with = SOV
+		}
+
+		visible = {
+			has_completed_focus = GEO_scorch_earth_in_occupied_territories
+		}
+
+		fire_only_once = no
+		cost = 40
+
+		state_target = yes
+
+		on_map_mode = map_and_decisions_view
+
+		target_trigger = {
+			
+			FROM = { 
+				is_core_of = GEO
+				is_controlled_by = SOV
+				has_railway_level = {
+					level = 1
+					state = THIS
+				}
+			}
+		}
+
+		days_remove = 25
+
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_war_with = SOV
+				}
+				FROM = {
+					is_controlled_by = GEO
+				}
+			}
+		}
+
+		modifier = {
+			political_power_gain = -0.035
+			resistance_growth_on_our_occupied_states = -0.15
+		}
+
+		remove_effect = {
+			FROM = {
+				damage_building = {
+					type = rail_way
+					damage = 0.7
+				}
+				controller = {
+					add_manpower = -45
+					add_war_support = -0.0001
+				}
+				add_resistance = -3
+				add_compliance = -1
+				add_resistance_target = {
+					amount = -5
+					days = 40
+				}
+			}
+		}
+	}
+
+	GEO_factory_sabotage = {
+		icon = generic_factory
+
+		available = {
+			has_war_with = SOV
+		}
+
+		visible = {
+			has_completed_focus = GEO_scorch_earth_in_occupied_territories
+		}
+
+		fire_only_once = no
+		cost = 40
+
+		state_target = yes
+
+		on_map_mode = map_and_decisions_view
+
+		target_trigger = {
+			
+			FROM = { 
+				is_core_of = GEO
+				is_controlled_by = SOV
+				industrial_complex > 0
+			}
+		}
+
+		days_remove = 30
+
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_war_with = SOV
+				}
+				FROM = {
+					is_controlled_by = GEO
+				}
+			}
+		}
+
+		modifier = {
+			political_power_gain = -0.05
+			resistance_growth_on_our_occupied_states = -0.2
+		}
+
+		remove_effect = {
+			FROM = {
+				damage_building = {
+					type = industrial_complex
+					damage = 0.9
+				}
+				controller = {
+					add_manpower = -75
+					add_war_support = -0.0003
+				}
+				add_resistance = -3
+				add_compliance = -1.5
+				add_resistance_target = {
+					amount = -5
+					days = 45
+				}
+			}
+		}
+	}
+	GEO_military_factory_sabotage = {
+		icon = generic_factory
+
+		available = {
+			has_war_with = SOV
+		}
+
+		visible = {
+			has_completed_focus = GEO_scorch_earth_in_occupied_territories
+		}
+
+		fire_only_once = no
+		cost = 60
+
+		state_target = yes
+
+		on_map_mode = map_and_decisions_view
+
+		target_trigger = {
+			
+			FROM = { 
+				is_core_of = GEO
+				is_controlled_by = SOV
+				arms_factory > 0
+			}
+		}
+
+		days_remove = 45
+
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					has_war_with = SOV
+				}
+				FROM = {
+					is_controlled_by = GEO
+				}
+			}
+		}
+
+		modifier = {
+			political_power_gain = -0.065
+			resistance_growth_on_our_occupied_states = -0.25
+		}
+
+		remove_effect = {
+			FROM = {
+				controller = {
+					add_manpower = -100
+					add_war_support = -0.0005
+				}
+				damage_building = {
+					type = arms_factory
+					damage = 0.85
+				}
+				add_resistance = -2
+				add_compliance = -3
+				add_resistance_target = {
+					amount = -7
+					days = 50
+				}
+			}
+		}
+	}
+}

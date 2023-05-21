@@ -1,0 +1,109 @@
+political_actions  = {
+
+	CHE_end_of_the_combat_reconnaissance_in_401 = {
+		icon = generic_ignite_civil_war
+
+		activation = {
+			always = no
+		}
+
+		available = {
+			NOT = {
+				has_border_war_between = {
+					attacker = 828
+					defender = 401
+				}
+			}
+		}
+
+		visible = {
+			has_border_war_between = {
+				attacker = 828
+				defender = 401
+			}
+		}
+
+		priority = 5
+
+		on_map_mode = map_and_decisions_view
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 401
+			}
+		}
+
+		days_mission_timeout = 5
+
+		is_good = yes
+
+		timeout_effect = {
+			activate_mission = CHE_end_of_the_distraction_in_401
+			set_border_war_data = {
+                attacker = 828
+                defender = 401
+                attacker_modifier = -0.3
+                defender_modifier = -0.35
+                combat_width = 80
+            }
+		}
+	}
+	CHE_end_of_the_distraction_in_401 = {
+		icon = generic_ignite_civil_war
+
+		activation = {
+			always = no
+		}
+		selectable_mission = yes
+
+		available = {
+			has_border_war_between = {
+				attacker = 828
+				defender = 401
+			}
+			command_power > 4
+		}
+
+		visible = {
+			has_border_war_between = {
+				attacker = 828
+				defender = 401
+			}
+		}
+
+		priority = 5
+
+		on_map_mode = map_and_decisions_view
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 401
+			}
+		}
+
+		days_mission_timeout = 14
+
+		is_good = no
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			add_command_power = -5
+			finalize_border_war = {
+				attacker = 828
+				defender = 401
+				attacker_win = yes
+			}
+		}
+
+		timeout_effect = {
+			finalize_border_war = {
+				attacker = 828
+				defender = 401
+				attacker_win = yes
+			}
+		}
+	}
+}

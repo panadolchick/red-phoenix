@@ -90,22 +90,22 @@ units = {
             is_name_ordered = yes
         }
 
-        location = 13295
+        location = 13621
         division_template = "Пехотная Дивизия"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.8
-        start_manpower_factor = 0.9
+        start_experience_factor = 0.15
+        start_equipment_factor = 0.75
+        start_manpower_factor = 0.85
     }
     division = {
         division_name = {
             is_name_ordered = yes
         }
 
-        location = 3658
+        location = 13619
         division_template = "Пехотная Дивизия"
-        start_experience_factor = 0.15
-        start_equipment_factor = 0.75
-        start_manpower_factor = 0.8
+        start_experience_factor = 0.25
+        start_equipment_factor = 0.65
+        start_manpower_factor = 0.7
     }
     division = {
         division_name = {

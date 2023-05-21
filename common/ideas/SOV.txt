@@ -192,7 +192,7 @@ ideas = {
 
 			
 			modifier = {
-				monthly_population = -1.15
+				monthly_population = -1.075
 				stability_factor = -0.05
 				political_power_gain = 0.1
 			}

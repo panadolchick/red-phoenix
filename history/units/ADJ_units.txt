@@ -5,17 +5,15 @@ division_template = {
         infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-        infantry = { x = 0 y = 3 }
+        militia = { x = 0 y = 3 }
         artillery_brigade = { x = 0 y = 4 }
-        infantry = { x = 1 y = 0 }
-        infantry = { x = 1 y = 1 }
-        infantry = { x = 1 y = 2 }
-        infantry = { x = 1 y = 3 }
+        irregular_infantry = { x = 1 y = 0 }
+        irregular_infantry = { x = 1 y = 1 }
     }
 	support = {
         artillery = { x = 0 y = 0 }
         engineer = { x = 0 y = 1 }
-        mot_recon = { x = 0 y = 2 }
+        recon = { x = 0 y = 2 }
 	}
 }
 units = {
@@ -27,8 +25,8 @@ units = {
         location = 3653
         division_template = "kveiti divizia"
         start_experience_factor = 0.5
-        start_equipment_factor = 0.8
-        start_manpower_factor = 0.8
+        start_equipment_factor = 0.75
+        start_manpower_factor = 0.75
     }
     division = {
         division_name = {
@@ -38,18 +36,18 @@ units = {
         location = 13612
         division_template = "kveiti divizia"
         start_experience_factor = 0.4
-        start_equipment_factor = 0.7
-        start_manpower_factor = 0.7
+        start_equipment_factor = 0.65
+        start_manpower_factor = 0.65
     }
     division = {
         division_name = {
             is_name_ordered = yes
         }
 
-        location = 13619
+        location = 13613
         division_template = "kveiti divizia"
-        start_experience_factor = 0.4
-        start_equipment_factor = 0.6
-        start_manpower_factor = 0.65
+        start_experience_factor = 0.45
+        start_equipment_factor = 0.55
+        start_manpower_factor = 0.6
     }
 }

@@ -8,10 +8,11 @@ ideas = {
                 has_war_with = SOV
             }
             modifier = {
-                war_support_factor = 0.3
+                war_support_factor = 0.25
                 stability_factor = -0.15
-                stability_weekly = -0.0035
+                stability_weekly = -0.0025
                 weekly_bombing_war_support = 0.0035
+                communist_drift = -0.015
                 surrender_limit = 1
                 attrition = -0.4
                 army_org_factor = 0.1
@@ -20,7 +21,7 @@ ideas = {
                 monthly_population = -0.85
                 industry_repair_factor = -0.5
                 industry_free_repair_factor = -0.45
-                industrial_capacity_factory = 0.6
+                industrial_capacity_factory = 0.45
                 line_change_production_efficiency_factor = 0.25
                 military_factory_donations = 1
                 production_lack_of_resource_penalty_factor = -0.4
@@ -68,7 +69,7 @@ ideas = {
                 experience_loss_factor = -0.3
                 out_of_supply_factor = -0.75
                 breakthrough_factor = -0.65
-                army_attack_factor = -0.2
+                army_attack_factor = -0.15
                 army_defence_factor = 0.15
                 army_speed_factor = -0.15
             }
@@ -110,6 +111,146 @@ ideas = {
                 industrial_capacity_factory = -0.15
             }
         }
+        GEO_war_of_liberation_1 = {
+            allowed = {
+                always = no
+			}
+			allowed_civil_war = {
+                always = yes
+            }
+            available = {
+                has_war_with = SOV
+            }
+            modifier = {
+                political_power_gain = 0.05
+                war_stability_factor = 0.05
+                war_support_factor = 0.1
+                army_org_factor = 0.1
+                army_org_regain = 0.1
+                army_core_attack_factor = 0.05
+                army_core_defence_factor = 0.05
+                org_loss_at_low_org_factor = -0.1
+                pocket_penalty = -0.05
+                experience_loss_factor = 0.2
+            }
+        }
+        GEO_war_of_liberation_2 = {
+            allowed = {
+                always = no
+			}
+			allowed_civil_war = {
+                always = yes
+            }
+            available = {
+                has_war_with = SOV
+            }
+            modifier = {
+                political_power_gain = 0.1
+                war_support_factor = 0.15
+                army_org_factor = 0.15
+                army_org_regain = 0.15
+                army_core_attack_factor = 0.1
+                army_core_defence_factor = 0.1
+                org_loss_at_low_org_factor = -0.15
+                pocket_penalty = -0.075
+                experience_loss_factor = 0.25
+            }
+        }
+        GEO_central_organ_of_guerrilla_coordination = {
+            allowed = {
+                always = no
+			}
+			allowed_civil_war = {
+                always = yes
+            }
+            available = {
+                has_war_with = SOV
+            }
+            modifier = {
+                resistance_damage_to_garrison_on_our_occupied_states = 0.1
+                resistance_target_on_our_occupied_states = 0.1
+                resistance_growth_on_our_occupied_states = 0.15
+                compliance_growth_on_our_occupied_states = -0.2
+                command_power_gain = 0.05
+                command_power_gain_mult = 0.15
+                war_support_weekly = 0.0015
+            }
+        }
+        GEO_all_for_the_front = {
+            allowed = {
+                always = no
+			}
+			allowed_civil_war = {
+                always = yes
+            }
+            available = {
+                has_war_with = SOV
+            }
+            modifier = {
+                stability_factor = -0.035
+                industrial_capacity_factory = 0.2
+                industrial_factory_donations = 1
+                production_speed_buildings_factor = -0.1
+            }
+        }
+        GEO_total_mobilization = {
+            allowed = {
+                always = no
+			}
+			allowed_civil_war = {
+                always = yes
+            }
+            available = {
+                has_war_with = SOV
+            }
+            modifier = {
+                war_support_factor = 0.05
+                stability_factor = -0.05
+                stability_weekly = -0.001
+                monthly_population = -0.25
+                conscription = 0.035
+                industrial_capacity_factory = 0.3
+            }
+        }
+        GEO_steel_nation = {
+            allowed = {
+                always = no
+			}
+			allowed_civil_war = {
+                always = yes
+            }
+            available = {
+                has_war_with = SOV
+            }
+            modifier = {
+                war_support_factor = 0.15
+                stability_factor = -0.1
+                stability_weekly = -0.002
+                monthly_population = -0.5
+                conscription = 0.06
+                industrial_capacity_factory = 0.5
+            }
+        }
+        GEO_collecting_enemy_equipment = {
+            allowed = {
+                always = no
+			}
+			allowed_civil_war = {
+                always = yes
+            }
+            available = {
+                has_war_with = SOV
+            }
+            modifier = {
+                army_org_factor = -0.03
+                army_attack_factor = 0.02
+            }
+            equipment_bonus = {
+                infantry_equipment = {
+                    equipment_capture_factor = 0.04
+                }
+            }
+        }
         GEO_NATO_lend_lease_1 = {
             allowed = {
                 always = no
@@ -117,8 +258,11 @@ ideas = {
 			allowed_civil_war = {
                 always = yes
             }
+            available = {
+                has_war_with = SOV
+            }
             modifier = {
-                political_power_cost = 0.1
+                political_power_cost = 0.15
                 industrial_capacity_factory = 0.15
                 military_factory_donations = 1
             }
@@ -130,8 +274,11 @@ ideas = {
 			allowed_civil_war = {
                 always = yes
             }
+            available = {
+                has_war_with = SOV
+            }
             modifier = {
-                political_power_cost = 0.2
+                political_power_cost = 0.3
                 industrial_capacity_factory = 0.25
                 military_factory_donations = 2
             }
@@ -143,8 +290,11 @@ ideas = {
 			allowed_civil_war = {
                 always = yes
             }
+            available = {
+                has_war_with = SOV
+            }
             modifier = {
-                political_power_cost = 0.3
+                political_power_cost = 0.45
                 industrial_capacity_factory = 0.35
                 military_factory_donations = 3
             }

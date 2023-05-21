@@ -140,7 +140,7 @@
  subideology_politics:0 "[get_subideology]"
  subideology_desc_politics:0 "§Y[get_subideology] ([THIS.GetRulingIdeology])§!\n-----------------\n§L[get_subideology_desc]§!§!"
  subideology_diplomacy:0 "[THIS.get_subideology]"
- subideology_desc_diplomacy:0 "[THIS.get_subideology]\n-----------------\n§W[get_subideology_desc]§!"
+ subideology_desc_diplomacy:0 "[THIS.get_subideology]\n-----------------\n§Y[get_subideology_desc]§!"
  GER_fascism_party:0 "НСДАП"
  GER_fascism_party_long:0 "Национал-социалистическая немецкая рабочая партия"
  GER_communism_party:0 "Коммунистическая партия Германии"
