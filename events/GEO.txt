@@ -1547,21 +1547,35 @@ country_event = {
                 days = 1080
             }
         }
+        SOV = {
+            country_event = {
+                id = geo.24
+                days = 1
+                random_days = 1
+                hours = 4
+                random_hours = 6
+            }
+            add_opinion_modifier = {
+                target = ROOT
+                modifier = GEO_terrorist_attack_in_south_ossetia
+                days = 720
+            }
+        }
         start_border_war = {
             change_state_after_war = no
             attacker = {
                 state = 828
                 num_provinces = 3
-                on_win = geo.24
-                on_lose = geo.24
-                on_cancel = geo.24
+                on_win = geo.25
+                on_lose = geo.25
+                on_cancel = geo.25
             }	
             defender = {
                 state = 401
                 num_provinces = 3
-                on_win = geo.25
-                on_lose = geo.25
-                on_cancel = geo.25
+                on_win = geo.26
+                on_lose = geo.26
+                on_cancel = geo.26
             }
         }
         hidden_effect = {
@@ -1625,16 +1639,16 @@ country_event = {
                 attacker = {
                     state = 828
                     num_provinces = 3
-                    on_win = geo.24
-                    on_lose = geo.24
-                    on_cancel = geo.24
+                    on_win = geo.25
+                    on_lose = geo.25
+                    on_cancel = geo.25
                 }	
                 defender = {
                     state = 401
                     num_provinces = 3
-                    on_win = geo.25
-                    on_lose = geo.25
-                    on_cancel = geo.25
+                    on_win = geo.26
+                    on_lose = geo.26
+                    on_cancel = geo.26
                 }
             }
         }
@@ -1670,17 +1684,57 @@ country_event = {
     }
 }
 
-#The end of the distraction (CHE)
+#Chechen insurgents attack North Ossetia! (SOV)
 country_event = {
     id = geo.24
     title = geo.24.t
     desc = geo.24.d
-	picture = GFX_report_event_finnish_letter
+	picture = GFX_report_event_generic_battle
+    is_triggered_only = yes
+    
+    #The Georgians are clearly involved in this
+    option = {
+        name = geo.24.a
+        effect_tooltip = {
+            add_political_power = -20
+            add_stability = -0.02
+            start_border_war = {
+                change_state_after_war = no
+                attacker = {
+                    state = 828
+                    num_provinces = 3
+                    on_win = geo.25
+                    on_lose = geo.25
+                    on_cancel = geo.25
+                }	
+                defender = {
+                    state = 401
+                    num_provinces = 3
+                    on_win = geo.26
+                    on_lose = geo.26
+                    on_cancel = geo.26
+                }
+            }
+            add_opinion_modifier = {
+                target = FROM
+                modifier = GEO_terrorist_attack_in_south_ossetia
+                days = 720
+            }
+        }
+    }
+}   
+
+#The end of the distraction (CHE)
+country_event = {
+    id = geo.25
+    title = geo.25.t
+    desc = geo.25.d
+	picture = GFX_report_event_chinese_soldiers_city_ruin
     is_triggered_only = yes
     
     #We hope this will help Georgia win
     option = {
-        name = geo.24.a
+        name = geo.25.a
         add_political_power = 10
         army_experience = 10
         add_war_support = 0.01
@@ -1695,16 +1749,16 @@ country_event = {
 
 #Chechen insurgents retreated (SOV)
 country_event = {
-    id = geo.25
-    title = geo.25.t
-    desc = geo.25.d
-	picture = GFX_report_event_finnish_letter
+    id = geo.26
+    title = geo.26.t
+    desc = geo.26.d
+	picture = GFX_report_event_generic_ruins
     is_triggered_only = yes
     
     #We hope it won't happen again
     option = {
-        name = geo.25.a
-        add_political_power = -10
+        name = geo.26.a
+        add_political_power = 10
         army_experience = 5
         add_stability = 0.01
         add_war_support = -0.01

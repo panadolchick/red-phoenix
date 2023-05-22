@@ -1186,6 +1186,10 @@ opinion_modifiers = {
 		value = -30
 	}
 
+	GEO_terrorist_attack_in_south_ossetia = {
+		value = -25
+	}
+
 	GEO_refused_to_send_weapons_to_georgia = {
 		value = 10
 	}

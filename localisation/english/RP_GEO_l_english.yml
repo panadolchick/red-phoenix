@@ -166,10 +166,12 @@
  geo.22.a: "Thank you Chechens!"
  geo.23.t: "Ichkeria refused"
  geo.23.a: "Disappointing..."
- geo.24.t: "The end of the distraction"
- geo.24.a: "We hope this will help Georgia win"
- geo.25.t: "Chechen insurgents retreated"
- geo.25.a: "We hope it won't happen again"
+ geo.24.t: "Chechen insurgents attack North Ossetia!"
+ geo.24.a: "The Georgians are clearly involved in this..."
+ geo.25.t: "The end of the distraction"
+ geo.25.a: "We hope this will help Georgia win"
+ geo.26.t: "Chechen insurgents retreated"
+ geo.26.a: "We hope it won't happen again"
  
  #Decisions
  GEO_great_liberation_war_category: "Great Liberation War"
@@ -203,4 +205,5 @@
  GEO_helped_in_the_war_of_independence:0 "Helped in the war of independence"
  GEO_refused_to_help_in_the_war_of_independence:0 "Refused to help in the war of independence"
  GEO_refused_to_send_weapons_to_georgia:0 "Refused to send weapons to Georgia"
+ GEO_terrorist_attack_in_south_ossetia:0 "Terrorist attack in South Ossetia"
  GEO_USA_refused_to_send_weapons_to_georgia:0 "Refused to send weapons to Georgia"
