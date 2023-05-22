@@ -1,0 +1,154 @@
+SOV_caucasian_mess  = {
+
+	SOV_fighting_the_georgian_guerrillas = {
+		icon = generic_police_action
+
+		available = {
+			has_manpower > 2000
+			custom_trigger_tooltip = {
+				tooltip = not_has_SOV_fighting_with_georgian_partisans_flag
+				NOT = {
+					has_country_flag = SOV_fighting_with_georgian_partisans
+				}
+			}
+		}
+
+		visible = {
+			any_controlled_state = {
+				has_resistance = yes
+				is_core_of = GEO
+			}
+		}
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				add = 1
+				FROM = {
+					resistance > 25
+				}
+			}
+			modifier = {
+				add = 1
+				FROM = {
+					resistance > 35
+				}
+			}
+			modifier = {
+				add = 1
+				FROM = {
+					resistance > 40
+				}
+			}
+			modifier = {
+				add = 1
+				FROM = {
+					resistance > 45
+				}
+			}
+			modifier = {
+				add = 1
+				FROM = {
+					resistance > 50
+				}
+			}
+			modifier = {
+				add = 2
+				FROM = {
+					resistance > 55
+				}
+			}
+			modifier = {
+				add = 2
+				FROM = {
+					resistance > 60
+				}
+			}
+			modifier = {
+				add = 2
+				FROM = {
+					resistance > 65
+				}
+			}
+			modifier = {
+				add = 2
+				FROM = {
+					resistance > 70
+				}
+			}
+		}
+
+		priority = 5
+
+		cost = 25
+
+		on_map_mode = map_and_decisions_view
+
+		state_target = yes
+
+		target_trigger = {
+			FROM = {
+				is_core_of = GEO
+				has_resistance = yes
+				is_controlled_by = SOV
+			}
+		}
+
+		cancel_trigger = {
+			FROM = {
+				OR = {
+					NOT = {
+						is_controlled_by = SOV
+					}
+					has_resistance = no
+				}
+			}
+		}
+
+		days_remove = 50
+
+		days_re_enable = 5
+
+		modifier = {
+			weekly_manpower = -50
+			political_power_cost = 0.03
+			stability_factor = -0.025
+			resistance_target = -0.15
+			resistance_decay = 0.1
+			resistance_growth = -0.1
+			compliance_growth = 0.25
+		}
+
+		complete_effect = {
+			add_manpower = -1500
+			set_country_flag = SOV_fighting_with_georgian_partisans
+		}
+
+		remove_effect = {
+			FROM = {
+				add_resistance = -6.5
+				add_compliance = 1
+				if = {
+					limit = {
+						has_dynamic_modifier = {
+							modifier = GEO_guerrilla_recruitment
+						}
+					}
+					random_list = {
+						80 = {
+							remove_dynamic_modifier = {
+								modifier = GEO_guerrilla_recruitment
+							}
+							add_resistance = -2.5
+						}
+						20 = {
+							add_resistance = -4
+							add_compliance = -5
+						}
+					}
+				}
+			}
+			clr_country_flag = SOV_fighting_with_georgian_partisans
+		}
+	}
+}

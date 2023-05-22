@@ -7,6 +7,14 @@
  sov.2.t: "Разгром в Грузии"
  sov.2.d: "После долгих и кровопролитных, горных рейдов и диверсий, грузинские сепаратисты полностью разгромили наши войска в Грузии и почти вышли на административные границы Грузинской ССР.\n По стране прошлась новая волна недовольства сепаратистских настроений. Многие наши граждане очень сильно огорчились этим поражением и стали всё больше сомневаться в компетентности советской власти. Также это дало сигнал сепаратистским движениям по всему союзу, что получение независимости путём вооружённого мятежа - не является невозможной задачей."
  sov.2.a: "Какой позор..."
+ 
+ #Decisions
+ SOV_caucasian_mess: "Кавказский бардак"
+ SOV_fighting_the_georgian_guerrillas: "Борьба с грузинскими партизанами в регионе [FROM.GetName]"
+ 
+ #Tooltips
+ not_has_SOV_fighting_with_georgian_partisans_flag: "Мы пока не ведём борьбу с партизанами в Грузии"
+ 
  #Ideas
  SOV_still_here: "Всё ещё здесь"
  SOV_ideological_hopelessness: "Идеологическая безысходность"
@@ -17,6 +25,7 @@
  SOV_population_decline: "Демографическая яма"
  SOV_widespread_drunkenness: "Повсеместное пьянство"
  SOV_caucasus_is_ablaze: "§RКавказ горит§!"
+ 
  #Focuses 
  SOV_hold_the_30th_congress_of_the_CPSS_central_committee:0 "Провести 30 съезд ЦК КПСС"
  SOV_hold_the_30th_congress_of_the_CPSS_central_committee_desc:0 "Провести 30 съезд ЦК КПСС - описание фокуса"
@@ -60,6 +69,7 @@
  SOV_and_china_desc:0 "И к Китаю - описание фокуса"
  SOV_into_a_bright_future:0 "В светлое будущее!"
  SOV_into_a_bright_future_desc:0 "В светлое будущее! - описание фокуса"
+ 
  #Parties
  SOV_conservatism_party: "ЛДСС"
  SOV_conservatism_party_long: "Либерально-демократическая партия Советского Союза"

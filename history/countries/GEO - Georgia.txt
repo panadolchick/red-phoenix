@@ -12,6 +12,9 @@ oob = "GEO_units"
 set_research_slots = 3
 
 recruit_character = GEO_eduard_shevardnadze
+recruit_character = GEO_johnny_pirtskhalaishvili
+recruit_character = GEO_tengiz_kitovani
+recruit_character = GEO_devi_chankotadze
 
 # Starting tech
 set_technology = {

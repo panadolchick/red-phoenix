@@ -7,6 +7,14 @@
  sov.2.t: "Defeat in Georgia"
  sov.2.d: "After long and bloody, mountain raids and acts of sabotage, Georgian separatists completely defeated our troops in Georgia and almost reached the administrative borders of the Georgian SSR.\n A new wave of discontent with separatist sentiments swept through the country. Many of our citizens were very upset by this defeat and began to increasingly doubt the competence of the Soviet state. It also sent a signal to separatist movements throughout the union that gaining independence by armed insurrection was not an impossible task."
  sov.2.a: "What a shame..."
+ 
+ #Decisions
+ SOV_caucasian_mess: "Caucasian Mess"
+ SOV_fighting_the_georgian_guerrillas: "Fighting the Georgian Guerrillas in region [FROM.GetName]"
+ 
+ #Tooltips
+ not_has_SOV_fighting_with_georgian_partisans_flag: "We are not yet fighting guerrillas in Georgia"
+ 
 #Ideas
  SOV_still_here: "Still Here"
  SOV_ideological_hopelessness: "Ideological Hopelessness"
@@ -17,6 +25,7 @@
  SOV_population_decline: "Population Decline"
  SOV_widespread_drunkenness: "Widespread Drunkenness"
  SOV_caucasus_is_ablaze: "§RCaucasus is Ablaze§!"
+ 
 #Focuses
  SOV_hold_the_30th_congress_of_the_CPSS_central_committee:0 "Hold the 30th Congress of the CPSS Central Committee"
  SOV_hold_the_30th_congress_of_the_CPSS_central_committee_desc:0 "Hold the 30th Congress of the CPSS Central Committee - focus description"
@@ -60,6 +69,7 @@
  SOV_and_china_desc:0 "And to China - focus description"
  SOV_into_a_bright_future:0 "Into a brighter future!"
  SOV_into_a_bright_future_desc:0 "Into a brighter future! - focus description"
+ 
  #Tooltips
  SOV_possible_failure_of_the_SMO_in_georgia: "§RFurther continuation of the Special Military Operation in Georgia will be very difficult and dangerous, and the damage in case of defeat is greater§!"
  SOV_failure_of_the_SMO_in_georgia: "§RThe Special Military Operation has failed! Completely!§!"

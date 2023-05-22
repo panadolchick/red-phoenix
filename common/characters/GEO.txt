@@ -4,12 +4,133 @@ characters = {
 		portraits={
 			civilian={
 				large = "GFX_GEO_eduard_shevardnadze"
+				small = "GFX_advisor_GEO_eduard_shevardnadze"
 			}
 		}
 		country_leader={
 			ideology = military_dictatorship
 			traits = {
-				
+				GEO_eduard_shevardnadze_desc
+			}
+		}
+		field_marshal = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			traits = {
+				media_personality hill_fighter
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = GEO_eduard_shevardnadze
+			allowed = {
+				original_tag = GEO
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 50
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	GEO_johnny_pirtskhalaishvili = {
+		name = GEO_johnny_pirtskhalaishvili
+		portraits={
+			civilian={
+				large = "GFX_GEO_johnny_pirtskhalaishvili"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			traits = {
+				offensive_doctrine trait_reckless harsh_leader
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = GEO_johnny_pirtskhalaishvili
+			allowed = {
+				original_tag = GEO
+			}
+			traits = {
+				army_chief_planning_1
+			}
+			cost = 50
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	GEO_tengiz_kitovani = {
+		name = GEO_tengiz_kitovani
+		portraits={
+			civilian={
+				large = "GFX_GEO_tengiz_kitovani"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+			traits = {
+				organizer trait_reckless
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = GEO_tengiz_kitovani
+			allowed = {
+				original_tag = GEO
+			}
+			traits = {
+				army_logistics_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	GEO_devi_chankotadze = {
+		name = GEO_devi_chankotadze
+		portraits={
+			civilian={
+				large = "GFX_GEO_devi_chankotadze"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			traits = {
+				career_officer inflexible_strategist
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = GEO_devi_chankotadze
+			allowed = {
+				original_tag = GEO
+			}
+			traits = {
+				army_regrouping_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}

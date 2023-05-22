@@ -14,7 +14,9 @@
  GEO_NATO_lend_lease_1: "Ленд-лиз стран НАТО"
  GEO_NATO_lend_lease_2: "Ленд-лиз стран НАТО"
  GEO_NATO_lend_lease_3: "Ленд-лиз стран НАТО"
+ 
 #Units
+
 #Country
  GEO: "Грузия"
  GEO_DEF: "Грузия"
@@ -37,8 +39,13 @@
  GEO_authoritarianism_DEF: "Республика Грузия"
  GEO_socialist: "Республика Грузия"
  GEO_socialist_DEF: "Республика Грузия"
+ 
 #Characters
  GEO_eduard_shevardnadze: "Эдуард Шеварднадзе"
+ GEO_johnny_pirtskhalaishvili: "Джонни Пирцхалаишвили"
+ GEO_tengiz_kitovani: "Тенгиз Китовани"
+ GEO_devi_chankotadze: "Деви Чанкотадзе"
+ 
 #Parties
  GEO_ultranationalism_party: "ОСИП"
  GEO_ultranationalism_party_long: "Общество Святого Ильи Праведника"

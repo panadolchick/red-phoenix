@@ -1,0 +1,15 @@
+
+SOV_caucasian_mess = {
+	icon = border_conflicts
+	
+	priority = 3
+
+	allowed = {
+		tag = SOV
+	}
+
+	visible = {
+		has_idea = SOV_caucasus_is_ablaze
+	}
+	visible_when_empty = yes
+}

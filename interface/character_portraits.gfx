@@ -40,6 +40,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CHE/CHE_dzhokhar_dudayev.dds"
 	}
 	spriteType = {
+		name = "GFX_advisor_CHE_dzhokhar_dudayev"
+		texturefile = "gfx/interface/ideas/CHE/CHE_dzhokhar_dudayev.dds"
+	}
+	spriteType = {
 		name = "GFX_RIG_UN_administration"
 		texturefile = "gfx/leaders/RIG/RIG_UN_administration.dds"
 	}
@@ -250,6 +254,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_GEO_eduard_shevardnadze"
 		texturefile = "gfx/leaders/GEO/GEO_eduard_shevardnadze.dds"
+	}
+	spriteType = {
+		name = "GFX_advisor_GEO_eduard_shevardnadze"
+		texturefile = "gfx/interface/ideas/GEO/GEO_eduard_shevardnadze.dds"
 	}
 	spriteType = {
 		name = "GFX_ADJ_mikhail_makharadze"

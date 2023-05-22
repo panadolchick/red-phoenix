@@ -14,7 +14,9 @@
  GEO_NATO_lend_lease_1: "NATO Lend-Lease"
  GEO_NATO_lend_lease_2: "NATO Lend-Lease"
  GEO_NATO_lend_lease_3: "NATO Lend-Lease"
+ 
 #Units
+
 #Country
  GEO: "Georgia"
  GEO_DEF: "Georgia"
@@ -37,8 +39,13 @@
  GEO_authoritarianism_DEF: "Republic of Georgia"
  GEO_socialist: "Republic of Georgia"
  GEO_socialist_DEF: "Republic of Georgia"
+ 
 #Characters
  GEO_eduard_shevardnadze: "Eduard Shevardnadze"
+ GEO_johnny_pirtskhalaishvili: "Johnny Pirtskhalaishvili"
+ GEO_tengiz_kitovani: "Jighter Director"
+ GEO_devi_chankotadze: "Devi Chankotadze"
+ 
 #Parties
  GEO_ultranationalism_party: "SSER"
  GEO_ultranationalism_party_long: "Society of Saint Elijah the Righteous"
