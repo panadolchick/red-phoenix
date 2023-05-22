@@ -43,6 +43,7 @@ characters = {
 		portraits={
 			civilian={
 				large = "GFX_GEO_johnny_pirtskhalaishvili"
+				small = "GFX_advisor_GEO_eduard_shevardnadze"
 			}
 		}
 		corps_commander = {
@@ -75,6 +76,7 @@ characters = {
 		portraits={
 			civilian={
 				large = "GFX_GEO_tengiz_kitovani"
+				small = "GFX_advisor_GEO_tengiz_kitovani"
 			}
 		}
 		corps_commander = {
@@ -107,6 +109,7 @@ characters = {
 		portraits={
 			civilian={
 				large = "GFX_GEO_devi_chankotadze"
+				small = "GFX_advisor_GEO_devi_chankotadze"
 			}
 		}
 		corps_commander = {
