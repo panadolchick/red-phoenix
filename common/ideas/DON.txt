@@ -71,7 +71,7 @@ ideas = {
                 political_power_gain = -0.2
                 disable_strategic_redeployment = 218
                 recruitable_population_factor = -0.7
-                monthly_population = -0.2
+                monthly_population = -0.5
             }
         }
         DON_ruins_of_rostov_airbase = {
