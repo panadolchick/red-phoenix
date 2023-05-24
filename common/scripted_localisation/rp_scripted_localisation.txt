@@ -296,9 +296,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = arab_communist
+			has_country_leader_ideology = arab_communism
 		}
-		localization_key = arab_communist
+		localization_key = arab_communism
 	}
 	text = {
 		trigger = {

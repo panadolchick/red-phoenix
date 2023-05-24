@@ -1,4 +1,311 @@
 
+has_national_socialism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_national_socialism_ideology
+		has_country_leader_ideology = national_socialism
+	}
+}
+has_neonazism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_neonazism_ideology
+		has_country_leader_ideology = neonazism
+	}
+}
+has_ultramilitarism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_ultramilitarism_ideology
+		has_country_leader_ideology = ultramilitarism
+	}
+}
+has_fundamentalism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_fundamentalism_ideology
+		has_country_leader_ideology = fundamentalism
+	}
+}
+has_nationalism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_nationalism_ideology
+		has_country_leader_ideology = nationalism_ideology
+	}
+}
+has_left_nationalism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_left_nationalism_ideology
+		has_country_leader_ideology = left_nationalism
+	}
+}
+has_corporatocracy_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_corporatocracy_ideology
+		has_country_leader_ideology = corporatocracy
+	}
+}
+has_nationalist_monarchism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_nationalist_monarchism_ideology
+		has_country_leader_ideology = nationalist_monarchism
+	}
+}
+has_personalistic_nationalism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_personalistic_nationalism_ideology
+		has_country_leader_ideology = personalistic_nationalism
+	}
+}
+has_national_bolshevism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_national_bolshevism_ideology
+		has_country_leader_ideology = national_bolshevism
+	}
+}
+has_islamism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_islamism_ideology
+		has_country_leader_ideology = islamism
+	}
+}
+has_despotism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_despotism_ideology
+		has_country_leader_ideology = despotism_ideology
+	}
+}
+has_market_socialism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_market_socialism_ideology
+		has_country_leader_ideology = market_socialism
+	}
+}
+has_military_dictatorship_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_military_dictatorship_ideology
+		has_country_leader_ideology = military_dictatorship
+	}
+}
+has_monarchism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_monarchism_ideology
+		has_country_leader_ideology = monarchism
+	}
+}
+has_personalist_dictatorship_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_personalist_dictatorship_ideology
+		has_country_leader_ideology = personalist_dictatorship
+	}
+}
+has_theocracy_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_theocracy_ideology
+		has_country_leader_ideology = theocracy
+	}
+}
+has_anarcho_monarchism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_anarcho_monarchism_ideology
+		has_country_leader_ideology = anarcho_monarchism
+	}
+}
+has_national_democracy_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_national_democracy_ideology
+		has_country_leader_ideology = national_democracy
+	}
+}
+has_controlled_democracy_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_controlled_democracy_ideology
+		has_country_leader_ideology = controlled_democracy
+	}
+}
+has_oligarchy_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_oligarchy_ideology
+		has_country_leader_ideology = oligarchy
+	}
+}
+has_stratocracy_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_stratocracy_ideology
+		has_country_leader_ideology = stratocracy
+	}
+}
+has_pragmatic_socialism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_pragmatic_socialism_ideology
+		has_country_leader_ideology = pragmatic_socialism
+	}
+}
+has_conservative_democracy_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_conservative_democracy_ideology
+		has_country_leader_ideology = conservative_democracy
+	}
+}
+has_liberal_conservatism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_liberal_conservatism_ideology
+		has_country_leader_ideology = liberal_conservatism
+	}
+}
+has_agrarianism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_agrarianism_ideology
+		has_country_leader_ideology = agrarianism
+	}
+}
+has_christian_democracy_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_christian_democracy_ideology
+		has_country_leader_ideology = christian_democracy
+	}
+}
+has_progressive_conservatism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_progressive_conservatism_ideology
+		has_country_leader_ideology = progressive_conservatism
+	}
+}
+has_market_liberalism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_market_liberalism_ideology
+		has_country_leader_ideology = market_liberalism
+	}
+}
+has_social_liberalism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_social_liberalism_ideology
+		has_country_leader_ideology = social_liberalism
+	}
+}
+has_progresive_liberalism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_progresive_liberalism_ideology
+		has_country_leader_ideology = progresive_liberalism
+	}
+}
+has_national_liberalism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_national_liberalism_ideology
+		has_country_leader_ideology = national_liberalism
+	}
+}
+has_libertarianism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_libertarianism_ideology
+		has_country_leader_ideology = libertarianism
+	}
+}
+has_anarcho_capitalism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_anarcho_capitalism_ideology
+		has_country_leader_ideology = anarcho_capitalism
+	}
+}
+has_social_democracy_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_social_democracy_ideology
+		has_country_leader_ideology = social_democracy_ideology
+	}
+}
+has_progressivism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_progressivism_ideology
+		has_country_leader_ideology = progressivism
+	}
+}
+has_christian_progressivism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_christian_progressivism_ideology
+		has_country_leader_ideology = christian_progressivism
+	}
+}
+has_left_wing_populism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_left_wing_populism_ideology
+		has_country_leader_ideology = left_wing_populism
+	}
+}
+has_democratic_socialism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_democratic_socialism_ideology
+		has_country_leader_ideology = democratic_socialism
+	}
+}
+has_reformist_socialism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_reformist_socialism_ideology
+		has_country_leader_ideology = reformist_socialism
+	}
+}
+has_liberal_socialism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_liberal_socialism_ideology
+		has_country_leader_ideology = liberal_socialism
+	}
+}
+has_populist_socialism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_populist_socialism_ideology
+		has_country_leader_ideology = populist_socialism
+	}
+}
+has_revolutionery_socialism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_revolutionery_socialism_ideology
+		has_country_leader_ideology = revolutionery_socialism
+	}
+}
+has_anarcho_communist_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_anarcho_communist_ideology
+		has_country_leader_ideology = anarcho_communist
+	}
+}
+has_left_communist_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_left_communist_ideology
+		has_country_leader_ideology = left_communist
+	}
+}
+has_marxism_leninism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_marxism_leninism_ideology
+		has_country_leader_ideology = marxism_leninism
+	}
+}
+has_national_communist_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_national_communist_ideology
+		has_country_leader_ideology = national_communist
+	}
+}
+has_maoism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_maoism_ideology
+		has_country_leader_ideology = maoism
+	}
+}
+has_stalinism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_stalinism_ideology
+		has_country_leader_ideology = stalinism
+	}
+}
+has_arab_communism_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_arab_communism_ideology
+		has_country_leader_ideology = arab_communism
+	}
+}
+has_juche_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = has_juche_ideology
+		has_country_leader_ideology = juche
+	}
+}
+
 is_enemy_ideology = {
 	OR = {
 		AND = {

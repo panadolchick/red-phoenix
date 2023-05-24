@@ -476,7 +476,7 @@ ideologies = {
 			}
 			stalinism = {
 			}
-			arab_communist = {
+			arab_communism = {
 				can_be_randomly_selected = no
 			}
 			juche = {
