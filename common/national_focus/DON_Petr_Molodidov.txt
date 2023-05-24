@@ -29,4 +29,62 @@ focus_tree = {
 			factor = 1
 		}
 	}
+	focus = {
+        id = DON_stay_alone
+        icon = GFX_goal_unknown
+		available = {
+			has_country_flag = {
+				flag = DON_all_in_flag
+				value = 0
+			}
+			OR = {
+				has_country_flag = DON_igor_strelkov_advisor
+				has_country_flag = DON_ivan_polozkov_executed
+			}
+		}
+		prerequisite = {
+			focus = DON_all_in
+		}
+        x = 11
+        y = 1
+        cost = 1  
+		completion_reward = {
+			add_ideas = isolation
+			add_ideas = closed_economy
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+        id = DON_connection_with_UKR
+        icon = GFX_goal_unknown
+		available = {
+			has_country_flag = {
+				flag = DON_all_in_flag
+				value = 0
+			}
+			OR = {
+				has_country_flag = DON_igor_strelkov_army_chief
+				has_country_flag = DON_ivan_polozkov_exiled
+			}
+		}
+		prerequisite = {
+			focus = DON_all_in
+		}
+        x = 15
+        y = 1
+        cost = 1  
+		completion_reward = {
+			UKR = {
+				country_event = {
+					id = ukr.1
+					days = 1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

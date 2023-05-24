@@ -1197,16 +1197,6 @@ opinion_modifiers = {
 	GEO_USA_refused_to_send_weapons_to_georgia = {
 		value = -10
 	}
-
-	###DON
-
-	DON_ivan_polozkov_executed = {
-		value = -30
-	}
-	
-	DON_ivan_polozkov_exiled = {
-		value = 30
-	}
 	
 	###ALL
 

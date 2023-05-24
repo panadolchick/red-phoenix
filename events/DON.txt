@@ -129,7 +129,7 @@ country_event = {
 			add_war_support = 0.1
 			add_opinion_modifier = {
 				target = SOV
-				modifier = DON_ivan_polozkov_executed
+				modifier = large_decrease
 			}
 		}
 		set_party_name = {
@@ -153,7 +153,7 @@ country_event = {
 			}
 			add_opinion_modifier = {
 				target = SOV
-				modifier = DON_ivan_polozkov_exiled
+				modifier = large_increase
 			}
 		}
 		add_political_power = -50
@@ -260,6 +260,9 @@ country_event = {
 				flag = DON_august_kruse_accept
 				value > 0
 			}
+			NOT = {
+				has_country_flag = DON_USPD
+			}
 		}
 		remove_country_leader_role = {
 			character = DON_august_kruse
@@ -278,6 +281,9 @@ country_event = {
 			has_country_flag = {
 				flag = DON_august_kruse_accept
 				value < 0
+			}
+			NOT = {
+				has_country_flag = DON_USPD
 			}
 		}
 		set_politics = {
@@ -369,5 +375,38 @@ country_event = {
 			division_template = "96-ой Казачий Полк"
 			disband = yes
 		}
+    }
+	immediate = {
+		set_country_flag = {
+			flag = DON_all_in_flag
+			value = 0
+		}
+	}
+}
+country_event = {
+    id = don.9
+    title = don.9.t
+    desc = don.9.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = don.9.a    
+		add_ideas = DON_agreements
+		UKR = {
+			add_ideas = UKR_agreements
+		}
+    }
+}
+country_event = {
+    id = don.10
+    title = don.10.t
+    desc = don.10.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = don.10.a    
+		complete_national_focus = DON_stay_alone
     }
 }

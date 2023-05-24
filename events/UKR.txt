@@ -1,0 +1,30 @@
+add_namespace = ukr
+add_namespace = ukr_hidden
+
+country_event = {
+    id = ukr.1
+    title = ukr.1.t
+    desc = ukr.1.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = ukr.1.a
+		DON = {
+			country_event = {
+				id = don.9
+				days = 1
+			}
+		}
+        
+    }
+	option = {
+        name = ukr.1.b
+		DON = {
+			country_event = {
+				id = don.10
+				days = 1
+			}
+		}
+    }
+}
