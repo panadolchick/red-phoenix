@@ -1,5 +1,7 @@
 ﻿capital = 808
 
+recruit_character = LAT_Anatoly_Gorbunov
+
 set_capital = {
 	state = 190
 	remember_old_capital = yes
@@ -14,20 +16,6 @@ set_technology = {
 	tech_support = 1
 	basic_train = 1
 }
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_torpedo = 1
-		submarine_mine_laying = 1
-		early_ship_hull_submarine = 1
-	}
-}
 
 set_research_slots = 3
 
@@ -40,30 +28,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 30
-	nationalism = 15
+	liberalism = 13
+	conservatism = 17
+	nationalism = 11
+	ultranationalism = 4
 	communist = 15
 	despotism = 40
-}
-
-### VARIANTS ###
-# 1936 Start #
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	### Ship Variants ###
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	# Submarines #
-	create_equipment_variant = {
-		name = "Ronis Class"								
-		type = ship_hull_submarine_1
-		name_group = LAT_SS_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
-			fixed_ship_engine_slot = sub_ship_engine_1
-			rear_1_custom_slot = empty
-		}
-	}
 }

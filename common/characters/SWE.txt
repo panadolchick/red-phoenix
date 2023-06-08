@@ -1,0 +1,16 @@
+characters = {
+	SWE_Carl_Bildt = {
+		name = SWE_Carl_Bildt
+		portraits={
+			civilian={
+				large = "GFX_SWE_Carl_Bildt"
+			}
+		}
+		country_leader={
+			ideology = social_liberalism
+			traits = {
+				SWE_Carl_Bildt_desc
+			}
+		}
+	}
+}

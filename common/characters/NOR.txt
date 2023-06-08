@@ -1,0 +1,16 @@
+characters = {
+	NOR_Haarlem_Bruntland = {
+		name = NOR_Haarlem_Bruntland
+		portraits={
+			civilian={
+				large = "GFX_NOR_Haarlem_Bruntland"
+			}
+		}
+		country_leader={
+			ideology = social_democracy_ideology
+			traits = {
+				NOR_Haarlem_Bruntland_desc
+			}
+		}
+	}
+}

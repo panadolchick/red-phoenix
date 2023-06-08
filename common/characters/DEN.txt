@@ -1,0 +1,16 @@
+characters = {
+	DEN_Poul_Schluter = {
+		name = DEN_Poul_Schluter
+		portraits={
+			civilian={
+				large = "GFX_DEN_Poul_Schluter"
+			}
+		}
+		country_leader={
+			ideology = conservative_democracy
+			traits = {
+				DEN_Poul_Schluter_desc
+			}
+		}
+	}
+}

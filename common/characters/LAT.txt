@@ -1,0 +1,16 @@
+characters = {
+	LAT_Anatoly_Gorbunov = {
+		name = LAT_Anatoly_Gorbunov
+		portraits={
+			civilian={
+				large = "GFX_LAT_Anatoly_Gorbunov"
+			}
+		}
+		country_leader={
+			ideology = military_dictatorship
+			traits = {
+				LAT_Anatoly_Gorbunov_desc
+			}
+		}
+	}
+}

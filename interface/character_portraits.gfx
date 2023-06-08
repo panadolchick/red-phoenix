@@ -291,4 +291,24 @@ spriteTypes = {
 		name = "GFX_ADJ_mikhail_makharadze"
 		texturefile = "gfx/leaders/ADJ/ADJ_mikhail_makharadze.dds"
 	}
+	spriteType = {
+		name = "GFX_DEN_Poul_Schluter"
+		texturefile = "gfx/leaders/DEN/DEN_Poul_Schluter.dds"
+	}
+	spriteType = {
+		name = "GFX_LAT_Anatoly_Gorbunov"
+		texturefile = "gfx/leaders/LAT/LAT_Anatoly_Gorbunov.dds"
+	}
+	spriteType = {
+		name = "GFX_FIN_Mauno_Koivisto"
+		texturefile = "gfx/leaders/FIN/FIN_Mauno_Koivisto.dds"
+	}
+	spriteType = {
+		name = "GFX_NOR_Haarlem_Bruntland"
+		texturefile = "gfx/leaders/NOR/NOR_Haarlem_Bruntland.dds"
+	}
+	spriteType = {
+		name = "GFX_SWE_Carl_Bildt"
+		texturefile = "gfx/leaders/SWE/SWE_Carl_Bildt.dds"
+	}
 }
