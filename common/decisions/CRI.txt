@@ -1,0 +1,37 @@
+CRI_liberation_war_category = {
+	CRI_end_the_war_now = {
+        icon = generic_formable_nations
+		
+		is_good = no
+		fire_only_once = no
+		days_mission_timeout = 120
+		selectable_mission = no
+
+		activation = {
+			has_country_flag = CRI_liberation_war
+		}
+
+		available = {
+			CRI = {
+				has_full_control_of_state = 137
+				controls_province = 9680
+			}
+		}
+
+		complete_effect = {
+			CRI = {
+				white_peace = SOV
+			}
+			clr_country_flag = CRI_liberation_war
+		}
+		
+		timeout_effect = {
+			SOV = {
+				annex_country = {
+					target = THIS
+				}
+			}
+			clr_country_flag = CRI_liberation_war
+		}
+    }
+}

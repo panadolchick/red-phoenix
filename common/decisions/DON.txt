@@ -1,0 +1,128 @@
+DON_operation_in_crimea_category = {
+	DON_prepare_for_invading = {
+		icon = generic_factory
+
+		available = {
+			SOV = {
+				controls_state = 137
+			}
+			has_equipment = {
+				infantry_equipment > 1000
+			}
+		}
+
+		visible = {
+			has_completed_focus = DON_operation_in_crimea
+		}
+
+		fire_only_once = yes
+		cost = 40
+
+		days_remove = 30
+
+		cancel_trigger = {
+			has_war_with = SOV
+		}
+
+		modifier = {
+			political_power_gain = -0.05
+			
+		}
+
+		remove_effect = {
+			137 = {
+				remove_core_of = SOV
+				remove_claim_by = SOV
+				start_resistance = yes
+			}
+			set_country_flag = CRI_resistance
+		}
+	}
+	DON_start_operation = {
+		icon = generic_factory
+
+		available = {
+			SOV = {
+				controls_state = 137
+			}
+			137 = {
+				resistance > 50
+			}
+			has_equipment = {
+				infantry_equipment > 1000
+			}
+			has_equipment = {
+				convoy > 20
+			}
+		}
+
+		visible = {
+			has_completed_focus = DON_operation_in_crimea
+			hidden_trigger = {
+				has_country_flag = CRI_resistance
+			}
+		}
+
+		fire_only_once = yes
+		cost = 40
+
+		days_remove = 30
+
+		cancel_trigger = {
+			has_war_with = SOV
+		}
+
+		modifier = {
+			political_power_gain = -0.05
+			
+		}
+
+		remove_effect = {
+			CRI = {
+				set_province_controller = 3686
+				set_state_owner = 137
+				load_oob = CRI_units
+				declare_war_on = {
+					target = SOV
+					type = independence_wargoal
+				}
+				set_country_flag = CRI_liberation_war
+			}
+		}
+	}
+}
+DON_petition_to_embargo_category = {
+	DON_petition_to_embargo = {
+        icon = generic_formable_nations
+		
+		is_good = no
+		fire_only_once = no
+		days_mission_timeout = 30
+		selectable_mission = no
+
+		activation = {
+			OR = {
+				has_variable = OSR_embargo_val
+				has_variable = OSR_embargo_discard_val
+			}
+		}
+
+		available = {
+			check_variable = {
+				var = OSR_embargo_val
+				value > 70
+			}
+		}
+
+		complete_effect = {
+			country_event = {
+				id = don.15
+				days = 1
+			}
+		}
+		
+		timeout_effect = {
+			add_stability = -0.5
+		}
+    }
+}

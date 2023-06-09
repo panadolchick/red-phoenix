@@ -61,6 +61,11 @@ DON_end_the_strelkov_clique: "Серьёзный Разговор с генер�
 DON_end_the_strelkov_clique_desc: " "
 DON_fate_of_german_from_volga: "Поквитаться с Немцом из Поволжья"
 DON_fate_of_german_from_volga_desc: " "
+DON_petition_to_block_odessa: "Петиция Блокировки Одессы"
+DON_petition_to_block_odessa_desc: " "
+DON_petition_to_block_odessa_tt: "§YЕсли петиция наберет более §R70§! голосов, то она будет §Gодобрена§!(счетчик голосов можно посмотреть в решениях)§!"
+#Decisions
+DON_petition_to_embargo_category_desc: "Государств Подписало Петицию: [?OSR_embargo_val]\nГосударств Не Подписало Петицию: [?OSR_embargo_discard_val]"
 #Country
 DON_conservatism: "Донская Республика"
 DON_conservatism_DEF: "Донская Республика"

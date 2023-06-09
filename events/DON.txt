@@ -65,10 +65,6 @@ country_event = {
 				puppet = DON
 				}
 			}
-
-
-		
-        
     }
 }
 country_event = {
@@ -408,5 +404,88 @@ country_event = {
     option = {
         name = don.10.a    
 		complete_national_focus = DON_stay_alone
+    }
+}
+country_event = {
+    id = don.11
+    title = don.11.t
+    desc = don.11.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = don.11.a    
+		give_guarantee = DON
+		DON = {
+			country_event = don.12
+		}
+    }
+	option = {
+        name = don.11.b    
+		DON = {
+			country_event = don.13
+		}
+    }
+}
+country_event = {
+    id = don.12
+    title = don.12.t
+    desc = don.12.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = don.12.a    
+		add_stability = 0.1
+    }
+}
+country_event = {
+    id = don.13
+    title = don.13.t
+    desc = don.13.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = don.13.a    
+		add_stability = -0.1
+    }
+}
+country_event = {
+    id = don.14
+    title = don.14.t
+    desc = don.14.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = don.14.a    
+		add_to_variable = {
+			var = OSR_embargo_val
+			value = 1
+		}
+    }
+	option = {
+        name = don.14.a    
+		add_to_variable = {
+			var = OSR_embargo_discard_val
+			value = 1
+		}
+    }
+}
+country_event = {
+    id = don.15
+    title = don.15.t
+    desc = don.15.d
+    fire_only_once = yes
+	is_triggered_only = yes
+    
+    option = {
+        name = don.15.a    
+		OSR = {
+			add_ideas = OSR_embargo
+		}
+		clear_variable = OSR_embargo_val
+		clear_variable = OSR_embargo_discard_val
     }
 }

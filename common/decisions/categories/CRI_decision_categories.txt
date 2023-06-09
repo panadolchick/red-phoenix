@@ -1,0 +1,15 @@
+
+CRI_liberation_war_category = {
+	icon = generic_mountain_fortification
+	
+	priority = 10
+
+	allowed = {
+		tag = CRI
+	}
+
+	visible = {
+		has_war_with = SOV
+		has_country_flag = CRI_liberation_war
+	}
+}

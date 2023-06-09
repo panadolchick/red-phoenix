@@ -21,12 +21,11 @@ ideas = {
                 industrial_capacity_dockyard = -0.9
             }
         }
-        OSR_unrecognised_state = {
-                add_opinion_modifier = {
-					target = OSR
-					modifier = unrecognised_state
-				}
+        OSR_embargo = {
+            modifier = {
+                trade_opinion_factor = -1
+                trade_laws_cost_factor = 0.25
             }
         }
-	}
+    }
 }

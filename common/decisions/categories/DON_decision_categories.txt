@@ -1,0 +1,30 @@
+
+DON_operation_in_crimea_category = {
+	icon = generic_mountain_fortification
+	
+	priority = 10
+
+	allowed = {
+		tag = DON
+	}
+
+	visible = {
+		has_completed_focus = DON_operation_in_crimea
+	}
+}
+DON_petition_to_embargo_category = {
+	icon = generic_mountain_fortification
+	
+	priority = 9
+
+	allowed = {
+		tag = DON
+	}
+	
+	visible = {
+		OR = {
+			has_variable = OSR_embargo_val
+			has_variable = OSR_embargo_discard_val
+		}
+	}
+}

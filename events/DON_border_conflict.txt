@@ -135,3 +135,29 @@ country_event = {
 		}
     }
 }
+country_event = {
+    id = don_border_conflict.4
+    title = don_border_conflict.4.t
+    desc = don_border_conflict.4.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = don_border_conflict.4.a
+		army_experience = 15
+		custom_effect_tooltip = We_win_tt
+    }
+}
+country_event = {
+    id = don_border_conflict.5
+    title = don_border_conflict.5.t
+    desc = don_border_conflict.5.d
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = don_border_conflict.5.a
+		add_war_support = -0.1
+		custom_effect_tooltip = We_lose_tt
+    }
+}

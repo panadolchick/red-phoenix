@@ -51,3 +51,18 @@ GEO_guerrilla_recruitment = {
     resistance_growth = 0.15
     resistance_decay = -0.3
 }
+DON_resistance_in_crimea = {
+	enable = { always = yes }
+	icon = GFX_idea_chi_war_of_resistance
+	remove_trigger = {
+		CRI = {
+			exists = yes
+		}
+	}
+
+	army_speed_factor_for_controller = -0.3
+	disable_strategic_redeployment_for_controller = 1
+    resistance_target = 0.1
+    resistance_growth = 0.2
+    resistance_decay = -0.3
+}

@@ -1,0 +1,71 @@
+division_template = {
+    name = "Крымское Войско"
+    is_locked = no
+    regiments = {
+        marine = { x = 0 y = 0 }
+        marine = { x = 0 y = 1 }
+        marine = { x = 0 y = 2 }
+        marine = { x = 0 y = 3 }
+        marine = { x = 0 y = 4 }
+        marine = { x = 1 y = 0 }
+        marine = { x = 1 y = 1 }
+        marine = { x = 1 y = 2 }
+        marine = { x = 1 y = 3 }
+        marine = { x = 1 y = 4 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+    }
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 3686
+        division_template = "Крымское Войско"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+        start_manpower_factor = 1.0
+    }
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 3686
+        division_template = "Крымское Войско"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+        start_manpower_factor = 1.0
+    }
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 3686
+        division_template = "Крымское Войско"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+        start_manpower_factor = 1.0
+    }
+}
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 3686
+        division_template = "Крымское Войско"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+        start_manpower_factor = 1.0
+    }
+}
