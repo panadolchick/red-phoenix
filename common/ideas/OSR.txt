@@ -23,7 +23,7 @@ ideas = {
         }
         OSR_embargo = {
             modifier = {
-                trade_opinion_factor = -1
+                trade_opinion_factor = 1
                 trade_laws_cost_factor = 0.25
             }
         }
