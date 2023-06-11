@@ -3,7 +3,7 @@ CRI_liberation_war_category = {
         icon = generic_formable_nations
 		
 		is_good = no
-		fire_only_once = no
+		fire_only_once = yes
 		days_mission_timeout = 120
 		selectable_mission = no
 
@@ -28,7 +28,7 @@ CRI_liberation_war_category = {
 		timeout_effect = {
 			SOV = {
 				annex_country = {
-					target = THIS
+					target = CRI
 				}
 			}
 			clr_country_flag = CRI_liberation_war

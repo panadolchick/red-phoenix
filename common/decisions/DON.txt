@@ -95,7 +95,7 @@ DON_petition_to_embargo_category = {
 	DON_petition_to_embargo = {
         icon = generic_formable_nations
 		
-		is_good = no
+		is_good = yes
 		fire_only_once = no
 		days_mission_timeout = 30
 		selectable_mission = no
@@ -123,6 +123,222 @@ DON_petition_to_embargo_category = {
 		
 		timeout_effect = {
 			add_stability = -0.5
+			clear_variable = OSR_embargo_val
+			clear_variable = OSR_embargo_discard_val
 		}
     }
+}
+DON_building_plan_category = {
+	DON_start_first_building_plan = {
+		icon = generic_factory
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+		}
+
+		visible = {
+			NOT = {
+				has_country_flag = DON_second_building_plan
+			}
+			OR = {
+				has_idea = DON_ruins_1
+				has_idea = DON_ruins_2
+				has_idea = DON_ruins_3
+			}
+		}
+
+		fire_only_once = yes
+		cost = 40
+
+		days_remove = 150
+
+		cancel_trigger = {
+			218 = {
+				NOT = {
+					is_controlled_by = DON
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		remove_effect = {
+			218 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			set_country_flag = DON_second_building_plan
+			if = {
+				limit = { 
+					has_idea = DON_ruins_1
+				}
+				swap_ideas = {
+					remove_idea = DON_ruins_1
+					add_idea = DON_ruins_2
+				}
+			}
+			if = {
+				limit = { 
+					has_idea = DON_ruins_2
+				}
+				swap_ideas = {
+					remove_idea = DON_ruins_2
+					add_idea = DON_ruins_3
+				}
+			}
+			if = {
+				limit = { 
+					has_idea = DON_ruins_3
+				}
+				remove_ideas = DON_ruins_3
+			}
+		}
+	}
+	DON_start_second_building_plan = {
+		icon = generic_factory
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+		}
+
+		visible = {
+			NOT = {
+				has_country_flag = DON_third_building_plan
+			}
+			has_country_flag = DON_second_building_plan
+			OR = {
+				has_idea = DON_ruins_1
+				has_idea = DON_ruins_2
+				has_idea = DON_ruins_3
+			}
+		}
+
+		fire_only_once = yes
+		cost = 40
+
+		days_remove = 150
+
+		cancel_trigger = {
+			218 = {
+				NOT = {
+					is_controlled_by = DON
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		remove_effect = {
+			218 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			set_country_flag = DON_third_building_plan
+			if = {
+				limit = { 
+					has_idea = DON_ruins_1
+				}
+				swap_ideas = {
+					remove_idea = DON_ruins_1
+					add_idea = DON_ruins_2
+				}
+			}
+			if = {
+				limit = { 
+					has_idea = DON_ruins_2
+				}
+				swap_ideas = {
+					remove_idea = DON_ruins_2
+					add_idea = DON_ruins_3
+				}
+			}
+			if = {
+				limit = { 
+					has_idea = DON_ruins_3
+				}
+				remove_ideas = DON_ruins_3
+			}
+		}
+	}
+	DON_start_third_building_plan = {
+		icon = generic_factory
+
+		available = {
+			num_of_civilian_factories_available_for_projects > 2
+		}
+
+		visible = {
+			NOT = {
+				has_country_flag = DON_end_building_plan
+			}
+			has_country_flag = DON_third_building_plan
+			OR = {
+				has_idea = DON_ruins_1
+				has_idea = DON_ruins_2
+				has_idea = DON_ruins_3
+			}
+		}
+
+		fire_only_once = yes
+		cost = 40
+
+		days_remove = 150
+
+		cancel_trigger = {
+			218 = {
+				NOT = {
+					is_controlled_by = DON
+				}
+			}
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		remove_effect = {
+			218 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			set_country_flag = DON_end_building_plan
+			if = {
+				limit = { 
+					has_idea = DON_ruins_1
+				}
+				swap_ideas = {
+					remove_idea = DON_ruins_1
+					add_idea = DON_ruins_2
+				}
+			}
+			if = {
+				limit = { 
+					has_idea = DON_ruins_2
+				}
+				swap_ideas = {
+					remove_idea = DON_ruins_2
+					add_idea = DON_ruins_3
+				}
+			}
+			if = {
+				limit = { 
+					has_idea = DON_ruins_3
+				}
+				remove_ideas = DON_ruins_3
+			}
+		}
+	}
 }

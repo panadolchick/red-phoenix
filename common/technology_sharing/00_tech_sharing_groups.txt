@@ -92,3 +92,20 @@ technology_sharing_group = { #Non-commie version of the COMECON
 		}
 	}
 }
+technology_sharing_group = {
+
+	id = DON_techonology_sharing_group
+	name = DON_techonology_sharing_group_name
+	desc = DON_techonology_sharing_group_desc
+	picture = GFX_technology_sharing_default
+
+	research_sharing_per_country_bonus = 0.2
+
+	available = {
+		OR = {
+			original_tag = DON
+			is_subject_of = DON
+		}
+		is_in_faction_with = DON
+	}
+}

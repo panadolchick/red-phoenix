@@ -1,0 +1,32 @@
+UKR_annex_DON_category = {
+	UKR_annex_DON = {
+		icon = generic_factory
+
+		available = {
+			NOT = {
+				has_war_with = DON
+			}
+		}
+	
+		visible = {
+			check_variable = {
+				var = UKR_influence_in_DON
+				value > 8
+			}
+			NOT = {
+				has_war_with = DON
+			}
+		}
+	
+		fire_only_once = yes
+		cost = 50
+	
+		remove_effect = {
+			DON = {
+				country_event = {
+					
+				}
+			}
+		}
+	}
+}

@@ -28,3 +28,16 @@ DON_petition_to_embargo_category = {
 		}
 	}
 }
+DON_building_plan_category = {
+	icon = generic_mountain_fortification
+	
+	priority = 9
+
+	allowed = {
+		tag = DON
+	}
+	
+	visible = {
+		has_country_flag = DON_building_plan
+	}
+}

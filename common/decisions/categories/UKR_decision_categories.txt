@@ -1,0 +1,17 @@
+
+UKR_annex_DON_category = {
+	icon = generic_mountain_fortification
+	
+	priority = 10
+
+	allowed = {
+		tag = UKR
+	}
+
+	visible = {
+		check_variable = {
+			var = UKR_influence_in_DON
+			value > 8
+		}
+	}
+}
