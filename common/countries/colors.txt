@@ -1,8 +1,16 @@
 #reload countrycolors
 
-GER = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+TMS = {
+	color = rgb { 47 143 20 }
+	color_ui = rgb { 47 143 20 }
+}
+FRG = {
+	color = rgb { 42 53 112 }
+	color_ui = rgb { 42 53 112 }
+}
+DRG = {
+	color = rgb { 112 42 42 }
+	color_ui = rgb { 112 42 42 }
 }
 ENG = {
 	color = rgb { 201 56 93 }
@@ -324,8 +332,8 @@ XSM = {
 }
 
 LBA = {
-	color = rgb { 200 180 90 }
-	color_ui = rgb { 200 180 90 }
+	color = rgb { 38 117 16 }
+	color_ui = rgb { 38 117 16 }
 }
 
 EGY = {

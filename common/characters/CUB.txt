@@ -1,0 +1,13 @@
+characters = {
+	CUB_fidel_castro = {
+		name = CUB_fidel_castro
+		portraits={
+			civilian={
+				large = "GFX_CUB_fidel_castro"
+			}
+		}
+		country_leader={
+			ideology = national_communist
+		}
+	}
+}

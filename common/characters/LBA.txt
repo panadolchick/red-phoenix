@@ -1,0 +1,13 @@
+characters = {
+	LBA_muammar_kadafi = {
+		name = LBA_muammar_kadafi
+		portraits={
+			civilian={
+				large = "GFX_LBA_muammar_kadafi"
+			}
+		}
+		country_leader={
+			ideology = arab_communism
+		}
+	}
+}

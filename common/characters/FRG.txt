@@ -1,0 +1,13 @@
+characters = {
+	FRG_kol_gelmut = {
+		name = FRG_kol_gelmut
+		portraits={
+			civilian={
+				large = "GFX_FRG_kol_gelmut"
+			}
+		}
+		country_leader={
+			ideology = christian_democracy
+		}
+	}
+}

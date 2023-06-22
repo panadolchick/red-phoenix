@@ -1,4 +1,5 @@
-GER	= "countries/Germany.txt"
+FRG	= "countries/East Germany.txt"
+DRG = "countries/West Germany.txt"
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"
 SWE	= "countries/Sweden.txt"

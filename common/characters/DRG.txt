@@ -1,0 +1,13 @@
+characters = {
+	DRG_erich_honecker = {
+		name = DRG_erich_honecker
+		portraits={
+			civilian={
+				large = "GFX_DRG_erich_honecker"
+			}
+		}
+		country_leader={
+			ideology = stalinism
+		}
+	}
+}

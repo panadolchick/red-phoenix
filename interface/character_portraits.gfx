@@ -1,5 +1,25 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_LBA_muammar_kadafi"
+		texturefile = "gfx/leaders/LBA/LBA_muammar_kadafi.dds"
+	}
+	spriteType = {
+		name = "GFX_DRG_erich_honecker"
+		texturefile = "gfx/leaders/DRG/DRG_erich_honecker.dds"
+	}
+	spriteType = {
+		name = "GFX_FRG_kol_gelmut"
+		texturefile = "gfx/leaders/FRG/FRG_kol_gelmut.dds"
+	}
+	spriteType = {
+		name = "GFX_CUB_fidel_castro"
+		texturefile = "gfx/leaders/CUB/CUB_fidel_castro.dds"
+	}
+	spriteType = {
+		name = "GFX_TMS_saparmurat_niyazov"
+		texturefile = "gfx/leaders/TMS/TMS_saparmurat_niyazov.dds"
+	}
+	spriteType = {
 		name = "GFX_SOV_genadiy_yanaev"
 		texturefile = "gfx/leaders/SOV/SOV_genadiy_yanaev.dds"
 	}

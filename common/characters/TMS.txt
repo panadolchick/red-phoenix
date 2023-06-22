@@ -1,0 +1,13 @@
+characters = {
+	TMS_saparmurat_niyazov = {
+		name = TMS_saparmurat_niyazov
+		portraits={
+			civilian={
+				large = "GFX_TMS_saparmurat_niyazov"
+			}
+		}
+		country_leader={
+			ideology = conservative_democracy
+		}
+	}
+}

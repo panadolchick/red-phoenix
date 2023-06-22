@@ -8,16 +8,13 @@ set_technology = {
 }
 
 set_convoys = 5
-
+recruit_character = TMS_saparmurat_niyazov
 set_politics = {
-	ruling_party = liberalism
-	last_election = "1936.1.1"
+	ruling_party = conservatism
+	last_election = "1935.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 50
-	nationalism = 1
-	communist = 40
-	despotism = 9
+	conservatism = 100
 }
