@@ -1,5 +1,8 @@
 #reload countrycolors
-
+BYA = {
+	color = rgb { 36 84 79 }
+	color_ui = rgb { 36 84 79 }
+}
 TMS = {
 	color = rgb { 47 143 20 }
 	color_ui = rgb { 47 143 20 }
@@ -733,10 +736,6 @@ CHE = {
 DAG = {
 	color = rgb { 0 204 255 }
 	color_ui = rgb { 0 163 204 }
-}
-BYA = {
-	color = rgb { 0 64 255 }
-	color_ui = rgb { 0 45 179 }
 }
 FER = {
 	color = rgb { 179 45 0 }

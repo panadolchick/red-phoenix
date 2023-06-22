@@ -14,19 +14,24 @@ state={
 				naval_base = 5
 				coastal_bunker = 5
 				bunker = 5
+
 			}
 			13272 = {
 				naval_base = 3
 				coastal_bunker = 3
 				bunker = 4
+
 			}
 			13273 = {
 				bunker = 2
+
 			}
 			13271 = {
 				bunker = 3
+
 			}
 			anti_air_building = 3
+
 		}
 		victory_points = {
 			11670 20 
@@ -38,7 +43,7 @@ state={
 	}
 
 	provinces={
-		11670 13271 13272 13273 
+		3738 9698 11670 11703 13259 13266 13271 13272 13273 
 	}
 	manpower=854000
 	buildings_max_level_factor=1.000
