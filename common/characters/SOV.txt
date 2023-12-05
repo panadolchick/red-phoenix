@@ -30,4 +30,24 @@ characters={
 			}
 		}
 	}
+
+    SOV_Dmitriy_Yazov={
+	name = dmitriy_yazov
+	portraits={
+		army={
+			small="/gfx/interface/ideas/"
+		}
+		army={
+			large="/gfx/leaders/SOV/yazov.dds"
+		}
+	}
+	field_marshal = {
+	    traits={ old_guard paratrooper commando fortress_buster  }
+		skill = 5
+		attack_skill = 4
+		defense_skill = 5
+		planning_skill = 3
+		logistics_skill = 2
+	}
+ }
 }
