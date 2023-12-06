@@ -31,7 +31,7 @@ characters={
 		}
 	}
 
-    SOV_Dmitriy_Yazov={
+    SOV_dmitriy_yazov={
 	name = dmitriy_yazov
 	portraits={
 		army={
@@ -42,7 +42,7 @@ characters={
 		}
 	}
 	field_marshal = {
-	    traits={ old_guard paratrooper commando fortress_buster  }
+	    traits={ old_guard }
 		skill = 5
 		attack_skill = 4
 		defense_skill = 5
@@ -50,4 +50,24 @@ characters={
 		logistics_skill = 2
 	}
  }
+
+SOV_victor_ermakov={
+	name = victor_ermakov
+	portraits={
+		army={
+			small="/gfx/interface/ideas/"
+		}
+		army={
+			large="/gfx/leaders/SOV/ermakov.dds"
+		}
+	}
+	corps_commander = {
+	    traits={ old_guard }
+		skill = 5
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 6
+		logistics_skill = 3
+	}
+  }
 }
