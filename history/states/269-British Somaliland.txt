@@ -13,7 +13,7 @@ state=
 		victory_points = { 
 			5068 1
 		}
-		owner = SOM
+		owner = 
 		add_core_of = SOM
 		buildings = {
 			infrastructure = 2
@@ -23,7 +23,7 @@ state=
 		}
 	}
 	provinces={
-		1905 5068 8094 10777 10833 10921 12759 12814
+		1905 5068 8094 10777 10833 10921 12759 12814 13677 13678
 	}
 
 	local_supplies=0.0 
