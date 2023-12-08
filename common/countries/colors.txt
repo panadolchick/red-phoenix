@@ -949,3 +949,7 @@ ADJ = {
 	color = rgb { 28 69 140 }
 	color_ui  = rgb { 22  59  125 }
 }
+SML = {
+	color = rgb { 224 94 54 }
+	color_ui  = rgb { 97  40  23 }
+}
